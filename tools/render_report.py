@@ -70,6 +70,34 @@ def cleanup_old_reports(out_root: Path, keep_days: int, today: str):
             removed.append(child.name)
     return removed
 
+def write_archive_index(out_root: Path, latest_day: str):
+    reports = out_root / 'reports'
+    days = []
+    if reports.exists():
+        for child in reports.iterdir():
+            if not child.is_dir():
+                continue
+            try:
+                datetime.strptime(child.name, '%Y-%m-%d')
+            except ValueError:
+                continue
+            if (child / 'index.html').exists():
+                days.append(child.name)
+    days = sorted(days, reverse=True)
+    items = []
+    for d in days:
+        label = 'последний' if d == latest_day else 'архив'
+        esc = html.escape(d)
+        items.append(
+            f'<li><a href="reports/{esc}/">{esc}</a> '
+            f'<span class="meta">· {label}</span> · '
+            f'<a href="reports/{esc}/report.md">Markdown</a> · '
+            f'<a href="reports/{esc}/raw.json">Raw</a></li>'
+        )
+    list_html = '\n'.join(items) if items else '<li>Пока нет отчётов.</li>'
+    page = f'''<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Архив новостных отчётов</title><style>{CSS}</style></head><body><main><section class="hero"><h1>Архив новостных отчётов</h1><div class="meta">Хранятся отчёты за последний месяц · Последний: <a href="reports/{html.escape(latest_day)}/">{html.escape(latest_day)}</a></div></section><section class="card"><h2>Последние отчёты</h2><ul class="summary">{list_html}</ul></section></main></body></html>'''
+    (out_root / 'index.html').write_text(page, encoding='utf-8')
+
 def build(md_path: Path, raw_path: Path|None, out_root: Path, day: str, keep_days: int = 31):
     removed = cleanup_old_reports(out_root, keep_days, day)
     md=md_path.read_text(encoding='utf-8')
@@ -83,9 +111,8 @@ def build(md_path: Path, raw_path: Path|None, out_root: Path, day: str, keep_day
     warning = '' if not cjk else f'<div class="card status-warn">Внимание: найдено CJK-символов: {len(cjk)}. Проверь перевод.</div>'
     page=f'''<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>News report {html.escape(day)}</title><style>{CSS}</style></head><body><main><section class="hero"><h1>Утренний отчёт</h1><div class="meta">Дата: {html.escape(day)} · Источник: OpenClaw news-aggregator-skill · <a href="./report.md">Markdown</a> · <a href="./raw.json">Raw JSON</a></div></section>{cleanup_note}{warning}<section class="card">{body}</section></main></body></html>'''
     (day_dir/'index.html').write_text(page,encoding='utf-8')
-    # landing redirect-ish latest
-    latest=f'''<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="0; url=reports/{html.escape(day)}/"><title>Latest news report</title><style>{CSS}</style></head><body><main><section class="hero"><h1>Последний отчёт</h1><p><a href="reports/{html.escape(day)}/">Открыть отчёт за {html.escape(day)}</a></p></section></main></body></html>'''
-    (out_root/'index.html').write_text(latest,encoding='utf-8')
+    # landing archive with the last month of reports
+    write_archive_index(out_root, day)
     return day_dir/'index.html'
 
 if __name__ == '__main__':
