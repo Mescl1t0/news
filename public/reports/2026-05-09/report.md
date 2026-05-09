@@ -1,7 +1,7 @@
 # News Aggregator Skill — пункты меню 1–35
 
-Время: 2026-05-09 22:35 Europe/Kiev
-Язык отчёта: русский. Пункты 30–35 теперь корректно распознаны как секционные JSON-briefing, а не как пустые.
+Время: 2026-05-09 22:39 Europe/Kiev
+Язык отчёта: русский. Китайские заголовки в видимой части переведены; непереведённых CJK-символов нет.
 
 ## Сводка по выполнению
 
@@ -71,24 +71,24 @@
    - Метаданные: GitHub Trending | Today | 31,282 stars
 3. [rohitg00/agentmemory - #1 Persistent memory for AI coding agents based on real-world benchmarks](https://github.com/rohitg00/agentmemory)
    - Метаданные: GitHub Trending | Today | 3,284 stars
-4. [datawhalechina/hello-agents — учебник по созданию AI-агентов с нуля](https://github.com/datawhalechina/hello-agents)
+4. [datawhalechina/hello-agents — учебник «Создаём интеллектуальных агентов с нуля»: теория и практика](https://github.com/datawhalechina/hello-agents)
    - Метаданные: GitHub Trending | Today | 45,604 stars
-5. [datawhalechina/easy-vibe — курс vibe coding 2026 для начинающих](https://github.com/datawhalechina/easy-vibe)
+5. [datawhalechina/easy-vibe - 💻 vibe coding 2026 | Your first modern programming course for beginners to master step by step.](https://github.com/datawhalechina/easy-vibe)
    - Метаданные: GitHub Trending | Today | 8,411 stars
 
 ### 3. 🚀 Venture / 36Kr
 - Команда: `python3 scripts/fetch_news.py --source 36kr --limit 5 --no-save`
 - Статус: получено 5 элементов. Ниже топ до 5.
-1. [[кит. текст]，[кит. текст]](https://36kr.com/newsflashes/3801861826469636)
-   - Метаданные: 36Kr | 8[кит. текст]
-2. [[кит. текст]610[кит. текст]？SK[кит. текст]](https://36kr.com/newsflashes/3801860062191364)
-   - Метаданные: 36Kr | 9[кит. текст]
-3. [[кит. текст]：[кит. текст]](https://36kr.com/newsflashes/3801828487421447)
-   - Метаданные: 36Kr | 9[кит. текст]
-4. [[кит. текст]8[кит. текст]，[кит. текст]、[кит. текст]](https://36kr.com/newsflashes/3801827655556609)
-   - Метаданные: 36Kr | 9[кит. текст]
-5. [[кит. текст]AI[кит. текст]](https://36kr.com/newsflashes/3801812857871876)
-   - Метаданные: 36Kr | 9[кит. текст]
+1. [Porsche объявила о сокращении трёх дочерних компаний и возвращении фокуса на основной бизнес](https://36kr.com/newsflashes/3801861826469636)
+   - Метаданные: 36Kr | Китайский заголовок: требуется ручной перевод
+2. [Бонусы сотрудников якобы достигли 6,1 млн юаней на человека? SK Hynix ответила](https://36kr.com/newsflashes/3801860062191364)
+   - Метаданные: 36Kr | Китайский заголовок: требуется ручной перевод
+3. [Bank of America: акции США и золото могут четвёртый год подряд показать двузначный рост](https://36kr.com/newsflashes/3801828487421447)
+   - Метаданные: 36Kr | Китайский заголовок: требуется ручной перевод
+4. [Цены на серу выросли примерно на 80% с начала года; производители диоксида титана и фосфорных удобрений сдерживают издержки](https://36kr.com/newsflashes/3801827655556609)
+   - Метаданные: 36Kr | Китайский заголовок: требуется ручной перевод
+5. [AI-наушники Guangfan с камерой поступят в продажу в этом месяце](https://36kr.com/newsflashes/3801812857871876)
+   - Метаданные: 36Kr | Китайский заголовок: требуется ручной перевод
 
 ### 4. 🐱 Product Hunt
 - Команда: `python3 scripts/fetch_news.py --source producthunt --limit 5 --no-save`
@@ -107,57 +107,57 @@
 ### 5. 🤓 Geek community / V2EX
 - Команда: `python3 scripts/fetch_news.py --source v2ex --limit 5 --no-save`
 - Статус: получено 5 элементов. Ниже топ до 5.
-1. [[кит. текст]？](https://www.v2ex.com/t/1211326)
+1. [Когда вы планируете выходить на пенсию?](https://www.v2ex.com/t/1211326)
    - Метаданные: V2EX | Hot | 156 replies
-2. [[кит. текст]，[кит. текст]](https://www.v2ex.com/t/1211380)
+2. [Ребята, какой у вас был минимальный процент повышения зарплаты? Есть такие же “клоуны”, как я?](https://www.v2ex.com/t/1211380)
    - Метаданные: V2EX | Hot | 114 replies
-3. [26 [кит. текст]， 3 [кит. текст]、0 [кит. текст]，[кит. текст]](https://www.v2ex.com/t/1211458)
+3. [26 лет, три проваленные попытки госэкзамена, ноль опыта — молодым сейчас действительно непросто](https://www.v2ex.com/t/1211458)
    - Метаданные: V2EX | Hot | 112 replies
-4. [[кит. текст]](https://www.v2ex.com/t/1211383)
+4. [Не могу принять собственные ошибки](https://www.v2ex.com/t/1211383)
    - Метаданные: V2EX | Hot | 90 replies
-5. [[кит. текст] 9000+，[кит. текст]](https://www.v2ex.com/t/1211440)
+5. [На майских познакомился с учителем средней школы: пенсия 9000+ в месяц, теперь хочу стать учителем](https://www.v2ex.com/t/1211440)
    - Метаданные: V2EX | Hot | 81 replies
 
 ### 6. 🐧 Tencent News
 - Команда: `python3 scripts/fetch_news.py --source tencent --limit 5 --no-save`
 - Статус: получено 5 элементов. Ниже топ до 5.
-1. [[кит. текст]，[кит. текст]？](https://view.inews.qq.com/a/20260509A080O100)
+1. [Госсовет КНР обсуждает снижение рисков местного долга — какие важные сигналы это даёт?](https://view.inews.qq.com/a/20260509A080O100)
    - Метаданные: Tencent News | 2026-05-09 20:09:12
-2. [[кит. текст]：[кит. текст]“[кит. текст]、[кит. текст]”[кит. текст]](https://view.inews.qq.com/a/20260509A08AGU00)
+2. [Китайская ассоциация автопрома: слухи о проверках NEV-компаний из-за “блокировки батарей” недостоверны](https://view.inews.qq.com/a/20260509A08AGU00)
    - Метаданные: Tencent News | 2026-05-09 20:42:09
-3. [[кит. текст] [кит. текст]](https://view.inews.qq.com/a/20260509A088TK00)
+3. [Дроны неоднократно вторгались в зоны высокоскоростных железных дорог Пекин–Шанхай и Пекин–Гуанчжоу, серьёзно нарушая движение](https://view.inews.qq.com/a/20260509A088TK00)
    - Метаданные: Tencent News | 2026-05-09 20:51:12
-4. [[кит. текст]，[кит. текст]？](https://view.inews.qq.com/a/20260509A07DHZ00)
+4. [Права на чемпионат мира: намечается поворот?](https://view.inews.qq.com/a/20260509A07DHZ00)
    - Метаданные: Tencent News | 2026-05-09 18:19:18
-5. [4[кит. текст]1035[кит. текст]，[кит. текст]“[кит. текст]”](https://view.inews.qq.com/a/20260509A07NHY00)
+5. [4 креветки-богомола за 1035 юаней: власти ответили на вопрос о возможных откатах за клиентов](https://view.inews.qq.com/a/20260509A07NHY00)
    - Метаданные: Tencent News | 2026-05-09 19:11:26
 
 ### 7. 📈 WallStreetCN
 - Команда: `python3 scripts/fetch_news.py --source wallstreetcn --limit 5 --no-save`
 - Статус: получено 5 элементов. Ниже топ до 5.
-1. [[кит. текст]：[кит. текст]“[кит. текст]1999[кит. текст]？”](https://wallstreetcn.com/charts/41959040)
+1. [Проблема слишком сильного роста: инвесторы США спорят, повторяется ли 1999 год](https://wallstreetcn.com/charts/41959040)
    - Метаданные: Wall Street CN | 2026-05-09 17:11
-2. [[кит. текст]：[кит. текст]“[кит. текст]、[кит. текст]”[кит. текст]](https://wallstreetcn.com/livenews/3101076)
+2. [Китайская ассоциация автопрома: слухи о проверках NEV-компаний из-за “блокировки батарей” недостоверны](https://wallstreetcn.com/livenews/3101076)
    - Метаданные: Wall Street CN | 2026-05-09 16:00
-3. [[кит. текст]：[кит. текст]](https://wallstreetcn.com/articles/3771910)
+3. [Intel Foundry получила важное подтверждение: отраслевой разворот за заказом Apple](https://wallstreetcn.com/articles/3771910)
    - Метаданные: Wall Street CN | 2026-05-09 15:02
-4. [[кит. текст]：[кит. текст] [кит. текст]](https://wallstreetcn.com/articles/3771908)
+4. [Ли Цян провёл заседание Госсовета: снижение рисков местного долга и усиление управления цепочкой минеральных ресурсов](https://wallstreetcn.com/articles/3771908)
    - Метаданные: Wall Street CN | 2026-05-09 14:48
-5. [[кит. текст]：[кит. текст]、[кит. текст]、[кит. текст]、[кит. текст]、[кит. текст]、[кит. текст]](https://wallstreetcn.com/livenews/3101061)
+5. [Госсовет КНР: усилить планирование водных сетей, новых энергосетей, вычислительных сетей, связи нового поколения, городских подземных сетей и логистики](https://wallstreetcn.com/livenews/3101061)
    - Метаданные: Wall Street CN | 2026-05-09 14:16
 
 ### 8. 🔴 Weibo Hot Search
 - Команда: `python3 scripts/fetch_news.py --source weibo --limit 5 --no-save`
 - Статус: получено 5 элементов. Ниже топ до 5.
-1. [[кит. текст] [кит. текст]](https://s.weibo.com/weibo?q=%E8%B7%91%E7%94%B7%E6%94%B6%E8%A7%86%E7%8E%87%20%E6%B5%AA%E5%A7%90%E6%B2%A1%E6%92%AD&Refer=top)
+1. [Рейтинги “Keep Running”; “Sisters Who Make Waves” не вышло в эфир](https://s.weibo.com/weibo?q=%E8%B7%91%E7%94%B7%E6%94%B6%E8%A7%86%E7%8E%87%20%E6%B5%AA%E5%A7%90%E6%B2%A1%E6%92%AD&Refer=top)
    - Метаданные: Weibo Hot Search | Real-time | 331250
-2. [[кит. текст]212[кит. текст]](https://s.weibo.com/weibo?q=%E4%B8%80%E6%A0%B9%E7%83%9F%E5%A4%B4%E7%83%A7%E6%8E%89212%E4%B8%87&Refer=top)
+2. [Один окурок привёл к ущербу на 2,12 млн](https://s.weibo.com/weibo?q=%E4%B8%80%E6%A0%B9%E7%83%9F%E5%A4%B4%E7%83%A7%E6%8E%89212%E4%B8%87&Refer=top)
    - Метаданные: Weibo Hot Search | Real-time | 246534
-3. [[кит. текст]](https://s.weibo.com/weibo?q=%E5%A4%AA%E7%A9%BA%E5%BF%AB%E9%80%92%E8%B7%91%E5%87%BA%E4%B8%AD%E5%9B%BD%E5%8A%A0%E9%80%9F%E5%BA%A6&Refer=top)
+3. [“Космическая доставка” демонстрирует китайское ускорение](https://s.weibo.com/weibo?q=%E5%A4%AA%E7%A9%BA%E5%BF%AB%E9%80%92%E8%B7%91%E5%87%BA%E4%B8%AD%E5%9B%BD%E5%8A%A0%E9%80%9F%E5%BA%A6&Refer=top)
    - Метаданные: Weibo Hot Search | Real-time | 227363
-4. [[кит. текст]](https://s.weibo.com/weibo?q=%E4%BD%95%E8%B5%9B%E9%A3%9E%E6%80%92%E6%89%B9%E5%A7%9C%E8%B4%9E%E7%BE%BD&Refer=top)
+4. [Хэ Сайфэй резко раскритиковала Цзян Чжэньюй](https://s.weibo.com/weibo?q=%E4%BD%95%E8%B5%9B%E9%A3%9E%E6%80%92%E6%89%B9%E5%A7%9C%E8%B4%9E%E7%BE%BD&Refer=top)
    - Метаданные: Weibo Hot Search | Real-time | 225647
-5. [[кит. текст]](https://s.weibo.com/weibo?q=%E6%80%AA%E4%B8%8D%E5%BE%97%E8%99%AB%E5%AD%90%E6%80%BB%E5%9B%B4%E7%9D%80%E5%A4%B4%E9%A1%B6%E9%A3%9E&Refer=top)
+5. [Вот почему насекомые постоянно кружат над головой](https://s.weibo.com/weibo?q=%E6%80%AA%E4%B8%8D%E5%BE%97%E8%99%AB%E5%AD%90%E6%80%BB%E5%9B%B4%E7%9D%80%E5%A4%B4%E9%A1%B6%E9%A3%9E&Refer=top)
    - Метаданные: Weibo Hot Search | Real-time | 216210
 
 ### 9. 🤗 Hugging Face Daily Papers
@@ -183,7 +183,7 @@
 - Статус: получено 5 элементов. Ниже топ до 5.
 1. [ChinAI #357: AI Surveillance in Chinese Universities](https://chinai.substack.com/p/chinai-357-ai-surveillance-in-chinese)
    - Метаданные: ChinAI | Mon, 04 May 2026 11:40:14 GMT
-2. [ChinAI #356: DeepSeek as Road Builder [[кит. текст]]](https://chinai.substack.com/p/chinai-356-deepseek-as-road-builder)
+2. [ChinAI #356: DeepSeek как “строитель дорог”](https://chinai.substack.com/p/chinai-356-deepseek-as-road-builder)
    - Метаданные: ChinAI | Mon, 27 Apr 2026 11:53:48 GMT
 3. [ChinAI #355: An Alliance for AI's "Harness Era" -MiniMax + Alibaba Cloud](https://chinai.substack.com/p/chinai-355-an-alliance-for-ais-harness)
    - Метаданные: ChinAI | Mon, 20 Apr 2026 11:37:09 GMT
@@ -425,9 +425,9 @@
    - Метаданные: GitHub Trending | Today | 31,282 stars
 3. [rohitg00/agentmemory - #1 Persistent memory for AI coding agents based on real-world benchmarks](https://github.com/rohitg00/agentmemory)
    - Метаданные: GitHub Trending | Today | 3,284 stars
-4. [datawhalechina/hello-agents — учебник по созданию AI-агентов с нуля](https://github.com/datawhalechina/hello-agents)
+4. [datawhalechina/hello-agents — учебник «Создаём интеллектуальных агентов с нуля»: теория и практика](https://github.com/datawhalechina/hello-agents)
    - Метаданные: GitHub Trending | Today | 45,604 stars
-5. [datawhalechina/easy-vibe — курс vibe coding 2026 для начинающих](https://github.com/datawhalechina/easy-vibe)
+5. [datawhalechina/easy-vibe - 💻 vibe coding 2026 | Your first modern programming course for beginners to master step by step.](https://github.com/datawhalechina/easy-vibe)
    - Метаданные: GitHub Trending | Today | 8,411 stars
 
 ### 31. 💰 Finance briefing
@@ -466,15 +466,15 @@
 ### 33. 🍉 Social briefing
 - Команда: `python3 scripts/daily_briefing.py --profile social --no-save`
 - Статус: получено 50 элементов. Ниже топ до 5.
-1. [[кит. текст] [кит. текст]](https://s.weibo.com/weibo?q=%E8%B7%91%E7%94%B7%E6%94%B6%E8%A7%86%E7%8E%87%20%E6%B5%AA%E5%A7%90%E6%B2%A1%E6%92%AD&Refer=top)
+1. [Рейтинги “Keep Running”; “Sisters Who Make Waves” не вышло в эфир](https://s.weibo.com/weibo?q=%E8%B7%91%E7%94%B7%E6%94%B6%E8%A7%86%E7%8E%87%20%E6%B5%AA%E5%A7%90%E6%B2%A1%E6%92%AD&Refer=top)
    - Метаданные: Weibo Hot Search | Real-time | 327274
-2. [[кит. текст]212[кит. текст]](https://s.weibo.com/weibo?q=%E4%B8%80%E6%A0%B9%E7%83%9F%E5%A4%B4%E7%83%A7%E6%8E%89212%E4%B8%87&Refer=top)
+2. [Один окурок привёл к ущербу на 2,12 млн](https://s.weibo.com/weibo?q=%E4%B8%80%E6%A0%B9%E7%83%9F%E5%A4%B4%E7%83%A7%E6%8E%89212%E4%B8%87&Refer=top)
    - Метаданные: Weibo Hot Search | Real-time | 244389
-3. [[кит. текст]](https://s.weibo.com/weibo?q=%E5%A4%AA%E7%A9%BA%E5%BF%AB%E9%80%92%E8%B7%91%E5%87%BA%E4%B8%AD%E5%9B%BD%E5%8A%A0%E9%80%9F%E5%BA%A6&Refer=top)
+3. [“Космическая доставка” демонстрирует китайское ускорение](https://s.weibo.com/weibo?q=%E5%A4%AA%E7%A9%BA%E5%BF%AB%E9%80%92%E8%B7%91%E5%87%BA%E4%B8%AD%E5%9B%BD%E5%8A%A0%E9%80%9F%E5%BA%A6&Refer=top)
    - Метаданные: Weibo Hot Search | Real-time | 226155
-4. [[кит. текст]5[кит. текст]](https://s.weibo.com/weibo?q=%E4%BA%AC%E4%B8%9C%E6%AF%8D%E4%BA%B2%E8%8A%82%E5%A4%A7%E7%89%8C%E5%A5%BD%E7%A4%BC%E4%BD%8E%E8%87%B35%E6%8A%98&Refer=top)
+4. [Ко Дню матери JD.com предлагает подарки крупных брендов со скидкой до 50%](https://s.weibo.com/weibo?q=%E4%BA%AC%E4%B8%9C%E6%AF%8D%E4%BA%B2%E8%8A%82%E5%A4%A7%E7%89%8C%E5%A5%BD%E7%A4%BC%E4%BD%8E%E8%87%B35%E6%8A%98&Refer=top)
    - Метаданные: Weibo Hot Search | Real-time | 226015
-5. [[кит. текст]](https://s.weibo.com/weibo?q=%E4%BD%95%E8%B5%9B%E9%A3%9E%E6%80%92%E6%89%B9%E5%A7%9C%E8%B4%9E%E7%BE%BD&Refer=top)
+5. [Хэ Сайфэй резко раскритиковала Цзян Чжэньюй](https://s.weibo.com/weibo?q=%E4%BD%95%E8%B5%9B%E9%A3%9E%E6%80%92%E6%89%B9%E5%A7%9C%E8%B4%9E%E7%BE%BD&Refer=top)
    - Метаданные: Weibo Hot Search | Real-time | 225990
 
 ### 34. 🧠 AI Daily briefing
@@ -482,7 +482,7 @@
 - Статус: получено 21 элементов. Ниже топ до 5.
 1. [ChinAI #357: AI Surveillance in Chinese Universities](https://chinai.substack.com/p/chinai-357-ai-surveillance-in-chinese)
    - Метаданные: ChinAI | Mon, 04 May 2026 11:40:14 GMT
-2. [ChinAI #356: DeepSeek as Road Builder [[кит. текст]]](https://chinai.substack.com/p/chinai-356-deepseek-as-road-builder)
+2. [ChinAI #356: DeepSeek как “строитель дорог”](https://chinai.substack.com/p/chinai-356-deepseek-as-road-builder)
    - Метаданные: ChinAI | Mon, 27 Apr 2026 11:53:48 GMT
 3. [ChinAI #355: An Alliance for AI's "Harness Era" -MiniMax + Alibaba Cloud](https://chinai.substack.com/p/chinai-355-an-alliance-for-ais-harness)
    - Метаданные: ChinAI | Mon, 20 Apr 2026 11:37:09 GMT
@@ -507,6 +507,6 @@
 
 ## Короткий вывод
 
-- Основные daily briefing-профили 30–35 возвращают данные секциями; теперь они учитываются в отчёте.
-- Наиболее плотные блоки: General, Finance, Tech, Social, AI Daily и Reading List.
-- Для китайских источников заголовки переводятся или заменяются нейтральной русской пометкой, чтобы в финальном отчёте не оставался китайский текст.
+- Пункты 30–35 теперь учитываются как основные briefing-профили, а не как пустые источники.
+- Самые насыщенные разделы: General, Finance, Tech, Social, AI Daily и Reading List.
+- Китайские источники присутствуют, но в видимой версии заголовки переведены на русский.
