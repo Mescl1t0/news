@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import argparse, html, json, re, shutil
-from datetime import date
+from datetime import date, datetime, timedelta
 from pathlib import Path
 
 CSS = """
@@ -52,7 +52,26 @@ def md_to_html(md: str) -> str:
     close_lists()
     return '\n'.join(out)
 
-def build(md_path: Path, raw_path: Path|None, out_root: Path, day: str):
+def cleanup_old_reports(out_root: Path, keep_days: int, today: str):
+    reports = out_root / 'reports'
+    if keep_days <= 0 or not reports.exists():
+        return []
+    cutoff = datetime.strptime(today, '%Y-%m-%d').date() - timedelta(days=keep_days - 1)
+    removed=[]
+    for child in reports.iterdir():
+        if not child.is_dir():
+            continue
+        try:
+            d = datetime.strptime(child.name, '%Y-%m-%d').date()
+        except ValueError:
+            continue
+        if d < cutoff:
+            shutil.rmtree(child)
+            removed.append(child.name)
+    return removed
+
+def build(md_path: Path, raw_path: Path|None, out_root: Path, day: str, keep_days: int = 31):
+    removed = cleanup_old_reports(out_root, keep_days, day)
     md=md_path.read_text(encoding='utf-8')
     cjk=re.findall(r'[\u3400-\u9fff]', md)
     day_dir=out_root/'reports'/day
@@ -60,8 +79,9 @@ def build(md_path: Path, raw_path: Path|None, out_root: Path, day: str):
     shutil.copy2(md_path, day_dir/'report.md')
     if raw_path and raw_path.exists(): shutil.copy2(raw_path, day_dir/'raw.json')
     body=md_to_html(md)
+    cleanup_note = '' if not removed else f'<div class="card meta">Удалены старые отчёты: {html.escape(", ".join(removed))}</div>'
     warning = '' if not cjk else f'<div class="card status-warn">Внимание: найдено CJK-символов: {len(cjk)}. Проверь перевод.</div>'
-    page=f'''<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>News report {html.escape(day)}</title><style>{CSS}</style></head><body><main><section class="hero"><h1>Утренний отчёт</h1><div class="meta">Дата: {html.escape(day)} · Источник: OpenClaw news-aggregator-skill · <a href="./report.md">Markdown</a> · <a href="./raw.json">Raw JSON</a></div></section>{warning}<section class="card">{body}</section></main></body></html>'''
+    page=f'''<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>News report {html.escape(day)}</title><style>{CSS}</style></head><body><main><section class="hero"><h1>Утренний отчёт</h1><div class="meta">Дата: {html.escape(day)} · Источник: OpenClaw news-aggregator-skill · <a href="./report.md">Markdown</a> · <a href="./raw.json">Raw JSON</a></div></section>{cleanup_note}{warning}<section class="card">{body}</section></main></body></html>'''
     (day_dir/'index.html').write_text(page,encoding='utf-8')
     # landing redirect-ish latest
     latest=f'''<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="0; url=reports/{html.escape(day)}/"><title>Latest news report</title><style>{CSS}</style></head><body><main><section class="hero"><h1>Последний отчёт</h1><p><a href="reports/{html.escape(day)}/">Открыть отчёт за {html.escape(day)}</a></p></section></main></body></html>'''
@@ -74,6 +94,7 @@ if __name__ == '__main__':
     ap.add_argument('--raw')
     ap.add_argument('--out', default='public')
     ap.add_argument('--date', default=date.today().isoformat())
+    ap.add_argument('--keep-days', type=int, default=31, help='Keep only reports from the last N days in public/reports')
     args=ap.parse_args()
-    result=build(Path(args.md), Path(args.raw) if args.raw else None, Path(args.out), args.date)
+    result=build(Path(args.md), Path(args.raw) if args.raw else None, Path(args.out), args.date, args.keep_days)
     print(result)
