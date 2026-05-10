@@ -66,7 +66,7 @@ def normalize_digest_items(section: dict, raw_sections: dict[str, list[dict[str,
 
 
 
-def normalize(raw_payload: dict, config_sections: list[dict]) -> dict:
+def normalize(raw_payload: dict, config_sections: list[dict], max_items_per_section: int | None = None) -> dict:
     section_map = {section["id"]: section for section in config_sections}
     normalized_sections = []
     for entry in raw_payload.get("sections", []):
@@ -75,6 +75,9 @@ def normalize(raw_payload: dict, config_sections: list[dict]) -> dict:
             continue
         raw = entry.get("raw")
         items = normalize_digest_items(config, raw) if config["type"] == "digest" else normalize_source_items(config, raw)
+        limit = max_items_per_section or config.get("default_limit")
+        if limit:
+            items = items[:int(limit)]
         normalized_sections.append({
             "id": config["id"],
             "title": config["title"],
@@ -104,6 +107,7 @@ def main() -> None:
     parser.add_argument("--raw", default=None)
     parser.add_argument("--config", default=None)
     parser.add_argument("--out", default=None)
+    parser.add_argument("--max-items-per-section", type=int, default=None)
     args = parser.parse_args()
 
     day_dir = report_dir(args.date)
@@ -111,7 +115,7 @@ def main() -> None:
     out_path = Path(args.out) if args.out else day_dir / "normalized.json"
     config_path = Path(args.config) if args.config else Path(__file__).resolve().parent.parent / "config" / "sections.json"
 
-    normalized = normalize(read_json(raw_path), load_sections(config_path))
+    normalized = normalize(read_json(raw_path), load_sections(config_path), args.max_items_per_section)
     write_json(out_path, normalized)
     print(out_path)
 

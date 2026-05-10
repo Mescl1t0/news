@@ -41,6 +41,7 @@ def main() -> None:
     )
     parser.add_argument("--skip-fetch", action="store_true")
     parser.add_argument("--limit-override", type=int)
+    parser.add_argument("--max-items-per-section", type=int, help="Trim normalized sections for test runs")
     args = parser.parse_args()
 
     shared = ["--date", args.date, "--config", args.config]
@@ -51,7 +52,10 @@ def main() -> None:
             if args.limit_override:
                 fetch_args.extend(["--limit-override", str(args.limit_override)])
             run("fetch_selected.py", *fetch_args)
-        run("normalize_report.py", *shared)
+        normalize_args = [*shared]
+        if args.max_items_per_section:
+            normalize_args.extend(["--max-items-per-section", str(args.max_items_per_section)])
+        run("normalize_report.py", *normalize_args)
 
     if args.mode == "prepare-ai":
         print_ai_next_step(args.date)
