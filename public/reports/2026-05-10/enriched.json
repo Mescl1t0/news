@@ -5909,6 +5909,8 @@
   ],
   "enrichment": {
     "used_llm": false,
-    "provider": "fallback"
+    "provider": "openclaw-agent-required",
+    "mode": "deterministic-fallback",
+    "note": "Real AI translation/summary must be produced by OpenClaw agent from normalized.json."
   }
 }
