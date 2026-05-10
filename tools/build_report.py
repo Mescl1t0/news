@@ -18,9 +18,9 @@ def run(script: str, *args: str) -> None:
 def print_ai_next_step(day: str) -> None:
     day_dir = report_dir(day)
     print("\nOpenClaw-native AI enrichment required:")
-    print(f"1. Read:  {day_dir / 'normalized.json'}")
-    print(f"2. Write: {day_dir / 'enriched.json'}")
-    print("3. Set enrichment.used_llm=true and enrichment.provider='openclaw-agent'.")
+    print(f"1. Read:  {day_dir / 'ai_input.json'}")
+    print(f"2. Write: {day_dir / 'ai_output.json'}")
+    print("3. Return only item id, title_ru, description_ru.")
     print("4. Then run:")
     print(f"   python3 tools/build_report.py --date {day} --mode publish-ai")
 
@@ -35,8 +35,8 @@ def main() -> None:
         default="full-fallback",
         help=(
             "full-fallback: fetch→normalize→deterministic fallback enrich→render; "
-            "prepare-ai: fetch→normalize and stop for OpenClaw agent; "
-            "publish-ai: render/validate/archive from existing enriched.json"
+            "prepare-ai: fetch→normalize→make ai_input and stop for OpenClaw agent; "
+            "publish-ai: merge ai_output→render→validate→archive"
         ),
     )
     parser.add_argument("--skip-fetch", action="store_true")
@@ -56,6 +56,8 @@ def main() -> None:
         if args.max_items_per_section:
             normalize_args.extend(["--max-items-per-section", str(args.max_items_per_section)])
         run("normalize_report.py", *normalize_args)
+        if args.mode == "prepare-ai":
+            run("make_ai_input.py", "--date", args.date)
 
     if args.mode == "prepare-ai":
         print_ai_next_step(args.date)
@@ -65,9 +67,10 @@ def main() -> None:
         run("enrich_items.py", "--date", args.date)
 
     if args.mode == "publish-ai":
-        enriched_path = report_dir(args.date) / "enriched.json"
-        if not enriched_path.exists():
-            raise SystemExit(f"Missing enriched.json: {enriched_path}. Run prepare-ai and let OpenClaw agent write it first.")
+        ai_output_path = report_dir(args.date) / "ai_output.json"
+        if not ai_output_path.exists():
+            raise SystemExit(f"Missing ai_output.json: {ai_output_path}. Run prepare-ai and let OpenClaw agent write it first.")
+        run("merge_ai_output.py", "--date", args.date)
 
     run("render_static_report.py", "--date", args.date)
     run("validate_report.py", *shared)

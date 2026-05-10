@@ -574,10 +574,7 @@
   "enrichment": {
     "used_llm": true,
     "provider": "openclaw-agent",
-    "mode": "manual-agent-pass",
-    "rules": {
-      "title_ru": "natural Russian headline",
-      "description_ru": "one neutral Russian sentence"
-    }
+    "mode": "compact-ai-input",
+    "missing_ai_items": []
   }
 }
