@@ -36,7 +36,7 @@ For every item, the agent must fill:
 
 Rules:
 
-- Preserve `id`, `section_id`, `position`, `url`, `source`, and `raw`.
+- Preserve `id`, `section_id`, `position`, `url`, `source`, and `metadata`.
 - Do not invent new items.
 - Do not add metadata to visible content.
 - Keep descriptions neutral and factual.

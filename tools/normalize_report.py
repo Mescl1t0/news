@@ -30,7 +30,6 @@ def normalize_source_items(section: dict, raw_items: list[dict[str, Any]]) -> li
                 "hn_url": safe_text(item.get("hn_url")),
                 "discussion_url": safe_text(item.get("discussion_url")),
             },
-            "raw": item,
         })
     return items
 
@@ -59,7 +58,6 @@ def normalize_digest_items(section: dict, raw_sections: dict[str, list[dict[str,
                     "time": safe_text(item.get("time")),
                     "heat": safe_text(item.get("heat")),
                 },
-                "raw": item,
             })
             position += 1
     return items

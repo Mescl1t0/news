@@ -25,7 +25,7 @@ def fallback_enrich_payload(payload: dict) -> dict:
         for item in section.get("items", []):
             original_title = safe_text(item.get("title_original") or item.get("title_ru"))
             item["title_ru"] = safe_text(item.get("title_ru")) or maybe_translate_title(original_title)
-            item["description_ru"] = safe_text(item.get("description_ru")) or derive_description(item.get("raw", {}))
+            item["description_ru"] = safe_text(item.get("description_ru")) or derive_description(item)
     payload["enrichment"] = {
         "used_llm": False,
         "provider": "openclaw-agent-required",
