@@ -39,19 +39,6 @@
     "allow_empty": false
   },
   {
-    "id": "huggingface",
-    "type": "source",
-    "fetch_mode": "source",
-    "source_key": "huggingface",
-    "title": "Hugging Face Daily Papers",
-    "default_limit": 5,
-    "order": 9,
-    "visible": true,
-    "sidebar_group": "Источники",
-    "description": "Свежие AI papers и исследовательские публикации.",
-    "allow_empty": true
-  },
-  {
     "id": "latentspace_ainews",
     "type": "source",
     "fetch_mode": "source",
@@ -160,7 +147,7 @@
     "order": 34,
     "visible": true,
     "sidebar_group": "Дайджесты",
-    "description": "Глубокий обзор AI-рассылок и новых papers.",
+    "description": "Глубокий обзор AI-рассылок и отраслевых AI-сигналов.",
     "allow_empty": false
   }
 ]
