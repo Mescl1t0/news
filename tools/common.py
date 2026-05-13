@@ -148,7 +148,7 @@ def needs_russian_title(title_original: Any, title_ru: Any) -> bool:
         return False
     if not translated:
         return True
-    return has_latin(original)
+    return not has_cyrillic(original)
 
 
 

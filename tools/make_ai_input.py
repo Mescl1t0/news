@@ -33,7 +33,8 @@ def build_ai_input(normalized: dict) -> dict:
         "task": (
             "For every item keep title_original unchanged, add a natural Russian translation into title_ru, "
             "and write exactly one short neutral Russian sentence into description_ru. "
-            "Do not leave English-only or placeholder text in title_ru/description_ru. Return ai_output schema only."
+            "Translate from English, Chinese, or any other non-Russian source language. "
+            "Do not leave non-Russian or placeholder text in title_ru/description_ru. Return ai_output schema only."
         ),
         "output_schema": {
             "items": [
