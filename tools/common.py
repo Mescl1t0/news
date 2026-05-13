@@ -120,6 +120,37 @@ def safe_text(value: Any) -> str:
     return str(value).strip()
 
 
+def has_cyrillic(value: Any) -> bool:
+    return bool(re.search(r"[А-Яа-яЁёІіЇїЄє]", safe_text(value)))
+
+
+def has_latin(value: Any) -> bool:
+    return bool(re.search(r"[A-Za-z]", safe_text(value)))
+
+
+def is_placeholder_description(value: Any) -> bool:
+    text = safe_text(value)
+    if not text:
+        return True
+    placeholder_prefixes = (
+        "Материал посвящён теме",
+        "Материал посвящен теме",
+    )
+    return text.startswith(placeholder_prefixes)
+
+
+def needs_russian_title(title_original: Any, title_ru: Any) -> bool:
+    original = safe_text(title_original)
+    translated = safe_text(title_ru)
+    if not original:
+        return False
+    if has_cyrillic(translated):
+        return False
+    if not translated:
+        return True
+    return has_latin(original)
+
+
 
 def derive_description(item: dict[str, Any]) -> str:
     candidates = [

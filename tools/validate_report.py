@@ -5,10 +5,10 @@ import argparse
 import sys
 from pathlib import Path
 
-from common import load_sections, read_json, report_dir, today_str
+from common import has_cyrillic, is_placeholder_description, load_sections, needs_russian_title, read_json, report_dir, today_str
 
 
-def validate(payload: dict, config_sections: list[dict]) -> tuple[list[str], list[str]]:
+def validate(payload: dict, config_sections: list[dict], strict_translations: bool = False) -> tuple[list[str], list[str]]:
     errors: list[str] = []
     warnings: list[str] = []
     config_map = {section["id"]: section for section in config_sections}
@@ -36,6 +36,14 @@ def validate(payload: dict, config_sections: list[dict]) -> tuple[list[str], lis
                 errors.append(f"Item without title in section {sid}: {item.get('id')}")
             if not item.get("description_ru"):
                 warnings.append(f"Item without description in section {sid}: {item.get('id')}")
+            if strict_translations:
+                if needs_russian_title(item.get("title_original"), item.get("title_ru")):
+                    errors.append(f"Item without Russian title in section {sid}: {item.get('id')}")
+                description_ru = item.get("description_ru")
+                if is_placeholder_description(description_ru):
+                    errors.append(f"Item has placeholder Russian description in section {sid}: {item.get('id')}")
+                elif not has_cyrillic(description_ru):
+                    errors.append(f"Item without Russian description in section {sid}: {item.get('id')}")
     missing = [section["id"] for section in config_sections if section["id"] not in seen]
     if missing:
         errors.append("Missing sections: " + ", ".join(missing))
@@ -48,13 +56,14 @@ def main() -> None:
     parser.add_argument("--date", default=today_str())
     parser.add_argument("--in", dest="input_path", default=None)
     parser.add_argument("--config", default=None)
+    parser.add_argument("--strict-translations", action="store_true")
     args = parser.parse_args()
 
     day_dir = report_dir(args.date)
     input_path = Path(args.input_path) if args.input_path else day_dir / "enriched.json"
     config_path = Path(args.config) if args.config else Path(__file__).resolve().parent.parent / "config" / "sections.json"
 
-    errors, warnings = validate(read_json(input_path), load_sections(config_path))
+    errors, warnings = validate(read_json(input_path), load_sections(config_path), strict_translations=args.strict_translations)
     for warning in warnings:
         print(f"WARN: {warning}")
     if errors:

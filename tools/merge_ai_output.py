@@ -4,7 +4,7 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-from common import derive_description, read_json, report_dir, safe_text, today_str, write_json
+from common import derive_description, is_placeholder_description, read_json, report_dir, safe_text, today_str, write_json
 
 
 def merge(normalized: dict, ai_output: dict) -> dict:
@@ -14,8 +14,10 @@ def merge(normalized: dict, ai_output: dict) -> dict:
         for item in section.get("items", []):
             ai_item = ai_items.get(item["id"])
             if ai_item:
+                item["title_original"] = safe_text(ai_item.get("title_original")) or item.get("title_original")
                 item["title_ru"] = safe_text(ai_item.get("title_ru")) or item.get("title_ru") or item.get("title_original")
-                item["description_ru"] = safe_text(ai_item.get("description_ru")) or item.get("description_ru") or derive_description(item)
+                description_ru = safe_text(ai_item.get("description_ru")) or item.get("description_ru") or derive_description(item)
+                item["description_ru"] = derive_description(item) if is_placeholder_description(description_ru) else safe_text(description_ru)
             else:
                 missing.append(item["id"])
                 item["title_ru"] = safe_text(item.get("title_ru") or item.get("title_original"))

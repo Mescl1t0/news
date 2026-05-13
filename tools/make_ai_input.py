@@ -30,11 +30,16 @@ def build_ai_input(normalized: dict) -> dict:
         })
     return {
         "date": normalized["date"],
-        "task": "Translate each title to Russian and write exactly one neutral Russian sentence as description. Return ai_output schema only.",
+        "task": (
+            "For every item keep title_original unchanged, add a natural Russian translation into title_ru, "
+            "and write exactly one short neutral Russian sentence into description_ru. "
+            "Do not leave English-only or placeholder text in title_ru/description_ru. Return ai_output schema only."
+        ),
         "output_schema": {
             "items": [
                 {
                     "id": "same id from input",
+                    "title_original": "same original title from input",
                     "title_ru": "natural Russian headline",
                     "description_ru": "exactly one neutral Russian sentence",
                 }

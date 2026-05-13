@@ -1,950 +1,1327 @@
 {
-  "provider": "openclaw-agent",
   "items": [
     {
       "id": "hackernews-1",
-      "title_ru": "Restore full BambuNetwork support for Bambu Lab printers",
-      "description_ru": "Материал посвящён теме «Restore full BambuNetwork support for Bambu Lab printers»."
+      "provider": "openclaw-agent",
+      "title_original": "Restore full BambuNetwork support for Bambu Lab printers",
+      "title_ru": "Восстановить полную поддержку BambuNetwork для принтеров Bambu Lab",
+      "description_ru": "Проект нацелен на восстановление полной поддержки BambuNetwork для принтеров Bambu Lab."
     },
     {
       "id": "hackernews-2",
-      "title_ru": "Googlebook",
-      "description_ru": "Материал посвящён теме «Googlebook»."
+      "provider": "openclaw-agent",
+      "title_original": "Googlebook",
+      "title_ru": "Проект Googlebook",
+      "description_ru": "Материал рассказывает о продукте или концепте Googlebook от Google."
     },
     {
       "id": "hackernews-3",
-      "title_ru": "Starship V3",
-      "description_ru": "Материал посвящён теме «Starship V3»."
+      "provider": "openclaw-agent",
+      "title_original": "Starship V3",
+      "title_ru": "Проект Starship V3",
+      "description_ru": "Материал посвящён версии V3 космического корабля Starship."
     },
     {
       "id": "hackernews-4",
-      "title_ru": "My graduation cap runs Rust",
-      "description_ru": "Материал посвящён теме «My graduation cap runs Rust»."
+      "provider": "openclaw-agent",
+      "title_original": "My graduation cap runs Rust",
+      "title_ru": "Моя выпускная шапочка работает на Rust",
+      "description_ru": "Автор описывает выпускную шапочку со встроенной системой на Rust."
     },
     {
       "id": "hackernews-5",
-      "title_ru": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
-      "description_ru": "Материал посвящён теме «Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model»."
+      "provider": "openclaw-agent",
+      "title_original": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
+      "title_ru": "Show HN: Needle — дистилляция вызова инструментов Gemini в модель на 26 млн параметров",
+      "description_ru": "Авторы представили компактную модель для вызова инструментов Gemini."
     },
     {
       "id": "github-1",
-      "title_ru": "CloakHQ/CloakBrowser - Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
-      "description_ru": "Материал посвящён теме «CloakHQ/CloakBrowser - Stealth Chromium that passes every bot detection test."
+      "provider": "openclaw-agent",
+      "title_original": "CloakHQ/CloakBrowser - Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+      "title_ru": "CloakBrowser — скрытный Chromium для обхода бот-детекции",
+      "description_ru": "Проект предлагает Chromium с патчами отпечатка браузера для прохождения тестов на бот-детекцию."
     },
     {
       "id": "github-2",
-      "title_ru": "apernet/hysteria - Hysteria is a powerful, lightning fast and censorship resistant proxy.",
-      "description_ru": "Материал посвящён теме «apernet/hysteria - Hysteria is a powerful, lightning fast and censorship resistant proxy.»."
+      "provider": "openclaw-agent",
+      "title_original": "apernet/hysteria - Hysteria is a powerful, lightning fast and censorship resistant proxy.",
+      "title_ru": "Hysteria — быстрый и устойчивый к цензуре прокси",
+      "description_ru": "Проект развивает высокопроизводительный прокси с упором на скорость и устойчивость к блокировкам."
     },
     {
       "id": "github-3",
-      "title_ru": "mattpocock/skills - Skills for Real Engineers. Straight from my .claude directory.",
-      "description_ru": "Материал посвящён теме «mattpocock/skills - Skills for Real Engineers."
+      "provider": "openclaw-agent",
+      "title_original": "mattpocock/skills - Skills for Real Engineers. Straight from my .claude directory.",
+      "title_ru": "skills — навыки для практикующих инженеров",
+      "description_ru": "Репозиторий собирает прикладные навыки и инструкции для инженерной работы."
     },
     {
       "id": "producthunt-1",
-      "title_ru": "Klyxshot",
-      "description_ru": "Материал посвящён теме «Klyxshot»."
+      "provider": "openclaw-agent",
+      "title_original": "Klyxshot",
+      "title_ru": "Продукт Klyxshot",
+      "description_ru": "На Product Hunt представлен продукт Klyxshot."
     },
     {
       "id": "producthunt-2",
-      "title_ru": "ARKAD Wallet",
-      "description_ru": "Материал посвящён теме «ARKAD Wallet»."
+      "provider": "openclaw-agent",
+      "title_original": "ARKAD Wallet",
+      "title_ru": "Кошелёк ARKAD Wallet",
+      "description_ru": "На Product Hunt представлен продукт ARKAD Wallet."
     },
     {
       "id": "producthunt-3",
-      "title_ru": "MusicMinutes",
-      "description_ru": "Материал посвящён теме «MusicMinutes»."
+      "provider": "openclaw-agent",
+      "title_original": "MusicMinutes",
+      "title_ru": "Сервис MusicMinutes",
+      "description_ru": "На Product Hunt представлен сервис MusicMinutes."
     },
     {
       "id": "producthunt-4",
-      "title_ru": "Hyperswitch Prism",
-      "description_ru": "Материал посвящён теме «Hyperswitch Prism»."
+      "provider": "openclaw-agent",
+      "title_original": "Hyperswitch Prism",
+      "title_ru": "Платформа Hyperswitch Prism",
+      "description_ru": "На Product Hunt представлен продукт Hyperswitch Prism."
     },
     {
       "id": "producthunt-5",
-      "title_ru": "EmailTemple",
-      "description_ru": "Материал посвящён теме «EmailTemple»."
+      "provider": "openclaw-agent",
+      "title_original": "EmailTemple",
+      "title_ru": "Сервис EmailTemple",
+      "description_ru": "На Product Hunt представлен сервис EmailTemple."
     },
     {
       "id": "latentspace_ainews-1",
-      "title_ru": "[AINews] The End of Finetuning",
-      "description_ru": "a quiet day lets us reflect on whither finetuning."
+      "provider": "openclaw-agent",
+      "title_original": "[AINews] The End of Finetuning",
+      "title_ru": "[AINews] Конец финетюнинга",
+      "description_ru": "В заметке обсуждается возможное завершение прежнего этапа развития финетюнинга."
     },
     {
       "id": "latentspace_ainews-2",
-      "title_ru": "[AINews] Anthropic growing 10x/year while everyone else is laying off >10% of their workforce",
-      "description_ru": "A quiet day lets us reflect on an interesting dichotomy in the economy."
+      "provider": "openclaw-agent",
+      "title_original": "[AINews] Anthropic growing 10x/year while everyone else is laying off >10% of their workforce",
+      "title_ru": "[AINews] Anthropic растёт в 10 раз в год, пока остальные сокращают штат",
+      "description_ru": "Материал сравнивает быстрый рост Anthropic с увольнениями в других компаниях отрасли."
     },
     {
       "id": "latentspace_ainews-3",
-      "title_ru": "[AINews] GPT-Realtime-2, -Translate, and -Whisper: new SOTA realtime voice APIs",
-      "description_ru": "OpenAI continues deploying GPT-5 everywhere."
+      "provider": "openclaw-agent",
+      "title_original": "[AINews] GPT-Realtime-2, -Translate, and -Whisper: new SOTA realtime voice APIs",
+      "title_ru": "[AINews] GPT-Realtime-2, Translate и Whisper — новые голосовые API реального времени уровня SOTA",
+      "description_ru": "Материал посвящён новым голосовым API OpenAI для работы в реальном времени."
     },
     {
       "id": "latentspace_ainews-4",
-      "title_ru": "[AINews] Anthropic-SpaceXai's 300MW/$5B/yr deal for Colossus I, ARR growth is 8000% annualized",
-      "description_ru": "And the kingmaker picks a side."
+      "provider": "openclaw-agent",
+      "title_original": "[AINews] Anthropic-SpaceXai's 300MW/$5B/yr deal for Colossus I, ARR growth is 8000% annualized",
+      "title_ru": "[AINews] Сделка Anthropic-SpaceXai на 300 МВт и 5 млрд долларов в год для Colossus I",
+      "description_ru": "Материал описывает крупную инфраструктурную сделку вокруг Colossus I и рост выручки Anthropic."
     },
     {
       "id": "oneusefulthing-1",
-      "title_ru": "Sign of the future: GPT-5.5",
-      "description_ru": "I had early access to GPT-5.5 1 , and I think it is a big deal."
+      "provider": "openclaw-agent",
+      "title_original": "Sign of the future: GPT-5.5",
+      "title_ru": "Признак будущего: GPT-5.5",
+      "description_ru": "Автор рассматривает GPT-5.5 как важный сигнал будущего развития ИИ."
     },
     {
       "id": "oneusefulthing-2",
-      "title_ru": "Claude Dispatch and the Power of Interfaces",
-      "description_ru": "AIs are already far more capable than most people realize."
+      "provider": "openclaw-agent",
+      "title_original": "Claude Dispatch and the Power of Interfaces",
+      "title_ru": "Claude Dispatch и сила интерфейсов",
+      "description_ru": "Материал показывает, как интерфейсы усиливают практическую пользу ИИ-систем."
     },
     {
       "id": "oneusefulthing-3",
-      "title_ru": "The Shape of the Thing",
-      "description_ru": "In October of 2023, I wrote about the “Shape of the Shadow of the Thing,” speculating on the Thing that AI might turn into in the coming years."
+      "provider": "openclaw-agent",
+      "title_original": "The Shape of the Thing",
+      "title_ru": "Форма самой вещи",
+      "description_ru": "Автор возвращается к прежним прогнозам о направлении развития ИИ."
     },
     {
       "id": "oneusefulthing-4",
-      "title_ru": "A Guide to Which AI to Use in the Agentic Era",
-      "description_ru": "I have written eight of these guides since ChatGPT came out, but this version represents a very large break with the past, because what it means to “use AI” has changed dramatically."
+      "provider": "openclaw-agent",
+      "title_original": "A Guide to Which AI to Use in the Agentic Era",
+      "title_ru": "Руководство по выбору ИИ в эпоху агентов",
+      "description_ru": "Материал объясняет, как выбирать ИИ-инструменты в эпоху агентных систем."
     },
     {
       "id": "oneusefulthing-5",
-      "title_ru": "Management as AI superpower",
-      "description_ru": "I just taught an experimental class at the University of Pennsylvania where I challenged students to create a startup from scratch in four days."
+      "provider": "openclaw-agent",
+      "title_original": "Management as AI superpower",
+      "title_ru": "Менеджмент как суперсила ИИ",
+      "description_ru": "Автор рассматривает управленческие навыки как важное преимущество в работе с ИИ."
     },
     {
       "id": "interconnects-1",
-      "title_ru": "How open model ecosystems compound",
-      "description_ru": "Note: Voice-overs for paywalled posts are available for paid subscribes in podcast apps if you click on settings on Interconnects, then manage your description."
+      "provider": "openclaw-agent",
+      "title_original": "How open model ecosystems compound",
+      "title_ru": "Как экосистемы открытых моделей усиливают сами себя",
+      "description_ru": "Материал рассматривает накопительный эффект развития экосистем открытых моделей."
     },
     {
       "id": "interconnects-2",
-      "title_ru": "Notes from inside China's AI labs",
-      "description_ru": "Staring out the window on a new, high-speed train from Hangzhou to Shanghai I’m gifted with views of dramatic ridgelines speckled with wind turbines that are silhouetted against the setting sun."
+      "provider": "openclaw-agent",
+      "title_original": "Notes from inside China's AI labs",
+      "title_ru": "Заметки изнутри китайских ИИ-лабораторий",
+      "description_ru": "Автор делится наблюдениями о работе внутри китайских лабораторий искусственного интеллекта."
     },
     {
       "id": "interconnects-3",
-      "title_ru": "The distillation panic",
-      "description_ru": "‘Distillation attacks’ is a horrible term for what is happening right now."
+      "provider": "openclaw-agent",
+      "title_original": "The distillation panic",
+      "title_ru": "Паника вокруг дистилляции",
+      "description_ru": "Статья объясняет, почему нынешние споры о дистилляции моделей вызывают тревожную реакцию."
     },
     {
       "id": "interconnects-4",
-      "title_ru": "Reading today's open-closed performance gap",
-      "description_ru": "Материал посвящён теме «Reading today's open-closed performance gap»."
+      "provider": "openclaw-agent",
+      "title_original": "Reading today's open-closed performance gap",
+      "title_ru": "Как понимать нынешний разрыв между открытыми и закрытыми моделями",
+      "description_ru": "Материал анализирует различия в возможностях открытых и закрытых моделей."
     },
     {
       "id": "interconnects-5",
-      "title_ru": "My bets on open models, mid-2026",
-      "description_ru": "We’re living through the period of time when we’ll learn if open models can keep up with closed labs."
+      "provider": "openclaw-agent",
+      "title_original": "My bets on open models, mid-2026",
+      "title_ru": "Мои ставки на открытые модели в середине 2026 года",
+      "description_ru": "Автор оценивает перспективы открытых моделей на середину 2026 года."
     },
     {
       "id": "latentspace-1",
-      "title_ru": "[AINews] The End of Finetuning",
-      "description_ru": "The proximal cause of today’s op-ed is OpenAI’s deprecation of their finetuning APIs."
+      "provider": "openclaw-agent",
+      "title_original": "[AINews] The End of Finetuning",
+      "title_ru": "[AINews] Конец финетюнинга",
+      "description_ru": "В выпуске обсуждаются последствия отказа OpenAI от API для финетюнинга."
     },
     {
       "id": "latentspace-2",
-      "title_ru": "[AINews] Anthropic growing 10x/year while everyone else is laying off >10% of their workforce",
-      "description_ru": "Материал посвящён теме «[AINews] Anthropic growing 10x/year while everyone else is laying off >10% of their workforce»."
+      "provider": "openclaw-agent",
+      "title_original": "[AINews] Anthropic growing 10x/year while everyone else is laying off >10% of their workforce",
+      "title_ru": "[AINews] Anthropic растёт в 10 раз в год, пока остальные сокращают штат",
+      "description_ru": "Выпуск посвящён резкому росту Anthropic на фоне сокращений в индустрии."
     },
     {
       "id": "latentspace-3",
-      "title_ru": "[AINews] GPT-Realtime-2, -Translate, and -Whisper: new SOTA realtime voice APIs",
-      "description_ru": "OpenAI launched realtime-1.5 3 months ago, but it was a relative drop in the bucket because it was still 4o based intelligence (a +5% bump in Big Bench Audio)."
+      "provider": "openclaw-agent",
+      "title_original": "[AINews] GPT-Realtime-2, -Translate, and -Whisper: new SOTA realtime voice APIs",
+      "title_ru": "[AINews] GPT-Realtime-2, Translate и Whisper — новые голосовые API реального времени уровня SOTA",
+      "description_ru": "Выпуск рассматривает новые голосовые API OpenAI для работы в реальном времени."
     },
     {
       "id": "latentspace-4",
-      "title_ru": "[AINews] Anthropic-SpaceXai's 300MW/$5B/yr deal for Colossus I, ARR growth is 8000% annualized",
-      "description_ru": "It was Anthropic’s second annual developer event today, and the vibes were immaculate ."
+      "provider": "openclaw-agent",
+      "title_original": "[AINews] Anthropic-SpaceXai's 300MW/$5B/yr deal for Colossus I, ARR growth is 8000% annualized",
+      "title_ru": "[AINews] Сделка Anthropic-SpaceXai на 300 МВт и 5 млрд долларов в год для Colossus I",
+      "description_ru": "Выпуск описывает инфраструктурную сделку Anthropic и SpaceXai вокруг Colossus I."
     },
     {
       "id": "briefing_general-1",
-      "title_ru": "Klyxshot",
-      "description_ru": "Материал посвящён теме «Klyxshot»."
+      "provider": "openclaw-agent",
+      "title_original": "Klyxshot",
+      "title_ru": "Продукт Klyxshot",
+      "description_ru": "Краткое описание материала о теме «Klyxshot»."
     },
     {
       "id": "briefing_general-2",
-      "title_ru": "ARKAD Wallet",
-      "description_ru": "Материал посвящён теме «ARKAD Wallet»."
+      "provider": "openclaw-agent",
+      "title_original": "ARKAD Wallet",
+      "title_ru": "Кошелёк ARKAD Wallet",
+      "description_ru": "Краткое описание материала о теме «ARKAD Wallet»."
     },
     {
       "id": "briefing_general-3",
-      "title_ru": "MusicMinutes",
-      "description_ru": "Материал посвящён теме «MusicMinutes»."
+      "provider": "openclaw-agent",
+      "title_original": "MusicMinutes",
+      "title_ru": "Сервис MusicMinutes",
+      "description_ru": "Краткое описание материала о теме «MusicMinutes»."
     },
     {
       "id": "briefing_general-4",
-      "title_ru": "Hyperswitch Prism",
-      "description_ru": "Материал посвящён теме «Hyperswitch Prism»."
+      "provider": "openclaw-agent",
+      "title_original": "Hyperswitch Prism",
+      "title_ru": "Платформа Hyperswitch Prism",
+      "description_ru": "Краткое описание материала о теме «Hyperswitch Prism»."
     },
     {
       "id": "briefing_general-5",
-      "title_ru": "EmailTemple",
-      "description_ru": "Материал посвящён теме «EmailTemple»."
+      "provider": "openclaw-agent",
+      "title_original": "EmailTemple",
+      "title_ru": "Сервис EmailTemple",
+      "description_ru": "Краткое описание материала о теме «EmailTemple»."
     },
     {
       "id": "briefing_general-6",
-      "title_ru": "CloakHQ/CloakBrowser - Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
-      "description_ru": "GitHub - CloakHQ/CloakBrowser: Stealth Chromium that passes every bot detection test."
+      "provider": "openclaw-agent",
+      "title_original": "CloakHQ/CloakBrowser - Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+      "title_ru": "Проект CloakBrowser от CloakHQ",
+      "description_ru": "Материал описывает тему «CloakHQ/CloakBrowser - Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.»."
     },
     {
       "id": "briefing_general-7",
-      "title_ru": "apernet/hysteria - Hysteria is a powerful, lightning fast and censorship resistant proxy.",
-      "description_ru": "GitHub - apernet/hysteria: Hysteria is a powerful, lightning fast and censorship resistant proxy."
+      "provider": "openclaw-agent",
+      "title_original": "apernet/hysteria - Hysteria is a powerful, lightning fast and censorship resistant proxy.",
+      "title_ru": "Прокси Hysteria от apernet",
+      "description_ru": "Материал описывает тему «apernet/hysteria - Hysteria is a powerful, lightning fast and censorship resistant proxy.»."
     },
     {
       "id": "briefing_general-8",
-      "title_ru": "mattpocock/skills - Skills for Real Engineers. Straight from my .claude directory.",
-      "description_ru": "GitHub - mattpocock/skills: Skills for Real Engineers."
+      "provider": "openclaw-agent",
+      "title_original": "mattpocock/skills - Skills for Real Engineers. Straight from my .claude directory.",
+      "title_ru": "Репозиторий skills от mattpocock",
+      "description_ru": "Материал описывает тему «mattpocock/skills - Skills for Real Engineers. Straight from my .claude directory.»."
     },
     {
       "id": "briefing_general-9",
+      "provider": "openclaw-agent",
+      "title_original": "英国首相斯塔默再遭逼宫，在内阁会议上坚称：我将继续执政",
       "title_ru": "英国首相斯塔默再遭逼宫，在内阁会议上坚称：我将继续执政",
-      "description_ru": "英国首相斯塔默再遭逼宫，在内阁会议上坚称：我将继续执政_腾讯新闻 英国首相斯塔默再遭逼宫，在内阁会议上坚称：我将继续执政 观察者网 2026-05-12 17:51 发布于 上海 观察者网官方账号 问AI · 内阁大臣如何施压斯塔默考虑辞职."
+      "description_ru": "Материал описывает тему «英国首相斯塔默再遭逼宫，在内阁会议上坚称：我将继续执政»."
     },
     {
       "id": "briefing_general-10",
+      "provider": "openclaw-agent",
+      "title_original": "美媒披露：阿联酋秘密对伊朗发动军事打击",
       "title_ru": "美媒披露：阿联酋秘密对伊朗发动军事打击",
-      "description_ru": "美媒披露：阿联酋秘密对伊朗发动军事打击_腾讯新闻 美媒披露：阿联酋秘密对伊朗发动军事打击 参考消息 2026-05-12 20:34 发布于 北京 参考消息官方账号 问AI · 阿联酋秘密打击伊朗的深层动机是什么."
+      "description_ru": "Материал описывает тему «美媒披露：阿联酋秘密对伊朗发动军事打击»."
     },
     {
       "id": "briefing_general-11",
+      "provider": "openclaw-agent",
+      "title_original": "世卫组织：应对汉坦病毒疫情工作“还未结束”",
       "title_ru": "世卫组织：应对汉坦病毒疫情工作“还未结束”",
-      "description_ru": "世卫组织：应对汉坦病毒疫情工作“还未结束”_腾讯新闻 世卫组织：应对汉坦病毒疫情工作“还未结束” 新华社新闻 2026-05-12 20:31 发布于 广东 新华社新闻官方账号 新华社马德里5月12日电（记者陈雨峥 孟鼎博）世界卫生组织总干事谭德塞12日表示，涉汉坦病毒疫情邮轮“洪迪厄斯”号人员撤离行动完成后，目前尚未出现更大规模疫情暴发的迹象，但相关应对工作还未结束，预计未来数周仍有可能出现新增病例."
+      "description_ru": "Материал описывает тему «世卫组织：应对汉坦病毒疫情工作“还未结束”»."
     },
     {
       "id": "briefing_general-12",
+      "provider": "openclaw-agent",
+      "title_original": "伊朗革命卫队称一艘美舰遭伊方开火警告",
       "title_ru": "伊朗革命卫队称一艘美舰遭伊方开火警告",
-      "description_ru": "伊朗革命卫队称一艘美舰遭伊方开火警告_腾讯新闻 伊朗革命卫队称一艘美舰遭伊方开火警告 央视新闻 2026-05-12 16:42 发布于 北京 中央广播电视总台央视新闻官方账号 问AI · 美舰改变航向对地区安全有何影响."
+      "description_ru": "Материал описывает тему «伊朗革命卫队称一艘美舰遭伊方开火警告»."
     },
     {
       "id": "briefing_general-13",
+      "provider": "openclaw-agent",
+      "title_original": "京沪高铁二等座将涨至八百？公司称调整初期执行票价维持不变",
       "title_ru": "京沪高铁二等座将涨至八百？公司称调整初期执行票价维持不变",
-      "description_ru": "京沪高铁二等座将涨至八百.公司称调整初期执行票价维持不变，对民航影响几何._腾讯新闻 京沪高铁二等座将涨至八百.公司称调整初期执行票价维持不变，对民航影响几何."
+      "description_ru": "Материал описывает тему «京沪高铁二等座将涨至八百？公司称调整初期执行票价维持不变»."
     },
     {
       "id": "briefing_general-14",
+      "provider": "openclaw-agent",
+      "title_original": "被多梦困扰的十几年",
       "title_ru": "被多梦困扰的十几年",
-      "description_ru": "Материал посвящён теме «被多梦困扰的十几年»."
+      "description_ru": "Краткое описание материала о теме «被多梦困扰的十几年»."
     },
     {
       "id": "briefing_general-15",
-      "title_ru": "我身边同事也在用的满血中转 codex ：发放福利分组名额 数量有限，先到先得",
-      "description_ru": "Материал посвящён теме «我身边同事也在用的满血中转 codex ：发放福利分组名额 数量有限，先到先得»."
+      "provider": "openclaw-agent",
+      "title_original": "我身边同事也在用的满血中转 codex ：发放福利分组名额 数量有限，先到先得",
+      "title_ru": "Сервис codex с полным доступом через посредника",
+      "description_ru": "Краткое описание материала о теме «我身边同事也在用的满血中转 codex ：发放福利分组名额 数量有限，先到先得»."
     },
     {
       "id": "briefing_general-16",
-      "title_ru": "感觉 AI Coding 比古法编程累多了",
-      "description_ru": "Материал посвящён теме «感觉 AI Coding 比古法编程累多了»."
+      "provider": "openclaw-agent",
+      "title_original": "感觉 AI Coding 比古法编程累多了",
+      "title_ru": "Ощущение, что AI Coding утомляет сильнее классического программирования",
+      "description_ru": "Краткое описание материала о теме «感觉 AI Coding 比古法编程累多了»."
     },
     {
       "id": "briefing_general-17",
-      "title_ru": "mihomo 接入 tailscale",
-      "description_ru": "Материал посвящён теме «mihomo 接入 tailscale»."
+      "provider": "openclaw-agent",
+      "title_original": "mihomo 接入 tailscale",
+      "title_ru": "Интеграция mihomo с tailscale",
+      "description_ru": "Краткое описание материала о теме «mihomo 接入 tailscale»."
     },
     {
       "id": "briefing_general-18",
-      "title_ru": "NET 已死",
-      "description_ru": "Материал посвящён теме «NET 已死»."
+      "provider": "openclaw-agent",
+      "title_original": "NET 已死",
+      "title_ru": "Дискуссия «NET 已死»",
+      "description_ru": "Краткое описание материала о теме «NET 已死»."
     },
     {
       "id": "briefing_general-19",
-      "title_ru": "Restore full BambuNetwork support for Bambu Lab printers",
-      "description_ru": "Материал посвящён теме «Restore full BambuNetwork support for Bambu Lab printers»."
+      "provider": "openclaw-agent",
+      "title_original": "Restore full BambuNetwork support for Bambu Lab printers",
+      "title_ru": "Восстановление полной поддержки BambuNetwork для Bambu Lab",
+      "description_ru": "Краткое описание материала о теме «Restore full BambuNetwork support for Bambu Lab printers»."
     },
     {
       "id": "briefing_general-20",
-      "title_ru": "Googlebook",
-      "description_ru": "Googlebook: Designed for Gemini Intelligence | Coming Fall 2026 - Googlebook Play silent looping video Pause silent looping video Skip Play silent looping video Pause silent looping video Intelligence is the new spec."
+      "provider": "openclaw-agent",
+      "title_original": "Googlebook",
+      "title_ru": "Проект Googlebook",
+      "description_ru": "Материал описывает тему «Googlebook»."
     },
     {
       "id": "briefing_general-21",
-      "title_ru": "Starship V3",
-      "description_ru": "SpaceX."
+      "provider": "openclaw-agent",
+      "title_original": "Starship V3",
+      "title_ru": "Проект Starship V3",
+      "description_ru": "Материал описывает тему «Starship V3»."
     },
     {
       "id": "briefing_general-22",
-      "title_ru": "My graduation cap runs Rust",
-      "description_ru": "Eric Park Eric Park My graduation cap runs Rust May 12, 2026 I’ve never graduated before."
+      "provider": "openclaw-agent",
+      "title_original": "My graduation cap runs Rust",
+      "title_ru": "Моя выпускная шапочка работает на Rust",
+      "description_ru": "Материал описывает тему «My graduation cap runs Rust»."
     },
     {
       "id": "briefing_general-23",
-      "title_ru": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
-      "description_ru": "Материал посвящён теме «Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model»."
+      "provider": "openclaw-agent",
+      "title_original": "Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model",
+      "title_ru": "Show HN: Needle — модель на 26 млн параметров для Gemini Tool Calling",
+      "description_ru": "Краткое описание материала о теме «Show HN: Needle: We Distilled Gemini Tool Calling into a 26M Model»."
     },
     {
       "id": "briefing_general-24",
+      "provider": "openclaw-agent",
+      "title_original": "众擎机器人增资至3206.8万，增幅900%",
       "title_ru": "众擎机器人增资至3206.8万，增幅900%",
-      "description_ru": "Материал посвящён теме «众擎机器人增资至3206.8万，增幅900%»."
+      "description_ru": "Краткое описание материала о теме «众擎机器人增资至3206.8万，增幅900%»."
     },
     {
       "id": "briefing_general-25",
+      "provider": "openclaw-agent",
+      "title_original": "中美经贸磋商在韩国开始举行",
       "title_ru": "中美经贸磋商在韩国开始举行",
-      "description_ru": "Материал посвящён теме «中美经贸磋商在韩国开始举行»."
+      "description_ru": "Краткое описание материала о теме «中美经贸磋商在韩国开始举行»."
     },
     {
       "id": "briefing_general-26",
-      "title_ru": "A股三大指数午间休盘集体上涨，白酒股领跌",
-      "description_ru": "Материал посвящён теме «A股三大指数午间休盘集体上涨，白酒股领跌»."
+      "provider": "openclaw-agent",
+      "title_original": "A股三大指数午间休盘集体上涨，白酒股领跌",
+      "title_ru": "Рост трёх основных индексов A-акций к полудню при слабости алкогольного сектора",
+      "description_ru": "Краткое описание материала о теме «A股三大指数午间休盘集体上涨，白酒股领跌»."
     },
     {
       "id": "briefing_general-27",
+      "provider": "openclaw-agent",
+      "title_original": "腾讯：元宝支持一键总结微信群聊",
       "title_ru": "腾讯：元宝支持一键总结微信群聊",
-      "description_ru": "Материал посвящён теме «腾讯：元宝支持一键总结微信群聊»."
+      "description_ru": "Краткое описание материала о теме «腾讯：元宝支持一键总结微信群聊»."
     },
     {
       "id": "briefing_general-28",
+      "provider": "openclaw-agent",
+      "title_original": "中国航空发动机集团增资至约511.5亿",
       "title_ru": "中国航空发动机集团增资至约511.5亿",
-      "description_ru": "Материал посвящён теме «中国航空发动机集团增资至约511.5亿»."
+      "description_ru": "Краткое описание материала о теме «中国航空发动机集团增资至约511.5亿»."
     },
     {
       "id": "briefing_general-29",
-      "title_ru": "高盛前CEO：真正的风险管理，是在飓风来之前买保险",
-      "description_ru": "华尔街见闻."
+      "provider": "openclaw-agent",
+      "title_original": "高盛前CEO：真正的风险管理，是在飓风来之前买保险",
+      "title_ru": "Экс-CEO Goldman Sachs о риск-менеджменте до наступления кризиса",
+      "description_ru": "Материал описывает тему «高盛前CEO：真正的风险管理，是在飓风来之前买保险»."
     },
     {
       "id": "briefing_general-30",
+      "provider": "openclaw-agent",
+      "title_original": "芯片股终于开跌，高盛交易员：裂痕出现了，市场低估了“狂炒芯片”背后的杠杆",
       "title_ru": "芯片股终于开跌，高盛交易员：裂痕出现了，市场低估了“狂炒芯片”背后的杠杆",
-      "description_ru": "华尔街见闻."
+      "description_ru": "Материал описывает тему «芯片股终于开跌，高盛交易员：裂痕出现了，市场低估了“狂炒芯片”背后的杠杆»."
     },
     {
       "id": "briefing_general-31",
+      "provider": "openclaw-agent",
+      "title_original": "最后一刻临时追加！黄仁勋加入特朗普访华代表团",
       "title_ru": "最后一刻临时追加！黄仁勋加入特朗普访华代表团",
-      "description_ru": "华尔街见闻."
+      "description_ru": "Материал описывает тему «最后一刻临时追加！黄仁勋加入特朗普访华代表团»."
     },
     {
       "id": "briefing_general-32",
+      "provider": "openclaw-agent",
+      "title_original": "高油价阴云笼罩！日本20年期国债收益率创近30年新高",
       "title_ru": "高油价阴云笼罩！日本20年期国债收益率创近30年新高",
-      "description_ru": "华尔街见闻."
+      "description_ru": "Материал описывает тему «高油价阴云笼罩！日本20年期国债收益率创近30年新高»."
     },
     {
       "id": "briefing_general-33",
-      "title_ru": "AI was made for junk mail",
-      "description_ru": "Junk Mail Magic: The unsubscribe button for physical mail."
+      "provider": "openclaw-agent",
+      "title_original": "AI was made for junk mail",
+      "title_ru": "ИИ будто создан для бумажного спама",
+      "description_ru": "Материал описывает тему «ИИ будто создан для бумажного спама»."
     },
     {
       "id": "briefing_general-34",
-      "title_ru": "I got tired of realizing \"discounts\" weren't discounts",
-      "description_ru": "Материал посвящён теме «I got tired of realizing \"discounts\" weren't discounts»."
+      "provider": "openclaw-agent",
+      "title_original": "I got tired of realizing \"discounts\" weren't discounts",
+      "title_ru": "Мне надоело понимать, что «скидки» на самом деле не скидки",
+      "description_ru": "Краткое описание материала о теме «Мне надоело понимать, что «скидки» на самом деле не скидки»."
     },
     {
       "id": "briefing_general-35",
-      "title_ru": "Fear of layoffs what should I do?",
-      "description_ru": "Fear of layoffs what should I do?"
+      "provider": "openclaw-agent",
+      "title_original": "Fear of layoffs what should I do?",
+      "title_ru": "Страх увольнений: что мне делать?",
+      "description_ru": "Материал описывает тему «Страх увольнений: что мне делать?»."
     },
     {
       "id": "briefing_general-36",
-      "title_ru": "NPM-Scan – Detects TanStack Worm, Beats Socket/Snyk (Local/BYOC)",
-      "description_ru": "GitHub - lateos-ai/npm-scan: Modern supply chain security for the npm ecosystem."
+      "provider": "openclaw-agent",
+      "title_original": "NPM-Scan – Detects TanStack Worm, Beats Socket/Snyk (Local/BYOC)",
+      "title_ru": "NPM-Scan — обнаруживает червя TanStack и превосходит Socket/Snyk",
+      "description_ru": "Материал описывает тему «NPM-Scan — обнаруживает червя TanStack и превосходит Socket/Snyk»."
     },
     {
       "id": "briefing_general-37",
-      "title_ru": "Self-hosted AI memory with web dashboard – Cloudflare Workers, D1, Vectorize",
-      "description_ru": "GitHub - rahilp/second-brain-cloudflare: One memory layer, every AI tool."
+      "provider": "openclaw-agent",
+      "title_original": "Self-hosted AI memory with web dashboard – Cloudflare Workers, D1, Vectorize",
+      "title_ru": "Самостоятельно размещаемая память ИИ с веб-панелью на Cloudflare Workers, D1 и Vectorize",
+      "description_ru": "Материал описывает тему «Самостоятельно размещаемая память ИИ с веб-панелью на Cloudflare Workers, D1 и Vectorize»."
     },
     {
       "id": "briefing_general-38",
-      "title_ru": "Show HN: I spent $100 in Claude tokens and 1k battles training my AI tank",
-      "description_ru": "Материал посвящён теме «Show HN: I spent $100 in Claude tokens and 1k battles training my AI tank»."
+      "provider": "openclaw-agent",
+      "title_original": "Show HN: I spent $100 in Claude tokens and 1k battles training my AI tank",
+      "title_ru": "Show HN: я потратил 100 долларов на токены Claude и тысячу боёв на обучение своего ИИ-танка",
+      "description_ru": "Краткое описание материала о теме «Show HN: я потратил 100 долларов на токены Claude и тысячу боёв на обучение своего ИИ-танка»."
     },
     {
       "id": "briefing_general-39",
-      "title_ru": "Revisiting \"No Silver Bullets\" in the Age of AI",
-      "description_ru": "Материал посвящён теме «Revisiting \"No Silver Bullets\" in the Age of AI»."
+      "provider": "openclaw-agent",
+      "title_original": "Revisiting \"No Silver Bullets\" in the Age of AI",
+      "title_ru": "Новый взгляд на «No Silver Bullets» в эпоху ИИ",
+      "description_ru": "Краткое описание материала о теме «Новый взгляд на «No Silver Bullets» в эпоху ИИ»."
     },
     {
       "id": "briefing_general-40",
-      "title_ru": "Ask HN: Is your kids Alexa now have conversational AI?",
-      "description_ru": "Ask HN: Is your kids Alexa now have conversational AI?"
+      "provider": "openclaw-agent",
+      "title_original": "Ask HN: Is your kids Alexa now have conversational AI?",
+      "title_ru": "Ask HN: у Alexa ваших детей уже появился разговорный ИИ?",
+      "description_ru": "Материал описывает тему «Ask HN: у Alexa ваших детей уже появился разговорный ИИ?»."
     },
     {
       "id": "briefing_general-41",
-      "title_ru": "AI agents can self-replicate. Who is building for the human side?",
-      "description_ru": "Hugonomy Systems | VibeAI FoldSpace - Don't Outsource Your Mind The key moment The moment it happens."
+      "provider": "openclaw-agent",
+      "title_original": "AI agents can self-replicate. Who is building for the human side?",
+      "title_ru": "ИИ-агенты могут самовоспроизводиться. Кто строит решения для человеческой стороны?",
+      "description_ru": "Материал описывает тему «ИИ-агенты могут самовоспроизводиться. Кто строит решения для человеческой стороны?»."
     },
     {
       "id": "briefing_general-42",
-      "title_ru": "How AI Killed a 133-Year-Old Princeton Tradition",
-      "description_ru": "Материал посвящён теме «How AI Killed a 133-Year-Old Princeton Tradition»."
+      "provider": "openclaw-agent",
+      "title_original": "How AI Killed a 133-Year-Old Princeton Tradition",
+      "title_ru": "Как ИИ убил 133-летнюю традицию Принстона",
+      "description_ru": "Краткое описание материала о теме «Как ИИ убил 133-летнюю традицию Принстона»."
     },
     {
       "id": "briefing_general-43",
-      "title_ru": "The New York Times Got Caught Using AI Hallucinations in Its Reporting",
-      "description_ru": "Материал посвящён теме «The New York Times Got Caught Using AI Hallucinations in Its Reporting»."
+      "provider": "openclaw-agent",
+      "title_original": "The New York Times Got Caught Using AI Hallucinations in Its Reporting",
+      "title_ru": "The New York Times уличили в использовании галлюцинаций ИИ в своих материалах",
+      "description_ru": "Краткое описание материала о теме «The New York Times уличили в использовании галлюцинаций ИИ в своих материалах»."
     },
     {
       "id": "briefing_general-44",
-      "title_ru": "AI shouldn't have a meter. Unlimited tokens. Forever",
-      "description_ru": "OpenMonoAgent.ai - Own Your AI Dev Stack v0.1 // open source · BETA AI shouldn't have a meter."
+      "provider": "openclaw-agent",
+      "title_original": "AI shouldn't have a meter. Unlimited tokens. Forever",
+      "title_ru": "У ИИ не должно быть счётчика: безлимитные токены навсегда",
+      "description_ru": "Материал описывает тему «У ИИ не должно быть счётчика: безлимитные токены навсегда»."
     },
     {
       "id": "briefing_general-45",
-      "title_ru": "Show HN: Chrome extension that blocks API keys from being pasted into AI tools",
-      "description_ru": "Материал посвящён теме «Show HN: Chrome extension that blocks API keys from being pasted into AI tools»."
+      "provider": "openclaw-agent",
+      "title_original": "Show HN: Chrome extension that blocks API keys from being pasted into AI tools",
+      "title_ru": "Show HN: расширение Chrome, блокирующее вставку API-ключей в ИИ-инструменты",
+      "description_ru": "Краткое описание материала о теме «Show HN: расширение Chrome, блокирующее вставку API-ключей в ИИ-инструменты»."
     },
     {
       "id": "briefing_general-46",
-      "title_ru": "Google users fight for refunds as unauthorized API usage bills soar",
-      "description_ru": "Google users fight for refunds as unauthorized API usage bills soar Jump to main content REG AD AI + ML Google users fight for refunds as unauthorized API usage bills soar 'What the hell is going on?"
+      "provider": "openclaw-agent",
+      "title_original": "Google users fight for refunds as unauthorized API usage bills soar",
+      "title_ru": "Пользователи Google добиваются возвратов на фоне роста счетов за несанкционированное использование API",
+      "description_ru": "Материал описывает тему «Пользователи Google добиваются возвратов на фоне роста счетов за несанкционированное использование API»."
     },
     {
       "id": "briefing_general-47",
-      "title_ru": "Show HN: CLI and MCP for Suunto smartwatches data",
-      "description_ru": "GitHub - tajchert/suuntool: Unofficial CLI and MCP for the Suunto cloud API."
+      "provider": "openclaw-agent",
+      "title_original": "Show HN: CLI and MCP for Suunto smartwatches data",
+      "title_ru": "Show HN: CLI и MCP для данных умных часов Suunto",
+      "description_ru": "Материал описывает тему «Show HN: CLI и MCP для данных умных часов Suunto»."
     },
     {
       "id": "briefing_general-48",
-      "title_ru": "Influential study touting ChatGPT in education retracted over red flags",
-      "description_ru": "Материал посвящён теме «Influential study touting ChatGPT in education retracted over red flags»."
+      "provider": "openclaw-agent",
+      "title_original": "Influential study touting ChatGPT in education retracted over red flags",
+      "title_ru": "Влиятельное исследование о пользе ChatGPT в образовании отозвали из-за тревожных сигналов",
+      "description_ru": "Краткое описание материала о теме «Влиятельное исследование о пользе ChatGPT в образовании отозвали из-за тревожных сигналов»."
     },
     {
       "id": "briefing_general-49",
-      "title_ru": "Show HN: Outpainting Avatar: The Last Airbender from 4:3 to 16:9",
-      "description_ru": "@markjgx.bsky.social on Bluesky JavaScript Required This is a heavily interactive web application, and JavaScript is required."
+      "provider": "openclaw-agent",
+      "title_original": "Show HN: Outpainting Avatar: The Last Airbender from 4:3 to 16:9",
+      "title_ru": "Show HN: расширение кадров Avatar: The Last Airbender из 4:3 в 16:9",
+      "description_ru": "Материал описывает тему «Show HN: расширение кадров Avatar: The Last Airbender из 4:3 в 16:9»."
     },
     {
       "id": "briefing_general-50",
-      "title_ru": "Zoom info charges 15k a year for business leads. I built an alternative using AI",
-      "description_ru": "DayOneLead: Fresh Business Leads, Delivered Daily Now tracking Florida and New York."
+      "provider": "openclaw-agent",
+      "title_original": "Zoom info charges 15k a year for business leads. I built an alternative using AI",
+      "title_ru": "ZoomInfo берёт 15 тысяч в год за бизнес-лиды, и я собрал альтернативу на ИИ",
+      "description_ru": "Материал описывает тему «ZoomInfo берёт 15 тысяч в год за бизнес-лиды, и я собрал альтернативу на ИИ»."
     },
     {
       "id": "briefing_general-51",
-      "title_ru": "Mini Shai-Hulud Is Back: NPM Worm Hits over 160 Packages, Including Mistral",
-      "description_ru": "Материал посвящён теме «Mini Shai-Hulud Is Back: NPM Worm Hits over 160 Packages, Including Mistral»."
+      "provider": "openclaw-agent",
+      "title_original": "Mini Shai-Hulud Is Back: NPM Worm Hits over 160 Packages, Including Mistral",
+      "title_ru": "Mini Shai-Hulud вернулся: npm-червь затронул более 160 пакетов, включая Mistral",
+      "description_ru": "Краткое описание материала о теме «Mini Shai-Hulud вернулся: npm-червь затронул более 160 пакетов, включая Mistral»."
     },
     {
       "id": "briefing_general-52",
-      "title_ru": "AI load breaks GitHub – why not other vendors?",
-      "description_ru": "The Pulse: AI load breaks GitHub – why not other vendors?"
+      "provider": "openclaw-agent",
+      "title_original": "AI load breaks GitHub – why not other vendors?",
+      "title_ru": "Нагрузка от ИИ ломает GitHub — почему не других вендоров?",
+      "description_ru": "Материал описывает тему «Нагрузка от ИИ ломает GitHub — почему не других вендоров?»."
     },
     {
       "id": "briefing_general-53",
-      "title_ru": "anonfaded/FadCam - Open-source, ad-free Android multimedia recorder with background video recording, screen recording, live streaming, and remote camera control",
-      "description_ru": "Материал посвящён теме «anonfaded/FadCam - Open-source, ad-free Android multimedia recorder with background video recording, screen recording, live streaming, and remote camera control»."
+      "provider": "openclaw-agent",
+      "title_original": "anonfaded/FadCam - Open-source, ad-free Android multimedia recorder with background video recording, screen recording, live streaming, and remote camera control",
+      "title_ru": "Приложение FadCam с открытым исходным кодом для Android",
+      "description_ru": "Краткое описание материала о теме «anonfaded/FadCam - Open-source, ad-free Android multimedia recorder with background video recording, screen recording, live streaming, and remote camera control»."
     },
     {
       "id": "briefing_general-54",
-      "title_ru": "datawhalechina/hello-agents - 📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
-      "description_ru": "Материал посвящён теме «datawhalechina/hello-agents - 📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程»."
+      "provider": "openclaw-agent",
+      "title_original": "datawhalechina/hello-agents - 📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
+      "title_ru": "Учебник hello-agents по созданию интеллектуальных агентов с нуля",
+      "description_ru": "Краткое описание материала о теме «datawhalechina/hello-agents - 📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程»."
     },
     {
       "id": "briefing_general-55",
-      "title_ru": "HKUDS/AI-Trader - \"AI-Trader: 100% Fully-Automated Agent-Native Trading\"",
-      "description_ru": "Материал посвящён теме «HKUDS/AI-Trader - \"AI-Trader: 100% Fully-Automated Agent-Native Trading\"»."
+      "provider": "openclaw-agent",
+      "title_original": "HKUDS/AI-Trader - \"AI-Trader: 100% Fully-Automated Agent-Native Trading\"",
+      "title_ru": "Проект AI-Trader для полностью автоматизированной агентной торговли",
+      "description_ru": "Краткое описание материала о теме «HKUDS/AI-Trader - \"AI-Trader: 100% Fully-Automated Agent-Native Trading\"»."
     },
     {
       "id": "briefing_finance-1",
-      "title_ru": "The Cost of Doing Business: How SF's Tax Structure Constrains Economic Growth [pdf]",
-      "description_ru": "Материал посвящён теме «The Cost of Doing Business: How SF's Tax Structure Constrains Economic Growth [pdf]»."
+      "provider": "openclaw-agent",
+      "title_original": "The Cost of Doing Business: How SF's Tax Structure Constrains Economic Growth [pdf]",
+      "title_ru": "Цена ведения бизнеса: как налоговая система Сан-Франциско сдерживает экономический рост [pdf]",
+      "description_ru": "Краткое описание материала о теме «Цена ведения бизнеса: как налоговая система Сан-Франциско сдерживает экономический рост [pdf]»."
     },
     {
       "id": "briefing_finance-2",
-      "title_ru": "SpaceX backs Anthropic with data centre deal amidst Musk's OpenAI lawsuit",
-      "description_ru": "Материал посвящён теме «SpaceX backs Anthropic with data centre deal amidst Musk's OpenAI lawsuit»."
+      "provider": "openclaw-agent",
+      "title_original": "SpaceX backs Anthropic with data centre deal amidst Musk's OpenAI lawsuit",
+      "title_ru": "SpaceX поддерживает Anthropic сделкой по дата-центру на фоне иска Маска к OpenAI",
+      "description_ru": "Краткое описание материала о теме «SpaceX поддерживает Anthropic сделкой по дата-центру на фоне иска Маска к OpenAI»."
     },
     {
       "id": "briefing_finance-3",
-      "title_ru": "Three things in AI to watch, according to a Nobel-winning economist",
-      "description_ru": "Three things in AI to watch, according to a Nobel-winning economist | MIT Technology Review You need to enable JavaScript to view this site."
+      "provider": "openclaw-agent",
+      "title_original": "Three things in AI to watch, according to a Nobel-winning economist",
+      "title_ru": "Три направления в ИИ, за которыми стоит следить, по версии нобелевского лауреата по экономике",
+      "description_ru": "Материал описывает тему «Три направления в ИИ, за которыми стоит следить, по версии нобелевского лауреата по экономике»."
     },
     {
       "id": "briefing_finance-4",
-      "title_ru": "How the Blitz enhanced London's economy",
-      "description_ru": "Материал посвящён теме «How the Blitz enhanced London's economy»."
+      "provider": "openclaw-agent",
+      "title_original": "How the Blitz enhanced London's economy",
+      "title_ru": "Как Блиц повлиял на экономику Лондона",
+      "description_ru": "Краткое описание материала о теме «Как Блиц повлиял на экономику Лондона»."
     },
     {
       "id": "briefing_finance-5",
-      "title_ru": "Is the AI genie stuck in a bottleneck?",
-      "description_ru": "Материал посвящён теме «Is the AI genie stuck in a bottleneck?»."
+      "provider": "openclaw-agent",
+      "title_original": "Is the AI genie stuck in a bottleneck?",
+      "title_ru": "Застрял ли джинн ИИ в узком месте?",
+      "description_ru": "Краткое описание материала о теме «Застрял ли джинн ИИ в узком месте?»."
     },
     {
       "id": "briefing_finance-6",
-      "title_ru": "The Exception Economy",
-      "description_ru": "Материал посвящён теме «The Exception Economy»."
+      "provider": "openclaw-agent",
+      "title_original": "The Exception Economy",
+      "title_ru": "Экономика исключений",
+      "description_ru": "Краткое описание материала о теме «Экономика исключений»."
     },
     {
       "id": "briefing_finance-7",
-      "title_ru": "Five architects of the AI economy explain where the wheels are coming off",
-      "description_ru": "Материал посвящён теме «Five architects of the AI economy explain where the wheels are coming off»."
+      "provider": "openclaw-agent",
+      "title_original": "Five architects of the AI economy explain where the wheels are coming off",
+      "title_ru": "Пять архитекторов экономики ИИ объясняют, где система даёт сбой",
+      "description_ru": "Краткое описание материала о теме «Пять архитекторов экономики ИИ объясняют, где система даёт сбой»."
     },
     {
       "id": "briefing_finance-8",
-      "title_ru": "The gutting of USAID has left a void China will not fill",
-      "description_ru": "Материал посвящён теме «The gutting of USAID has left a void China will not fill»."
+      "provider": "openclaw-agent",
+      "title_original": "The gutting of USAID has left a void China will not fill",
+      "title_ru": "Ослабление USAID оставило пустоту, которую Китай не заполнит",
+      "description_ru": "Краткое описание материала о теме «Ослабление USAID оставило пустоту, которую Китай не заполнит»."
     },
     {
       "id": "briefing_finance-9",
-      "title_ru": "China knows that governing new tech can be harder than inventing it",
-      "description_ru": "Материал посвящён теме «China knows that governing new tech can be harder than inventing it»."
+      "provider": "openclaw-agent",
+      "title_original": "China knows that governing new tech can be harder than inventing it",
+      "title_ru": "Китай понимает, что управлять новыми технологиями труднее, чем изобретать их",
+      "description_ru": "Краткое описание материала о теме «Китай понимает, что управлять новыми технологиями труднее, чем изобретать их»."
     },
     {
       "id": "briefing_finance-10",
+      "provider": "openclaw-agent",
+      "title_original": "中美经贸磋商在韩国开始举行",
       "title_ru": "中美经贸磋商在韩国开始举行",
-      "description_ru": "华尔街见闻."
+      "description_ru": "Материал описывает тему «中美经贸磋商在韩国开始举行»."
     },
     {
       "id": "briefing_finance-11",
-      "title_ru": "高盛前CEO：真正的风险管理，是在飓风来之前买保险",
-      "description_ru": "华尔街见闻."
+      "provider": "openclaw-agent",
+      "title_original": "高盛前CEO：真正的风险管理，是在飓风来之前买保险",
+      "title_ru": "Экс-CEO Goldman Sachs о страховании рисков до наступления шторма",
+      "description_ru": "Материал описывает тему «高盛前CEO：真正的风险管理，是在飓风来之前买保险»."
     },
     {
       "id": "briefing_finance-12",
+      "provider": "openclaw-agent",
+      "title_original": "芯片股终于开跌，高盛交易员：裂痕出现了，市场低估了“狂炒芯片”背后的杠杆",
       "title_ru": "芯片股终于开跌，高盛交易员：裂痕出现了，市场低估了“狂炒芯片”背后的杠杆",
-      "description_ru": "华尔街见闻."
+      "description_ru": "Материал описывает тему «芯片股终于开跌，高盛交易员：裂痕出现了，市场低估了“狂炒芯片”背后的杠杆»."
     },
     {
       "id": "briefing_finance-13",
+      "provider": "openclaw-agent",
+      "title_original": "最后一刻临时追加！黄仁勋加入特朗普访华代表团",
       "title_ru": "最后一刻临时追加！黄仁勋加入特朗普访华代表团",
-      "description_ru": "华尔街见闻."
+      "description_ru": "Материал описывает тему «最后一刻临时追加！黄仁勋加入特朗普访华代表团»."
     },
     {
       "id": "briefing_finance-14",
+      "provider": "openclaw-agent",
+      "title_original": "高油价阴云笼罩！日本20年期国债收益率创近30年新高",
       "title_ru": "高油价阴云笼罩！日本20年期国债收益率创近30年新高",
-      "description_ru": "华尔街见闻."
+      "description_ru": "Материал описывает тему «高油价阴云笼罩！日本20年期国债收益率创近30年新高»."
     },
     {
       "id": "briefing_finance-15",
-      "title_ru": "A股三大股指震荡回升，科创50跌超1%，芯片半导体全线调整，电力逆势爆发，恒科指跌1%",
-      "description_ru": "华尔街见闻."
+      "provider": "openclaw-agent",
+      "title_original": "A股三大股指震荡回升，科创50跌超1%，芯片半导体全线调整，电力逆势爆发，恒科指跌1%",
+      "title_ru": "Колебания трёх основных индексов A-акций и падение сектора чипов",
+      "description_ru": "Материал описывает тему «A股三大股指震荡回升，科创50跌超1%，芯片半导体全线调整，电力逆势爆发，恒科指跌1%»."
     },
     {
       "id": "briefing_finance-16",
-      "title_ru": "昂跑Q1营收首破8亿瑞郎，北美降速，亚太狂飙",
-      "description_ru": "华尔街见闻."
+      "provider": "openclaw-agent",
+      "title_original": "昂跑Q1营收首破8亿瑞郎，北美降速，亚太狂飙",
+      "title_ru": "Выручка On в первом квартале впервые превысила 800 млн швейцарских франков",
+      "description_ru": "Материал описывает тему «昂跑Q1营收首破8亿瑞郎，北美降速，亚太狂飙»."
     },
     {
       "id": "briefing_finance-17",
-      "title_ru": "高盛前CEO：以前亏掉几十亿很难，现在AI一眨眼就能做到",
-      "description_ru": "华尔街见闻."
+      "provider": "openclaw-agent",
+      "title_original": "高盛前CEO：以前亏掉几十亿很难，现在AI一眨眼就能做到",
+      "title_ru": "Экс-CEO Goldman Sachs: AI может ускорить огромные убытки",
+      "description_ru": "Материал описывает тему «高盛前CEO：以前亏掉几十亿很难，现在AI一眨眼就能做到»."
     },
     {
       "id": "briefing_finance-18",
+      "provider": "openclaw-agent",
+      "title_original": "分拆可灵，对快手意味着什么？",
       "title_ru": "分拆可灵，对快手意味着什么？",
-      "description_ru": "华尔街见闻."
+      "description_ru": "Материал описывает тему «分拆可灵，对快手意味着什么？»."
     },
     {
       "id": "briefing_finance-19",
-      "title_ru": "为何今年银行H股持续高涨？",
-      "description_ru": "华尔街见闻."
+      "provider": "openclaw-agent",
+      "title_original": "为何今年银行H股持续高涨？",
+      "title_ru": "Почему банковские H-акции продолжают расти в этом году",
+      "description_ru": "Материал описывает тему «为何今年银行H股持续高涨？»."
     },
     {
       "id": "briefing_finance-20",
+      "provider": "openclaw-agent",
+      "title_original": "美国早就“资不抵债”了，为什么全世界还在买美债？【程坦大师课2.2】",
       "title_ru": "美国早就“资不抵债”了，为什么全世界还在买美债？【程坦大师课2.2】",
-      "description_ru": "华尔街见闻."
+      "description_ru": "Материал описывает тему «美国早就“资不抵债”了，为什么全世界还在买美债？【程坦大师课2.2】»."
     },
     {
       "id": "briefing_finance-21",
+      "provider": "openclaw-agent",
+      "title_original": "中信建投夏凡捷：下半年牛市行情将继续，算力牛”和“复苏牛”是主线",
       "title_ru": "中信建投夏凡捷：下半年牛市行情将继续，算力牛”和“复苏牛”是主线",
-      "description_ru": "华尔街见闻."
+      "description_ru": "Материал описывает тему «中信建投夏凡捷：下半年牛市行情将继续，算力牛”和“复苏牛”是主线»."
     },
     {
       "id": "briefing_finance-22",
+      "provider": "openclaw-agent",
+      "title_original": "冲突叙事或已接近尾声",
       "title_ru": "冲突叙事或已接近尾声",
-      "description_ru": "华尔街见闻."
+      "description_ru": "Материал описывает тему «冲突叙事或已接近尾声»."
     },
     {
       "id": "briefing_finance-23",
+      "provider": "openclaw-agent",
+      "title_original": "牵动全球市场的关键问题：伊朗危机走向何方？",
       "title_ru": "牵动全球市场的关键问题：伊朗危机走向何方？",
-      "description_ru": "华尔街见闻."
+      "description_ru": "Материал описывает тему «牵动全球市场的关键问题：伊朗危机走向何方？»."
     },
     {
       "id": "briefing_finance-24",
+      "provider": "openclaw-agent",
+      "title_original": "一只美元货币基金产品的“翻车”实录",
       "title_ru": "一只美元货币基金产品的“翻车”实录",
-      "description_ru": "华尔街见闻."
+      "description_ru": "Материал описывает тему «一只美元货币基金产品的“翻车”实录»."
     },
     {
       "id": "briefing_finance-25",
+      "provider": "openclaw-agent",
+      "title_original": "日本20年期国债收益率升至1997年以来高点",
       "title_ru": "日本20年期国债收益率升至1997年以来高点",
-      "description_ru": "华尔街见闻."
+      "description_ru": "Материал описывает тему «日本20年期国债收益率升至1997年以来高点»."
     },
     {
       "id": "briefing_finance-26",
-      "title_ru": "美国散户“换赌场了”：净卖出美股、杠杆ETF也不炒了，都涌去预测市场了",
-      "description_ru": "华尔街见闻."
+      "provider": "openclaw-agent",
+      "title_original": "美国散户“换赌场了”：净卖出美股、杠杆ETF也不炒了，都涌去预测市场了",
+      "title_ru": "Американские розничные инвесторы переходят с акций на рынки прогнозов",
+      "description_ru": "Материал описывает тему «美国散户“换赌场了”：净卖出美股、杠杆ETF也不炒了，都涌去预测市场了»."
     },
     {
       "id": "briefing_finance-27",
-      "title_ru": "别只盯着芯片，高盛：从数据管理到员工培训，AI Agent需要“大规模非硬件投资”",
-      "description_ru": "华尔街见闻."
+      "provider": "openclaw-agent",
+      "title_original": "别只盯着芯片，高盛：从数据管理到员工培训，AI Agent需要“大规模非硬件投资”",
+      "title_ru": "Goldman Sachs: AI-агентам нужны масштабные нехардверные инвестиции",
+      "description_ru": "Материал описывает тему «别只盯着芯片，高盛：从数据管理到员工培训，AI Agent需要“大规模非硬件投资”»."
     },
     {
       "id": "briefing_finance-28",
-      "title_ru": "当“算力金属”遭遇四面楚歌：锡的稀缺性正在被AI时代重新定价",
-      "description_ru": "华尔街见闻."
+      "provider": "openclaw-agent",
+      "title_original": "当“算力金属”遭遇四面楚歌：锡的稀缺性正在被AI时代重新定价",
+      "title_ru": "Индий: переоценка редкости металла вычислительной эпохи",
+      "description_ru": "Материал описывает тему «当“算力金属”遭遇四面楚歌：锡的稀缺性正在被AI时代重新定价»."
     },
     {
       "id": "briefing_finance-29",
-      "title_ru": "Ilya出庭复仇！实锤奥特曼撒谎，手握70亿说「我不想OpenAI被毁」",
-      "description_ru": "华尔街见闻."
+      "provider": "openclaw-agent",
+      "title_original": "Ilya出庭复仇！实锤奥特曼撒谎，手握70亿说「我不想OpenAI被毁」",
+      "title_ru": "Илья выступил в суде по делу OpenAI и обвинил Альтмана во лжи",
+      "description_ru": "Материал описывает тему «Ilya出庭复仇！实锤奥特曼撒谎，手握70亿说「我不想OpenAI被毁」»."
     },
     {
       "id": "briefing_finance-30",
-      "title_ru": "报道：鸿海已向英伟达“提前供货”全光CPO机柜，并大幅上修出货目标",
-      "description_ru": "华尔街见闻."
+      "provider": "openclaw-agent",
+      "title_original": "报道：鸿海已向英伟达“提前供货”全光CPO机柜，并大幅上修出货目标",
+      "title_ru": "Foxconn, как сообщается, заранее поставляет Nvidia полностью оптические CPO-стойки",
+      "description_ru": "Материал описывает тему «报道：鸿海已向英伟达“提前供货”全光CPO机柜，并大幅上修出货目标»."
     },
     {
       "id": "briefing_finance-31",
-      "title_ru": "油价与美债收益率齐升！“NACHO交易”升温",
-      "description_ru": "华尔街见闻."
+      "provider": "openclaw-agent",
+      "title_original": "油价与美债收益率齐升！“NACHO交易”升温",
+      "title_ru": "Рост нефти и доходностей казначейских облигаций разогревает сделку NACHO",
+      "description_ru": "Материал описывает тему «油价与美债收益率齐升！“NACHO交易”升温»."
     },
     {
       "id": "briefing_finance-32",
+      "provider": "openclaw-agent",
+      "title_original": "通胀高，空美债！“美联储加息”预期升温，“债券老手”预测“10年美债收益率今年破5%”",
       "title_ru": "通胀高，空美债！“美联储加息”预期升温，“债券老手”预测“10年美债收益率今年破5%”",
-      "description_ru": "华尔街见闻."
+      "description_ru": "Материал описывает тему «通胀高，空美债！“美联储加息”预期升温，“债券老手”预测“10年美债收益率今年破5%”»."
     },
     {
       "id": "briefing_finance-33",
+      "provider": "openclaw-agent",
+      "title_original": "磷化铟：光通信的“圣杯”，龙头说产能翻倍再翻倍仍不够！",
       "title_ru": "磷化铟：光通信的“圣杯”，龙头说产能翻倍再翻倍仍不够！",
-      "description_ru": "华尔街见闻."
+      "description_ru": "Материал описывает тему «磷化铟：光通信的“圣杯”，龙头说产能翻倍再翻倍仍不够！»."
     },
     {
       "id": "briefing_finance-34",
+      "provider": "openclaw-agent",
+      "title_original": "芯片股终于跌了！费城半导体指数盘中一度跌6.8%，美光、英特尔、博通“领跌”纳指",
       "title_ru": "芯片股终于跌了！费城半导体指数盘中一度跌6.8%，美光、英特尔、博通“领跌”纳指",
-      "description_ru": "华尔街见闻."
+      "description_ru": "Материал описывает тему «芯片股终于跌了！费城半导体指数盘中一度跌6.8%，美光、英特尔、博通“领跌”纳指»."
     },
     {
       "id": "briefing_finance-35",
+      "provider": "openclaw-agent",
+      "title_original": "彻夜谈判宣告失败，三星电子面临“5月21日开始的18天罢工”",
       "title_ru": "彻夜谈判宣告失败，三星电子面临“5月21日开始的18天罢工”",
-      "description_ru": "华尔街见闻."
+      "description_ru": "Материал описывает тему «彻夜谈判宣告失败，三星电子面临“5月21日开始的18天罢工”»."
     },
     {
       "id": "briefing_finance-36",
+      "provider": "openclaw-agent",
+      "title_original": "首相面临辞职压力，内阁官员立场不一，英国经历“动荡48小时”",
       "title_ru": "首相面临辞职压力，内阁官员立场不一，英国经历“动荡48小时”",
-      "description_ru": "华尔街见闻."
+      "description_ru": "Материал описывает тему «首相面临辞职压力，内阁官员立场不一，英国经历“动荡48小时”»."
     },
     {
       "id": "briefing_finance-37",
-      "title_ru": "摩根大通CEO：美欧“愚蠢”贸易壁垒应该修复，美股未能反映中东风险",
-      "description_ru": "华尔街见闻."
+      "provider": "openclaw-agent",
+      "title_original": "摩根大通CEO：美欧“愚蠢”贸易壁垒应该修复，美股未能反映中东风险",
+      "title_ru": "CEO JPMorgan: торговые барьеры США и Европы нужно исправлять",
+      "description_ru": "Материал описывает тему «摩根大通CEO：美欧“愚蠢”贸易壁垒应该修复，美股未能反映中东风险»."
     },
     {
       "id": "briefing_finance-38",
-      "title_ru": "Breez SDK Case Study: Deblock, Instant Bitcoin at Scale",
-      "description_ru": "Breez SDK | Case Study: Deblock Case Studies | Neobanks Use Case Neobanks Region Europe Products Used Breez SDK - Spark Key Metric 300K+ users Who's Deblock?"
+      "provider": "openclaw-agent",
+      "title_original": "Breez SDK Case Study: Deblock, Instant Bitcoin at Scale",
+      "title_ru": "Кейс Breez SDK: Deblock и мгновенный Bitcoin в большом масштабе",
+      "description_ru": "Материал описывает тему «Кейс Breez SDK: Deblock и мгновенный Bitcoin в большом масштабе»."
     },
     {
       "id": "briefing_tech-1",
-      "title_ru": "HKUDS/AI-Trader - \"AI-Trader: 100% Fully-Automated Agent-Native Trading\"",
-      "description_ru": "Материал посвящён теме «HKUDS/AI-Trader - \"AI-Trader: 100% Fully-Automated Agent-Native Trading\"»."
+      "provider": "openclaw-agent",
+      "title_original": "HKUDS/AI-Trader - \"AI-Trader: 100% Fully-Automated Agent-Native Trading\"",
+      "title_ru": "Проект AI-Trader для полностью автоматизированной агентной торговли",
+      "description_ru": "Краткое описание материала о теме «HKUDS/AI-Trader - \"AI-Trader: 100% Fully-Automated Agent-Native Trading\"»."
     },
     {
       "id": "briefing_tech-2",
-      "title_ru": "AI was made for junk mail",
-      "description_ru": "Junk Mail Magic: The unsubscribe button for physical mail."
+      "provider": "openclaw-agent",
+      "title_original": "AI was made for junk mail",
+      "title_ru": "ИИ будто создан для бумажного спама",
+      "description_ru": "Материал описывает тему «ИИ будто создан для бумажного спама»."
     },
     {
       "id": "briefing_tech-3",
-      "title_ru": "I got tired of realizing \"discounts\" weren't discounts",
-      "description_ru": "Материал посвящён теме «I got tired of realizing \"discounts\" weren't discounts»."
+      "provider": "openclaw-agent",
+      "title_original": "I got tired of realizing \"discounts\" weren't discounts",
+      "title_ru": "Мне надоело понимать, что «скидки» на самом деле не скидки",
+      "description_ru": "Краткое описание материала о теме «Мне надоело понимать, что «скидки» на самом деле не скидки»."
     },
     {
       "id": "briefing_tech-4",
-      "title_ru": "Fear of layoffs what should I do?",
-      "description_ru": "Fear of layoffs what should I do?"
+      "provider": "openclaw-agent",
+      "title_original": "Fear of layoffs what should I do?",
+      "title_ru": "Страх увольнений: что мне делать?",
+      "description_ru": "Материал описывает тему «Страх увольнений: что мне делать?»."
     },
     {
       "id": "briefing_tech-5",
-      "title_ru": "NPM-Scan – Detects TanStack Worm, Beats Socket/Snyk (Local/BYOC)",
-      "description_ru": "GitHub - lateos-ai/npm-scan: Modern supply chain security for the npm ecosystem."
+      "provider": "openclaw-agent",
+      "title_original": "NPM-Scan – Detects TanStack Worm, Beats Socket/Snyk (Local/BYOC)",
+      "title_ru": "NPM-Scan — обнаруживает червя TanStack и превосходит Socket/Snyk",
+      "description_ru": "Материал описывает тему «NPM-Scan — обнаруживает червя TanStack и превосходит Socket/Snyk»."
     },
     {
       "id": "briefing_tech-6",
-      "title_ru": "Self-hosted AI memory with web dashboard – Cloudflare Workers, D1, Vectorize",
-      "description_ru": "GitHub - rahilp/second-brain-cloudflare: One memory layer, every AI tool."
+      "provider": "openclaw-agent",
+      "title_original": "Self-hosted AI memory with web dashboard – Cloudflare Workers, D1, Vectorize",
+      "title_ru": "Самостоятельно размещаемая память ИИ с веб-панелью на Cloudflare Workers, D1 и Vectorize",
+      "description_ru": "Материал описывает тему «Самостоятельно размещаемая память ИИ с веб-панелью на Cloudflare Workers, D1 и Vectorize»."
     },
     {
       "id": "briefing_tech-7",
-      "title_ru": "Show HN: I spent $100 in Claude tokens and 1k battles training my AI tank",
-      "description_ru": "Материал посвящён теме «Show HN: I spent $100 in Claude tokens and 1k battles training my AI tank»."
+      "provider": "openclaw-agent",
+      "title_original": "Show HN: I spent $100 in Claude tokens and 1k battles training my AI tank",
+      "title_ru": "Show HN: я потратил 100 долларов на токены Claude и тысячу боёв на обучение своего ИИ-танка",
+      "description_ru": "Краткое описание материала о теме «Show HN: я потратил 100 долларов на токены Claude и тысячу боёв на обучение своего ИИ-танка»."
     },
     {
       "id": "briefing_tech-8",
-      "title_ru": "Revisiting \"No Silver Bullets\" in the Age of AI",
-      "description_ru": "Материал посвящён теме «Revisiting \"No Silver Bullets\" in the Age of AI»."
+      "provider": "openclaw-agent",
+      "title_original": "Revisiting \"No Silver Bullets\" in the Age of AI",
+      "title_ru": "Новый взгляд на «No Silver Bullets» в эпоху ИИ",
+      "description_ru": "Краткое описание материала о теме «Новый взгляд на «No Silver Bullets» в эпоху ИИ»."
     },
     {
       "id": "briefing_tech-9",
-      "title_ru": "Ask HN: Is your kids Alexa now have conversational AI?",
-      "description_ru": "Ask HN: Is your kids Alexa now have conversational AI?"
+      "provider": "openclaw-agent",
+      "title_original": "Ask HN: Is your kids Alexa now have conversational AI?",
+      "title_ru": "Ask HN: у Alexa ваших детей уже появился разговорный ИИ?",
+      "description_ru": "Материал описывает тему «Ask HN: у Alexa ваших детей уже появился разговорный ИИ?»."
     },
     {
       "id": "briefing_tech-10",
-      "title_ru": "AI agents can self-replicate. Who is building for the human side?",
-      "description_ru": "Hugonomy Systems | VibeAI FoldSpace - Don't Outsource Your Mind The key moment The moment it happens."
+      "provider": "openclaw-agent",
+      "title_original": "AI agents can self-replicate. Who is building for the human side?",
+      "title_ru": "ИИ-агенты могут самовоспроизводиться. Кто строит решения для человеческой стороны?",
+      "description_ru": "Материал описывает тему «ИИ-агенты могут самовоспроизводиться. Кто строит решения для человеческой стороны?»."
     },
     {
       "id": "briefing_tech-11",
-      "title_ru": "How AI Killed a 133-Year-Old Princeton Tradition",
-      "description_ru": "Материал посвящён теме «How AI Killed a 133-Year-Old Princeton Tradition»."
+      "provider": "openclaw-agent",
+      "title_original": "How AI Killed a 133-Year-Old Princeton Tradition",
+      "title_ru": "Как ИИ убил 133-летнюю традицию Принстона",
+      "description_ru": "Краткое описание материала о теме «Как ИИ убил 133-летнюю традицию Принстона»."
     },
     {
       "id": "briefing_tech-12",
-      "title_ru": "The New York Times Got Caught Using AI Hallucinations in Its Reporting",
-      "description_ru": "Материал посвящён теме «The New York Times Got Caught Using AI Hallucinations in Its Reporting»."
+      "provider": "openclaw-agent",
+      "title_original": "The New York Times Got Caught Using AI Hallucinations in Its Reporting",
+      "title_ru": "The New York Times уличили в использовании галлюцинаций ИИ в своих материалах",
+      "description_ru": "Краткое описание материала о теме «The New York Times уличили в использовании галлюцинаций ИИ в своих материалах»."
     },
     {
       "id": "briefing_tech-13",
-      "title_ru": "AI shouldn't have a meter. Unlimited tokens. Forever",
-      "description_ru": "OpenMonoAgent.ai - Own Your AI Dev Stack v0.1 // open source · BETA AI shouldn't have a meter."
+      "provider": "openclaw-agent",
+      "title_original": "AI shouldn't have a meter. Unlimited tokens. Forever",
+      "title_ru": "У ИИ не должно быть счётчика: безлимитные токены навсегда",
+      "description_ru": "Материал описывает тему «У ИИ не должно быть счётчика: безлимитные токены навсегда»."
     },
     {
       "id": "briefing_tech-14",
-      "title_ru": "Show HN: Chrome extension that blocks API keys from being pasted into AI tools",
-      "description_ru": "Материал посвящён теме «Show HN: Chrome extension that blocks API keys from being pasted into AI tools»."
+      "provider": "openclaw-agent",
+      "title_original": "Show HN: Chrome extension that blocks API keys from being pasted into AI tools",
+      "title_ru": "Show HN: расширение Chrome, блокирующее вставку API-ключей в ИИ-инструменты",
+      "description_ru": "Краткое описание материала о теме «Show HN: расширение Chrome, блокирующее вставку API-ключей в ИИ-инструменты»."
     },
     {
       "id": "briefing_tech-15",
-      "title_ru": "Google users fight for refunds as unauthorized API usage bills soar",
-      "description_ru": "Google users fight for refunds as unauthorized API usage bills soar Jump to main content REG AD AI + ML Google users fight for refunds as unauthorized API usage bills soar 'What the hell is going on?"
+      "provider": "openclaw-agent",
+      "title_original": "Google users fight for refunds as unauthorized API usage bills soar",
+      "title_ru": "Пользователи Google добиваются возвратов на фоне роста счетов за несанкционированное использование API",
+      "description_ru": "Материал описывает тему «Пользователи Google добиваются возвратов на фоне роста счетов за несанкционированное использование API»."
     },
     {
       "id": "briefing_tech-16",
-      "title_ru": "Show HN: CLI and MCP for Suunto smartwatches data",
-      "description_ru": "GitHub - tajchert/suuntool: Unofficial CLI and MCP for the Suunto cloud API."
+      "provider": "openclaw-agent",
+      "title_original": "Show HN: CLI and MCP for Suunto smartwatches data",
+      "title_ru": "Show HN: CLI и MCP для данных умных часов Suunto",
+      "description_ru": "Материал описывает тему «Show HN: CLI и MCP для данных умных часов Suunto»."
     },
     {
       "id": "briefing_tech-17",
-      "title_ru": "Influential study touting ChatGPT in education retracted over red flags",
-      "description_ru": "Материал посвящён теме «Influential study touting ChatGPT in education retracted over red flags»."
+      "provider": "openclaw-agent",
+      "title_original": "Influential study touting ChatGPT in education retracted over red flags",
+      "title_ru": "Влиятельное исследование о пользе ChatGPT в образовании отозвали из-за тревожных сигналов",
+      "description_ru": "Краткое описание материала о теме «Влиятельное исследование о пользе ChatGPT в образовании отозвали из-за тревожных сигналов»."
     },
     {
       "id": "briefing_tech-18",
-      "title_ru": "Show HN: Outpainting Avatar: The Last Airbender from 4:3 to 16:9",
-      "description_ru": "@markjgx.bsky.social on Bluesky JavaScript Required This is a heavily interactive web application, and JavaScript is required."
+      "provider": "openclaw-agent",
+      "title_original": "Show HN: Outpainting Avatar: The Last Airbender from 4:3 to 16:9",
+      "title_ru": "Show HN: расширение кадров Avatar: The Last Airbender из 4:3 в 16:9",
+      "description_ru": "Материал описывает тему «Show HN: расширение кадров Avatar: The Last Airbender из 4:3 в 16:9»."
     },
     {
       "id": "briefing_tech-19",
-      "title_ru": "Zoom info charges 15k a year for business leads. I built an alternative using AI",
-      "description_ru": "DayOneLead: Fresh Business Leads, Delivered Daily Now tracking Florida and New York."
+      "provider": "openclaw-agent",
+      "title_original": "Zoom info charges 15k a year for business leads. I built an alternative using AI",
+      "title_ru": "ZoomInfo берёт 15 тысяч в год за бизнес-лиды, и я собрал альтернативу на ИИ",
+      "description_ru": "Материал описывает тему «ZoomInfo берёт 15 тысяч в год за бизнес-лиды, и я собрал альтернативу на ИИ»."
     },
     {
       "id": "briefing_tech-20",
-      "title_ru": "Mini Shai-Hulud Is Back: NPM Worm Hits over 160 Packages, Including Mistral",
-      "description_ru": "Материал посвящён теме «Mini Shai-Hulud Is Back: NPM Worm Hits over 160 Packages, Including Mistral»."
+      "provider": "openclaw-agent",
+      "title_original": "Mini Shai-Hulud Is Back: NPM Worm Hits over 160 Packages, Including Mistral",
+      "title_ru": "Mini Shai-Hulud вернулся: npm-червь затронул более 160 пакетов, включая Mistral",
+      "description_ru": "Краткое описание материала о теме «Mini Shai-Hulud вернулся: npm-червь затронул более 160 пакетов, включая Mistral»."
     },
     {
       "id": "briefing_tech-21",
-      "title_ru": "AI load breaks GitHub – why not other vendors?",
-      "description_ru": "The Pulse: AI load breaks GitHub – why not other vendors?"
+      "provider": "openclaw-agent",
+      "title_original": "AI load breaks GitHub – why not other vendors?",
+      "title_ru": "Нагрузка от ИИ ломает GitHub — почему не других вендоров?",
+      "description_ru": "Материал описывает тему «Нагрузка от ИИ ломает GitHub — почему не других вендоров?»."
     },
     {
       "id": "briefing_tech-22",
-      "title_ru": "In the Vacuum of AI Legislation, Libraries Have the Playbook",
-      "description_ru": "Материал посвящён теме «In the Vacuum of AI Legislation, Libraries Have the Playbook»."
+      "provider": "openclaw-agent",
+      "title_original": "In the Vacuum of AI Legislation, Libraries Have the Playbook",
+      "title_ru": "В вакууме законодательства об ИИ у библиотек уже есть план действий",
+      "description_ru": "Краткое описание материала о теме «В вакууме законодательства об ИИ у библиотек уже есть план действий»."
     },
     {
       "id": "briefing_tech-23",
-      "title_ru": "The newest AI boom pitch: Host a mini data center at your home",
-      "description_ru": "Материал посвящён теме «The newest AI boom pitch: Host a mini data center at your home»."
+      "provider": "openclaw-agent",
+      "title_original": "The newest AI boom pitch: Host a mini data center at your home",
+      "title_ru": "Новый питч эпохи ИИ-бума: разместите мини-дата-центр у себя дома",
+      "description_ru": "Краткое описание материала о теме «Новый питч эпохи ИИ-бума: разместите мини-дата-центр у себя дома»."
     },
     {
       "id": "briefing_tech-24",
-      "title_ru": "Show HN: Clodcapture – save and resume Claude.ai chats across sessions",
-      "description_ru": "Материал посвящён теме «Show HN: Clodcapture – save and resume Claude.ai chats across sessions»."
+      "provider": "openclaw-agent",
+      "title_original": "Show HN: Clodcapture – save and resume Claude.ai chats across sessions",
+      "title_ru": "Show HN: Clodcapture — сохранение и продолжение чатов Claude.ai между сессиями",
+      "description_ru": "Краткое описание материала о теме «Show HN: Clodcapture — сохранение и продолжение чатов Claude.ai между сессиями»."
     },
     {
       "id": "briefing_tech-25",
-      "title_ru": "Anything that is underneath the cursor gets fed into Google's surveillance AI",
-      "description_ru": "mcc: \"Looks like Chromebook is being replaced with some…\" - Mastodon To use the Mastodon web application, please enable JavaScript."
+      "provider": "openclaw-agent",
+      "title_original": "Anything that is underneath the cursor gets fed into Google's surveillance AI",
+      "title_ru": "Всё, что находится под курсором, отправляется в надзорный ИИ Google",
+      "description_ru": "Материал описывает тему «Всё, что находится под курсором, отправляется в надзорный ИИ Google»."
     },
     {
       "id": "briefing_tech-26",
-      "title_ru": "Loading/running every LLM with 4M ctx in 3 clicks",
-      "description_ru": "Материал посвящён теме «Loading/running every LLM with 4M ctx in 3 clicks»."
+      "provider": "openclaw-agent",
+      "title_original": "Loading/running every LLM with 4M ctx in 3 clicks",
+      "title_ru": "Запуск любой LLM с контекстом 4 млн токенов в три клика",
+      "description_ru": "Краткое описание материала о теме «Запуск любой LLM с контекстом 4 млн токенов в три клика»."
     },
     {
       "id": "briefing_tech-27",
-      "title_ru": "CloakHQ/CloakBrowser - Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
-      "description_ru": "GitHub - CloakHQ/CloakBrowser: Stealth Chromium that passes every bot detection test."
+      "provider": "openclaw-agent",
+      "title_original": "CloakHQ/CloakBrowser - Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+      "title_ru": "Проект CloakBrowser от CloakHQ",
+      "description_ru": "Материал описывает тему «CloakHQ/CloakBrowser - Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.»."
     },
     {
       "id": "briefing_tech-28",
-      "title_ru": "apernet/hysteria - Hysteria is a powerful, lightning fast and censorship resistant proxy.",
-      "description_ru": "GitHub - apernet/hysteria: Hysteria is a powerful, lightning fast and censorship resistant proxy."
+      "provider": "openclaw-agent",
+      "title_original": "apernet/hysteria - Hysteria is a powerful, lightning fast and censorship resistant proxy.",
+      "title_ru": "Прокси Hysteria от apernet",
+      "description_ru": "Материал описывает тему «apernet/hysteria - Hysteria is a powerful, lightning fast and censorship resistant proxy.»."
     },
     {
       "id": "briefing_tech-29",
-      "title_ru": "mattpocock/skills - Skills for Real Engineers. Straight from my .claude directory.",
-      "description_ru": "GitHub - mattpocock/skills: Skills for Real Engineers."
+      "provider": "openclaw-agent",
+      "title_original": "mattpocock/skills - Skills for Real Engineers. Straight from my .claude directory.",
+      "title_ru": "Репозиторий skills от mattpocock",
+      "description_ru": "Материал описывает тему «mattpocock/skills - Skills for Real Engineers. Straight from my .claude directory.»."
     },
     {
       "id": "briefing_tech-30",
-      "title_ru": "anonfaded/FadCam - Open-source, ad-free Android multimedia recorder with background video recording, screen recording, live streaming, and remote camera control",
-      "description_ru": "Материал посвящён теме «anonfaded/FadCam - Open-source, ad-free Android multimedia recorder with background video recording, screen recording, live streaming, and remote camera control»."
+      "provider": "openclaw-agent",
+      "title_original": "anonfaded/FadCam - Open-source, ad-free Android multimedia recorder with background video recording, screen recording, live streaming, and remote camera control",
+      "title_ru": "Приложение FadCam с открытым исходным кодом для Android",
+      "description_ru": "Краткое описание материала о теме «anonfaded/FadCam - Open-source, ad-free Android multimedia recorder with background video recording, screen recording, live streaming, and remote camera control»."
     },
     {
       "id": "briefing_tech-31",
-      "title_ru": "datawhalechina/hello-agents - 📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
-      "description_ru": "Материал посвящён теме «datawhalechina/hello-agents - 📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程»."
+      "provider": "openclaw-agent",
+      "title_original": "datawhalechina/hello-agents - 📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
+      "title_ru": "Учебник hello-agents по созданию интеллектуальных агентов с нуля",
+      "description_ru": "Краткое описание материала о теме «datawhalechina/hello-agents - 📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程»."
     },
     {
       "id": "briefing_tech-32",
-      "title_ru": "Klyxshot",
-      "description_ru": "Материал посвящён теме «Klyxshot»."
+      "provider": "openclaw-agent",
+      "title_original": "Klyxshot",
+      "title_ru": "Продукт Klyxshot",
+      "description_ru": "Краткое описание материала о теме «Klyxshot»."
     },
     {
       "id": "briefing_tech-33",
-      "title_ru": "ARKAD Wallet",
-      "description_ru": "Материал посвящён теме «ARKAD Wallet»."
+      "provider": "openclaw-agent",
+      "title_original": "ARKAD Wallet",
+      "title_ru": "Кошелёк ARKAD Wallet",
+      "description_ru": "Краткое описание материала о теме «ARKAD Wallet»."
     },
     {
       "id": "briefing_tech-34",
-      "title_ru": "MusicMinutes",
-      "description_ru": "Материал посвящён теме «MusicMinutes»."
+      "provider": "openclaw-agent",
+      "title_original": "MusicMinutes",
+      "title_ru": "Сервис MusicMinutes",
+      "description_ru": "Краткое описание материала о теме «MusicMinutes»."
     },
     {
       "id": "briefing_tech-35",
-      "title_ru": "Hyperswitch Prism",
-      "description_ru": "Материал посвящён теме «Hyperswitch Prism»."
+      "provider": "openclaw-agent",
+      "title_original": "Hyperswitch Prism",
+      "title_ru": "Платформа Hyperswitch Prism",
+      "description_ru": "Краткое описание материала о теме «Hyperswitch Prism»."
     },
     {
       "id": "briefing_tech-36",
-      "title_ru": "EmailTemple",
-      "description_ru": "Материал посвящён теме «EmailTemple»."
+      "provider": "openclaw-agent",
+      "title_original": "EmailTemple",
+      "title_ru": "Сервис EmailTemple",
+      "description_ru": "Краткое описание материала о теме «EmailTemple»."
     },
     {
       "id": "briefing_tech-37",
-      "title_ru": "knooth",
-      "description_ru": "Материал посвящён теме «knooth»."
+      "provider": "openclaw-agent",
+      "title_original": "knooth",
+      "title_ru": "Проект knooth",
+      "description_ru": "Краткое описание материала о теме «knooth»."
     },
     {
       "id": "briefing_tech-38",
-      "title_ru": "Khaos Brain",
-      "description_ru": "Материал посвящён теме «Khaos Brain»."
+      "provider": "openclaw-agent",
+      "title_original": "Khaos Brain",
+      "title_ru": "Проект Khaos Brain",
+      "description_ru": "Краткое описание материала о теме «Khaos Brain»."
     },
     {
       "id": "briefing_tech-39",
-      "title_ru": "Auvylo",
-      "description_ru": "Материал посвящён теме «Auvylo»."
+      "provider": "openclaw-agent",
+      "title_original": "Auvylo",
+      "title_ru": "Проект Auvylo",
+      "description_ru": "Краткое описание материала о теме «Auvylo»."
     },
     {
       "id": "briefing_tech-40",
-      "title_ru": "Whale Starts",
-      "description_ru": "Материал посвящён теме «Whale Starts»."
+      "provider": "openclaw-agent",
+      "title_original": "Whale Starts",
+      "title_ru": "Проект Whale Starts",
+      "description_ru": "Краткое описание материала о теме «Whale Starts»."
     },
     {
       "id": "briefing_tech-41",
-      "title_ru": "MY AI Agent",
-      "description_ru": "Материал посвящён теме «MY AI Agent»."
+      "provider": "openclaw-agent",
+      "title_original": "MY AI Agent",
+      "title_ru": "Проект MY AI Agent",
+      "description_ru": "Краткое описание материала о теме «MY AI Agent»."
     },
     {
       "id": "briefing_social-1",
+      "provider": "openclaw-agent",
+      "title_original": "被多梦困扰的十几年",
       "title_ru": "被多梦困扰的十几年",
-      "description_ru": "Материал посвящён теме «被多梦困扰的十几年»."
+      "description_ru": "Краткое описание материала о теме «被多梦困扰的十几年»."
     },
     {
       "id": "briefing_social-2",
-      "title_ru": "我身边同事也在用的满血中转 codex ：发放福利分组名额 数量有限，先到先得",
-      "description_ru": "Материал посвящён теме «我身边同事也在用的满血中转 codex ：发放福利分组名额 数量有限，先到先得»."
+      "provider": "openclaw-agent",
+      "title_original": "我身边同事也在用的满血中转 codex ：发放福利分组名额 数量有限，先到先得",
+      "title_ru": "Полноценный посреднический codex, которым пользуются коллеги автора",
+      "description_ru": "Краткое описание материала о теме «我身边同事也在用的满血中转 codex ：发放福利分组名额 数量有限，先到先得»."
     },
     {
       "id": "briefing_social-3",
-      "title_ru": "感觉 AI Coding 比古法编程累多了",
-      "description_ru": "Материал посвящён теме «感觉 AI Coding 比古法编程累多了»."
+      "provider": "openclaw-agent",
+      "title_original": "感觉 AI Coding 比古法编程累多了",
+      "title_ru": "Ощущение, что AI Coding утомляет сильнее классического программирования",
+      "description_ru": "Краткое описание материала о теме «感觉 AI Coding 比古法编程累多了»."
     },
     {
       "id": "briefing_social-4",
-      "title_ru": "mihomo 接入 tailscale",
-      "description_ru": "Материал посвящён теме «mihomo 接入 tailscale»."
+      "provider": "openclaw-agent",
+      "title_original": "mihomo 接入 tailscale",
+      "title_ru": "Интеграция mihomo с tailscale",
+      "description_ru": "Краткое описание материала о теме «mihomo 接入 tailscale»."
     },
     {
       "id": "briefing_social-5",
-      "title_ru": "NET 已死",
-      "description_ru": "Материал посвящён теме «NET 已死»."
+      "provider": "openclaw-agent",
+      "title_original": "NET 已死",
+      "title_ru": "Дискуссия «NET 已死»",
+      "description_ru": "Краткое описание материала о теме «NET 已死»."
     },
     {
       "id": "briefing_social-6",
-      "title_ru": "做了个赛博斗蛐蛐：让 AI 写坦克逻辑，然后看它上战场",
-      "description_ru": "Материал посвящён теме «做了个赛博斗蛐蛐：让 AI 写坦克逻辑，然后看它上战场»."
+      "provider": "openclaw-agent",
+      "title_original": "做了个赛博斗蛐蛐：让 AI 写坦克逻辑，然后看它上战场",
+      "title_ru": "Автор сделал кибербитву танков, где ИИ пишет логику боя",
+      "description_ru": "Краткое описание материала о теме «做了个赛博斗蛐蛐：让 AI 写坦克逻辑，然后看它上战场»."
     },
     {
       "id": "briefing_social-7",
-      "title_ru": "给 V2EX 加了个「主题关键词屏蔽」，大家不用天天看中转站广告了",
-      "description_ru": "Материал посвящён теме «给 V2EX 加了个「主题关键词屏蔽」，大家不用天天看中转站广告了»."
+      "provider": "openclaw-agent",
+      "title_original": "给 V2EX 加了个「主题关键词屏蔽」，大家不用天天看中转站广告了",
+      "title_ru": "Для V2EX добавили фильтр по ключевым словам тем",
+      "description_ru": "Краткое описание материала о теме «给 V2EX 加了个「主题关键词屏蔽」，大家不用天天看中转站广告了»."
     },
     {
       "id": "briefing_social-8",
+      "provider": "openclaw-agent",
+      "title_original": "原来追觅做了这么多，是想崩地方国资的钱。",
       "title_ru": "原来追觅做了这么多，是想崩地方国资的钱。",
-      "description_ru": "原来追觅做了这么多，是想崩地方国资的钱."
+      "description_ru": "Материал описывает тему «原来追觅做了这么多，是想崩地方国资的钱。»."
     },
     {
       "id": "briefing_social-9",
+      "provider": "openclaw-agent",
+      "title_original": "体制内去医院看神经内科",
       "title_ru": "体制内去医院看神经内科",
-      "description_ru": "Материал посвящён теме «体制内去医院看神经内科»."
+      "description_ru": "Краткое описание материала о теме «体制内去医院看神经内科»."
     },
     {
       "id": "briefing_social-10",
-      "title_ru": "小米路由器 AX3000T 两年半使用体验(差一点就成为米粉了，换华为路由器了！)",
-      "description_ru": "Материал посвящён теме «小米路由器 AX3000T 两年半使用体验(差一点就成为米粉了，换华为路由器了.)»."
+      "provider": "openclaw-agent",
+      "title_original": "小米路由器 AX3000T 两年半使用体验(差一点就成为米粉了，换华为路由器了！)",
+      "title_ru": "Опыт использования роутера Xiaomi AX3000T в течение двух с половиной лет",
+      "description_ru": "Краткое описание материала о теме «小米路由器 AX3000T 两年半使用体验(差一点就成为米粉了，换华为路由器了！)»."
     },
     {
       "id": "briefing_ai_daily-1",
-      "title_ru": "Sign of the future: GPT-5.5",
-      "description_ru": "I had early access to GPT-5.5 1 , and I think it is a big deal."
+      "provider": "openclaw-agent",
+      "title_original": "Sign of the future: GPT-5.5",
+      "title_ru": "Признак будущего: GPT-5.5",
+      "description_ru": "Материал описывает тему «Sign of the future: GPT-5.5»."
     },
     {
       "id": "briefing_ai_daily-2",
-      "title_ru": "Claude Dispatch and the Power of Interfaces",
-      "description_ru": "AIs are already far more capable than most people realize."
+      "provider": "openclaw-agent",
+      "title_original": "Claude Dispatch and the Power of Interfaces",
+      "title_ru": "Claude Dispatch и сила интерфейсов",
+      "description_ru": "Материал описывает тему «Claude Dispatch and the Power of Interfaces»."
     },
     {
       "id": "briefing_ai_daily-3",
-      "title_ru": "The Shape of the Thing",
-      "description_ru": "In October of 2023, I wrote about the “Shape of the Shadow of the Thing,” speculating on the Thing that AI might turn into in the coming years."
+      "provider": "openclaw-agent",
+      "title_original": "The Shape of the Thing",
+      "title_ru": "Форма самой вещи",
+      "description_ru": "Материал описывает тему «The Shape of the Thing»."
     },
     {
       "id": "briefing_ai_daily-4",
-      "title_ru": "How open model ecosystems compound",
-      "description_ru": "Note: Voice-overs for paywalled posts are available for paid subscribes in podcast apps if you click on settings on Interconnects, then manage your description."
+      "provider": "openclaw-agent",
+      "title_original": "How open model ecosystems compound",
+      "title_ru": "Как экосистемы открытых моделей усиливают сами себя",
+      "description_ru": "Материал описывает тему «How open model ecosystems compound»."
     },
     {
       "id": "briefing_ai_daily-5",
-      "title_ru": "Notes from inside China's AI labs",
-      "description_ru": "Staring out the window on a new, high-speed train from Hangzhou to Shanghai I’m gifted with views of dramatic ridgelines speckled with wind turbines that are silhouetted against the setting sun."
+      "provider": "openclaw-agent",
+      "title_original": "Notes from inside China's AI labs",
+      "title_ru": "Заметки изнутри китайских ИИ-лабораторий",
+      "description_ru": "Материал описывает тему «Notes from inside China's AI labs»."
     },
     {
       "id": "briefing_ai_daily-6",
-      "title_ru": "The distillation panic",
-      "description_ru": "‘Distillation attacks’ is a horrible term for what is happening right now."
+      "provider": "openclaw-agent",
+      "title_original": "The distillation panic",
+      "title_ru": "Паника вокруг дистилляции",
+      "description_ru": "Материал описывает тему «The distillation panic»."
     },
     {
       "id": "briefing_ai_daily-7",
-      "title_ru": "Learn the system",
-      "description_ru": "Hey folks, I watched this this morning; ‘Agentic coding is a trap — and we all fell for it’ - it’s surprising relevant past just developers."
+      "provider": "openclaw-agent",
+      "title_original": "Learn the system",
+      "title_ru": "Изучите систему",
+      "description_ru": "Материал описывает тему «Изучите систему»."
     },
     {
       "id": "briefing_ai_daily-8",
-      "title_ru": "Ben's Builds #3 - an email app",
-      "description_ru": "Hey folks, I had some time to build this week and I mentioned I’d go into a bit more detail on how I did it."
+      "provider": "openclaw-agent",
+      "title_original": "Ben's Builds #3 - an email app",
+      "title_ru": "Сборки Бена №3 — почтовое приложение",
+      "description_ru": "Материал описывает тему «Сборки Бена №3 — почтовое приложение»."
     },
     {
       "id": "briefing_ai_daily-9",
-      "title_ru": "Elon doubled limits",
-      "description_ru": "Hey folks, I’m a professional procrastinator — I need to ship this course and re-write my fundraising deck for fund II, buuuut yesterday I finally built something I’ve wanted for a while."
+      "provider": "openclaw-agent",
+      "title_original": "Elon doubled limits",
+      "title_ru": "Илон удвоил лимиты",
+      "description_ru": "Материал описывает тему «Илон удвоил лимиты»."
     },
     {
       "id": "briefing_ai_daily-10",
-      "title_ru": "ChinAI #357: AI Surveillance in Chinese Universities",
-      "description_ru": "Greetings from a world where… one must weigh every word with care [字斟句酌] …As always, the searchable archive of all past issues is here ."
+      "provider": "openclaw-agent",
+      "title_original": "ChinAI #357: AI Surveillance in Chinese Universities",
+      "title_ru": "ChinAI #357: ИИ-наблюдение в китайских университетах",
+      "description_ru": "Материал описывает тему «ChinAI #357: ИИ-наблюдение в китайских университетах»."
     },
     {
       "id": "briefing_ai_daily-11",
-      "title_ru": "ChinAI #356: DeepSeek as Road Builder [修路人]",
-      "description_ru": "Greetings from a world where… Jeopardy is still appointment viewing during this streak …As always, the searchable archive of all past issues is here ."
+      "provider": "openclaw-agent",
+      "title_original": "ChinAI #356: DeepSeek as Road Builder [修路人]",
+      "title_ru": "ChinAI #356: DeepSeek как «строитель дорог» [修路人]",
+      "description_ru": "Материал описывает тему «ChinAI #356: DeepSeek как «строитель дорог» [修路人]»."
     },
     {
       "id": "briefing_ai_daily-12",
-      "title_ru": "AI to ROI Big Story: Work as a Service - The Holy Grail of AI Business Models",
-      "description_ru": "AI Becomes a Worker The global software market is $1.4 trillion."
+      "provider": "openclaw-agent",
+      "title_original": "AI to ROI Big Story: Work as a Service - The Holy Grail of AI Business Models",
+      "title_ru": "AI to ROI: работа как сервис — святой Грааль бизнес-моделей ИИ",
+      "description_ru": "Материал описывает тему «AI to ROI: работа как сервис — святой Грааль бизнес-моделей ИИ»."
     },
     {
       "id": "briefing_ai_daily-13",
-      "title_ru": "AI to ROI News & Analysis: May 8, 2026",
-      "description_ru": "Th e Biggest AI News This Week This week’s AI to ROI newsletter is brought to you by Mavvrik , the cost governance platform for the AI era."
+      "provider": "openclaw-agent",
+      "title_original": "AI to ROI News & Analysis: May 8, 2026",
+      "title_ru": "AI to ROI: новости и анализ за 8 мая 2026 года",
+      "description_ru": "Материал описывает тему «AI to ROI: новости и анализ за 8 мая 2026 года»."
     },
     {
       "id": "briefing_ai_daily-14",
-      "title_ru": "AI to ROI Reports & Data: The State of the Global Workplace by Gallup",
-      "description_ru": "The State of the Global Workplace from Gallup Shows the Human Side of AI About the Publication and Authors The “ State of the Global Workplace: The Human Side of the AI Revolution ” is published by Gallup, Inc."
+      "provider": "openclaw-agent",
+      "title_original": "AI to ROI Reports & Data: The State of the Global Workplace by Gallup",
+      "title_ru": "AI to ROI: отчёты и данные — состояние глобального рынка труда по версии Gallup",
+      "description_ru": "Материал описывает тему «AI to ROI: отчёты и данные — состояние глобального рынка труда по версии Gallup»."
     }
   ]
 }

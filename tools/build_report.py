@@ -73,7 +73,10 @@ def main() -> None:
         run("merge_ai_output.py", "--date", args.date)
 
     run("render_static_report.py", "--date", args.date)
-    run("validate_report.py", *shared)
+    validate_args = [*shared]
+    if args.mode == "publish-ai":
+        validate_args.append("--strict-translations")
+    run("validate_report.py", *validate_args)
     run("update_archive.py", "--latest-date", args.date)
 
 
