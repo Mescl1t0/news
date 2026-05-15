@@ -1,0 +1,1456 @@
+{
+  "date": "2026-05-15",
+  "task": "For every item keep title_original unchanged, add a natural Russian translation into title_ru, and write exactly one short neutral Russian sentence into description_ru. Translate from English, Chinese, or any other non-Russian source language. Do not leave non-Russian or placeholder text in title_ru/description_ru. Return ai_output schema only.",
+  "output_schema": {
+    "items": [
+      {
+        "id": "same id from input",
+        "title_original": "same original title from input",
+        "title_ru": "natural Russian headline",
+        "description_ru": "exactly one neutral Russian sentence"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hackernews",
+      "title": "Hacker News",
+      "items": [
+        {
+          "id": "hackernews-1",
+          "section_id": "hackernews",
+          "title_original": "Mullvad exit IPs are surprisingly identifying",
+          "snippet": "Материал посвящён теме «Mullvad exit IPs are surprisingly identifying»."
+        },
+        {
+          "id": "hackernews-2",
+          "section_id": "hackernews",
+          "title_original": "Removing the modem and GPS from my 2024 RAV4 hybrid",
+          "snippet": "Материал посвящён теме «Removing the modem and GPS from my 2024 RAV4 hybrid»."
+        },
+        {
+          "id": "hackernews-3",
+          "section_id": "hackernews",
+          "title_original": "A few words on DS4",
+          "snippet": "Материал посвящён теме «A few words on DS4»."
+        },
+        {
+          "id": "hackernews-4",
+          "section_id": "hackernews",
+          "title_original": "First public macOS kernel memory corruption exploit on Apple M5",
+          "snippet": "Материал посвящён теме «First public macOS kernel memory corruption exploit on Apple M5»."
+        },
+        {
+          "id": "hackernews-5",
+          "section_id": "hackernews",
+          "title_original": "RTX 5090 and M4 MacBook Air: Can It Game?",
+          "snippet": "Материал посвящён теме «RTX 5090 and M4 MacBook Air: Can It Game?»."
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "title": "GitHub Trending",
+      "items": [
+        {
+          "id": "github-1",
+          "section_id": "github",
+          "title_original": "ruvnet/RuView - π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+          "snippet": "Материал посвящён теме «ruvnet/RuView - π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.»."
+        },
+        {
+          "id": "github-2",
+          "section_id": "github",
+          "title_original": "tinyhumansai/openhuman - Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+          "snippet": "Материал посвящён теме «tinyhumansai/openhuman - Your Personal AI super intelligence. Private, Simple and extremely powerful.»."
+        },
+        {
+          "id": "github-3",
+          "section_id": "github",
+          "title_original": "rohitg00/agentmemory - #1 Persistent memory for AI coding agents based on real-world benchmarks",
+          "snippet": "Материал посвящён теме «rohitg00/agentmemory - #1 Persistent memory for AI coding agents based on real-world benchmarks»."
+        },
+        {
+          "id": "github-4",
+          "section_id": "github",
+          "title_original": "obra/superpowers - An agentic skills framework & software development methodology that works.",
+          "snippet": "Материал посвящён теме «obra/superpowers - An agentic skills framework & software development methodology that works.»."
+        },
+        {
+          "id": "github-5",
+          "section_id": "github",
+          "title_original": "K-Dense-AI/scientific-agent-skills - A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+          "snippet": "Материал посвящён теме «K-Dense-AI/scientific-agent-skills - A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.»."
+        }
+      ]
+    },
+    {
+      "id": "producthunt",
+      "title": "Product Hunt",
+      "items": [
+        {
+          "id": "producthunt-1",
+          "section_id": "producthunt",
+          "title_original": "Tendem by Toloka",
+          "snippet": "Материал посвящён теме «Tendem by Toloka»."
+        },
+        {
+          "id": "producthunt-2",
+          "section_id": "producthunt",
+          "title_original": "Spellar 3.0",
+          "snippet": "Материал посвящён теме «Spellar 3.0»."
+        },
+        {
+          "id": "producthunt-3",
+          "section_id": "producthunt",
+          "title_original": "MobileCLI",
+          "snippet": "Материал посвящён теме «MobileCLI»."
+        },
+        {
+          "id": "producthunt-4",
+          "section_id": "producthunt",
+          "title_original": "Openclaw OS",
+          "snippet": "Материал посвящён теме «Openclaw OS»."
+        },
+        {
+          "id": "producthunt-5",
+          "section_id": "producthunt",
+          "title_original": "Open Browser Use",
+          "snippet": "Материал посвящён теме «Open Browser Use»."
+        }
+      ]
+    },
+    {
+      "id": "latentspace_ainews",
+      "title": "Latent Space AINews",
+      "items": [
+        {
+          "id": "latentspace_ainews-1",
+          "section_id": "latentspace_ainews",
+          "title_original": "[AINews] Everything is Conductor",
+          "snippet": "an ultra quiet day lets us highlight a smaller trend."
+        },
+        {
+          "id": "latentspace_ainews-2",
+          "section_id": "latentspace_ainews",
+          "title_original": "[AINews] Codex Rises, Claude Meters Programmatic Usage",
+          "snippet": "a quiet day lets us report on a long trend of the major coding agents."
+        },
+        {
+          "id": "latentspace_ainews-3",
+          "section_id": "latentspace_ainews",
+          "title_original": "[AINews] The End of Finetuning",
+          "snippet": "a quiet day lets us reflect on whither finetuning."
+        },
+        {
+          "id": "latentspace_ainews-4",
+          "section_id": "latentspace_ainews",
+          "title_original": "[AINews] Thinking Machines' Native Interaction Models - TML-Interaction-Small 276B-A12B - advances SOTA Realtime Voice and kills standard VAD",
+          "snippet": "well done, Team Thinky."
+        },
+        {
+          "id": "latentspace_ainews-5",
+          "section_id": "latentspace_ainews",
+          "title_original": "[AINews] Anthropic growing 10x/year while everyone else is laying off >10% of their workforce",
+          "snippet": "A quiet day lets us reflect on an interesting dichotomy in the economy."
+        }
+      ]
+    },
+    {
+      "id": "oneusefulthing",
+      "title": "One Useful Thing",
+      "items": [
+        {
+          "id": "oneusefulthing-1",
+          "section_id": "oneusefulthing",
+          "title_original": "Sign of the future: GPT-5.5",
+          "snippet": "I had early access to GPT-5.5 1 , and I think it is a big deal."
+        },
+        {
+          "id": "oneusefulthing-2",
+          "section_id": "oneusefulthing",
+          "title_original": "Claude Dispatch and the Power of Interfaces",
+          "snippet": "AIs are already far more capable than most people realize."
+        },
+        {
+          "id": "oneusefulthing-3",
+          "section_id": "oneusefulthing",
+          "title_original": "The Shape of the Thing",
+          "snippet": "In October of 2023, I wrote about the “Shape of the Shadow of the Thing,” speculating on the Thing that AI might turn into in the coming years."
+        },
+        {
+          "id": "oneusefulthing-4",
+          "section_id": "oneusefulthing",
+          "title_original": "A Guide to Which AI to Use in the Agentic Era",
+          "snippet": "I have written eight of these guides since ChatGPT came out, but this version represents a very large break with the past, because what it means to “use AI” has changed dramatically."
+        },
+        {
+          "id": "oneusefulthing-5",
+          "section_id": "oneusefulthing",
+          "title_original": "Management as AI superpower",
+          "snippet": "I just taught an experimental class at the University of Pennsylvania where I challenged students to create a startup from scratch in four days."
+        }
+      ]
+    },
+    {
+      "id": "interconnects",
+      "title": "Interconnects",
+      "items": [
+        {
+          "id": "interconnects-1",
+          "section_id": "interconnects",
+          "title_original": "How open model ecosystems compound",
+          "snippet": "Note: Voice-overs for paywalled posts are available for paid subscribes in podcast apps if you click on settings on Interconnects, then manage your description."
+        },
+        {
+          "id": "interconnects-2",
+          "section_id": "interconnects",
+          "title_original": "Notes from inside China's AI labs",
+          "snippet": "Staring out the window on a new, high-speed train from Hangzhou to Shanghai I’m gifted with views of dramatic ridgelines speckled with wind turbines that are silhouetted against the setting sun."
+        },
+        {
+          "id": "interconnects-3",
+          "section_id": "interconnects",
+          "title_original": "The distillation panic",
+          "snippet": "‘Distillation attacks’ is a horrible term for what is happening right now."
+        },
+        {
+          "id": "interconnects-4",
+          "section_id": "interconnects",
+          "title_original": "Reading today's open-closed performance gap",
+          "snippet": "It’s a clear, current equilibrium that open models will be in perpetual catch-up of closed models , but this gap being viewed as a single number, a “distance”, covers up a nuanced and crucial dynamic at what capabilities the models are covering."
+        },
+        {
+          "id": "interconnects-5",
+          "section_id": "interconnects",
+          "title_original": "My bets on open models, mid-2026",
+          "snippet": "We’re living through the period of time when we’ll learn if open models can keep up with closed labs."
+        }
+      ]
+    },
+    {
+      "id": "latentspace",
+      "title": "Latent Space Podcast",
+      "items": [
+        {
+          "id": "latentspace-1",
+          "section_id": "latentspace",
+          "title_original": "[AINews] Everything is Conductor",
+          "snippet": "If you’re interested in how AI is improving Healthcare, tune in to our first pod on it out today, and if you want to meet other top engineers in the field, apply to speak !"
+        },
+        {
+          "id": "latentspace-2",
+          "section_id": "latentspace",
+          "title_original": "AI-Native Healthcare: 100M Doctor Visits, 10–20 Hours Saved, Prior Auth in Minutes — Janie Lee & Chai Asawa, Abridge",
+          "snippet": "Special discounts up for AIE Melbourne ( LS discount ) and AIE World’s Fair (group discounts up to 25% - CFPs still open for Autoresearch and Vertical AI ) Cya there!"
+        },
+        {
+          "id": "latentspace-3",
+          "section_id": "latentspace",
+          "title_original": "[AINews] Codex Rises, Claude Meters Programmatic Usage",
+          "snippet": "It has been a tale of two cities in the past 3 weeks since the launch of GPT 5.5; while the finance folks fall in love with Anthropic’s growth and CFO ahead of its likely October IPO, there has been a notable rise in pro-Codex sentiment among AI Engineers,…"
+        },
+        {
+          "id": "latentspace-4",
+          "section_id": "latentspace",
+          "title_original": "[AINews] The End of Finetuning",
+          "snippet": "The proximal cause of today’s op-ed is OpenAI’s deprecation of their finetuning APIs."
+        },
+        {
+          "id": "latentspace-5",
+          "section_id": "latentspace",
+          "title_original": "[AINews] Thinking Machines' Native Interaction Models - TML-Interaction-Small 276B-A12B - advances SOTA Realtime Voice and kills standard VAD",
+          "snippet": "By complete coincidence, the day we released Neil Zeghidour (CEO of Gradium, the for profit spinoff of the vaunted Kyutai Moshi )’s talk on what remains to be built for realtime voice, Thinking Machines emerged for only the third time in a ~year (despite mu…"
+        }
+      ]
+    },
+    {
+      "id": "briefing_general",
+      "title": "Общий утренний брифинг",
+      "items": [
+        {
+          "id": "briefing_general-1",
+          "section_id": "briefing_general",
+          "title_original": "Tendem by Toloka",
+          "snippet": "Материал посвящён теме «Tendem by Toloka»."
+        },
+        {
+          "id": "briefing_general-2",
+          "section_id": "briefing_general",
+          "title_original": "Spellar 3.0",
+          "snippet": "Материал посвящён теме «Spellar 3.0»."
+        },
+        {
+          "id": "briefing_general-3",
+          "section_id": "briefing_general",
+          "title_original": "MobileCLI",
+          "snippet": "Материал посвящён теме «MobileCLI»."
+        },
+        {
+          "id": "briefing_general-4",
+          "section_id": "briefing_general",
+          "title_original": "Openclaw OS",
+          "snippet": "Материал посвящён теме «Openclaw OS»."
+        },
+        {
+          "id": "briefing_general-5",
+          "section_id": "briefing_general",
+          "title_original": "Open Browser Use",
+          "snippet": "Материал посвящён теме «Open Browser Use»."
+        },
+        {
+          "id": "briefing_general-6",
+          "section_id": "briefing_general",
+          "title_original": "ruvnet/RuView - π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+          "snippet": "GitHub - ruvnet/RuView: π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video."
+        },
+        {
+          "id": "briefing_general-7",
+          "section_id": "briefing_general",
+          "title_original": "tinyhumansai/openhuman - Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+          "snippet": "GitHub - tinyhumansai/openhuman: Your Personal AI super intelligence."
+        },
+        {
+          "id": "briefing_general-8",
+          "section_id": "briefing_general",
+          "title_original": "rohitg00/agentmemory - #1 Persistent memory for AI coding agents based on real-world benchmarks",
+          "snippet": "GitHub - rohitg00/agentmemory: #1 Persistent memory for AI coding agents based on real-world benchmarks · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_general-9",
+          "section_id": "briefing_general",
+          "title_original": "obra/superpowers - An agentic skills framework & software development methodology that works.",
+          "snippet": "GitHub - obra/superpowers: An agentic skills framework & software development methodology that works."
+        },
+        {
+          "id": "briefing_general-10",
+          "section_id": "briefing_general",
+          "title_original": "K-Dense-AI/scientific-agent-skills - A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+          "snippet": "GitHub - K-Dense-AI/scientific-agent-skills: A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing."
+        },
+        {
+          "id": "briefing_general-11",
+          "section_id": "briefing_general",
+          "title_original": "习近平为美国总统特朗普举行欢迎宴会",
+          "snippet": "独家视频丨习近平为美国总统特朗普举行欢迎宴会_腾讯新闻 独家视频丨习近平为美国总统特朗普举行欢迎宴会 央视新闻 2026-05-14 19:20 发布于 北京 中央广播电视总台央视新闻官方账号 5月14日晚，国家主席习近平在北京人民大会堂举行宴会，欢迎美国总统特朗普访华。 人民大会堂金色大厅华灯璀璨，两国元首先后发表致辞。 习近平指出，今年是中国“十五五”开局之年，14亿多中国人民立足5000多年中华文明深厚基础，正在以高质量发展全面推进中国式现代化。今年也是美国独立250周年，3亿多美国人民正在重振爱国、创…"
+        },
+        {
+          "id": "briefing_general-12",
+          "section_id": "briefing_general",
+          "title_original": "特朗普：美国最高法院门楣上刻着孔子雕像，我们感到无比荣幸",
+          "snippet": "特朗普：美国最高法院门楣上刻着孔子雕像，我们感到无比荣幸_腾讯新闻 特朗普：美国最高法院门楣上刻着孔子雕像，我们感到无比荣幸 中国新闻网 2026-05-14 20:37 发布于 北京 中国新闻网官方账号 编者按 14日晚，国家主席习近平在人民大会堂金色大厅为美国总统特朗普举行欢迎宴会。特朗普致辞中时提及，孔子雕像被镌刻在美国最高法院的门楣。 美国最高法院门楣为何有孔子像？中新社“东西问”曾就此专访美国汉学家万百安，对此作出独家解读。特重刊此文。 中新社记者 陈孟统 美国最高法院大楼建成于1935年，由美国建…"
+        },
+        {
+          "id": "briefing_general-13",
+          "section_id": "briefing_general",
+          "title_original": "马斯克高呼“太棒”，黄仁勋竖起大拇指",
+          "snippet": "马斯克高呼“太棒”，黄仁勋竖起大拇指_腾讯新闻 马斯克高呼“太棒”，黄仁勋竖起大拇指 中国新闻周刊 2026-05-14 18:20 发布于 北京 中国新闻周刊官方账号 问AI · 商界领袖随行如何预示中美经贸新机遇？ 5月14日上午，国家主席习近平在北京人民大会堂同来华进行国事访问的美国总统特朗普举行会谈。会谈用时超过2小时15分钟。 习近平强调，中美之间的共同利益大于分歧，中美各自成功是彼此的机遇，中美关系稳定是世界的利好。双方应当做伙伴而不是对手，相互成就、共同繁荣，走出一条新时代大国正确相处之道。我期…"
+        },
+        {
+          "id": "briefing_general-14",
+          "section_id": "briefing_general",
+          "title_original": "克宫：普京即将访华，具体日期近期公布",
+          "snippet": "克宫：普京即将访华，具体日期近期公布_腾讯新闻 克宫：普京即将访华，具体日期近期公布 观察者网 2026-05-14 19:53 发布于 上海 观察者网官方账号 问AI · 普京为何选择此时进行新任期内首次访华？ 据塔斯社报道，俄罗斯总统新闻秘书佩斯科夫14日在新闻发布会上表示，俄罗斯总统普京即将访华，具体日期将于近期公布。 佩斯科夫介绍，“我们很快就会公布日期。这次访问正在筹备中。可以说，准备工作已经完成，我们在做最后的收尾工作。访问很快就会成行。” 本文系观察者网独家稿件，未经授权，不得转载。."
+        },
+        {
+          "id": "briefing_general-15",
+          "section_id": "briefing_general",
+          "title_original": "央行：2026年4月末社会融资规模存量为456.89万亿元，同比增长7.8%",
+          "snippet": "央行：2026年4月末社会融资规模存量为456.89万亿元，同比增长7.8%_腾讯新闻 央行：2026年4月末社会融资规模存量为456.89万亿元，同比增长7.8% 界面新闻 2026-05-14 17:03 发布于 北京 界面新闻官方账号 问AI · 社会融资增量同比减少释放了哪些经济信号？ 央行5月14日发布2026年4月金融统计数据报告： 一、 社会融资规模存量 同比增长7.8% 初步统计，2026年4月末社会融资规模存量为456.89万亿元，同比增长7.8%。其中，对 实体经济 发放的人民币贷款余额2…"
+        },
+        {
+          "id": "briefing_general-16",
+          "section_id": "briefing_general",
+          "title_original": "Mullvad exit IPs are surprisingly identifying",
+          "snippet": "Mullvad exit IPs as a fingerprinting vector | tmctmt Mullvad exit IPs as a fingerprinting vector 2026-05-14 Mullvad is one of the few VPN providers that offers multiple exit IPs for its servers."
+        },
+        {
+          "id": "briefing_general-17",
+          "section_id": "briefing_general",
+          "title_original": "Removing the modem and GPS from my 2024 RAV4 hybrid",
+          "snippet": "Removing the Modem and GPS from my 2024 RAV4 Hybrid Arkadiy Tetelman A security blog Removing the Modem and GPS from my 2024 RAV4 Hybrid May 13th, 2026 | 14 minute read Modern cars are computers on wheels - they have more sensors than you can count and are…"
+        },
+        {
+          "id": "briefing_general-18",
+          "section_id": "briefing_general",
+          "title_original": "A few words on DS4",
+          "snippet": "A few words on DS4 - <antirez> A few words on DS4 antirez 5 hours ago."
+        },
+        {
+          "id": "briefing_general-19",
+          "section_id": "briefing_general",
+          "title_original": "First public macOS kernel memory corruption exploit on Apple M5",
+          "snippet": "First public macOS kernel memory corruption exploit on Apple M5 Calif Subscribe Sign in First public macOS kernel memory corruption exploit on Apple M5 Apple spent five years building hardware and software to make memory corruption exploits dramatically har…"
+        },
+        {
+          "id": "briefing_general-20",
+          "section_id": "briefing_general",
+          "title_original": "RTX 5090 and M4 MacBook Air: Can It Game?",
+          "snippet": "RTX 5090 + M4 MacBook Air: Can it Game?"
+        },
+        {
+          "id": "briefing_general-21",
+          "section_id": "briefing_general",
+          "title_original": "崩溃，每个月女朋友都因为钱的问题提分手，好心累",
+          "snippet": "崩溃，每个月女朋友都因为钱的问题提分手，好心累 - V2EX Home Sign Up Sign In V2EX › 生活 崩溃，每个月女朋友都因为钱的问题提分手，好心累 2 xcm153 · 17h 46m ago · 8507 views 我对女朋友本身挺满意的，谈了半年，但是基本上每个月都因为钱的问题闹分手 有一次的导火索是因为说到彩礼，他们家那要的很高，我俩对于彩礼的观念也不一样，要分手 有一次的导火索是因为她期望每周都能有些小惊喜，买个外卖，奶茶这些的东西，要分手 有一次的导火索是因为说她买的东西是…"
+        },
+        {
+          "id": "briefing_general-22",
+          "section_id": "briefing_general",
+          "title_original": "我们合适么？",
+          "snippet": "我们合适么？ - V2EX Home Sign Up Sign In V2EX › 生活 我们合适么？ Newass · 18h 34m ago via iPhone · 6431 views 女： 94 年安徽人 年收入 16w+，存款 24w 长相 5/10 分 身高 155 体重 54 ～ 60 波动（ G cup ） 职业大厂外包运营 家庭父母健在，均无社保，三儿一女，除了女儿均已经结婚生娃，有宅基地 性格温柔，粘人，跟小孩关系很好；打扮和化妆在学习中；讲道理，遇事能沟通；不主张买房买车，不主张大操大…"
+        },
+        {
+          "id": "briefing_general-23",
+          "section_id": "briefing_general",
+          "title_original": "诚邀已婚有娃男性朋友，探讨中年阶段的困惑[中登专属]",
+          "snippet": "诚邀已婚有娃男性朋友，探讨中年阶段的困惑[中登专属] - V2EX Home Sign Up Sign In V2EX › 生活 诚邀已婚有娃男性朋友，探讨中年阶段的困惑[中登专属] leguandexincheng · 1h 53m ago · 3501 views 当你在凝视深渊的时候，深渊也在凝视你，未婚女性不建议阅读，更不要点评和抨击。 基本情况 1.90 年男，已婚两娃，有房有车，无贷款，现金 50+，股票 50+； 2.不抽烟不嚼槟榔，偶尔小酌，作息规律； 3.定居长沙，家庭生活开销不高，小孩是普…"
+        },
+        {
+          "id": "briefing_general-24",
+          "section_id": "briefing_general",
+          "title_original": "全职写代码感觉坚持不下去了，你们呢？",
+          "snippet": "全职写代码感觉坚持不下去了，你们呢？ - V2EX Home Sign Up Sign In V2EX › 职场话题 全职写代码感觉坚持不下去了，你们呢？ 1 cab11918111 · 20h 53m ago · 6654 views 水平很一般，之前在国外上学，家里也不缺现在一个月到手不到 2w 的工资，之前觉得这工作虽然累，但起码给我们公司内部做一些工具的前端界面和功能是有成就感的。现在天天就是叫 ai 做这做那，真的有点坚持不下去了。可能别人更在乎工资，而我更在乎事情的意义本身把。反正就是不想卷，不想…"
+        },
+        {
+          "id": "briefing_general-25",
+          "section_id": "briefing_general",
+          "title_original": "替尔泊肽要糖尿病处方才能买？",
+          "snippet": "替尔泊肽要糖尿病处方才能买？ - V2EX Home Sign Up Sign In V2EX › 问与答 替尔泊肽要糖尿病处方才能买？ novaren · 20h 56m ago via Android · 3281 views 医院检查了，可以用替尔泊肽。 出门问了好几家药店，都说处方要写糖尿病才可以。 我就没买，糖尿病的话好多保险就不能买了。 Supplement 1 · 20h 18m ago 大家理性讨论，我是去医院看过了、检查过了以后，然后才想要买的，医生也允许买。 之前好像是沟通误会。有医生处方…"
+        },
+        {
+          "id": "briefing_general-26",
+          "section_id": "briefing_general",
+          "title_original": "日债高收益率、日元疲软与强势股市共存：脆弱的再通胀交易还能持续多久？",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_general-27",
+          "section_id": "briefing_general",
+          "title_original": "创业板指探底回升涨0.57%，机器人板块集体爆发 ，恒科技跌超1%，华虹半导体跳水",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_general-28",
+          "section_id": "briefing_general",
+          "title_original": "国金宋雪涛：金三银四含金量高，楼市出现止跌回稳的迹象",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_general-29",
+          "section_id": "briefing_general",
+          "title_original": "百度的DAA头枪：多线铺路Agent",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_general-30",
+          "section_id": "briefing_general",
+          "title_original": "和新主席唱反调！美联储理事Michael Barr：缩表是错误的，最终威胁金融稳定",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_general-31",
+          "section_id": "briefing_general",
+          "title_original": "中科院自动化所旗下中自投资拟战略入股公司、受让部分股份？中科信息回应",
+          "snippet": "中科院自动化所旗下中自投资拟战略入股公司、受让部分股份？中科信息回应-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库…"
+        },
+        {
+          "id": "briefing_general-32",
+          "section_id": "briefing_general",
+          "title_original": "日本财务大臣片山皋月否认需要编制额外预算",
+          "snippet": "日本财务大臣片山皋月否认需要编制额外预算-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认…"
+        },
+        {
+          "id": "briefing_general-33",
+          "section_id": "briefing_general",
+          "title_original": "QQ浏览器与元宝即将联合推出“元宝高考通”",
+          "snippet": "QQ浏览器与元宝即将联合推出“元宝高考通”-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人…"
+        },
+        {
+          "id": "briefing_general-34",
+          "section_id": "briefing_general",
+          "title_original": "A股三大指数午间休盘集体上涨，半导体板块领涨",
+          "snippet": "A股三大指数午间休盘集体上涨，半导体板块领涨-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资…"
+        },
+        {
+          "id": "briefing_general-35",
+          "section_id": "briefing_general",
+          "title_original": "沪深两市成交额连续第25个交易日突破2万亿元",
+          "snippet": "沪深两市成交额连续第25个交易日突破2万亿元-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资…"
+        },
+        {
+          "id": "briefing_general-36",
+          "section_id": "briefing_general",
+          "title_original": "Details of the Daring Airdrop at Tristan Da Cunha",
+          "snippet": "Tristan da Cunha Hantavirus Outbreak 2026: Details of the Daring Airdrop at Tristan da Cunha, 9th May 2026 ﻿ Home About Tristan ▼ Visit Tristan ▼ Wild Tristan ▼ Community ▼ Online Store ▼ More..."
+        },
+        {
+          "id": "briefing_general-37",
+          "section_id": "briefing_general",
+          "title_original": "White-collar workers report growing feelings of 'AI brain fry'",
+          "snippet": "Материал посвящён теме «White-collar workers report growing feelings of 'AI brain fry'»."
+        },
+        {
+          "id": "briefing_general-38",
+          "section_id": "briefing_general",
+          "title_original": "Systematically Auditing AI Agent Benchmarks with BenchJack",
+          "snippet": "[2605.12673] Do Androids Dream of Breaking the Game?"
+        },
+        {
+          "id": "briefing_general-39",
+          "section_id": "briefing_general",
+          "title_original": "Big tech is sacrificing its cashflows to prop up the AI boom",
+          "snippet": "Материал посвящён теме «Big tech is sacrificing its cashflows to prop up the AI boom»."
+        },
+        {
+          "id": "briefing_general-40",
+          "section_id": "briefing_general",
+          "title_original": "Beyond Git: Coordinating humans, agents, and automation in a repo with a ledger",
+          "snippet": "Beyond Git - Mentu Blog Skip to content Blog Beyond Git Git modeled the history of software."
+        },
+        {
+          "id": "briefing_general-41",
+          "section_id": "briefing_general",
+          "title_original": "AI Wellbeing – Measuring and Improving the Functional Pleasure and Pain of AIs",
+          "snippet": "AI Wellbeing AI Wellbeing Measuring and Improving the Functional Pleasure and Pain of AIs Paper Code AI Wellbeing Index Cite Show authors Introduction Large language models frequently express pleasure and pain—appearing happy when they succeed, or sad when…"
+        },
+        {
+          "id": "briefing_general-42",
+          "section_id": "briefing_general",
+          "title_original": "A defunct email service as a template for campus AI",
+          "snippet": "A defunct email service as a template for campus AI – Writings and rehearsals by Nathan Schneider A defunct email service as a template for campus AI In the early 2000s, I visited my childhood neighbor at college."
+        },
+        {
+          "id": "briefing_general-43",
+          "section_id": "briefing_general",
+          "title_original": "Ask HN: What is shared across participants within \"AI-native\" environments?",
+          "snippet": "Ask HN: What is shared across participants within \"AI-native\" environments?"
+        },
+        {
+          "id": "briefing_general-44",
+          "section_id": "briefing_general",
+          "title_original": "AI co-mathematician: Accelerating mathematicians with agentic AI",
+          "snippet": "[2605.06651] AI co-mathematician: Accelerating mathematicians with agentic AI Computer Science > Artificial Intelligence arXiv:2605.06651 (cs) [Submitted on 7 May 2026 ( v1 ), last revised 13 May 2026 (this version, v2)] Title: AI co-mathematician: Accelera…"
+        },
+        {
+          "id": "briefing_general-45",
+          "section_id": "briefing_general",
+          "title_original": "The Efficiency Moat: Why China Is Beating the U.S. on AI and Everything Else",
+          "snippet": "The Efficiency Moat: Why China Is Beating the U.S."
+        },
+        {
+          "id": "briefing_general-46",
+          "section_id": "briefing_general",
+          "title_original": "AI music generator so YouTubers never get copyright strikes",
+          "snippet": "Soundcraft AI — Royalty-Free Music for YouTube Creators Now accepting early access Never lose monetization to a copyright strike again."
+        },
+        {
+          "id": "briefing_general-47",
+          "section_id": "briefing_general",
+          "title_original": "WordPress Lost 19% of the Internet to AI [video]",
+          "snippet": "WordPress Just Lost 19% of the Internet - YouTube Про розділ Для преси Авторські права Зв'язатися з нами Для авторів Для рекламодавців Для розробників Умови Конфіденційність Правила й безпека Як працює YouTube Спробувати нові функції © 2026 Google LLC."
+        },
+        {
+          "id": "briefing_general-48",
+          "section_id": "briefing_general",
+          "title_original": "Bumble Is Removing the Swipe Feature, Will Use AI in New Launch",
+          "snippet": "Bumble Removing Swipe Feature, Will Use AI in New Launch Watch : Drew Barrymore Admits She Was Catfished on a Dating App!"
+        },
+        {
+          "id": "briefing_general-49",
+          "section_id": "briefing_general",
+          "title_original": "Ask HN: When will you be concerned on layoffs?",
+          "snippet": "Ask HN: When will you be concerned on layoffs?"
+        },
+        {
+          "id": "briefing_general-50",
+          "section_id": "briefing_general",
+          "title_original": "We Tested DeepSeek V4 Pro and Flash Against Claude Opus 4.7 and Kimi K2.6",
+          "snippet": "We Tested DeepSeek V4 Pro and Flash Against Claude Opus 4.7 and Kimi K2.6 Kilo Blog Subscribe Sign in We Tested DeepSeek V4 Pro and Flash Against Claude Opus 4.7 and Kimi K2.6 Darko May 13, 2026 5 3 1 Share DeepSeek V4 Pro and DeepSeek V4 Flash launched tog…"
+        },
+        {
+          "id": "briefing_general-51",
+          "section_id": "briefing_general",
+          "title_original": "Codex Harness in OpenClaw",
+          "snippet": "OpenAI Models in OpenClaw, Done Right — OpenClaw Blog Your ChatGPT subscription can now power an OpenClaw agent that feels much closer to the model it is built on."
+        },
+        {
+          "id": "briefing_general-52",
+          "section_id": "briefing_general",
+          "title_original": "AI Slopification and Writing",
+          "snippet": "AI Slopification of Writing - by Chenuli Jayasinghe Ordinary Intelligence Co."
+        },
+        {
+          "id": "briefing_general-53",
+          "section_id": "briefing_general",
+          "title_original": "Princeton will supervise exams for first time in 133 years because of AI",
+          "snippet": "Princeton scraps honor code and will supervise exams for first time in 133 years because of AI | The Independent Stay up to date with notifications from The Independent Notifications can be managed in browser preferences."
+        },
+        {
+          "id": "briefing_general-54",
+          "section_id": "briefing_general",
+          "title_original": "Access to frontier AI will soon be limited by economic and security constraints",
+          "snippet": "Cut Off - by Anton Leicht - Threading the Needle Threading the Needle Subscribe Sign in Cut Off Soon, access to frontier AI will be scarce and selective Anton Leicht May 13, 2026 1 4 Share There’s a common mantra in the outskirts of AI policy thought: drive…"
+        },
+        {
+          "id": "briefing_general-55",
+          "section_id": "briefing_general",
+          "title_original": "15% of AI agent skill files carry hardcoded credentials with DB write access",
+          "snippet": "Материал посвящён теме «15% of AI agent skill files carry hardcoded credentials with DB write access»."
+        },
+        {
+          "id": "briefing_general-56",
+          "section_id": "briefing_general",
+          "title_original": "shiyu-coder/Kronos - Kronos: A Foundation Model for the Language of Financial Markets",
+          "snippet": "GitHub - shiyu-coder/Kronos: Kronos: A Foundation Model for the Language of Financial Markets · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_general-57",
+          "section_id": "briefing_general",
+          "title_original": "roboflow/supervision - We write your reusable computer vision tools. 💜",
+          "snippet": "GitHub - roboflow/supervision: We write your reusable computer vision tools."
+        },
+        {
+          "id": "briefing_general-58",
+          "section_id": "briefing_general",
+          "title_original": "influxdata/telegraf - Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.",
+          "snippet": "GitHub - influxdata/telegraf: Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data."
+        },
+        {
+          "id": "briefing_general-59",
+          "section_id": "briefing_general",
+          "title_original": "supertone-inc/supertonic - Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
+          "snippet": "GitHub - supertone-inc/supertonic: Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX."
+        },
+        {
+          "id": "briefing_general-60",
+          "section_id": "briefing_general",
+          "title_original": "Genymobile/scrcpy - Display and control your Android device",
+          "snippet": "GitHub - Genymobile/scrcpy: Display and control your Android device · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_general-61",
+          "section_id": "briefing_general",
+          "title_original": "NVIDIA-AI-Blueprints/video-search-and-summarization - Suite of reference architectures for building GPU-accelerated vision agents and AI-powered video analytics applications.",
+          "snippet": "GitHub - NVIDIA-AI-Blueprints/video-search-and-summarization: Suite of reference architectures for building GPU-accelerated vision agents and AI-powered video analytics applications."
+        },
+        {
+          "id": "briefing_general-62",
+          "section_id": "briefing_general",
+          "title_original": "CloakHQ/CloakBrowser - Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+          "snippet": "GitHub - CloakHQ/CloakBrowser: Stealth Chromium that passes every bot detection test."
+        },
+        {
+          "id": "briefing_general-63",
+          "section_id": "briefing_general",
+          "title_original": "mattpocock/skills - Skills for Real Engineers. Straight from my .claude directory.",
+          "snippet": "GitHub - mattpocock/skills: Skills for Real Engineers."
+        },
+        {
+          "id": "briefing_general-64",
+          "section_id": "briefing_general",
+          "title_original": "github/spec-kit - 💫 Toolkit to help you get started with Spec-Driven Development",
+          "snippet": "GitHub - github/spec-kit: 💫 Toolkit to help you get started with Spec-Driven Development · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_general-65",
+          "section_id": "briefing_general",
+          "title_original": "garrytan/gstack - Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+          "snippet": "GitHub - garrytan/gstack: Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA · GitHub Skip to content You signed in with another tab or window."
+        }
+      ]
+    },
+    {
+      "id": "briefing_finance",
+      "title": "Финансовый утренний брифинг",
+      "items": [
+        {
+          "id": "briefing_finance-1",
+          "section_id": "briefing_finance",
+          "title_original": "Big tech is sacrificing its cashflows to prop up the AI boom",
+          "snippet": "Материал посвящён теме «Big tech is sacrificing its cashflows to prop up the AI boom»."
+        },
+        {
+          "id": "briefing_finance-2",
+          "section_id": "briefing_finance",
+          "title_original": "Ask HN: When will you be concerned on layoffs?",
+          "snippet": "Ask HN: When will you be concerned on layoffs?"
+        },
+        {
+          "id": "briefing_finance-3",
+          "section_id": "briefing_finance",
+          "title_original": "Access to frontier AI will soon be limited by economic and security constraints",
+          "snippet": "Cut Off - by Anton Leicht - Threading the Needle Threading the Needle Subscribe Sign in Cut Off Soon, access to frontier AI will be scarce and selective Anton Leicht May 13, 2026 1 4 Share There’s a common mantra in the outskirts of AI policy thought: drive…"
+        },
+        {
+          "id": "briefing_finance-4",
+          "section_id": "briefing_finance",
+          "title_original": "Ask HN: Will writing code by hand remain a part of work?",
+          "snippet": "Ask HN: Will writing code by hand remain a part of work?"
+        },
+        {
+          "id": "briefing_finance-5",
+          "section_id": "briefing_finance",
+          "title_original": "AI models are being used to predict conflict",
+          "snippet": "Материал посвящён теме «AI models are being used to predict conflict»."
+        },
+        {
+          "id": "briefing_finance-6",
+          "section_id": "briefing_finance",
+          "title_original": "US/China relationship, effect of Iran war on China economy and geopolitics",
+          "snippet": "Donald Trump's Trip to China - Tablet Magazine Menu Icon."
+        },
+        {
+          "id": "briefing_finance-7",
+          "section_id": "briefing_finance",
+          "title_original": "How Israeli terror begets Palestinian terror",
+          "snippet": "Материал посвящён теме «How Israeli terror begets Palestinian terror»."
+        },
+        {
+          "id": "briefing_finance-8",
+          "section_id": "briefing_finance",
+          "title_original": "The jobs apocalypse: a (very) short history",
+          "snippet": "Материал посвящён теме «The jobs apocalypse: a (very) short history»."
+        },
+        {
+          "id": "briefing_finance-9",
+          "section_id": "briefing_finance",
+          "title_original": "Economics of Expanding Medical Assistance in Dying to Vulnerable Populations",
+          "snippet": "Материал посвящён теме «Economics of Expanding Medical Assistance in Dying to Vulnerable Populations»."
+        },
+        {
+          "id": "briefing_finance-10",
+          "section_id": "briefing_finance",
+          "title_original": "Facebook comments on Citizen-Dividends from AI roil Korean markets",
+          "snippet": "Korea Roils Market by Floating ‘Citizen Dividend’ From AI Oops, something went wrong Skip to navigation Skip to main content Skip to right column U.S."
+        },
+        {
+          "id": "briefing_finance-11",
+          "section_id": "briefing_finance",
+          "title_original": "日债高收益率、日元疲软与强势股市共存：脆弱的再通胀交易还能持续多久？",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-12",
+          "section_id": "briefing_finance",
+          "title_original": "创业板指探底回升涨0.57%，机器人板块集体爆发 ，恒科技跌超1%，华虹半导体跳水",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-13",
+          "section_id": "briefing_finance",
+          "title_original": "国金宋雪涛：金三银四含金量高，楼市出现止跌回稳的迹象",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-14",
+          "section_id": "briefing_finance",
+          "title_original": "百度的DAA头枪：多线铺路Agent",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-15",
+          "section_id": "briefing_finance",
+          "title_original": "和新主席唱反调！美联储理事Michael Barr：缩表是错误的，最终威胁金融稳定",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-16",
+          "section_id": "briefing_finance",
+          "title_original": "牵动全球市场的关键问题：伊朗危机走向何方？",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-17",
+          "section_id": "briefing_finance",
+          "title_original": "国金证券：记住2026年“金三银四”，楼市“止跌”转折点来了",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-18",
+          "section_id": "briefing_finance",
+          "title_original": "习近平同美国总统特朗普在中南海小范围会晤",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-19",
+          "section_id": "briefing_finance",
+          "title_original": "外交部发言人就伊朗局势答记者问",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-20",
+          "section_id": "briefing_finance",
+          "title_original": "外交部发言人就美国总统特朗普访华情况答记者问",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-21",
+          "section_id": "briefing_finance",
+          "title_original": "给美联储新主席的“见面礼”：沃什刚上台，市场已“加息”",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-22",
+          "section_id": "briefing_finance",
+          "title_original": "特朗普大战鲍威尔，誓夺美联储控制权",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-23",
+          "section_id": "briefing_finance",
+          "title_original": "斯塔默“悬了”，英镑英债又崩了，“大英帝国”还有希望吗？",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-24",
+          "section_id": "briefing_finance",
+          "title_original": "营收暴涨1065%！Palantir支持的无人机公司Ondas股价飙升26%",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-25",
+          "section_id": "briefing_finance",
+          "title_original": "中芯国际赵海军：公司与客户协商上调定价，涨价效应逐步体现",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-26",
+          "section_id": "briefing_finance",
+          "title_original": "中芯国际赵海军：一季度产能利用率环比下滑受AI“虹吸效应”及新厂走出开办期影响",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-27",
+          "section_id": "briefing_finance",
+          "title_original": "寿险行业2026Q1复盘：存款搬家驱动高增长，资产配置考验真功夫",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-28",
+          "section_id": "briefing_finance",
+          "title_original": "格局重塑，北京车展大变局",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-29",
+          "section_id": "briefing_finance",
+          "title_original": "如何理解4月信贷负增长",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-30",
+          "section_id": "briefing_finance",
+          "title_original": "4月成“分水岭”：“选对AI硬件”的机构，这是“1999年以来最强单月”，选错的机构“完全跑不赢指数”",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-31",
+          "section_id": "briefing_finance",
+          "title_original": "劳资谈判陷入僵局，芯片生产面临中断，韩国讨论紧急应对“三星罢工风险”",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-32",
+          "section_id": "briefing_finance",
+          "title_original": "特朗普Q1交易：大幅减持亚马逊、Meta和微软，买入英伟达、博通和苹果，抄底甲骨文、Adobe等软件股",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-33",
+          "section_id": "briefing_finance",
+          "title_original": "中美商业航天竞争加速",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-34",
+          "section_id": "briefing_finance",
+          "title_original": "全球油市平静的“假象”：下一轮暴涨已经进入倒计时",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-35",
+          "section_id": "briefing_finance",
+          "title_original": "不一样的居民净资产修复：去年居民净资产时隔三年重新转正",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-36",
+          "section_id": "briefing_finance",
+          "title_original": "老黄这趟中国没白来！英伟达七天累计涨20%，市值逼近6万亿美元大关",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-37",
+          "section_id": "briefing_finance",
+          "title_original": "中美元首会晤，这个表述极为关键",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-38",
+          "section_id": "briefing_finance",
+          "title_original": "“需要共同书写的时代答卷”——习近平主席同特朗普总统会晤侧记",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-39",
+          "section_id": "briefing_finance",
+          "title_original": "“高市冲击”下，日债遭遇抛售风暴，收益率迈入“4时代”",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-40",
+          "section_id": "briefing_finance",
+          "title_original": "华尔街见闻早餐FM-Radio | 2026年5月15日",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-41",
+          "section_id": "briefing_finance",
+          "title_original": "Have LLMs made anyone's life substantially better?",
+          "snippet": "Have LLMs made anyone's life substantially better?"
+        },
+        {
+          "id": "briefing_finance-42",
+          "section_id": "briefing_finance",
+          "title_original": "Bitcoin trader recovers wallet with help of Claude",
+          "snippet": "Bitcoin trader recovers $400,000 using Claude AI after getting 'stoned' and losing wallet password 11 years ago — bot tried 3.5 trillion passwords before decrypting an old wallet backup | Tom's Hardware Skip to main content Unlock world-class roadmaps & tru…"
+        },
+        {
+          "id": "briefing_finance-43",
+          "section_id": "briefing_finance",
+          "title_original": "Dude where's my password? Claude reunites forgetful stoner with $400k Bitcoin",
+          "snippet": "Claude reunites stoner with Bitcoin after losing password Jump to main content REG AD Offbeat Dude… where’s my password?"
+        },
+        {
+          "id": "briefing_finance-44",
+          "section_id": "briefing_finance",
+          "title_original": "AI helps man recover $400k in Bitcoin 11 years after",
+          "snippet": "AI helps man recover $400,000 in Bitcoin 11 years after he got high and forgot password - Dexerto Entertainment AI helps man recover $400,000 in Bitcoin 11 years after he got high and forgot password by Michael Gwilliam Published: May 13, 2026, 19:19 Save f…"
+        }
+      ]
+    },
+    {
+      "id": "briefing_tech",
+      "title": "Технологический утренний брифинг",
+      "items": [
+        {
+          "id": "briefing_tech-1",
+          "section_id": "briefing_tech",
+          "title_original": "Details of the Daring Airdrop at Tristan Da Cunha",
+          "snippet": "Tristan da Cunha Hantavirus Outbreak 2026: Details of the Daring Airdrop at Tristan da Cunha, 9th May 2026 ﻿ Home About Tristan ▼ Visit Tristan ▼ Wild Tristan ▼ Community ▼ Online Store ▼ More..."
+        },
+        {
+          "id": "briefing_tech-2",
+          "section_id": "briefing_tech",
+          "title_original": "White-collar workers report growing feelings of 'AI brain fry'",
+          "snippet": "Материал посвящён теме «White-collar workers report growing feelings of 'AI brain fry'»."
+        },
+        {
+          "id": "briefing_tech-3",
+          "section_id": "briefing_tech",
+          "title_original": "Systematically Auditing AI Agent Benchmarks with BenchJack",
+          "snippet": "[2605.12673] Do Androids Dream of Breaking the Game?"
+        },
+        {
+          "id": "briefing_tech-4",
+          "section_id": "briefing_tech",
+          "title_original": "Big tech is sacrificing its cashflows to prop up the AI boom",
+          "snippet": "Материал посвящён теме «Big tech is sacrificing its cashflows to prop up the AI boom»."
+        },
+        {
+          "id": "briefing_tech-5",
+          "section_id": "briefing_tech",
+          "title_original": "Beyond Git: Coordinating humans, agents, and automation in a repo with a ledger",
+          "snippet": "Beyond Git - Mentu Blog Skip to content Blog Beyond Git Git modeled the history of software."
+        },
+        {
+          "id": "briefing_tech-6",
+          "section_id": "briefing_tech",
+          "title_original": "AI Wellbeing – Measuring and Improving the Functional Pleasure and Pain of AIs",
+          "snippet": "AI Wellbeing AI Wellbeing Measuring and Improving the Functional Pleasure and Pain of AIs Paper Code AI Wellbeing Index Cite Show authors Introduction Large language models frequently express pleasure and pain—appearing happy when they succeed, or sad when…"
+        },
+        {
+          "id": "briefing_tech-7",
+          "section_id": "briefing_tech",
+          "title_original": "A defunct email service as a template for campus AI",
+          "snippet": "A defunct email service as a template for campus AI – Writings and rehearsals by Nathan Schneider A defunct email service as a template for campus AI In the early 2000s, I visited my childhood neighbor at college."
+        },
+        {
+          "id": "briefing_tech-8",
+          "section_id": "briefing_tech",
+          "title_original": "Ask HN: What is shared across participants within \"AI-native\" environments?",
+          "snippet": "Ask HN: What is shared across participants within \"AI-native\" environments?"
+        },
+        {
+          "id": "briefing_tech-9",
+          "section_id": "briefing_tech",
+          "title_original": "AI co-mathematician: Accelerating mathematicians with agentic AI",
+          "snippet": "[2605.06651] AI co-mathematician: Accelerating mathematicians with agentic AI Computer Science > Artificial Intelligence arXiv:2605.06651 (cs) [Submitted on 7 May 2026 ( v1 ), last revised 13 May 2026 (this version, v2)] Title: AI co-mathematician: Accelera…"
+        },
+        {
+          "id": "briefing_tech-10",
+          "section_id": "briefing_tech",
+          "title_original": "The Efficiency Moat: Why China Is Beating the U.S. on AI and Everything Else",
+          "snippet": "The Efficiency Moat: Why China Is Beating the U.S."
+        },
+        {
+          "id": "briefing_tech-11",
+          "section_id": "briefing_tech",
+          "title_original": "AI music generator so YouTubers never get copyright strikes",
+          "snippet": "Soundcraft AI — Royalty-Free Music for YouTube Creators Now accepting early access Never lose monetization to a copyright strike again."
+        },
+        {
+          "id": "briefing_tech-12",
+          "section_id": "briefing_tech",
+          "title_original": "WordPress Lost 19% of the Internet to AI [video]",
+          "snippet": "WordPress Just Lost 19% of the Internet - YouTube Про розділ Для преси Авторські права Зв'язатися з нами Для авторів Для рекламодавців Для розробників Умови Конфіденційність Правила й безпека Як працює YouTube Спробувати нові функції © 2026 Google LLC."
+        },
+        {
+          "id": "briefing_tech-13",
+          "section_id": "briefing_tech",
+          "title_original": "Bumble Is Removing the Swipe Feature, Will Use AI in New Launch",
+          "snippet": "Bumble Removing Swipe Feature, Will Use AI in New Launch Watch : Drew Barrymore Admits She Was Catfished on a Dating App!"
+        },
+        {
+          "id": "briefing_tech-14",
+          "section_id": "briefing_tech",
+          "title_original": "Ask HN: When will you be concerned on layoffs?",
+          "snippet": "Ask HN: When will you be concerned on layoffs?"
+        },
+        {
+          "id": "briefing_tech-15",
+          "section_id": "briefing_tech",
+          "title_original": "We Tested DeepSeek V4 Pro and Flash Against Claude Opus 4.7 and Kimi K2.6",
+          "snippet": "We Tested DeepSeek V4 Pro and Flash Against Claude Opus 4.7 and Kimi K2.6 Kilo Blog Subscribe Sign in We Tested DeepSeek V4 Pro and Flash Against Claude Opus 4.7 and Kimi K2.6 Darko May 13, 2026 5 3 1 Share DeepSeek V4 Pro and DeepSeek V4 Flash launched tog…"
+        },
+        {
+          "id": "briefing_tech-16",
+          "section_id": "briefing_tech",
+          "title_original": "Codex Harness in OpenClaw",
+          "snippet": "OpenAI Models in OpenClaw, Done Right — OpenClaw Blog Your ChatGPT subscription can now power an OpenClaw agent that feels much closer to the model it is built on."
+        },
+        {
+          "id": "briefing_tech-17",
+          "section_id": "briefing_tech",
+          "title_original": "AI Slopification and Writing",
+          "snippet": "AI Slopification of Writing - by Chenuli Jayasinghe Ordinary Intelligence Co."
+        },
+        {
+          "id": "briefing_tech-18",
+          "section_id": "briefing_tech",
+          "title_original": "Princeton will supervise exams for first time in 133 years because of AI",
+          "snippet": "Princeton scraps honor code and will supervise exams for first time in 133 years because of AI | The Independent Stay up to date with notifications from The Independent Notifications can be managed in browser preferences."
+        },
+        {
+          "id": "briefing_tech-19",
+          "section_id": "briefing_tech",
+          "title_original": "Access to frontier AI will soon be limited by economic and security constraints",
+          "snippet": "Cut Off - by Anton Leicht - Threading the Needle Threading the Needle Subscribe Sign in Cut Off Soon, access to frontier AI will be scarce and selective Anton Leicht May 13, 2026 1 4 Share There’s a common mantra in the outskirts of AI policy thought: drive…"
+        },
+        {
+          "id": "briefing_tech-20",
+          "section_id": "briefing_tech",
+          "title_original": "15% of AI agent skill files carry hardcoded credentials with DB write access",
+          "snippet": "Материал посвящён теме «15% of AI agent skill files carry hardcoded credentials with DB write access»."
+        },
+        {
+          "id": "briefing_tech-21",
+          "section_id": "briefing_tech",
+          "title_original": "A Private Way to Chat with AI",
+          "snippet": "Introducing a Completely Private Way to Chat With AI Skip to content Viewing this site in English Portugese German French Japanese Korean Spanish (LTAM) Spanish (ES) Você está visualizando este site em Inglês Português Alemão Francês Japonês Coreano Espanho…"
+        },
+        {
+          "id": "briefing_tech-22",
+          "section_id": "briefing_tech",
+          "title_original": "AI detected a person in the Blessed Sacrament",
+          "snippet": "JavaScript is not available."
+        },
+        {
+          "id": "briefing_tech-23",
+          "section_id": "briefing_tech",
+          "title_original": "From a Telegram conversation to verified AI agents in 49 days",
+          "snippet": "CredEx AI — The Financial Exchange for AI Compute."
+        },
+        {
+          "id": "briefing_tech-24",
+          "section_id": "briefing_tech",
+          "title_original": "I built a live map for tracking military aircraft activity worldwide",
+          "snippet": "Skyrane • Military aircraft tracking & analytics."
+        },
+        {
+          "id": "briefing_tech-25",
+          "section_id": "briefing_tech",
+          "title_original": "We built a machine-readable merchant verification layer for AI shopping agents",
+          "snippet": "GitHub - warwickwood-cell/gengeo-agent-registry: Machine-readable merchant verification infrastructure for AI shopping agents and agentic commerce systems."
+        },
+        {
+          "id": "briefing_tech-26",
+          "section_id": "briefing_tech",
+          "title_original": "openclaw -",
+          "snippet": "openclaw · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_tech-27",
+          "section_id": "briefing_tech",
+          "title_original": "n8n-io -",
+          "snippet": "n8n - Workflow Automation · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_tech-28",
+          "section_id": "briefing_tech",
+          "title_original": "Significant-Gravitas -",
+          "snippet": "AutoGPT · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_tech-29",
+          "section_id": "briefing_tech",
+          "title_original": "AUTOMATIC1111 -",
+          "snippet": "AUTOMATIC1111 · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_tech-30",
+          "section_id": "briefing_tech",
+          "title_original": "f -",
+          "snippet": "f (Fatih Kadir Akın) · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_tech-31",
+          "section_id": "briefing_tech",
+          "title_original": "NousResearch -",
+          "snippet": "Nous Research · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_tech-32",
+          "section_id": "briefing_tech",
+          "title_original": "langgenius -",
+          "snippet": "LangGenius · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_tech-33",
+          "section_id": "briefing_tech",
+          "title_original": "x1xhlol -",
+          "snippet": "x1xhlol (Lucas Valbuena) · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_tech-34",
+          "section_id": "briefing_tech",
+          "title_original": "open-webui -",
+          "snippet": "Open WebUI · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_tech-35",
+          "section_id": "briefing_tech",
+          "title_original": "langchain-ai -",
+          "snippet": "LangChain · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_tech-36",
+          "section_id": "briefing_tech",
+          "title_original": "ruvnet/RuView - π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+          "snippet": "GitHub - ruvnet/RuView: π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video."
+        },
+        {
+          "id": "briefing_tech-37",
+          "section_id": "briefing_tech",
+          "title_original": "tinyhumansai/openhuman - Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+          "snippet": "GitHub - tinyhumansai/openhuman: Your Personal AI super intelligence."
+        },
+        {
+          "id": "briefing_tech-38",
+          "section_id": "briefing_tech",
+          "title_original": "rohitg00/agentmemory - #1 Persistent memory for AI coding agents based on real-world benchmarks",
+          "snippet": "GitHub - rohitg00/agentmemory: #1 Persistent memory for AI coding agents based on real-world benchmarks · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_tech-39",
+          "section_id": "briefing_tech",
+          "title_original": "obra/superpowers - An agentic skills framework & software development methodology that works.",
+          "snippet": "GitHub - obra/superpowers: An agentic skills framework & software development methodology that works."
+        },
+        {
+          "id": "briefing_tech-40",
+          "section_id": "briefing_tech",
+          "title_original": "K-Dense-AI/scientific-agent-skills - A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+          "snippet": "GitHub - K-Dense-AI/scientific-agent-skills: A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing."
+        },
+        {
+          "id": "briefing_tech-41",
+          "section_id": "briefing_tech",
+          "title_original": "shiyu-coder/Kronos - Kronos: A Foundation Model for the Language of Financial Markets",
+          "snippet": "GitHub - shiyu-coder/Kronos: Kronos: A Foundation Model for the Language of Financial Markets · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_tech-42",
+          "section_id": "briefing_tech",
+          "title_original": "roboflow/supervision - We write your reusable computer vision tools. 💜",
+          "snippet": "GitHub - roboflow/supervision: We write your reusable computer vision tools."
+        },
+        {
+          "id": "briefing_tech-43",
+          "section_id": "briefing_tech",
+          "title_original": "influxdata/telegraf - Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data.",
+          "snippet": "GitHub - influxdata/telegraf: Agent for collecting, processing, aggregating, and writing metrics, logs, and other arbitrary data."
+        },
+        {
+          "id": "briefing_tech-44",
+          "section_id": "briefing_tech",
+          "title_original": "supertone-inc/supertonic - Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
+          "snippet": "GitHub - supertone-inc/supertonic: Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX."
+        },
+        {
+          "id": "briefing_tech-45",
+          "section_id": "briefing_tech",
+          "title_original": "Genymobile/scrcpy - Display and control your Android device",
+          "snippet": "GitHub - Genymobile/scrcpy: Display and control your Android device · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_tech-46",
+          "section_id": "briefing_tech",
+          "title_original": "NVIDIA-AI-Blueprints/video-search-and-summarization - Suite of reference architectures for building GPU-accelerated vision agents and AI-powered video analytics applications.",
+          "snippet": "GitHub - NVIDIA-AI-Blueprints/video-search-and-summarization: Suite of reference architectures for building GPU-accelerated vision agents and AI-powered video analytics applications."
+        },
+        {
+          "id": "briefing_tech-47",
+          "section_id": "briefing_tech",
+          "title_original": "CloakHQ/CloakBrowser - Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+          "snippet": "GitHub - CloakHQ/CloakBrowser: Stealth Chromium that passes every bot detection test."
+        },
+        {
+          "id": "briefing_tech-48",
+          "section_id": "briefing_tech",
+          "title_original": "mattpocock/skills - Skills for Real Engineers. Straight from my .claude directory.",
+          "snippet": "GitHub - mattpocock/skills: Skills for Real Engineers."
+        },
+        {
+          "id": "briefing_tech-49",
+          "section_id": "briefing_tech",
+          "title_original": "github/spec-kit - 💫 Toolkit to help you get started with Spec-Driven Development",
+          "snippet": "GitHub - github/spec-kit: 💫 Toolkit to help you get started with Spec-Driven Development · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_tech-50",
+          "section_id": "briefing_tech",
+          "title_original": "garrytan/gstack - Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+          "snippet": "GitHub - garrytan/gstack: Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_tech-51",
+          "section_id": "briefing_tech",
+          "title_original": "Resend Automations",
+          "snippet": "Материал посвящён теме «Resend Automations»."
+        },
+        {
+          "id": "briefing_tech-52",
+          "section_id": "briefing_tech",
+          "title_original": "The Augmented AI",
+          "snippet": "Материал посвящён теме «The Augmented AI»."
+        },
+        {
+          "id": "briefing_tech-53",
+          "section_id": "briefing_tech",
+          "title_original": "Fei Design Mode",
+          "snippet": "Материал посвящён теме «Fei Design Mode»."
+        },
+        {
+          "id": "briefing_tech-54",
+          "section_id": "briefing_tech",
+          "title_original": "YM.dat",
+          "snippet": "Материал посвящён теме «YM.dat»."
+        },
+        {
+          "id": "briefing_tech-55",
+          "section_id": "briefing_tech",
+          "title_original": "Naptick AI",
+          "snippet": "Материал посвящён теме «Naptick AI»."
+        },
+        {
+          "id": "briefing_tech-56",
+          "section_id": "briefing_tech",
+          "title_original": "Spellar 3.0",
+          "snippet": "Материал посвящён теме «Spellar 3.0»."
+        },
+        {
+          "id": "briefing_tech-57",
+          "section_id": "briefing_tech",
+          "title_original": "Enjo Help Center",
+          "snippet": "Материал посвящён теме «Enjo Help Center»."
+        },
+        {
+          "id": "briefing_tech-58",
+          "section_id": "briefing_tech",
+          "title_original": "Write Lint",
+          "snippet": "Материал посвящён теме «Write Lint»."
+        },
+        {
+          "id": "briefing_tech-59",
+          "section_id": "briefing_tech",
+          "title_original": "Tendem by Toloka",
+          "snippet": "Материал посвящён теме «Tendem by Toloka»."
+        },
+        {
+          "id": "briefing_tech-60",
+          "section_id": "briefing_tech",
+          "title_original": "Asteroid",
+          "snippet": "Материал посвящён теме «Asteroid»."
+        }
+      ]
+    },
+    {
+      "id": "briefing_social",
+      "title": "Социальный утренний брифинг",
+      "items": [
+        {
+          "id": "briefing_social-1",
+          "section_id": "briefing_social",
+          "title_original": "崩溃，每个月女朋友都因为钱的问题提分手，好心累",
+          "snippet": "崩溃，每个月女朋友都因为钱的问题提分手，好心累 - V2EX Home Sign Up Sign In V2EX › 生活 崩溃，每个月女朋友都因为钱的问题提分手，好心累 2 xcm153 · 17h 46m ago · 8507 views 我对女朋友本身挺满意的，谈了半年，但是基本上每个月都因为钱的问题闹分手 有一次的导火索是因为说到彩礼，他们家那要的很高，我俩对于彩礼的观念也不一样，要分手 有一次的导火索是因为她期望每周都能有些小惊喜，买个外卖，奶茶这些的东西，要分手 有一次的导火索是因为说她买的东西是…"
+        },
+        {
+          "id": "briefing_social-2",
+          "section_id": "briefing_social",
+          "title_original": "我们合适么？",
+          "snippet": "我们合适么？ - V2EX Home Sign Up Sign In V2EX › 生活 我们合适么？ Newass · 18h 34m ago via iPhone · 6431 views 女： 94 年安徽人 年收入 16w+，存款 24w 长相 5/10 分 身高 155 体重 54 ～ 60 波动（ G cup ） 职业大厂外包运营 家庭父母健在，均无社保，三儿一女，除了女儿均已经结婚生娃，有宅基地 性格温柔，粘人，跟小孩关系很好；打扮和化妆在学习中；讲道理，遇事能沟通；不主张买房买车，不主张大操大…"
+        },
+        {
+          "id": "briefing_social-3",
+          "section_id": "briefing_social",
+          "title_original": "诚邀已婚有娃男性朋友，探讨中年阶段的困惑[中登专属]",
+          "snippet": "诚邀已婚有娃男性朋友，探讨中年阶段的困惑[中登专属] - V2EX Home Sign Up Sign In V2EX › 生活 诚邀已婚有娃男性朋友，探讨中年阶段的困惑[中登专属] leguandexincheng · 1h 53m ago · 3501 views 当你在凝视深渊的时候，深渊也在凝视你，未婚女性不建议阅读，更不要点评和抨击。 基本情况 1.90 年男，已婚两娃，有房有车，无贷款，现金 50+，股票 50+； 2.不抽烟不嚼槟榔，偶尔小酌，作息规律； 3.定居长沙，家庭生活开销不高，小孩是普…"
+        },
+        {
+          "id": "briefing_social-4",
+          "section_id": "briefing_social",
+          "title_original": "全职写代码感觉坚持不下去了，你们呢？",
+          "snippet": "全职写代码感觉坚持不下去了，你们呢？ - V2EX Home Sign Up Sign In V2EX › 职场话题 全职写代码感觉坚持不下去了，你们呢？ 1 cab11918111 · 20h 53m ago · 6654 views 水平很一般，之前在国外上学，家里也不缺现在一个月到手不到 2w 的工资，之前觉得这工作虽然累，但起码给我们公司内部做一些工具的前端界面和功能是有成就感的。现在天天就是叫 ai 做这做那，真的有点坚持不下去了。可能别人更在乎工资，而我更在乎事情的意义本身把。反正就是不想卷，不想…"
+        },
+        {
+          "id": "briefing_social-5",
+          "section_id": "briefing_social",
+          "title_original": "替尔泊肽要糖尿病处方才能买？",
+          "snippet": "替尔泊肽要糖尿病处方才能买？ - V2EX Home Sign Up Sign In V2EX › 问与答 替尔泊肽要糖尿病处方才能买？ novaren · 21h 2m ago via Android · 3285 views 医院检查了，可以用替尔泊肽。 出门问了好几家药店，都说处方要写糖尿病才可以。 我就没买，糖尿病的话好多保险就不能买了。 Supplement 1 · 20h 23m ago 大家理性讨论，我是去医院看过了、检查过了以后，然后才想要买的，医生也允许买。 之前好像是沟通误会。有医生处方的…"
+        },
+        {
+          "id": "briefing_social-6",
+          "section_id": "briefing_social",
+          "title_original": "[发码] 想躺着吸 AI, 试了一圈工具都不爽, 自己搓了个",
+          "snippet": "[发码] 想躺着吸 AI, 试了一圈工具都不爽, 自己搓了个 - V2EX Home Sign Up Sign In 爱意满满的作品展示区。 Advertisement V2EX › 分享创造 [发码] 想躺着吸 AI, 试了一圈工具都不爽, 自己搓了个 5 dualface · 16h 7m ago · 2058 views 先自我介绍一下, 网名\"我是妖怪\", 英文网名 \"dualface\"."
+        },
+        {
+          "id": "briefing_social-7",
+          "section_id": "briefing_social",
+          "title_original": "一个真正一目了然的自建 Codex 中转站",
+          "snippet": "一个真正一目了然的自建 Codex 中转站 - V2EX Home Sign Up Sign In 如果想在 V2EX 获得更好的推广效果，欢迎了解 PRO 会员机制： https://www.v2ex.com/pro/about 如果你经常使用铜币置顶主题，持有 V2EX Solana Token 会在每日签到时获得额外铜币： https://www.v2ex.com/solana V2EX › 推广 一个真正一目了然的自建 Codex 中转站 JarvisLee · 2h 45m ago · 1505 v…"
+        },
+        {
+          "id": "briefing_social-8",
+          "section_id": "briefing_social",
+          "title_original": "天塌了，数据库被黑客删库了，交 BTC 才会恢复数据，大家有办法恢复数据么",
+          "snippet": "天塌了，数据库被黑客删库了，交 BTC 才会恢复数据，大家有办法恢复数据么 - V2EX Home Sign Up Sign In V2EX › 信息安全 天塌了，数据库被黑客删库了，交 BTC 才会恢复数据，大家有办法恢复数据么 1 bigbigeggs · 11h 31m ago · 4336 views 有大佬知道黑客 是怎么拿到我的数据库权限么，无限密码重试爆破？ 感觉我的密码也没有很简单 英文+数据 总共 9 位 服务器没有被攻击进去，看着比较干净，应该就是拿到了数据库的 root 权限 大佬们有没…"
+        },
+        {
+          "id": "briefing_social-9",
+          "section_id": "briefing_social",
+          "title_original": "[感谢管理] 虾老板中转站继续送 3000wToken",
+          "snippet": "[感谢管理] 虾老板中转站继续送 3000wToken - V2EX Home Sign Up Sign In 如果想在 V2EX 获得更好的推广效果，欢迎了解 PRO 会员机制： https://www.v2ex.com/pro/about 如果你经常使用铜币置顶主题，持有 V2EX Solana Token 会在每日签到时获得额外铜币： https://www.v2ex.com/solana V2EX › 推广 [感谢管理] 虾老板中转站继续送 3000wToken qiudemad · 2h 2m ag…"
+        }
+      ]
+    },
+    {
+      "id": "briefing_ai_daily",
+      "title": "AI Daily / глубокий AI-брифинг",
+      "items": [
+        {
+          "id": "briefing_ai_daily-1",
+          "section_id": "briefing_ai_daily",
+          "title_original": "Sign of the future: GPT-5.5",
+          "snippet": "I had early access to GPT-5.5 1 , and I think it is a big deal."
+        },
+        {
+          "id": "briefing_ai_daily-2",
+          "section_id": "briefing_ai_daily",
+          "title_original": "Claude Dispatch and the Power of Interfaces",
+          "snippet": "AIs are already far more capable than most people realize."
+        },
+        {
+          "id": "briefing_ai_daily-3",
+          "section_id": "briefing_ai_daily",
+          "title_original": "The Shape of the Thing",
+          "snippet": "In October of 2023, I wrote about the “Shape of the Shadow of the Thing,” speculating on the Thing that AI might turn into in the coming years."
+        },
+        {
+          "id": "briefing_ai_daily-4",
+          "section_id": "briefing_ai_daily",
+          "title_original": "How open model ecosystems compound",
+          "snippet": "Note: Voice-overs for paywalled posts are available for paid subscribes in podcast apps if you click on settings on Interconnects, then manage your description."
+        },
+        {
+          "id": "briefing_ai_daily-5",
+          "section_id": "briefing_ai_daily",
+          "title_original": "Notes from inside China's AI labs",
+          "snippet": "Staring out the window on a new, high-speed train from Hangzhou to Shanghai I’m gifted with views of dramatic ridgelines speckled with wind turbines that are silhouetted against the setting sun."
+        },
+        {
+          "id": "briefing_ai_daily-6",
+          "section_id": "briefing_ai_daily",
+          "title_original": "The distillation panic",
+          "snippet": "‘Distillation attacks’ is a horrible term for what is happening right now."
+        },
+        {
+          "id": "briefing_ai_daily-7",
+          "section_id": "briefing_ai_daily",
+          "title_original": "Agents feedback tip",
+          "snippet": "Hey folks, I’m testing out something new in my building workflow… When an agent asks for feedback it feels like the levels are type your response voice-to-text your response + images to your feedback get the agent to use the browser But I just started scree…"
+        },
+        {
+          "id": "briefing_ai_daily-8",
+          "section_id": "briefing_ai_daily",
+          "title_original": "Learn the system",
+          "snippet": "Hey folks, I watched this this morning; ‘Agentic coding is a trap — and we all fell for it’ - it’s surprising relevant past just developers."
+        },
+        {
+          "id": "briefing_ai_daily-9",
+          "section_id": "briefing_ai_daily",
+          "title_original": "Ben's Builds #3 - an email app",
+          "snippet": "Hey folks, I had some time to build this week and I mentioned I’d go into a bit more detail on how I did it."
+        },
+        {
+          "id": "briefing_ai_daily-10",
+          "section_id": "briefing_ai_daily",
+          "title_original": "ChinAI #358: Around the Horn (25th episode)",
+          "snippet": "Greetings from a world where… summer beckons …As always, the searchable archive of all past issues is here ."
+        },
+        {
+          "id": "briefing_ai_daily-11",
+          "section_id": "briefing_ai_daily",
+          "title_original": "ChinAI #357: AI Surveillance in Chinese Universities",
+          "snippet": "Greetings from a world where… one must weigh every word with care [字斟句酌] …As always, the searchable archive of all past issues is here ."
+        },
+        {
+          "id": "briefing_ai_daily-12",
+          "section_id": "briefing_ai_daily",
+          "title_original": "ChinAI #356: DeepSeek as Road Builder [修路人]",
+          "snippet": "Greetings from a world where… Jeopardy is still appointment viewing during this streak …As always, the searchable archive of all past issues is here ."
+        },
+        {
+          "id": "briefing_ai_daily-13",
+          "section_id": "briefing_ai_daily",
+          "title_original": "AI to ROI Big Story: Work as a Service - The Holy Grail of AI Business Models",
+          "snippet": "AI Becomes a Worker The global software market is $1.4 trillion."
+        },
+        {
+          "id": "briefing_ai_daily-14",
+          "section_id": "briefing_ai_daily",
+          "title_original": "AI to ROI News & Analysis: May 8, 2026",
+          "snippet": "Th e Biggest AI News This Week This week’s AI to ROI newsletter is brought to you by Mavvrik , the cost governance platform for the AI era."
+        },
+        {
+          "id": "briefing_ai_daily-15",
+          "section_id": "briefing_ai_daily",
+          "title_original": "AI to ROI Reports & Data: The State of the Global Workplace by Gallup",
+          "snippet": "The State of the Global Workplace from Gallup Shows the Human Side of AI About the Publication and Authors The “ State of the Global Workplace: The Human Side of the AI Revolution ” is published by Gallup, Inc."
+        }
+      ]
+    }
+  ]
+}
