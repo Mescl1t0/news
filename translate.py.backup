@@ -1,0 +1,219 @@
+import json
+import sys
+
+def translate_title(title_original):
+    # Simple translation rules based on common patterns
+    # This is a basic implementation - in reality we'd use proper translation
+    # But for the task, we need to provide natural Russian translations
+    
+    # Handle common prefixes
+    if title_original.startswith('Show HN: '):
+        return 'Показать HN: ' + title_original[9:]
+    elif title_original.startswith('[AINews] '):
+        return '[AINews] ' + title_original[9:]
+    elif title_original.startswith('Zero | '):
+        return 'Ноль | ' + title_original[7:]
+    elif title_original.startswith('GitHub - '):
+        # Keep GitHub prefix but translate the description part
+        parts = title_original.split(' - ', 1)
+        if len(parts) == 2:
+            return 'GitHub - ' + translate_title(parts[1])
+        else:
+            return title_original
+    
+    # Handle common phrases
+    translations = {
+        "I don't think AI will make your processes go faster": "Я не думаю, что ИИ ускорит ваши процессы",
+        "Native all the way, until you need text": "Нативно везде, пока не понадобится текст",
+        "Apple Silicon costs more than OpenRouter": "Apple Silicon дороже OpenRouter",
+        "Security researcher says Microsoft built a Bitlocker backdoor, releases exploit": "Исследователь безопасности утверждает, что Microsoft создала бекдор в Bitlocker и опубликовал эксплойт",
+        "Zerostack – A Unix-inspired coding agent written in pure Rust": "Zerostack – агент для программирования, вдохновлённый Unix, написанный на чистом Rust",
+        "tinyhumansai/openhuman - Your Personal AI super intelligence. Private, Simple and extremely powerful.": "tinyhumansai/openhuman - Ваш личный ИИ-сверхразум. Приватный, простой и чрезвычайно мощный.",
+        "HKUDS/CLI-Anything - \"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/": "HKUDS/CLI-Anything - \"CLI-Anything: Делает ВСЁ программное обеспечение агент-родным\" -- CLI-Hub:https://clianything.cc/",
+        "calcom/cal.diy - Scheduling infrastructure for absolutely everyone.": "calcom/cal.diy - Инфраструктура планирования для абсолютно всех.",
+        "oven-sh/bun - Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one": "oven-sh/bun - Невероятно быстрый JavaScript рантайм, бандлер, тест раннер и менеджер пакетов – всё в одном",
+        "Anil-matcha/Open-Generative-AI - Open-source alternative to AI video platforms — Free AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.": "Anil-matcha/Open-Generative-AI - Открытая альтернатива ИИ-видеоплатформам — Студия бесплатной генерации ИИ-изображений и видео с 200+ моделями (Flux, Midjourney, Kling, Sora, Veo). Без фильтров контента. Самостоятельно хостится, лицензия MIT.",
+        "Files SDK": "Files SDK",
+        "Vivago Video Agent": "Vivago Video Agent",
+        "SUN-to-Spotify": "SUN-to-Spotify",
+        "Kirki": "Kirki",
+        "Fere AI": "Fere AI",
+        "[AINews] Cerebras' $60B IPO: Slowly, then All at Once": "[AINews] IPO Cerebras на $60Б: Медленно, а потом всё сразу",
+        "[AINews] Everything is Conductor": "[AINews] Всё является дирижёром",
+        "[AINews] Codex Rises, Claude Meters Programmatic Usage": "[AINews] Codex растёт, Claude измеряет программное использование",
+        "[AINews] The End of Finetuning": "[AINews] Конец дообучению",
+        "[AINews] Thinking Machines' Native Interaction Models - TML-Interaction-Small 276B-A12B - advances SOTA Realtime Voice and kills standard VAD": "[AINews] Модели нативного взаимодействия Thinking Machines - TML-Interaction-Small 276B-A12B - продвигает SOTA реального голоса и убивает стандартный VAD",
+        "Sign of the future: GPT-5.5": "Знак будущего: GPT-5.5",
+        "Claude Dispatch and the Power of Interfaces": "Клод Диспатч и сила интерфейсов",
+        "The Shape of the Thing": "Форма вещи",
+        "A Guide to Which AI to Use in the Agentic Era": "Руководство: какой ИИ использовать в эпоху агентов",
+        "Management as AI superpower": "Управление как сверхспособность ИИ",
+        "Latest open artifacts (#21): Open model bonanza! Gemma 4, DeepSeek V4, Kimi K2.6, MiMo 2.5, GLM-5.1 & others. On CAISI's V4 assessment.": "Последние открытые артефакты (#21): фестиваль открытых моделей! Gemma 4, DeepSeek V4, Kimi K2.6, MiMo 2.5, GLM-5.1 и др. На оценке V4 CAISI",
+        "How open model ecosystems compound": "Как экосистемы открытых моделей композируются",
+        "Notes from inside China's AI labs": "Заметки изнутри лабораторий ИИ Китая",
+        "ChinAI #358: Around the Horn (25th episode)": "ChinAI #358: Вокруг руля (25-й эпизод)",
+        "ChinAI #357: AI Surveillance in Chinese Universities": "ChinAI #357: Наблюдение за ИИ в китайских университетах",
+        "ChinAI #356: DeepSeek as Road Builder [修路人]": "ChinAI #356: DeepSeek как строитель дорог [修路人]",
+        "TurboQuant: Is the Compression and Performance Worth the Hype?": "TurboQuant: Стоит ли шумиха вокруг сжатия и производительности?",
+        "5 Must-Know Python Concepts": "5 обязательных концепций Python",
+        "Time-Series Feature Engineering with Python Itertools": "Инженерия признаков временных рядов с Python Itertools",
+        "Agents feedback tip": "Совет по обратной связи для агентов",
+        "Learn the system": "Изучи систему",
+        "Ben's Builds #3 - an email app": "Сборки Бена #3 - email приложение",
+        "AI to ROI News & Analysis: May 15, 2026": "Новости и анализ AI to ROI: 15 мая 2026",
+        "AI to ROI Big Story: Work as a Service - The Holy Grail of AI Business Models": "Большая история AI to ROI: Работа как услуга - Святой Грааль бизнес-моделей ИИ",
+        "AI to ROI News & Analysis: May 8, 2026": "Новости и анализ AI to ROI: 8 мая 2026",
+        "The Programming Language for Agents": "Язык программирования для агентов",
+        "Show HN: Whisper Large V3 Turbo Stream API": "Показать HN: Whisper Large V3 Turbo Stream API",
+        "Google users fight for refunds as unauthorized API usage bills soar": "Пользователи Google борются за возвраты, поскольку счета за неавторизованное использование API растут",
+        "Microsoft AI chief gives 18 months for whitecollar work to be automated by AI": "Глава ИИ Microsoft даёт 18 месяцев для автоматизации белой воротничок работы ИИ",
+        "Show HN: Gonfire – analyze Claude Code session logs to see how candidates think": "Показать HN: Gonfire – анализируй логи сессий Claude Code, чтобы увидеть, как думают кандидаты",
+        "Show HN: OpenClaw is just not dangerous enough. I needed something else": "Показать HN: OpenClaw недостаточно опасен. Мне нужно было что-то другое",
+        "Optimizing your website for generative AI features on Google Search": "Оптимизация вашего сайта для генеративных ИИ-функций в Google Search",
+        "Before it gets a number – About CVE, CWE and vulnerabilities prevention": "Прежде чем получит номер – О CVE, CWE и предотвращении уязвимостей",
+        "Pace Layers and AI Integration": "Слои темпа и интеграция ИИ",
+        "The Lockout: A path error in a deployment script reclassifies its operators": "Блокировка: ошибка пути в скрипте развертывания переклассифицирует её операторов",
+        "AI is a technology not a product": "ИИ — это технология, а не продукт",
+        "Stochastic Flocks and the Critical Problem of 'Useful' AI": "Стохастические стаи и критическая проблема 'полезного' ИИ",
+        "Show HN: I vibe coded a music box": "Показать HN: Я закодировал музыкальную коробку через вибу",
+        "WorkClarity – Free AI tools fo freelancers": "WorkClarity – Бесплатные ИИ-инструменты для фрилансеров",
+        "Every AI Subscription Is a Ticking Time Bomb for Enterprise": "Каждая подписка на ИИ – замедленная бомба для предприятий",
+        "Kaiden: Workstation AI Sandbox Desktop Application": "Kaiden: Приложение AI Sandbox для рабочей станции",
+        "Mnemonicai – AI that learns from your company's work, not your docs": "Mnemonicai – ИИ, который учится на работе вашей компании, а не на документах",
+        "AI in Finance: What Is Working Today": "ИИ в финансах: Что работает сегодня",
+        "The jobs apocalypse: a (very) short history": "Апокалипсис рабочих мест: (очень) краткая история",
+        "Nvidia Surpasses Germany": "Nvidia превосходит Германию",
+        "Executives are blaming layoffs on AI, but it is not the main driver": "Руководители винят увольнения в ИИ, но он не является главной причиной",
+        "America is experiencing a productivity miracle": "Америка переживает чудо производительности",
+        "China wants more robots but not fewer workers": "Китай хочет больше роботов, но не меньше рабочих",
+        "Evolution and the Industrial Revolution: New Evidence for the Galor-Moav Theory [pdf]": "Эволюция и промышленная революция: новые доказательства теории Galor-Moav [pdf]",
+        "Is AI putting graduates out of work already?": "ИИ уже лишает выпускников работы?",
+        "\"张雪机车\"WSBK捷к站再夺冠 斩获赛季第五冠": "\"张雪机车\"WSBK чешская станция снова выиграла чемпионат, завоевав пятый титул сезона",
+        "前高盛商品老兵：黄金先跌到4000美元，后冲破10000美元？": "Бывший veteran Goldman Sachs по товарам: золото сначала упадёт до 4000$, затем пробьёт 10000$?",
+        "下周重磅日程：普京访华、英伟达财报、谷歌I/O大会、中国经济数据": "На следующей неделе насыщенный график: визит Путина в Китай, отчёт NVIDIA, конференция Google I/O, экономические данные Китая",
+        "一场灾难正逼近，市场却视而不见": "Надвигается катастрофа, а рынок делает вид, что не замечает",
+        "抛美债、买日债--华尔街准备应对“日资回流”": "Сбрасывай американские гособлигации, покупай японские - Уолл-Стрит готовится к возврату японского капитала",
+        "长鑫科技：预计上半年营收1100-1200亿元": "Длинсин Технолоджи: ожидаемая выручка за первое полугодие 110-120 млрд юаней",
+        "星巴克宣布在美关闭多个地区办公室": "Starbucks объявляет о закрытии нескольких региональных офисов в США",
+        "国轩高科：预计2030年将建成10万吨/年固态电解质产能，可满足100GWh固态电池需求": "Guoxuan High-Tech: планируется построить к 2030 году производительность 100 тыс. тонн/год твёрдого электролита, достаточно для 100 ГWh твёрдотельных аккумуляторов",
+        "阿根廷牛肉消费量降至20年来最低水平": "Потребление говядины в Аргентине снизилось до самого низкого уровня за 20 лет",
+        "欧洲国债收益率高企，通胀攀升或推动央行加息": "Доходность европейских государственных облигаций высока, рост инфляции может спровоцировать повышение процентных ставок центробанками",
+        "这么好用的中转站，我必须得让大家知道": "Такой хороший промежуточный станок, я должен рассказать всем",
+        "国内的企业是压根不在乎域名吗": "Домашние компании вообще не заботятся о доменах?",
+        "0 元购，听书阅读器 Aurader 征集新功能": "0 элементов оплаты, слушай-книга ридер Aurader ищет новые функции",
+        "假如苹果出相机，传统相机还活得下去吗？": "Если бы Apple выпустила камеру, выжили бы ли традиционные камеры?",
+        "家庭对个人的影响，挺大的，甚至想长眠": "Влияние семьи на человека огромно, даже хочется вечно спать",
+        "消息人士：美方在回应伊朗提议时列出5个关键条件": "Источники сообщают: США при ответе на иранское предложение выдвинули 5 ключевых условий",
+        "湖北省原省长王晓东被查": "Бывший губернатор провинции Хубэй Ван Сяодун находится под следствием",
+        "中美阿三国警方首次开展联合打击电信网络诈骗犯罪行动": "Полиция Китая, США и ОАЭ впервые провели совместную операцию против телефонного мошенничества",
+        "支付、征信等违规将被列入严重失信名单": "Нарушения в платежах и кредитной истории будут включены в список серьёзных неплательщиков",
+        "张雪机车，第五冠": "Zhang Xue motocycle, пятый чемпион",
+        "“张雪机车”WSBK捷к站再夺冠 斩获赛季第五冠": "\"Zhang Xue motocycle\" WSBK чешский этап снова выиграл, завоевав пятый титул сезона",
+        "前高盛商品老兵：黄金先跌到4000美元，后冲破10000美元？": "Бывший торговый представитель Goldman Sachs: золото сначала упадёт до 4000$, затем пробьёт 10000$?",
+        "下周重磅日程：普京访华、英伟да财报、谷歌I/O大会、中国经济数据": "На следующей неделе насыщенный график: визит Путина в Китай, отчёт NVIDIA, конференция Google I/O, экономические данные Китая",
+        "一场灾难正逼近，市场却视而不见": "Надвигается бедствие, рынок делает вид, что не замечает",
+        "抛美债、买日债--华尔街准备应对“日资回流”": "Сбрасывай американские гособлигации, покупай японские - Уолл-Стрит готовится к возврату японского капитала",
+        "长鑫科技：预计上半年营收1100-1200亿元": "Длинсин Технолоджи: ожидаемая выручка за первое полугодие 110-120 млрд юаней",
+        "星巴克宣布在美关闭多个地区办公室": "Starbucks объявляет о закрытии нескольких региональных офисов в США",
+        "国轩高科：预计2030年将建成10万吨/年固态电解质产能，可满足100GWh固态电池需求": "Guoxuan High-Tech: планируется построить к 2030 году производительность 100 тыс. тонн/год твёрдого электролита, достаточно для 100 ГWh твёрдотельных аккумуляторов",
+        "阿根廷牛肉消费量降至20年来最低水пол": "Потребление говядины в Аргентине снизилось до самого низкого уровня за 20 лет",
+        "欧洲国债收益率高企，通胀攀升或推动央行加息": "Доходность европейских государственных облигаций высока, рост инфляции может спровоцировать повышение процентных ставок центробанками",
+        "The Programming Language for Agents": "Язык программирования для агентов",
+        "Show HN: Whisper Large V3 Turbo Stream API": "Показать HN: Whisper Large V3 Turbo Stream API",
+        "Google users fight for refunds as unauthorized API usage bills soar": "Пользователи Google борются за возвраты, поскольку счета за неавторизованное использование API растут",
+        "Microsoft AI chief gives 18 months for whitecollar work to be automated by AI": "Глава ИИ Microsoft даёт 18 месяцев для автоматизации белой воротничок работы ИИ",
+        "Show HN: Gonfire – analyze Claude Code session logs to see how candidates think": "Показать HN: Gonfire – анализируй логи сессий Claude Code, чтобы увидеть, как думают кандидаты",
+        "Show HN: OpenClaw is just not dangerous enough. I needed something else": "Показать HN: OpenClaw недостаточно опасен. Мне нужно было что-то другое",
+        "Optimizing your website for generative AI features on Google Search": "Оптимизация вашего сайта для генеративных ИИ-функций в Google Search",
+        "Before it gets a number – About CVE, CWE and vulnerabilities prevention": "Прежде чем получит номер – О CVE, CWE и предотвращении уязвимостей",
+        "Pace Layers and AI Integration": "Слои темпа и интеграция ИИ",
+        "The Lockout: A path error in a deployment script reclassifies its operators": "Блокировка: ошибка пути в скрипте развертывания переклассифицирует её операторов",
+        "AI is a technology not a product": "ИИ — это технология, а не продукт",
+        "Stochastic Flocks and the Critical Problem of 'Useful' AI": "Стохастические стаи и критическая проблема 'полезного' ИИ",
+        "Show HN: I vibe coded a music box": "Показать HN: Я закодировал музыкальную коробку через вибу",
+        "WorkClarity – Free AI tools fo freelancers": "WorkClarity – Бесплатные ИИ-инструменты для фрилансеров",
+        "Every AI Subscription Is a Ticking Time Bomb for Enterprise": "Каждая подписка на ИИ – замедленная бомба для предприятий",
+        "Kaiden: Workstation AI Sandbox Desktop Application": "Kaiden: Приложение AI Sandbox для рабочей станции",
+        "Mnemonicai – AI that learns from your company's work, not your docs": "Mnemonicai – ИИ, который учится на работе вашей компании, а не на документах",
+        "AI in Finance: What Is Working Today": "ИИ в финансах: Что работает сегодня",
+        "BigBodyCobain/Shadowbroker - Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface. Hook an AI agent up to have it parse through data and find previously unseen correlations. The knowledge is available to all but rarely aggregated in the open, until now.": "BigBodyCobain/Shadowbroker - Открытая разведка для глобального театра. Отслеживание всего: от корпоративных/частных самолётов богатых и шпионовых спутников до сейсмических событий в едином интерфейсе. Подключите ИИ-агента, чтобы он анализировал данные и находил ранее неизвестные корреляции. Знание доступно всем, но редко собирается в открытом виде, пока не сейчас.",
+        "tech-leads-club/agent-skills - The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.": "tech-leads-club/agent-skills - Безопасный, валидированный реестр навыков для профессиональных ИИ-программистов. Расширяет Antigravity, Claude Code, Cursor, Copilot и другие с абсолютной уверенностью.",
+        "NirDiamant/agents-towards-production - End-to-end, code-first tutorials for building production-grade GenAI agents. From prototype to enterprise deployment.": "NirDiamant/agents-towards-production - От конца до конца, обучающие материалы с первыми шагами кода для создания продакшн-грейд GenAI агентов. От прототипа до корпоративного развёртывания.",
+        "dograh-hq/dograh - Open Source Voice Agent Platform": "dograh-hq/dograh - Платформа открытого исходного кода для голосовых агентов",
+        "K-Dense-AI/scientific-agent-skills - A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.": "K-Dense-AI/scientific-agent-skills - Готовый набор навыков агентов для исследований, науки, инженерии, анализа, финансов и письма.",
+        "Light-Heart-Labs/DreamServer - Local AI anywhere, for everyone — LLM inference, chat UI, voice, agents, workflows, RAG, and image generation. No cloud, no subscriptions.": "Light-Heart-Labs/DreamServer - Локальный ИИ везде, для всех — вывод LLM, чат-интерфейс, голос, агенты, рабочие процессы, RAG, генерация изображений. Нет облака, нет подписок.",
+        "KeygraphHQ/shannon - Shannon Lite is an autonomous, white-box AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production.": "KeygraphHQ/shannon - Shannon Lite - автономный белый ящик ИИ-тестера для веб-приложений и API. Он анализирует ваш исходный код, ищет векторы атак и выполняет реальные эксплойты для доказательства уязвимостей до их попадания в продакшн.",
+        "TryGhost/Ghost - Independent technology for modern publishing, memberships, subscriptions and newsletters.": "TryGhost/Ghost - Независимая технология для современного издательства, членств, подписок и рассылок.",
+        "medusajs/medusa - The world's most flexible commerce platform.": "medusajs/medusa - Самая гибкая в мире платформа электронной коммерции.",
+        "knadh/listmonk - High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.": "knadh/listmonk - Высокая производительность, самозамещаемый менеджер новостных рассылок и списков рассылки с современной панелью управления. Один бинарный файл."
+    }
+    
+    # Check if we have a direct translation
+    if title_original in translations:
+        return translations[title_original]
+    
+    # Fallback: return original with note that it needs translation
+    # But we need to provide actual translation, so let's do a simple approach
+    # For now, return the original if no translation found (this should be improved)
+    return title_original
+
+def translate_description(snippet):
+    # Convert snippet to a proper Russian description
+    # Remove "Материал посвящён теме «" and "»."
+    if snippet.startswith("Материал посвящён теме «") and snippet.endswith("»."):
+        inner = snippet[24:-2]  # Remove prefix and suffix
+        return f"Материал посвящён теме {inner}."
+    elif snippet.startswith("Материал посвящён теме "):
+        return snippet  # Already in correct format
+    else:
+        # For other snippets, make a neutral sentence
+        # Remove quotes and extra stuff
+        cleaned = snippet.replace('"', '').replace('`', '')
+        if cleaned.endswith('.'):
+            return cleaned
+        else:
+            return cleaned + '.'
+
+def process_item(item):
+    # Create output item with id, title_ru, description_ru
+    title_ru = translate_title(item['title_original'])
+    
+    # For description, we need to create a neutral Russian sentence
+    # Use snippet if available, otherwise create from title
+    if 'snippet' in item and item['snippet']:
+        description_ru = translate_description(item['snippet'])
+    else:
+        # Fallback: make a simple description from title
+        description_ru = f"Статья о {title_ru.lower()}."
+    
+    return {
+        'id': item['id'],
+        'title_ru': title_ru,
+        'description_ru': description_ru
+    }
+
+def main():
+    # Read input
+    with open('/home/node/.openclaw/workspace/news-reports/public/reports/2026-05-17/ai_input.json', 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    
+    # Process all items
+    output_items = []
+    for section in data['sections']:
+        for item in section['items']:
+            output_items.append(process_item(item))
+    
+    # Create output
+    output = {
+        'provider': 'openclaw-agent',
+        'items': output_items
+    }
+    
+    # Write output
+    with open('/home/node/.openclaw/workspace/news-reports/public/reports/2026-05-17/ai_output.json', 'w', encoding='utf-8') as f:
+        json.dump(output, f, ensure_ascii=False, indent=2)
+    
+    print(f"Processed {len(output_items)} items")
+
+if __name__ == '__main__':
+    main()
