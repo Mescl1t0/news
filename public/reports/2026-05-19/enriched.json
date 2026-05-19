@@ -1,0 +1,3392 @@
+{
+  "date": "2026-05-19",
+  "generated_at": "2026-05-19T07:01:00",
+  "sections": [
+    {
+      "id": "hackernews",
+      "title": "Hacker News",
+      "type": "source",
+      "order": 1,
+      "sidebar_group": "Источники",
+      "description": "Техническая повестка и заметные инженерные обсуждения.",
+      "default_limit": 5,
+      "allow_empty": false,
+      "returncode": 0,
+      "stderr": "",
+      "count": 5,
+      "items": [
+        {
+          "id": "hackernews-1",
+          "section_id": "hackernews",
+          "position": 1,
+          "source": "Hacker News",
+          "title_original": "Peter Salus has died",
+          "title_ru": "Умер Питер Салюс",
+          "description_ru": "Статья посвящена памяти известного историка компьютерных технологий Питера Салюса.",
+          "url": "https://www.tuhs.org/pipermail/tuhs/2026-May/033750.html",
+          "metadata": {
+            "time": "1 hour ago",
+            "heat": "56 points",
+            "hn_url": "https://news.ycombinator.com/item?id=48188665",
+            "discussion_url": ""
+          }
+        },
+        {
+          "id": "hackernews-2",
+          "section_id": "hackernews",
+          "position": 2,
+          "source": "Hacker News",
+          "title_original": "Click (2016)",
+          "title_ru": "Click (2016) — материал посвящен обзору проекта или произведения под названием Click, выпущенного в 2016 году",
+          "description_ru": "Материал посвящен обзору проекта или произведения под названием Click, выпущенного в 2016 году.",
+          "url": "https://clickclickclick.click/",
+          "metadata": {
+            "time": "4 hours ago",
+            "heat": "229 points",
+            "hn_url": "https://news.ycombinator.com/item?id=48187054",
+            "discussion_url": ""
+          }
+        },
+        {
+          "id": "hackernews-3",
+          "section_id": "hackernews",
+          "position": 3,
+          "source": "Hacker News",
+          "title_original": "The last six months in LLMs in five minutes",
+          "title_ru": "Последние полгода в мире LLM за пять минут",
+          "description_ru": "Краткий обзор ключевых событий и достижений в области больших языковых моделей за последние шесть месяцев.",
+          "url": "https://simonwillison.net/2026/May/19/5-minute-llms/",
+          "metadata": {
+            "time": "2 hours ago",
+            "heat": "62 points",
+            "hn_url": "https://news.ycombinator.com/item?id=48188183",
+            "discussion_url": ""
+          }
+        },
+        {
+          "id": "hackernews-4",
+          "section_id": "hackernews",
+          "position": 4,
+          "source": "Hacker News",
+          "title_original": "Regex Chess: A 2-ply minimax chess engine in 84,688 regular expressions",
+          "title_ru": "Regex Chess: шахматный движок на 84 688 регулярных выражениях",
+          "description_ru": "Описание необычной реализации шахматного движка с использованием алгоритма минимакс и регулярных выражений.",
+          "url": "https://nicholas.carlini.com/writing/2025/regex-chess.html",
+          "metadata": {
+            "time": "2 hours ago",
+            "heat": "45 points",
+            "hn_url": "https://news.ycombinator.com/item?id=48136909",
+            "discussion_url": ""
+          }
+        },
+        {
+          "id": "hackernews-5",
+          "section_id": "hackernews",
+          "position": 5,
+          "source": "Hacker News",
+          "title_original": "Anthropic acquires Stainless",
+          "title_ru": "Anthropic приобретает Stainless",
+          "description_ru": "Компания Anthropic объявила о покупке стартапа Stainless для расширения своих возможностей.",
+          "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+          "metadata": {
+            "time": "10 hours ago",
+            "heat": "389 points",
+            "hn_url": "https://news.ycombinator.com/item?id=48182281",
+            "discussion_url": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "title": "GitHub Trending",
+      "type": "source",
+      "order": 2,
+      "sidebar_group": "Источники",
+      "description": "Популярные open-source проекты и инструменты.",
+      "default_limit": 5,
+      "allow_empty": false,
+      "returncode": 0,
+      "stderr": "",
+      "count": 5,
+      "items": [
+        {
+          "id": "github-1",
+          "section_id": "github",
+          "position": 1,
+          "source": "GitHub Trending",
+          "title_original": "tinyhumansai/openhuman - Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+          "title_ru": "tinyhumansai/openhuman — проект представляет собой приватное и мощное решение на базе искусственного интеллекта для личного использования",
+          "description_ru": "Проект представляет собой приватное и мощное решение на базе искусственного интеллекта для личного использования.",
+          "url": "https://github.com/tinyhumansai/openhuman",
+          "metadata": {
+            "time": "Today",
+            "heat": "17,914 stars",
+            "hn_url": "",
+            "discussion_url": ""
+          }
+        },
+        {
+          "id": "github-2",
+          "section_id": "github",
+          "position": 2,
+          "source": "GitHub Trending",
+          "title_original": "Imbad0202/academic-research-skills - Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+          "title_ru": "Imbad0202/academic-research-skills — набор инструментов для автоматизации процесса исследования, написания и редактирования научных работ с помощью Claude Co",
+          "description_ru": "Набор инструментов для автоматизации процесса исследования, написания и редактирования научных работ с помощью Claude Code.",
+          "url": "https://github.com/Imbad0202/academic-research-skills",
+          "metadata": {
+            "time": "Today",
+            "heat": "12,273 stars",
+            "hn_url": "",
+            "discussion_url": ""
+          }
+        },
+        {
+          "id": "github-3",
+          "section_id": "github",
+          "position": 3,
+          "source": "GitHub Trending",
+          "title_original": "HKUDS/CLI-Anything - \"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
+          "title_ru": "HKUDS/CLI-Anything — платформа, позволяющая сделать любое программное обеспечение нативным для использования ИИ-агентами",
+          "description_ru": "Платформа, позволяющая сделать любое программное обеспечение нативным для использования ИИ-агентами.",
+          "url": "https://github.com/HKUDS/CLI-Anything",
+          "metadata": {
+            "time": "Today",
+            "heat": "36,835 stars",
+            "hn_url": "",
+            "discussion_url": ""
+          }
+        },
+        {
+          "id": "github-4",
+          "section_id": "github",
+          "position": 4,
+          "source": "GitHub Trending",
+          "title_original": "K-Dense-AI/scientific-agent-skills - A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+          "title_ru": "K-Dense-AI/scientific-agent-skills — библиотека специализированных навыков для агентов, предназначенных для исследований, анализа данных и финансов",
+          "description_ru": "Библиотека специализированных навыков для агентов, предназначенных для исследований, анализа данных и финансов.",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+          "metadata": {
+            "time": "Today",
+            "heat": "24,499 stars",
+            "hn_url": "",
+            "discussion_url": ""
+          }
+        },
+        {
+          "id": "github-5",
+          "section_id": "github",
+          "position": 5,
+          "source": "GitHub Trending",
+          "title_original": "supertone-inc/supertonic - Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
+          "title_ru": "supertone-inc/supertonic — система синтеза речи, работающая на устройстве пользователя с использованием формата ONNX",
+          "description_ru": "Система синтеза речи, работающая на устройстве пользователя с использованием формата ONNX.",
+          "url": "https://github.com/supertone-inc/supertonic",
+          "metadata": {
+            "time": "Today",
+            "heat": "8,434 stars",
+            "hn_url": "",
+            "discussion_url": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "producthunt",
+      "title": "Product Hunt",
+      "type": "source",
+      "order": 4,
+      "sidebar_group": "Источники",
+      "description": "Новые продукты и сервисы дня.",
+      "default_limit": 5,
+      "allow_empty": false,
+      "returncode": 0,
+      "stderr": "",
+      "count": 5,
+      "items": [
+        {
+          "id": "producthunt-1",
+          "section_id": "producthunt",
+          "position": 1,
+          "source": "Product Hunt",
+          "title_original": "Shadow",
+          "title_ru": "Shadow — сервис предоставляет доступ к мощному облачному компьютеру для игр и рабочих задач",
+          "description_ru": "Сервис предоставляет доступ к мощному облачному компьютеру для игр и рабочих задач.",
+          "url": "https://www.producthunt.com/products/shadow-4",
+          "metadata": {
+            "time": "2026-05-08T00:41:32-07:00",
+            "heat": "Top Product",
+            "hn_url": "",
+            "discussion_url": ""
+          }
+        },
+        {
+          "id": "producthunt-2",
+          "section_id": "producthunt",
+          "position": 2,
+          "source": "Product Hunt",
+          "title_original": "Voiser AI",
+          "title_ru": "Voiser AI — инструмент на базе ИИ для озвучивания текстов и распознавания речи",
+          "description_ru": "Инструмент на базе ИИ для озвучивания текстов и распознавания речи.",
+          "url": "https://www.producthunt.com/products/voiser-ai-text-to-speech",
+          "metadata": {
+            "time": "2026-05-17T23:28:32-07:00",
+            "heat": "Top Product",
+            "hn_url": "",
+            "discussion_url": ""
+          }
+        },
+        {
+          "id": "producthunt-3",
+          "section_id": "producthunt",
+          "position": 3,
+          "source": "Product Hunt",
+          "title_original": "Origio",
+          "title_ru": "Origio — платформа, помогающая командам структурировать задачи и повышать продуктивность",
+          "description_ru": "Платформа, помогающая командам структурировать задачи и повышать продуктивность.",
+          "url": "https://www.producthunt.com/products/origio",
+          "metadata": {
+            "time": "2026-05-03T10:25:18-07:00",
+            "heat": "Top Product",
+            "hn_url": "",
+            "discussion_url": ""
+          }
+        },
+        {
+          "id": "producthunt-4",
+          "section_id": "producthunt",
+          "position": 4,
+          "source": "Product Hunt",
+          "title_original": "LandingHero AI",
+          "title_ru": "LandingHero AI — сервис для автоматического создания эффективных посадочных страниц с помощью искусственного интеллекта",
+          "description_ru": "Сервис для автоматического создания эффективных посадочных страниц с помощью искусственного интеллекта.",
+          "url": "https://www.producthunt.com/products/landinghero-ai-2",
+          "metadata": {
+            "time": "2026-04-12T08:46:55-07:00",
+            "heat": "Top Product",
+            "hn_url": "",
+            "discussion_url": ""
+          }
+        },
+        {
+          "id": "producthunt-5",
+          "section_id": "producthunt",
+          "position": 5,
+          "source": "Product Hunt",
+          "title_original": "Searchad.ai",
+          "title_ru": "Searchad.ai — инструмент для оптимизации и управления рекламными кампаниями в поисковых системах",
+          "description_ru": "Инструмент для оптимизации и управления рекламными кампаниями в поисковых системах.",
+          "url": "https://www.producthunt.com/products/searchad-ai",
+          "metadata": {
+            "time": "2026-05-16T23:59:00-07:00",
+            "heat": "Top Product",
+            "hn_url": "",
+            "discussion_url": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "latentspace_ainews",
+      "title": "Latent Space AINews",
+      "type": "source",
+      "order": 10,
+      "sidebar_group": "Источники",
+      "description": "Короткая AI-повестка и отраслевые наблюдения.",
+      "default_limit": 5,
+      "allow_empty": false,
+      "returncode": 0,
+      "stderr": "",
+      "count": 5,
+      "items": [
+        {
+          "id": "latentspace_ainews-1",
+          "section_id": "latentspace_ainews",
+          "position": 1,
+          "source": "Latent Space AINews",
+          "title_original": "[AINews] Cerebras' $60B IPO: Slowly, then All at Once",
+          "title_ru": "[AINews] IPO Cerebras на 60 миллиардов долларов",
+          "description_ru": "Обзор успешного выхода компании Cerebras на фондовый рынок.",
+          "url": "https://www.latent.space/p/ainews-cerebras-60b-ipo-slowly-then",
+          "metadata": {
+            "time": "2026-05-16",
+            "heat": "Daily Roundup",
+            "hn_url": "",
+            "discussion_url": ""
+          }
+        },
+        {
+          "id": "latentspace_ainews-2",
+          "section_id": "latentspace_ainews",
+          "position": 2,
+          "source": "Latent Space AINews",
+          "title_original": "[AINews] Everything is Conductor",
+          "title_ru": "[AINews] Эра Conductor",
+          "description_ru": "Анализ новой тенденции в области ИИ-инструментов, объединяющих различные рабочие процессы.",
+          "url": "https://www.latent.space/p/ainews-everything-is-conductor",
+          "metadata": {
+            "time": "2026-05-15",
+            "heat": "Daily Roundup",
+            "hn_url": "",
+            "discussion_url": ""
+          }
+        },
+        {
+          "id": "latentspace_ainews-3",
+          "section_id": "latentspace_ainews",
+          "position": 3,
+          "source": "Latent Space AINews",
+          "title_original": "[AINews] Codex Rises, Claude Meters Programmatic Usage",
+          "title_ru": "[AINews] Возрождение Codex и метрики использования Claude",
+          "description_ru": "Обзор обновлений в области инструментов для программирования и систем мониторинга использования ИИ.",
+          "url": "https://www.latent.space/p/ainews-codex-rises-claude-meters",
+          "metadata": {
+            "time": "2026-05-14",
+            "heat": "Daily Roundup",
+            "hn_url": "",
+            "discussion_url": ""
+          }
+        },
+        {
+          "id": "latentspace_ainews-4",
+          "section_id": "latentspace_ainews",
+          "position": 4,
+          "source": "Latent Space AINews",
+          "title_original": "[AINews] The End of Finetuning",
+          "title_ru": "[AINews] Конец эпохи дообучения",
+          "description_ru": "Размышления о том, как меняются методы адаптации моделей и почему дообучение теряет актуальность.",
+          "url": "https://www.latent.space/p/ainews-the-end-of-finetuning",
+          "metadata": {
+            "time": "2026-05-13",
+            "heat": "Daily Roundup",
+            "hn_url": "",
+            "discussion_url": ""
+          }
+        },
+        {
+          "id": "latentspace_ainews-5",
+          "section_id": "latentspace_ainews",
+          "position": 5,
+          "source": "Latent Space AINews",
+          "title_original": "[AINews] Thinking Machines' Native Interaction Models - TML-Interaction-Small 276B-A12B - advances SOTA Realtime Voice and kills standard VAD",
+          "title_ru": "[AINews] Интерактивные модели Thinking Machines",
+          "description_ru": "Обзор новой модели, которая улучшает качество голосового взаимодействия в реальном времени.",
+          "url": "https://www.latent.space/p/ainews-thinking-machines-native-interaction",
+          "metadata": {
+            "time": "2026-05-12",
+            "heat": "Daily Roundup",
+            "hn_url": "",
+            "discussion_url": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "oneusefulthing",
+      "title": "One Useful Thing",
+      "type": "source",
+      "order": 14,
+      "sidebar_group": "Источники",
+      "description": "Разборы и эссе о практическом применении AI.",
+      "default_limit": 5,
+      "allow_empty": false,
+      "returncode": 0,
+      "stderr": "",
+      "count": 5,
+      "items": [
+        {
+          "id": "oneusefulthing-1",
+          "section_id": "oneusefulthing",
+          "position": 1,
+          "source": "One Useful Thing",
+          "title_original": "Sign of the future: GPT-5.5",
+          "title_ru": "Признак будущего: GPT-5.5",
+          "description_ru": "Автор делится впечатлениями от раннего доступа к новой версии модели GPT.",
+          "url": "https://www.oneusefulthing.org/p/sign-of-the-future-gpt-55",
+          "metadata": {
+            "time": "Thu, 23 Apr 2026 20:00:38 GMT",
+            "heat": "",
+            "hn_url": "",
+            "discussion_url": ""
+          }
+        },
+        {
+          "id": "oneusefulthing-2",
+          "section_id": "oneusefulthing",
+          "position": 2,
+          "source": "One Useful Thing",
+          "title_original": "Claude Dispatch and the Power of Interfaces",
+          "title_ru": "Claude Dispatch и сила интерфейсов",
+          "description_ru": "Статья о том, как новые интерфейсы взаимодействия с ИИ расширяют возможности пользователей.",
+          "url": "https://www.oneusefulthing.org/p/claude-dispatch-and-the-power-of",
+          "metadata": {
+            "time": "Tue, 31 Mar 2026 22:34:37 GMT",
+            "heat": "",
+            "hn_url": "",
+            "discussion_url": ""
+          }
+        },
+        {
+          "id": "oneusefulthing-3",
+          "section_id": "oneusefulthing",
+          "position": 3,
+          "source": "One Useful Thing",
+          "title_original": "The Shape of the Thing",
+          "title_ru": "Форма вещей",
+          "description_ru": "Размышления о том, как меняется природа искусственного интеллекта и его роль в ближайшем будущем.",
+          "url": "https://www.oneusefulthing.org/p/the-shape-of-the-thing",
+          "metadata": {
+            "time": "Thu, 12 Mar 2026 14:10:07 GMT",
+            "heat": "",
+            "hn_url": "",
+            "discussion_url": ""
+          }
+        },
+        {
+          "id": "oneusefulthing-4",
+          "section_id": "oneusefulthing",
+          "position": 4,
+          "source": "One Useful Thing",
+          "title_original": "A Guide to Which AI to Use in the Agentic Era",
+          "title_ru": "Руководство по выбору ИИ в эпоху агентов",
+          "description_ru": "Обновленный гид по использованию различных ИИ-инструментов в условиях стремительного развития агентных систем.",
+          "url": "https://www.oneusefulthing.org/p/a-guide-to-which-ai-to-use-in-the",
+          "metadata": {
+            "time": "Wed, 18 Feb 2026 01:45:41 GMT",
+            "heat": "",
+            "hn_url": "",
+            "discussion_url": ""
+          }
+        },
+        {
+          "id": "oneusefulthing-5",
+          "section_id": "oneusefulthing",
+          "position": 5,
+          "source": "One Useful Thing",
+          "title_original": "Management as AI superpower",
+          "title_ru": "Менеджмент как суперсила ИИ",
+          "description_ru": "Описание экспериментального курса, где студенты использовали ИИ для создания стартапа за несколько дней.",
+          "url": "https://www.oneusefulthing.org/p/management-as-ai-superpower",
+          "metadata": {
+            "time": "Tue, 27 Jan 2026 16:55:55 GMT",
+            "heat": "",
+            "hn_url": "",
+            "discussion_url": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "interconnects",
+      "title": "Interconnects",
+      "type": "source",
+      "order": 15,
+      "sidebar_group": "Источники",
+      "description": "Аналитика AI-рынка и заметки изнутри индустрии.",
+      "default_limit": 5,
+      "allow_empty": false,
+      "returncode": 0,
+      "stderr": "",
+      "count": 5,
+      "items": [
+        {
+          "id": "interconnects-1",
+          "section_id": "interconnects",
+          "position": 1,
+          "source": "Interconnects",
+          "title_original": "Latest open artifacts (#21): Open model bonanza! Gemma 4, DeepSeek V4, Kimi K2.6, MiMo 2.5, GLM-5.1 & others. On CAISI's V4 assessment.",
+          "title_ru": "Обзор открытых моделей: Gemma 4, DeepSeek V4, Kimi K2.6 и другие",
+          "description_ru": "В этом месяце ведущие лаборатории открытого ИИ представили множество новых моделей.",
+          "url": "https://www.interconnects.ai/p/latest-open-artifacts-21-open-model",
+          "metadata": {
+            "time": "Sat, 16 May 2026 17:00:11 GMT",
+            "heat": "",
+            "hn_url": "",
+            "discussion_url": ""
+          }
+        },
+        {
+          "id": "interconnects-2",
+          "section_id": "interconnects",
+          "position": 2,
+          "source": "Interconnects",
+          "title_original": "How open model ecosystems compound",
+          "title_ru": "Как развиваются экосистемы открытых моделей",
+          "description_ru": "Автор рассказывает о том, как подписка на платный контент помогает поддерживать развитие открытых ИИ-проектов.",
+          "url": "https://www.interconnects.ai/p/how-open-model-ecosystems-compound",
+          "metadata": {
+            "time": "Tue, 12 May 2026 15:54:47 GMT",
+            "heat": "",
+            "hn_url": "",
+            "discussion_url": ""
+          }
+        },
+        {
+          "id": "interconnects-3",
+          "section_id": "interconnects",
+          "position": 3,
+          "source": "Interconnects",
+          "title_original": "Notes from inside China's AI labs",
+          "title_ru": "Заметки из китайских лабораторий ИИ",
+          "description_ru": "Автор делится впечатлениями от поездки по Китаю и размышлениями о местной индустрии искусственного интеллекта.",
+          "url": "https://www.interconnects.ai/p/notes-from-inside-chinas-ai-labs",
+          "metadata": {
+            "time": "Thu, 07 May 2026 15:42:43 GMT",
+            "heat": "",
+            "hn_url": "",
+            "discussion_url": ""
+          }
+        },
+        {
+          "id": "interconnects-4",
+          "section_id": "interconnects",
+          "position": 4,
+          "source": "Interconnects",
+          "title_original": "The distillation panic",
+          "title_ru": "Паника вокруг дистилляции моделей",
+          "description_ru": "В статье критикуется термин «атаки через дистилляцию» применительно к текущим процессам в индустрии ИИ.",
+          "url": "https://www.interconnects.ai/p/the-distillation-panic",
+          "metadata": {
+            "time": "Mon, 04 May 2026 15:56:44 GMT",
+            "heat": "",
+            "hn_url": "",
+            "discussion_url": ""
+          }
+        },
+        {
+          "id": "interconnects-5",
+          "section_id": "interconnects",
+          "position": 5,
+          "source": "Interconnects",
+          "title_original": "Reading today's open-closed performance gap",
+          "title_ru": "Разрыв в производительности между открытыми и закрытыми моделями",
+          "description_ru": "Автор анализирует динамику развития открытых моделей и их постоянное отставание от закрытых аналогов.",
+          "url": "https://www.interconnects.ai/p/reading-todays-open-closed-performance",
+          "metadata": {
+            "time": "Mon, 20 Apr 2026 18:25:02 GMT",
+            "heat": "",
+            "hn_url": "",
+            "discussion_url": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "latentspace",
+      "title": "Latent Space Podcast",
+      "type": "source",
+      "order": 27,
+      "sidebar_group": "Источники",
+      "description": "Подкаст-выпуски про AI, продукты и инфраструктуру.",
+      "default_limit": 5,
+      "allow_empty": false,
+      "returncode": 0,
+      "stderr": "",
+      "count": 5,
+      "items": [
+        {
+          "id": "latentspace-1",
+          "section_id": "latentspace",
+          "position": 1,
+          "source": "Latent Space",
+          "title_original": "The Next War Is Already Here. The West Isn't Ready. — Yaroslav Azhnyuk, The Fourth Law & Guest Host Noah Smith, Noahpinion",
+          "title_ru": "Будущая война уже здесь, и Запад к ней не готов",
+          "description_ru": "Обсуждение того, как меняются методы ведения войны в Украине и почему западные страны не успевают адаптироваться.",
+          "url": "https://www.latent.space/p/the-fourth-law",
+          "metadata": {
+            "time": "Mon, 18 May 2026 13:45:32 GMT",
+            "heat": "",
+            "hn_url": "",
+            "discussion_url": ""
+          }
+        },
+        {
+          "id": "latentspace-2",
+          "section_id": "latentspace",
+          "position": 2,
+          "source": "Latent Space",
+          "title_original": "[AINews] Cerebras' $60B IPO: Slowly, then All at Once",
+          "title_ru": "IPO Cerebras: медленный старт и резкий взлет",
+          "description_ru": "Анализ крупного выхода компании Cerebras на биржу и её партнерства в сфере ИИ-инфраструктуры.",
+          "url": "https://www.latent.space/p/ainews-cerebras-60b-ipo-slowly-then",
+          "metadata": {
+            "time": "Sat, 16 May 2026 04:36:50 GMT",
+            "heat": "",
+            "hn_url": "",
+            "discussion_url": ""
+          }
+        },
+        {
+          "id": "latentspace-3",
+          "section_id": "latentspace",
+          "position": 3,
+          "source": "Latent Space",
+          "title_original": "[AINews] Everything is Conductor",
+          "title_ru": "Всё есть дирижер — роль ИИ в управлении процессами",
+          "description_ru": "Обсуждение применения ИИ в здравоохранении и возможностей для нетворкинга среди инженеров.",
+          "url": "https://www.latent.space/p/ainews-everything-is-conductor",
+          "metadata": {
+            "time": "Fri, 15 May 2026 00:30:21 GMT",
+            "heat": "",
+            "hn_url": "",
+            "discussion_url": ""
+          }
+        },
+        {
+          "id": "latentspace-4",
+          "section_id": "latentspace",
+          "position": 4,
+          "source": "Latent Space",
+          "title_original": "AI-Native Healthcare: 100M Doctor Visits, 10–20 Hours Saved, Prior Auth in Minutes — Janie Lee & Chai Asawa, Abridge",
+          "title_ru": "ИИ в здравоохранении: опыт Abridge",
+          "description_ru": "Обсуждение того, как автоматизация помогает врачам экономить время и упрощать административные задачи.",
+          "url": "https://www.latent.space/p/abridge",
+          "metadata": {
+            "time": "Thu, 14 May 2026 22:05:31 GMT",
+            "heat": "",
+            "hn_url": "",
+            "discussion_url": ""
+          }
+        },
+        {
+          "id": "latentspace-5",
+          "section_id": "latentspace",
+          "position": 5,
+          "source": "Latent Space",
+          "title_original": "[AINews] Codex Rises, Claude Meters Programmatic Usage",
+          "title_ru": "Рост Codex и новые тарифы Claude",
+          "description_ru": "Обзор рыночных тенденций после запуска GPT 5.5 и изменения отношения инженеров к инструментам Anthropic.",
+          "url": "https://www.latent.space/p/ainews-codex-rises-claude-meters",
+          "metadata": {
+            "time": "Thu, 14 May 2026 03:53:26 GMT",
+            "heat": "",
+            "hn_url": "",
+            "discussion_url": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": "briefing_general",
+      "title": "Общий утренний брифинг",
+      "type": "digest",
+      "order": 30,
+      "sidebar_group": "Дайджесты",
+      "description": "Смешанный обзор ключевых новостей и обсуждений дня.",
+      "default_limit": null,
+      "allow_empty": false,
+      "returncode": 0,
+      "stderr": "[global_scan] Starting fetch...\n[global_scan] fetch_producthunt returned 5 items\n[global_scan] fetch_github returned 5 items\n[global_scan] fetch_v2ex returned 5 items\n[global_scan] fetch_hackernews returned 5 items\n[global_scan] fetch_tencent returned 5 items\n[global_scan] fetch_36kr returned 5 items\n[global_scan] fetch_wallstreetcn returned 5 items\n[global_scan] Enriching content for 35 items...\n[hn_ai] Starting fetch...\n[hn_ai] fetch_hackernews returned 20 items\n[hn_ai] Enriching content for 20 items...\n[github_trending] Starting fetch...\n[github_trending] fetch_github returned 15 items\n[github_trending] Enriching content for 15 items...\n[github_trending] Filtered 5 items already seen in yesterday's выпуск or earlier sections\nJSON output sent to stdout only (--no-save mode)\n",
+      "count": 65,
+      "items": [
+        {
+          "id": "briefing_general-1",
+          "section_id": "briefing_general",
+          "position": 1,
+          "subsection": "global_scan",
+          "source": "Product Hunt",
+          "title_original": "Shadow",
+          "title_ru": "Shadow — материал посвящен обзору платформы Shadow",
+          "description_ru": "Материал посвящен обзору платформы Shadow.",
+          "url": "https://www.producthunt.com/products/shadow-4",
+          "metadata": {
+            "time": "2026-05-08T00:41:32-07:00",
+            "heat": "Top Product"
+          }
+        },
+        {
+          "id": "briefing_general-2",
+          "section_id": "briefing_general",
+          "position": 2,
+          "subsection": "global_scan",
+          "source": "Product Hunt",
+          "title_original": "Voiser AI",
+          "title_ru": "Voiser AI — материал посвящен возможностям Voiser AI",
+          "description_ru": "Материал посвящен возможностям Voiser AI.",
+          "url": "https://www.producthunt.com/products/voiser-ai-text-to-speech",
+          "metadata": {
+            "time": "2026-05-17T23:28:32-07:00",
+            "heat": "Top Product"
+          }
+        },
+        {
+          "id": "briefing_general-3",
+          "section_id": "briefing_general",
+          "position": 3,
+          "subsection": "global_scan",
+          "source": "Product Hunt",
+          "title_original": "Origio",
+          "title_ru": "Origio — материал посвящен функционалу сервиса Origio",
+          "description_ru": "Материал посвящен функционалу сервиса Origio.",
+          "url": "https://www.producthunt.com/products/origio",
+          "metadata": {
+            "time": "2026-05-03T10:25:18-07:00",
+            "heat": "Top Product"
+          }
+        },
+        {
+          "id": "briefing_general-4",
+          "section_id": "briefing_general",
+          "position": 4,
+          "subsection": "global_scan",
+          "source": "Product Hunt",
+          "title_original": "LandingHero AI",
+          "title_ru": "LandingHero AI — материал посвящен использованию LandingHero AI для маркетинга",
+          "description_ru": "Материал посвящен использованию LandingHero AI для маркетинга.",
+          "url": "https://www.producthunt.com/products/landinghero-ai-2",
+          "metadata": {
+            "time": "2026-04-12T08:46:55-07:00",
+            "heat": "Top Product"
+          }
+        },
+        {
+          "id": "briefing_general-5",
+          "section_id": "briefing_general",
+          "position": 5,
+          "subsection": "global_scan",
+          "source": "Product Hunt",
+          "title_original": "Searchad.ai",
+          "title_ru": "Searchad.ai — материал посвящен работе с сервисом Searchad.ai",
+          "description_ru": "Материал посвящен работе с сервисом Searchad.ai.",
+          "url": "https://www.producthunt.com/products/searchad-ai",
+          "metadata": {
+            "time": "2026-05-16T23:59:00-07:00",
+            "heat": "Top Product"
+          }
+        },
+        {
+          "id": "briefing_general-6",
+          "section_id": "briefing_general",
+          "position": 6,
+          "subsection": "global_scan",
+          "source": "GitHub Trending",
+          "title_original": "tinyhumansai/openhuman - Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+          "title_ru": "openhuman — представлен проект с открытым исходным кодом для создания приватного и мощного ИИ-интеллекта",
+          "description_ru": "Представлен проект с открытым исходным кодом для создания приватного и мощного ИИ-интеллекта.",
+          "url": "https://github.com/tinyhumansai/openhuman",
+          "metadata": {
+            "time": "Today",
+            "heat": "17,914 stars"
+          }
+        },
+        {
+          "id": "briefing_general-7",
+          "section_id": "briefing_general",
+          "position": 7,
+          "subsection": "global_scan",
+          "source": "GitHub Trending",
+          "title_original": "Imbad0202/academic-research-skills - Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+          "title_ru": "academic-research-skills — репозиторий содержит набор инструментов для автоматизации академических исследований с помощью Claude Code",
+          "description_ru": "Репозиторий содержит набор инструментов для автоматизации академических исследований с помощью Claude Code.",
+          "url": "https://github.com/Imbad0202/academic-research-skills",
+          "metadata": {
+            "time": "Today",
+            "heat": "12,273 stars"
+          }
+        },
+        {
+          "id": "briefing_general-8",
+          "section_id": "briefing_general",
+          "position": 8,
+          "subsection": "global_scan",
+          "source": "GitHub Trending",
+          "title_original": "HKUDS/CLI-Anything - \"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
+          "title_ru": "CLI-Anything — проект направлен на интеграцию любых программных интерфейсов с современными ИИ-агентами",
+          "description_ru": "Проект направлен на интеграцию любых программных интерфейсов с современными ИИ-агентами.",
+          "url": "https://github.com/HKUDS/CLI-Anything",
+          "metadata": {
+            "time": "Today",
+            "heat": "36,835 stars"
+          }
+        },
+        {
+          "id": "briefing_general-9",
+          "section_id": "briefing_general",
+          "position": 9,
+          "subsection": "global_scan",
+          "source": "GitHub Trending",
+          "title_original": "K-Dense-AI/scientific-agent-skills - A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+          "title_ru": "scientific-agent-skills — библиотека готовых решений для автоматизации задач в науке, аналитике и финансах",
+          "description_ru": "Библиотека готовых решений для автоматизации задач в науке, аналитике и финансах.",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+          "metadata": {
+            "time": "Today",
+            "heat": "24,499 stars"
+          }
+        },
+        {
+          "id": "briefing_general-10",
+          "section_id": "briefing_general",
+          "position": 10,
+          "subsection": "global_scan",
+          "source": "GitHub Trending",
+          "title_original": "supertone-inc/supertonic - Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
+          "title_ru": "supertonic — инструмент для многоязычного синтеза речи, работающий локально через ONNX",
+          "description_ru": "Инструмент для многоязычного синтеза речи, работающий локально через ONNX.",
+          "url": "https://github.com/supertone-inc/supertonic",
+          "metadata": {
+            "time": "Today",
+            "heat": "8,434 stars"
+          }
+        },
+        {
+          "id": "briefing_general-11",
+          "section_id": "briefing_general",
+          "position": 11,
+          "subsection": "global_scan",
+          "source": "V2EX",
+          "title_original": "做了一个免费的 AI 公益站，今天重新开放注册，送 50 刀额度兑换码",
+          "title_ru": "Бесплатный ИИ-сервис для сообщества",
+          "description_ru": "Автор открыл регистрацию на бесплатном ИИ-ресурсе и раздает бонусные коды.",
+          "url": "https://www.v2ex.com/t/1213663",
+          "metadata": {
+            "time": "Hot",
+            "heat": "229 replies"
+          }
+        },
+        {
+          "id": "briefing_general-12",
+          "section_id": "briefing_general",
+          "position": 12,
+          "subsection": "global_scan",
+          "source": "V2EX",
+          "title_original": "今天正式迈入 40 岁啦！",
+          "title_ru": "Размышления о достижении сорокалетия",
+          "description_ru": "Пользователь делится личным опытом и переосмыслением жизненных приоритетов после 30 лет.",
+          "url": "https://www.v2ex.com/t/1213548",
+          "metadata": {
+            "time": "Hot",
+            "heat": "169 replies"
+          }
+        },
+        {
+          "id": "briefing_general-13",
+          "section_id": "briefing_general",
+          "position": 13,
+          "subsection": "global_scan",
+          "source": "V2EX",
+          "title_original": "建议觉得原生家庭不行的看看这个帖子",
+          "title_ru": "Советы для тех, кто страдает от проблем в семье",
+          "description_ru": "Автор предлагает способы справиться с психологическим давлением, связанным с семейными отношениями.",
+          "url": "https://www.v2ex.com/t/1213491",
+          "metadata": {
+            "time": "Hot",
+            "heat": "144 replies"
+          }
+        },
+        {
+          "id": "briefing_general-14",
+          "section_id": "briefing_general",
+          "position": 14,
+          "subsection": "global_scan",
+          "source": "V2EX",
+          "title_original": "为什么有钱人大多都迷信？",
+          "title_ru": "Почему многие богатые люди суеверны?",
+          "description_ru": "Обсуждение причин, по которым успешные предприниматели часто обращаются к эзотерике и фэн-шуй.",
+          "url": "https://www.v2ex.com/t/1213481",
+          "metadata": {
+            "time": "Hot",
+            "heat": "111 replies"
+          }
+        },
+        {
+          "id": "briefing_general-15",
+          "section_id": "briefing_general",
+          "position": 15,
+          "subsection": "global_scan",
+          "source": "V2EX",
+          "title_original": "感冒还没有好， 4、500 元 已经没了。",
+          "title_ru": "Высокая стоимость лечения простуды",
+          "description_ru": "Пользователь жалуется на дороговизну медикаментов при обычном лечении простуды.",
+          "url": "https://www.v2ex.com/t/1213688",
+          "metadata": {
+            "time": "Hot",
+            "heat": "104 replies"
+          }
+        },
+        {
+          "id": "briefing_general-16",
+          "section_id": "briefing_general",
+          "position": 16,
+          "subsection": "global_scan",
+          "source": "Hacker News",
+          "title_original": "Peter Salus has died",
+          "title_ru": "Скончался Питер Салюс",
+          "description_ru": "Ушел из жизни известный ученый и историк компьютерных технологий Питер Салюс.",
+          "url": "https://www.tuhs.org/pipermail/tuhs/2026-May/033750.html",
+          "metadata": {
+            "time": "1 hour ago",
+            "heat": "56 points"
+          }
+        },
+        {
+          "id": "briefing_general-17",
+          "section_id": "briefing_general",
+          "position": 17,
+          "subsection": "global_scan",
+          "source": "Hacker News",
+          "title_original": "Click (2016)",
+          "title_ru": "Click (2016) — информация о проекте или произведении под названием Click, выпущенном в 2016 году",
+          "description_ru": "Информация о проекте или произведении под названием Click, выпущенном в 2016 году.",
+          "url": "https://clickclickclick.click/",
+          "metadata": {
+            "time": "4 hours ago",
+            "heat": "229 points"
+          }
+        },
+        {
+          "id": "briefing_general-18",
+          "section_id": "briefing_general",
+          "position": 18,
+          "subsection": "global_scan",
+          "source": "Hacker News",
+          "title_original": "The last six months in LLMs in five minutes",
+          "title_ru": "Последние полгода в мире LLM за пять минут",
+          "description_ru": "Краткий обзор ключевых событий и достижений в области больших языковых моделей за последние шесть месяцев.",
+          "url": "https://simonwillison.net/2026/May/19/5-minute-llms/",
+          "metadata": {
+            "time": "2 hours ago",
+            "heat": "62 points"
+          }
+        },
+        {
+          "id": "briefing_general-19",
+          "section_id": "briefing_general",
+          "position": 19,
+          "subsection": "global_scan",
+          "source": "Hacker News",
+          "title_original": "Regex Chess: A 2-ply minimax chess engine in 84,688 regular expressions",
+          "title_ru": "Regex Chess — николас Карлини представил шахматный движок с минимаксом, реализованный с помощью 84 688 регулярных выражений",
+          "description_ru": "Николас Карлини представил шахматный движок с минимаксом, реализованный с помощью 84 688 регулярных выражений.",
+          "url": "https://nicholas.carlini.com/writing/2025/regex-chess.html",
+          "metadata": {
+            "time": "2 hours ago",
+            "heat": "45 points"
+          }
+        },
+        {
+          "id": "briefing_general-20",
+          "section_id": "briefing_general",
+          "position": 20,
+          "subsection": "global_scan",
+          "source": "Hacker News",
+          "title_original": "Anthropic acquires Stainless",
+          "title_ru": "Anthropic приобретает Stainless",
+          "description_ru": "Компания Anthropic объявила о покупке стартапа Stainless для усиления своих возможностей в области ИИ-агентов.",
+          "url": "https://www.anthropic.com/news/anthropic-acquires-stainless",
+          "metadata": {
+            "time": "10 hours ago",
+            "heat": "389 points"
+          }
+        },
+        {
+          "id": "briefing_general-21",
+          "section_id": "briefing_general",
+          "position": 21,
+          "subsection": "global_scan",
+          "source": "Tencent News",
+          "title_original": "世界卫生大会连续第十年拒绝涉台提案",
+          "title_ru": "Всемирная ассамблея здравоохранения десятый год подряд отклоняет предложение по Тайваню",
+          "description_ru": "Делегаты 79-й сессии ВОЗ отказались включать в повестку дня вопрос об участии Тайваня в качестве наблюдателя.",
+          "url": "https://view.inews.qq.com/a/20260518A09JV100",
+          "metadata": {
+            "time": "2026-05-18 21:27:49",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_general-22",
+          "section_id": "briefing_general",
+          "position": 22,
+          "subsection": "global_scan",
+          "source": "Tencent News",
+          "title_original": "广西柳州再次发生5.2级地震，广州、佛山等多地网友：晃得厉害",
+          "title_ru": "В Лючжоу (Гуанси) произошло землетрясение магнитудой 5,2",
+          "description_ru": "Подземные толчки ощущались не только в эпицентре, но и в соседних городах, включая Гуанчжоу и Фошань.",
+          "url": "https://view.inews.qq.com/a/20260518A09QWR00",
+          "metadata": {
+            "time": "2026-05-18 22:14:09",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_general-23",
+          "section_id": "briefing_general",
+          "position": 23,
+          "subsection": "global_scan",
+          "source": "Tencent News",
+          "title_original": "川投新能源公司总经理刘亮被遣返回国",
+          "title_ru": "Генеральный директор Chuantou New Energy Лю Лян депортирован в Китай",
+          "description_ru": "Подозреваемый в коррупционных преступлениях топ-менеджер был задержан за границей и возвращен на родину.",
+          "url": "https://view.inews.qq.com/a/20260518A07P4K00",
+          "metadata": {
+            "time": "2026-05-18 17:02:01",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_general-24",
+          "section_id": "briefing_general",
+          "position": 24,
+          "subsection": "global_scan",
+          "source": "Tencent News",
+          "title_original": "广西车辆坠河已致5死5失联",
+          "title_ru": "В Гуанси автомобиль упал в реку: 5 погибших, 5 пропавших без вести",
+          "description_ru": "Спасатели продолжают поисковые работы после инцидента с падением транспортного средства с моста.",
+          "url": "https://view.inews.qq.com/a/20260518A08JZV00",
+          "metadata": {
+            "time": "2026-05-18 18:36:40",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_general-25",
+          "section_id": "briefing_general",
+          "position": 25,
+          "subsection": "global_scan",
+          "source": "Tencent News",
+          "title_original": "研究生校内偷拍女生裙底，江苏省税务局最新回应：已收材料，正走内部程序",
+          "title_ru": "Налоговая служба Цзянсу рассматривает дело аспиранта, обвиняемого в съемке под юбками",
+          "description_ru": "Ведомство подтвердило получение материалов по инциденту с участием студента Нанкинского университета аудита.",
+          "url": "https://view.inews.qq.com/a/20260518A06YJV00",
+          "metadata": {
+            "time": "2026-05-18 16:39:32",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_general-26",
+          "section_id": "briefing_general",
+          "position": 26,
+          "subsection": "global_scan",
+          "source": "36Kr",
+          "title_original": "报告：2025年中国AI云市场规模超567亿元，阿里云AI IaaS、MaaS双料冠军",
+          "title_ru": "Объем рынка ИИ-облаков в Китае в 2025 году превысил 56,7 млрд юаней",
+          "description_ru": "Согласно отчету, Alibaba Cloud стала лидером в сегментах IaaS и MaaS на китайском рынке искусственного интеллекта.",
+          "url": "https://36kr.com/newsflashes/3815679486909954",
+          "metadata": {
+            "time": "10分钟前",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_general-27",
+          "section_id": "briefing_general",
+          "position": 27,
+          "subsection": "global_scan",
+          "source": "36Kr",
+          "title_original": "华友钴业增资至约19亿，增幅约12%",
+          "title_ru": "Huayou Cobalt увеличила уставный капитал на 12%",
+          "description_ru": "Компания Huayou Cobalt нарастила объем капитала до 1,9 млрд юаней.",
+          "url": "https://36kr.com/newsflashes/3815662677106440",
+          "metadata": {
+            "time": "16分钟前",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_general-28",
+          "section_id": "briefing_general",
+          "position": 28,
+          "subsection": "global_scan",
+          "source": "36Kr",
+          "title_original": "半日主力资金加仓公用事业股，抛售通信股",
+          "title_ru": "Инвесторы увеличили вложения в коммунальные услуги и распродали акции телекомов",
+          "description_ru": "Наблюдается перераспределение капитала между секторами на фоне текущих рыночных тенденций.",
+          "url": "https://36kr.com/newsflashes/3815669689261572",
+          "metadata": {
+            "time": "20分钟前",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_general-29",
+          "section_id": "briefing_general",
+          "position": 29,
+          "subsection": "global_scan",
+          "source": "36Kr",
+          "title_original": "A股三大指数午间休盘涨跌不一，通信设备板块领跌",
+          "title_ru": "Основные индексы A-share закрыли утреннюю сессию разнонаправленно",
+          "description_ru": "Сектор телекоммуникационного оборудования показал наиболее заметное снижение котировок.",
+          "url": "https://36kr.com/newsflashes/3815661887872517",
+          "metadata": {
+            "time": "28分钟前",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_general-30",
+          "section_id": "briefing_general",
+          "position": 30,
+          "subsection": "global_scan",
+          "source": "36Kr",
+          "title_original": "四川威远万吨微生物固碳制蛋白项目开工",
+          "title_ru": "В Вэйюане (Сычуань) запущен проект по микробной фиксации углерода",
+          "description_ru": "Начато строительство предприятия по производству белка из углекислого газа с использованием микроорганизмов.",
+          "url": "https://36kr.com/newsflashes/3815654639410945",
+          "metadata": {
+            "time": "35分钟前",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_general-31",
+          "section_id": "briefing_general",
+          "position": 31,
+          "subsection": "global_scan",
+          "source": "Wall Street CN",
+          "title_original": "菜鸟上线美国、德国\"晚必赔\"，还有这些国家在路上",
+          "title_ru": "Cainiao запустила сервис компенсации за задержку доставки в США и Германии",
+          "description_ru": "Логистическая компания расширяет географию гарантий своевременной доставки для международных клиентов.",
+          "url": "https://wallstreetcn.com/articles/3772596",
+          "metadata": {
+            "time": "2026-05-19 06:28",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_general-32",
+          "section_id": "briefing_general",
+          "position": 32,
+          "subsection": "global_scan",
+          "source": "Wall Street CN",
+          "title_original": "戛纳炸了，台上直接大骂“Fuck AI”",
+          "title_ru": "Скандал в Каннах: на сцене открыто раскритиковали ИИ",
+          "description_ru": "Во время церемонии прозвучали резкие высказывания в адрес технологий искусственного интеллекта.",
+          "url": "https://wallstreetcn.com/charts/41959094",
+          "metadata": {
+            "time": "2026-05-19 06:22",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_general-33",
+          "section_id": "briefing_general",
+          "position": 33,
+          "subsection": "global_scan",
+          "source": "Wall Street CN",
+          "title_original": "AI冲击银行就业！渣打宣布裁员8000人",
+          "title_ru": "ИИ угрожает рабочим местам в банковском секторе: Standard Chartered сокращает 8000 сотрудников",
+          "description_ru": "Банк объявил о масштабной реструктуризации штата на фоне внедрения автоматизированных систем.",
+          "url": "https://wallstreetcn.com/articles/3772594",
+          "metadata": {
+            "time": "2026-05-19 06:21",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_general-34",
+          "section_id": "briefing_general",
+          "position": 34,
+          "subsection": "global_scan",
+          "source": "Wall Street CN",
+          "title_original": "AI配给制来了：最强模型，不再是人人都能用",
+          "title_ru": "Эпоха распределения ИИ: доступ к мощнейшим моделям ограничен",
+          "description_ru": "Передовые нейросети становятся эксклюзивным ресурсом, доступным не всем пользователям.",
+          "url": "https://wallstreetcn.com/charts/41959093",
+          "metadata": {
+            "time": "2026-05-19 06:20",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_general-35",
+          "section_id": "briefing_general",
+          "position": 35,
+          "subsection": "global_scan",
+          "source": "Wall Street CN",
+          "title_original": "端侧算力的“奇点”时刻—需求，模型，芯片的三维共振",
+          "title_ru": "Сингулярность граничных вычислений — резонанс спроса, моделей и чипов",
+          "description_ru": "Анализ того, как развитие локальных вычислений меняет ландшафт индустрии искусственного интеллекта.",
+          "url": "https://wallstreetcn.com/articles/3772595",
+          "metadata": {
+            "time": "2026-05-19 06:17",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_general-36",
+          "section_id": "briefing_general",
+          "position": 36,
+          "subsection": "hn_ai",
+          "source": "Hacker News",
+          "title_original": "Frontier models at open source cost – hot new AI Model Router",
+          "title_ru": "OrcaRouter — сервис позволяет использовать качество передовых моделей по цене решений с открытым исходным кодом",
+          "description_ru": "Сервис позволяет использовать качество передовых моделей по цене решений с открытым исходным кодом.",
+          "url": "https://www.orcarouter.ai/",
+          "metadata": {
+            "time": "Today",
+            "heat": "1 points"
+          }
+        },
+        {
+          "id": "briefing_general-37",
+          "section_id": "briefing_general",
+          "position": 37,
+          "subsection": "hn_ai",
+          "source": "Hacker News",
+          "title_original": "Google, Blackstone to Create AI Cloud Firm with In-House Chips",
+          "title_ru": "Google и Blackstone создадут облачную ИИ-компанию с собственными чипами",
+          "description_ru": "Компании объединяют усилия для развития инфраструктуры облачных вычислений на базе специализированного оборудования.",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-19/google-to-create-ai-cloud-business-with-blackstone-wsj-says",
+          "metadata": {
+            "time": "Today",
+            "heat": "1 points"
+          }
+        },
+        {
+          "id": "briefing_general-38",
+          "section_id": "briefing_general",
+          "position": 38,
+          "subsection": "hn_ai",
+          "source": "Hacker News",
+          "title_original": "TuriX AI launched the latest version",
+          "title_ru": "TuriX AI выпустила новую версию",
+          "description_ru": "Представлено обновление агента TuriX, предназначенного для автоматизации компьютерных задач.",
+          "url": "https://github.com/TurixAI/TuriX-CUA",
+          "metadata": {
+            "time": "Today",
+            "heat": "1 points"
+          }
+        },
+        {
+          "id": "briefing_general-39",
+          "section_id": "briefing_general",
+          "position": 39,
+          "subsection": "hn_ai",
+          "source": "Hacker News",
+          "title_original": "We built a runtime activation layer for autonomous AI agents",
+          "title_ru": "Разработан слой активации времени выполнения для автономных ИИ-агентов",
+          "description_ru": "Новое решение SantaClawz направлено на улучшение управления процессами в автономных системах.",
+          "url": "https://www.santaclawz.ai/",
+          "metadata": {
+            "time": "Today",
+            "heat": "1 points"
+          }
+        },
+        {
+          "id": "briefing_general-40",
+          "section_id": "briefing_general",
+          "position": 40,
+          "subsection": "hn_ai",
+          "source": "Hacker News",
+          "title_original": "AI Grant Writing Assistant",
+          "title_ru": "ИИ-помощник для написания грантовых заявок",
+          "description_ru": "Сервис Grantbot.pl помогает польским некоммерческим организациям быстро составлять заявки на получение грантов.",
+          "url": "https://grantbot.pl",
+          "metadata": {
+            "time": "Today",
+            "heat": "1 points"
+          }
+        },
+        {
+          "id": "briefing_general-41",
+          "section_id": "briefing_general",
+          "position": 41,
+          "subsection": "hn_ai",
+          "source": "Hacker News",
+          "title_original": "Research shows a clear and communicated AI stance acts as a powerful amplifier",
+          "title_ru": "Исследования показывают, что четкая позиция по ИИ значительно повышает эффективность",
+          "description_ru": "Наличие ясной стратегии использования ИИ в компании служит мощным катализатором продуктивности.",
+          "url": "https://dora.dev/capabilities/clear-and-communicated-ai-stance/",
+          "metadata": {
+            "time": "Today",
+            "heat": "1 points"
+          }
+        },
+        {
+          "id": "briefing_general-42",
+          "section_id": "briefing_general",
+          "position": 42,
+          "subsection": "hn_ai",
+          "source": "Hacker News",
+          "title_original": "Vault Pro – AI Scaffolder for Obsidian Project Notes (Node/Claude)",
+          "title_ru": "Vault Pro — это решение помогает автоматизировать организацию проектных заметок с помощью технологий Node.js и Claude",
+          "description_ru": "Это решение помогает автоматизировать организацию проектных заметок с помощью технологий Node.js и Claude.",
+          "url": "https://checkout.stripe.com/c/pay/cs_live_a1T5cP4xxXFYhY045VE1ui9fm1NJj0ACL1umdUosCWtXUSR8CKrdNPsqn6#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdicGRmZGhqaWBTZHdsZGtxJz8nZmprcXdqaScpJ2R1bE5gfCc%2FJ3VuWmlsc2BaMDRRSVF3TEJ8bnFIYn18XE49QDxqcV12bnFhNXI9U19HRjBucWBPVTNoRHxnVkxpMUxPZFc8Sm4yNm9vMFZQaFJ%2FPGtTQHQ0MD00fXV1cUEzdkBDNVdKf3I1NTZVZGFJaGo2JyknY3dqaFZgd3Ngdyc%2FcXdwYCknZ2RmbmJ3anBrYUZqaWp3Jz8nJjxnNGc2NScpJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl",
+          "metadata": {
+            "time": "Today",
+            "heat": "1 points"
+          }
+        },
+        {
+          "id": "briefing_general-43",
+          "section_id": "briefing_general",
+          "position": 43,
+          "subsection": "hn_ai",
+          "source": "Hacker News",
+          "title_original": "People who use ChatGPT for writing are accurate detectors of AI text (2025)",
+          "title_ru": "Пользователи ChatGPT лучше распознают тексты, написанные ИИ",
+          "description_ru": "Исследование 2025 года подтверждает, что частое использование нейросетей для письма помогает точнее выявлять сгенерированный контент.",
+          "url": "https://arxiv.org/abs/2501.15654",
+          "metadata": {
+            "time": "Today",
+            "heat": "3 points"
+          }
+        },
+        {
+          "id": "briefing_general-44",
+          "section_id": "briefing_general",
+          "position": 44,
+          "subsection": "hn_ai",
+          "source": "Hacker News",
+          "title_original": "Can AI just replace me already? – A comparative AI-writing ID experiment",
+          "title_ru": "Сможет ли ИИ полностью заменить меня? Эксперимент по написанию текстов",
+          "description_ru": "Автор проводит сравнительный анализ качества текстов, написанных человеком и искусственным интеллектом.",
+          "url": "https://www.richardhanania.com/p/can-ai-replace-me-already",
+          "metadata": {
+            "time": "Today",
+            "heat": "1 points"
+          }
+        },
+        {
+          "id": "briefing_general-45",
+          "section_id": "briefing_general",
+          "position": 45,
+          "subsection": "hn_ai",
+          "source": "Hacker News",
+          "title_original": "Google's Own AI Researchers Jockey for Access to Its Computing",
+          "title_ru": "Исследователи ИИ в Google борются за доступ к вычислительным мощностям",
+          "description_ru": "Внутри компании наблюдается высокая конкуренция среди специалистов за ресурсы для обучения моделей.",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-18/google-s-own-ai-researchers-jockey-for-access-to-its-computing",
+          "metadata": {
+            "time": "Today",
+            "heat": "2 points"
+          }
+        },
+        {
+          "id": "briefing_general-46",
+          "section_id": "briefing_general",
+          "position": 46,
+          "subsection": "hn_ai",
+          "source": "Hacker News",
+          "title_original": "The American Rebellion Against AI Is Gaining Steam",
+          "title_ru": "В США набирает обороты движение против ИИ",
+          "description_ru": "Общественное недовольство стремительным внедрением технологий искусственного интеллекта становится все более заметным.",
+          "url": "https://www.wsj.com/tech/ai/the-american-rebellion-against-ai-is-gaining-steam-94b72529",
+          "metadata": {
+            "time": "Today",
+            "heat": "63 points"
+          }
+        },
+        {
+          "id": "briefing_general-47",
+          "section_id": "briefing_general",
+          "position": 47,
+          "subsection": "hn_ai",
+          "source": "Hacker News",
+          "title_original": "Reverse Lookup and AI-Powered Osint",
+          "title_ru": "Sherlockeye — платформа предлагает расширенные возможности для глубокого поиска и анализа данных с применением нейросетей",
+          "description_ru": "Платформа предлагает расширенные возможности для глубокого поиска и анализа данных с применением нейросетей.",
+          "url": "https://sherlockeye.io/",
+          "metadata": {
+            "time": "Today",
+            "heat": "2 points"
+          }
+        },
+        {
+          "id": "briefing_general-48",
+          "section_id": "briefing_general",
+          "position": 48,
+          "subsection": "hn_ai",
+          "source": "Hacker News",
+          "title_original": "SuperInfer: SLO-Aware Rotary Scheduling and Memory Management for LLM Inference",
+          "title_ru": "SuperInfer — технология направлена на повышение эффективности вывода больших языковых моделей на специализированных чипах",
+          "description_ru": "Технология направлена на повышение эффективности вывода больших языковых моделей на специализированных чипах.",
+          "url": "https://supercomputing-system-ai-lab.github.io/projects/superinfer/",
+          "metadata": {
+            "time": "Today",
+            "heat": "2 points"
+          }
+        },
+        {
+          "id": "briefing_general-49",
+          "section_id": "briefing_general",
+          "position": 49,
+          "subsection": "hn_ai",
+          "source": "Hacker News",
+          "title_original": "Video GTP",
+          "title_ru": "Video GTP — инструмент позволяет задавать вопросы по содержанию видео- и аудиофайлов для быстрого получения ответов",
+          "description_ru": "Инструмент позволяет задавать вопросы по содержанию видео- и аудиофайлов для быстрого получения ответов.",
+          "url": "https://www.neotube.ai/",
+          "metadata": {
+            "time": "Today",
+            "heat": "3 points"
+          }
+        },
+        {
+          "id": "briefing_general-50",
+          "section_id": "briefing_general",
+          "position": 50,
+          "subsection": "hn_ai",
+          "source": "Hacker News",
+          "title_original": "BudgetBites – AI meal planning app that helps you save money on groceries",
+          "title_ru": "BudgetBites — сервис помогает составлять меню и оптимизировать расходы на покупку еды",
+          "description_ru": "Сервис помогает составлять меню и оптимизировать расходы на покупку еды.",
+          "url": "https://budgetbites.website/login",
+          "metadata": {
+            "time": "Today",
+            "heat": "3 points"
+          }
+        },
+        {
+          "id": "briefing_general-51",
+          "section_id": "briefing_general",
+          "position": 51,
+          "subsection": "hn_ai",
+          "source": "Hacker News",
+          "title_original": "Make products AI agents want",
+          "title_ru": "Создавайте продукты, ориентированные на ИИ-агентов",
+          "description_ru": "В ближайшем будущем основными пользователями программного обеспечения станут автономные агенты, а не люди.",
+          "url": "https://anitakirkovska.com/blog/make-products-ai-agents-want/",
+          "metadata": {
+            "time": "Today",
+            "heat": "2 points"
+          }
+        },
+        {
+          "id": "briefing_general-52",
+          "section_id": "briefing_general",
+          "position": 52,
+          "subsection": "hn_ai",
+          "source": "Hacker News",
+          "title_original": "Google, Blackstone plan AI cloud venture with $5B backing, WSJ reports",
+          "title_ru": "Google и Blackstone планируют инвестировать 5 млрд долларов в ИИ-облако",
+          "description_ru": "Компании объединяют усилия для создания новой инфраструктуры облачных вычислений для нужд ИИ.",
+          "url": "https://www.reuters.com/business/google-blackstone-create-new-ai-cloud-company-wsj-reports-2026-05-19/",
+          "metadata": {
+            "time": "Today",
+            "heat": "2 points"
+          }
+        },
+        {
+          "id": "briefing_general-53",
+          "section_id": "briefing_general",
+          "position": 53,
+          "subsection": "hn_ai",
+          "source": "Hacker News",
+          "title_original": "Google and Blackstone to Create New AI Cloud Company",
+          "title_ru": "Google и Blackstone создают новую компанию в сфере ИИ-облаков",
+          "description_ru": "Партнерство направлено на расширение мощностей облачных сервисов для поддержки технологий искусственного интеллекта.",
+          "url": "https://www.wsj.com/tech/ai/google-and-blackstone-to-create-new-ai-cloud-company-0e35b91f",
+          "metadata": {
+            "time": "Today",
+            "heat": "6 points"
+          }
+        },
+        {
+          "id": "briefing_general-54",
+          "section_id": "briefing_general",
+          "position": 54,
+          "subsection": "hn_ai",
+          "source": "Hacker News",
+          "title_original": "Melbourne psychiatrist refuses new patients who don't consent to AI note-taking",
+          "title_ru": "Мельбурнский психиатр отказывается принимать пациентов, не согласных на ИИ-протоколирование",
+          "description_ru": "Использование ИИ для ведения записей на приеме вызывает вопросы о безопасности данных и конфиденциальности пациентов.",
+          "url": "https://www.theguardian.com/australia-news/2026/may/19/melbourne-psychiatrist-ai-note-taking-new-patients",
+          "metadata": {
+            "time": "Today",
+            "heat": "5 points"
+          }
+        },
+        {
+          "id": "briefing_general-55",
+          "section_id": "briefing_general",
+          "position": 55,
+          "subsection": "hn_ai",
+          "source": "Hacker News",
+          "title_original": "how coding harnesses are used, an introspection",
+          "title_ru": "Анализ использования инструментов для ИИ-программирования",
+          "description_ru": "Статья рассматривает методы внедрения и эксплуатации сред разработки, поддерживающих работу с нейросетями.",
+          "url": "https://research.tamarillo.ai/coding-harness-inspection/",
+          "metadata": {
+            "time": "Today",
+            "heat": "7 points"
+          }
+        },
+        {
+          "id": "briefing_general-56",
+          "section_id": "briefing_general",
+          "position": 56,
+          "subsection": "github_trending",
+          "source": "GitHub Trending",
+          "title_original": "ggml-org/llama.cpp - LLM inference in C/C++",
+          "title_ru": "llama.cpp — популярный проект с открытым исходным кодом, обеспечивающий эффективный вывод больших языковых моделей на обычном оборуд",
+          "description_ru": "Популярный проект с открытым исходным кодом, обеспечивающий эффективный вывод больших языковых моделей на обычном оборудовании.",
+          "url": "https://github.com/ggml-org/llama.cpp",
+          "metadata": {
+            "time": "Today",
+            "heat": "111,133 stars"
+          }
+        },
+        {
+          "id": "briefing_general-57",
+          "section_id": "briefing_general",
+          "position": 57,
+          "subsection": "github_trending",
+          "source": "GitHub Trending",
+          "title_original": "ruvnet/RuView - π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+          "title_ru": "RuView — технология позволяет отслеживать присутствие и жизненные показатели без использования видеокамер",
+          "description_ru": "Технология позволяет отслеживать присутствие и жизненные показатели без использования видеокамер.",
+          "url": "https://github.com/ruvnet/RuView",
+          "metadata": {
+            "time": "Today",
+            "heat": "60,025 stars"
+          }
+        },
+        {
+          "id": "briefing_general-58",
+          "section_id": "briefing_general",
+          "position": 58,
+          "subsection": "github_trending",
+          "source": "GitHub Trending",
+          "title_original": "CloakHQ/CloakBrowser - Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+          "title_ru": "CloakBrowser — инструмент имитирует поведение реального пользователя и проходит проверки на автоматизацию",
+          "description_ru": "Инструмент имитирует поведение реального пользователя и проходит проверки на автоматизацию.",
+          "url": "https://github.com/CloakHQ/CloakBrowser",
+          "metadata": {
+            "time": "Today",
+            "heat": "15,450 stars"
+          }
+        },
+        {
+          "id": "briefing_general-59",
+          "section_id": "briefing_general",
+          "position": 59,
+          "subsection": "github_trending",
+          "source": "GitHub Trending",
+          "title_original": "tech-leads-club/agent-skills - The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
+          "title_ru": "agent-skills — платформа предоставляет безопасные и валидированные модули для расширения возможностей популярных ИИ-инструментов разраб",
+          "description_ru": "Платформа предоставляет безопасные и валидированные модули для расширения возможностей популярных ИИ-инструментов разработки.",
+          "url": "https://github.com/tech-leads-club/agent-skills",
+          "metadata": {
+            "time": "Today",
+            "heat": "4,118 stars"
+          }
+        },
+        {
+          "id": "briefing_general-60",
+          "section_id": "briefing_general",
+          "position": 60,
+          "subsection": "github_trending",
+          "source": "GitHub Trending",
+          "title_original": "BigBodyCobain/Shadowbroker - Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface. Hook an AI agent up to have it parse through data and find previously unseen correlations. The knowledge is available to all but rarely aggregated in the open, until now.",
+          "title_ru": "Shadowbroker — система объединяет данные из различных источников для отслеживания глобальных событий с помощью ИИ-агентов",
+          "description_ru": "Система объединяет данные из различных источников для отслеживания глобальных событий с помощью ИИ-агентов.",
+          "url": "https://github.com/BigBodyCobain/Shadowbroker",
+          "metadata": {
+            "time": "Today",
+            "heat": "7,824 stars"
+          }
+        },
+        {
+          "id": "briefing_general-61",
+          "section_id": "briefing_general",
+          "position": 61,
+          "subsection": "github_trending",
+          "source": "GitHub Trending",
+          "title_original": "humanlayer/12-factor-agents - What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?",
+          "title_ru": "12-factor-agents — руководство описывает стандарты создания надежных приложений с использованием больших языковых моделей для реальных клие",
+          "description_ru": "Руководство описывает стандарты создания надежных приложений с использованием больших языковых моделей для реальных клиентов.",
+          "url": "https://github.com/humanlayer/12-factor-agents",
+          "metadata": {
+            "time": "Today",
+            "heat": "20,727 stars"
+          }
+        },
+        {
+          "id": "briefing_general-62",
+          "section_id": "briefing_general",
+          "position": 62,
+          "subsection": "github_trending",
+          "source": "GitHub Trending",
+          "title_original": "NVlabs/Sana - SANA: Efficient High-Resolution Image Synthesis with Linear Diffusion Transformer",
+          "title_ru": "Sana — модель использует линейные диффузионные трансформеры для быстрого создания качественного визуального контента",
+          "description_ru": "Модель использует линейные диффузионные трансформеры для быстрого создания качественного визуального контента.",
+          "url": "https://github.com/NVlabs/Sana",
+          "metadata": {
+            "time": "Today",
+            "heat": "6,606 stars"
+          }
+        },
+        {
+          "id": "briefing_general-63",
+          "section_id": "briefing_general",
+          "position": 63,
+          "subsection": "github_trending",
+          "source": "GitHub Trending",
+          "title_original": "microsoft/ai-agents-for-beginners - 12 Lessons to Get Started Building AI Agents",
+          "title_ru": "ai-agents-for-beginners — учебный материал от Microsoft помогает новичкам освоить основы разработки автономных интеллектуальных систем",
+          "description_ru": "Учебный материал от Microsoft помогает новичкам освоить основы разработки автономных интеллектуальных систем.",
+          "url": "https://github.com/microsoft/ai-agents-for-beginners",
+          "metadata": {
+            "time": "Today",
+            "heat": "63,590 stars"
+          }
+        },
+        {
+          "id": "briefing_general-64",
+          "section_id": "briefing_general",
+          "position": 64,
+          "subsection": "github_trending",
+          "source": "GitHub Trending",
+          "title_original": "ZhuLinsen/daily_stock_analysis - LLM驱动的 A/H/美股智能分析：多数据源行情 + 实时新闻 + LLM决策仪表盘 + 多渠道推送，零成本定时运行，纯白嫖. LLM-powered stock analysis system for A/H/US markets.",
+          "title_ru": "daily_stock_analysis — инструмент автоматизирует сбор новостей и данных для принятия инвестиционных решений с помощью нейросетей",
+          "description_ru": "Инструмент автоматизирует сбор новостей и данных для принятия инвестиционных решений с помощью нейросетей.",
+          "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+          "metadata": {
+            "time": "Today",
+            "heat": "37,321 stars"
+          }
+        },
+        {
+          "id": "briefing_general-65",
+          "section_id": "briefing_general",
+          "position": 65,
+          "subsection": "github_trending",
+          "source": "GitHub Trending",
+          "title_original": "plausible/analytics - Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud.",
+          "title_ru": "Plausible Analytics — альтернатива Google Analytics с открытым исходным кодом, которая не использует файлы cookie и защищает данные пользовате",
+          "description_ru": "Альтернатива Google Analytics с открытым исходным кодом, которая не использует файлы cookie и защищает данные пользователей.",
+          "url": "https://github.com/plausible/analytics",
+          "metadata": {
+            "time": "Today",
+            "heat": "26,032 stars"
+          }
+        }
+      ]
+    },
+    {
+      "id": "briefing_finance",
+      "title": "Финансовый утренний брифинг",
+      "type": "digest",
+      "order": 31,
+      "sidebar_group": "Дайджесты",
+      "description": "Рынки, компании, экономика и финансовые сигналы.",
+      "default_limit": null,
+      "allow_empty": false,
+      "returncode": 0,
+      "stderr": "[market_overview] Starting fetch...\n[market_overview] fetch_hackernews returned 6 items\n[market_overview] fetch_wallstreetcn returned 30 items\n[market_overview] Enriching content for 36 items...\n[china_finance] Starting fetch...\n[china_finance] fetch_tencent returned 0 items\n[china_finance] fetch_36kr returned 0 items\n[crypto] Starting fetch...\n[crypto] fetch_hackernews returned 1 items\n[crypto] fetch_wallstreetcn returned 0 items\n[crypto] Enriching content for 1 items...\nJSON output sent to stdout only (--no-save mode)\n",
+      "count": 37,
+      "items": [
+        {
+          "id": "briefing_finance-1",
+          "section_id": "briefing_finance",
+          "position": 1,
+          "subsection": "market_overview",
+          "source": "Hacker News",
+          "title_original": "MIT 14.12 Economic Applications of Game Theory, Fall 2025",
+          "title_ru": "MIT 14.12 Экономические приложения теории игр, осень 2025",
+          "description_ru": "Лекция посвящена введению в процесс принятия индивидуальных решений.",
+          "url": "https://www.youtube.com/watch?v=WRibE2nt8wM",
+          "metadata": {
+            "time": "Today",
+            "heat": "8 points"
+          }
+        },
+        {
+          "id": "briefing_finance-2",
+          "section_id": "briefing_finance",
+          "position": 2,
+          "subsection": "market_overview",
+          "source": "Hacker News",
+          "title_original": "How does the economy work at all if all are laid-off and human jobs disappear?",
+          "title_ru": "Как работает экономика, если всех увольняют и рабочие места исчезают?",
+          "description_ru": "Автор анализирует функционирование экономики в условиях массовой автоматизации и исчезновения рабочих мест.",
+          "url": "https://news.ycombinator.com/item?id=48182463",
+          "metadata": {
+            "time": "Today",
+            "heat": "1 points"
+          }
+        },
+        {
+          "id": "briefing_finance-3",
+          "section_id": "briefing_finance",
+          "position": 3,
+          "subsection": "market_overview",
+          "source": "Hacker News",
+          "title_original": "Russia is starting to lose ground in Ukraine",
+          "title_ru": "Россия начинает терять позиции в Украине",
+          "description_ru": "В материале рассматривается текущая динамика военных действий и их влияние на позиции России.",
+          "url": "https://www.economist.com/graphic-detail/2026/05/17/russia-is-starting-to-lose-ground-in-ukraine",
+          "metadata": {
+            "time": "Today",
+            "heat": "53 points"
+          }
+        },
+        {
+          "id": "briefing_finance-4",
+          "section_id": "briefing_finance",
+          "position": 4,
+          "subsection": "market_overview",
+          "source": "Hacker News",
+          "title_original": "The jobs apocalypse: a (very) short history",
+          "title_ru": "Апокалипсис рабочих мест: (очень) краткая история",
+          "description_ru": "Статья представляет собой краткий исторический обзор влияния технологий на рынок труда.",
+          "url": "https://www.economist.com/finance-and-economics/2026/05/14/the-jobs-apocalypse-a-very-short-history",
+          "metadata": {
+            "time": "Today",
+            "heat": "2 points"
+          }
+        },
+        {
+          "id": "briefing_finance-5",
+          "section_id": "briefing_finance",
+          "position": 5,
+          "subsection": "market_overview",
+          "source": "Hacker News",
+          "title_original": "Is Europe in Economic Decline?",
+          "title_ru": "Переживает ли Европа экономический упадок?",
+          "description_ru": "Анализируется текущее состояние европейской экономики и перспективы её развития.",
+          "url": "https://paulkrugman.substack.com/p/is-europe-in-economic-decline",
+          "metadata": {
+            "time": "Today",
+            "heat": "4 points"
+          }
+        },
+        {
+          "id": "briefing_finance-6",
+          "section_id": "briefing_finance",
+          "position": 6,
+          "subsection": "market_overview",
+          "source": "Hacker News",
+          "title_original": "AI super-apps are remaking China's internet",
+          "title_ru": "AI-суперприложения меняют интернет в Китае",
+          "description_ru": "Статья описывает влияние искусственного интеллекта на цифровую экосистему Китая.",
+          "url": "https://www.economist.com/business/2026/05/17/ai-super-apps-are-remaking-chinas-internet",
+          "metadata": {
+            "time": "Today",
+            "heat": "5 points"
+          }
+        },
+        {
+          "id": "briefing_finance-7",
+          "section_id": "briefing_finance",
+          "position": 7,
+          "subsection": "market_overview",
+          "source": "Wall Street CN",
+          "title_original": "菜鸟上线美国、德国\"晚必赔\"，还有这些国家在路上",
+          "title_ru": "Cainiao запускает гарантию доставки в США и Германии",
+          "description_ru": "Логистическая компания расширяет программу компенсаций за задержки на новые международные рынки.",
+          "url": "https://wallstreetcn.com/articles/3772596",
+          "metadata": {
+            "time": "2026-05-19 06:28",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_finance-8",
+          "section_id": "briefing_finance",
+          "position": 8,
+          "subsection": "market_overview",
+          "source": "Wall Street CN",
+          "title_original": "戛纳炸了，台上直接大骂“Fuck AI”",
+          "title_ru": "Скандал в Каннах: на сцене открыто проклинали ИИ",
+          "description_ru": "На кинофестивале в Каннах произошел инцидент с резкой критикой технологий искусственного интеллекта.",
+          "url": "https://wallstreetcn.com/charts/41959094",
+          "metadata": {
+            "time": "2026-05-19 06:22",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_finance-9",
+          "section_id": "briefing_finance",
+          "position": 9,
+          "subsection": "market_overview",
+          "source": "Wall Street CN",
+          "title_original": "AI冲击银行就业！渣打宣布裁员8000人",
+          "title_ru": "ИИ угрожает банковскому сектору: Standard Chartered сокращает 8000 сотрудников",
+          "description_ru": "Банк объявляет о масштабных сокращениях на фоне внедрения технологий искусственного интеллекта.",
+          "url": "https://wallstreetcn.com/articles/3772594",
+          "metadata": {
+            "time": "2026-05-19 06:21",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_finance-10",
+          "section_id": "briefing_finance",
+          "position": 10,
+          "subsection": "market_overview",
+          "source": "Wall Street CN",
+          "title_original": "AI配给制来了：最强模型，不再是人人都能用",
+          "title_ru": "Эпоха распределения ИИ: мощнейшие модели становятся элитарными",
+          "description_ru": "Доступ к самым передовым моделям искусственного интеллекта становится ограниченным.",
+          "url": "https://wallstreetcn.com/charts/41959093",
+          "metadata": {
+            "time": "2026-05-19 06:20",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_finance-11",
+          "section_id": "briefing_finance",
+          "position": 11,
+          "subsection": "market_overview",
+          "source": "Wall Street CN",
+          "title_original": "端侧算力的“奇点”时刻—需求，模型，芯片的三维共振",
+          "title_ru": "«Сингулярность» периферийных вычислений: синергия спроса, моделей и чипов",
+          "description_ru": "Анализируется взаимосвязь между развитием аппаратного обеспечения и спросом на локальные вычисления.",
+          "url": "https://wallstreetcn.com/articles/3772595",
+          "metadata": {
+            "time": "2026-05-19 06:17",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_finance-12",
+          "section_id": "briefing_finance",
+          "position": 12,
+          "subsection": "market_overview",
+          "source": "Wall Street CN",
+          "title_original": "拦不住了！美国人跑去墨西哥疯抢中国车",
+          "title_ru": "Не остановить! Американцы массово скупают китайские автомобили в Мексике",
+          "description_ru": "Наблюдается высокий спрос на китайские электромобили среди американских потребителей через мексиканский рынок.",
+          "url": "https://wallstreetcn.com/charts/41959092",
+          "metadata": {
+            "time": "2026-05-19 06:15",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_finance-13",
+          "section_id": "briefing_finance",
+          "position": 13,
+          "subsection": "market_overview",
+          "source": "Wall Street CN",
+          "title_original": "日本一季度GDP年化增长2.1%超预期，但中东战争阴云压制前景",
+          "title_ru": "ВВП Японии в первом квартале вырос на 2,1%, но конфликт на Ближнем Востоке давит на прогнозы",
+          "description_ru": "Экономический рост Японии превысил ожидания, однако геополитическая нестабильность создает риски.",
+          "url": "https://wallstreetcn.com/articles/3772592",
+          "metadata": {
+            "time": "2026-05-19 05:50",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_finance-14",
+          "section_id": "briefing_finance",
+          "position": 14,
+          "subsection": "market_overview",
+          "source": "Wall Street CN",
+          "title_original": "医保个账白名单来了，“医美面膜”的药店红利要退潮？",
+          "title_ru": "Список разрешенных товаров по медстраховке: конец «золотой эры» косметических масок в аптеках?",
+          "description_ru": "Ужесточение правил использования медицинских счетов может снизить продажи косметических товаров в аптеках.",
+          "url": "https://wallstreetcn.com/articles/3772593",
+          "metadata": {
+            "time": "2026-05-19 05:45",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_finance-15",
+          "section_id": "briefing_finance",
+          "position": 15,
+          "subsection": "market_overview",
+          "source": "Wall Street CN",
+          "title_original": "美联储已经控制不了美元流动性了吗？【程坦大师课3.2】",
+          "title_ru": "ФРС больше не контролирует ликвидность доллара?",
+          "description_ru": "Эксперт анализирует эффективность инструментов Федеральной резервной системы в текущих условиях.",
+          "url": "https://wallstreetcn.com/member/articles/3772512",
+          "metadata": {
+            "time": "2026-05-19 05:44",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_finance-16",
+          "section_id": "briefing_finance",
+          "position": 16,
+          "subsection": "market_overview",
+          "source": "Wall Street CN",
+          "title_original": "大小摩一起喊：长协（LTA)推动存储公司重估，市场尚未完全定价",
+          "title_ru": "JPMorgan и Morgan Stanley: долгосрочные контракты переоценивают рынок памяти",
+          "description_ru": "Крупные инвестиционные банки указывают на недооцененный потенциал компаний, производящих чипы памяти.",
+          "url": "https://wallstreetcn.com/articles/3772588",
+          "metadata": {
+            "time": "2026-05-19 05:41",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_finance-17",
+          "section_id": "briefing_finance",
+          "position": 17,
+          "subsection": "market_overview",
+          "source": "Wall Street CN",
+          "title_original": "海外长债“四处破位”--发达国家的“财政庞氏骗局”玩不下去了？",
+          "title_ru": "Крах рынка долгосрочных облигаций: конец «финансовой пирамиды» развитых стран?",
+          "description_ru": "Обсуждается устойчивость бюджетной политики развитых стран на фоне падения цен на гособлигации.",
+          "url": "https://wallstreetcn.com/articles/3772589",
+          "metadata": {
+            "time": "2026-05-19 05:35",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_finance-18",
+          "section_id": "briefing_finance",
+          "position": 18,
+          "subsection": "market_overview",
+          "source": "Wall Street CN",
+          "title_original": "创业板跌2%，电力逆势拉升，CPO、算力硬件调整，恒科指冲高回落，半导体大跌",
+          "title_ru": "Обзор рынков: падение индекса ChiNext, рост энергетики и обвал полупроводников",
+          "description_ru": "Представлен краткий отчет о динамике ключевых секторов фондового рынка.",
+          "url": "https://wallstreetcn.com/articles/3772591",
+          "metadata": {
+            "time": "2026-05-19 05:21",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_finance-19",
+          "section_id": "briefing_finance",
+          "position": 19,
+          "subsection": "market_overview",
+          "source": "Wall Street CN",
+          "title_original": "摩根大通：黄金牛市未结束！下调年底目标至6000美元，但白银神话正在破灭",
+          "title_ru": "JPMorgan: бычий тренд золота продолжается, но миф о серебре рушится",
+          "description_ru": "Банк пересмотрел прогнозы по драгоценным металлам, сохранив оптимизм в отношении золота.",
+          "url": "https://wallstreetcn.com/articles/3772585",
+          "metadata": {
+            "time": "2026-05-19 04:47",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_finance-20",
+          "section_id": "briefing_finance",
+          "position": 20,
+          "subsection": "market_overview",
+          "source": "Wall Street CN",
+          "title_original": "英伟达财报前夜，黄仁勋、戴尔访谈：AI正大规模进入企业，最核心瓶颈依旧是存储和先进制程芯片",
+          "title_ru": "Интервью с Дженсеном Хуангом и Майклом Деллом: ИИ проникает в бизнес, но нехватка чипов остается",
+          "description_ru": "Лидеры индустрии обсуждают основные препятствия для массового внедрения корпоративного ИИ.",
+          "url": "https://wallstreetcn.com/articles/3772582",
+          "metadata": {
+            "time": "2026-05-19 04:34",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_finance-21",
+          "section_id": "briefing_finance",
+          "position": 21,
+          "subsection": "market_overview",
+          "source": "Wall Street CN",
+          "title_original": "全球股市狂欢还能走多远？上海滴水湖扬帆游学，与金融大咖畅聊下半年资产风向",
+          "title_ru": "Как долго продлится ралли на мировых фондовых рынках?",
+          "description_ru": "Финансовые эксперты обсуждают перспективы инвестиций на второе полугодие.",
+          "url": "https://wallstreetcn.com/articles/3772528",
+          "metadata": {
+            "time": "2026-05-19 04:34",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_finance-22",
+          "section_id": "briefing_finance",
+          "position": 22,
+          "subsection": "market_overview",
+          "source": "Wall Street CN",
+          "title_original": "不只是“不降息”了！这三种情况下，美联储甚至可能重新加息",
+          "title_ru": "Не только отказ от снижения ставок: при каких условиях ФРС может снова их повысить?",
+          "description_ru": "Рассматриваются сценарии, при которых Федеральная резервная система может вернуться к ужесточению политики.",
+          "url": "https://wallstreetcn.com/articles/3772584",
+          "metadata": {
+            "time": "2026-05-19 04:26",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_finance-23",
+          "section_id": "briefing_finance",
+          "position": 23,
+          "subsection": "market_overview",
+          "source": "Wall Street CN",
+          "title_original": "CEO“拒绝扩产”，希捷股价应声跳水6%，带崩硬盘股",
+          "title_ru": "Отказ от расширения производства обрушил акции Seagate на 6%",
+          "description_ru": "Решение руководства компании Seagate негативно отразилось на котировках всего сектора производителей жестких дисков.",
+          "url": "https://wallstreetcn.com/articles/3772586",
+          "metadata": {
+            "time": "2026-05-19 04:23",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_finance-24",
+          "section_id": "briefing_finance",
+          "position": 24,
+          "subsection": "market_overview",
+          "source": "Wall Street CN",
+          "title_original": "三星半导体前总裁：预测存储价格明年下半年开跌，中国企业正在大幅扩产",
+          "title_ru": "Экс-президент Samsung Semiconductor: цены на память упадут, китайские компании наращивают мощности",
+          "description_ru": "Прогнозируется изменение рыночной конъюнктуры в секторе производства чипов памяти.",
+          "url": "https://wallstreetcn.com/articles/3772583",
+          "metadata": {
+            "time": "2026-05-19 03:59",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_finance-25",
+          "section_id": "briefing_finance",
+          "position": 25,
+          "subsection": "market_overview",
+          "source": "Wall Street CN",
+          "title_original": "世界正应对新一轮通胀，“长债风暴”席卷全球",
+          "title_ru": "Мир борется с новой волной инфляции, «шторм облигаций» охватил планету",
+          "description_ru": "Глобальная экономика сталкивается с ростом инфляционного давления и волатильностью на долговых рынках.",
+          "url": "https://wallstreetcn.com/articles/3772578",
+          "metadata": {
+            "time": "2026-05-19 03:40",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_finance-26",
+          "section_id": "briefing_finance",
+          "position": 26,
+          "subsection": "market_overview",
+          "source": "Wall Street CN",
+          "title_original": "“NACHO交易”大行其道！高盛之后，美银也认为今年油价将维持在90美元高位",
+          "title_ru": "«Сделки NACHO» набирают популярность: вслед за Goldman Sachs аналитики Bank of America прогнозируют удержание цен на нефть на уровне 90 долларов",
+          "description_ru": "Крупные инвестиционные банки ожидают сохранения высоких цен на нефть в текущем году.",
+          "url": "https://wallstreetcn.com/articles/3772581",
+          "metadata": {
+            "time": "2026-05-19 03:40",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_finance-27",
+          "section_id": "briefing_finance",
+          "position": 27,
+          "subsection": "market_overview",
+          "source": "Wall Street CN",
+          "title_original": "黄仁勋：就算供应链每年翻四倍，未来十年也不够AI用",
+          "title_ru": "Дженсен Хуанг: даже при четырехкратном росте мощностей цепочек поставок ежегодно, ресурсов для ИИ в ближайшее десятилетие будет недостаточно",
+          "description_ru": "Глава NVIDIA предупреждает о критическом дефиците вычислительных мощностей для нужд искусственного интеллекта.",
+          "url": "https://wallstreetcn.com/charts/41959091",
+          "metadata": {
+            "time": "2026-05-19 03:36",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_finance-28",
+          "section_id": "briefing_finance",
+          "position": 28,
+          "subsection": "market_overview",
+          "source": "Wall Street CN",
+          "title_original": "算力网来了，运营商醒了：TaaS会是运营商的下一个万亿级生意吗？",
+          "title_ru": "Эра вычислительных сетей: станут ли TaaS следующим триллионным бизнесом для операторов связи?",
+          "description_ru": "Телекоммуникационные компании рассматривают возможность предоставления вычислительных мощностей как услуги.",
+          "url": "https://wallstreetcn.com/member/articles/3772530",
+          "metadata": {
+            "time": "2026-05-19 03:25",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_finance-29",
+          "section_id": "briefing_finance",
+          "position": 29,
+          "subsection": "market_overview",
+          "source": "Wall Street CN",
+          "title_original": "油价和AI是根源！4月的中国经济：出口内需分化、新旧经济分化、地产消费分化",
+          "title_ru": "Нефть и ИИ как драйверы: экономика Китая в апреле демонстрирует расслоение в экспорте, внутреннем спросе и недвижимости",
+          "description_ru": "Анализ текущих экономических показателей Китая указывает на неравномерное развитие различных секторов.",
+          "url": "https://wallstreetcn.com/articles/3772580",
+          "metadata": {
+            "time": "2026-05-19 03:13",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_finance-30",
+          "section_id": "briefing_finance",
+          "position": 30,
+          "subsection": "market_overview",
+          "source": "Wall Street CN",
+          "title_original": "只属于科技的牛市",
+          "title_ru": "Бычий рынок, принадлежащий только технологиям",
+          "description_ru": "Рост фондового рынка в текущий период сосредоточен преимущественно в технологическом секторе.",
+          "url": "https://wallstreetcn.com/charts/41959090",
+          "metadata": {
+            "time": "2026-05-19 03:07",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_finance-31",
+          "section_id": "briefing_finance",
+          "position": 31,
+          "subsection": "market_overview",
+          "source": "Wall Street CN",
+          "title_original": "中金：美联储年内或难以降息",
+          "title_ru": "CICC: ФРС США вряд ли пойдет на снижение процентных ставок в этом году",
+          "description_ru": "Китайские аналитики прогнозируют сохранение жесткой денежно-кредитной политики в США.",
+          "url": "https://wallstreetcn.com/articles/3772579",
+          "metadata": {
+            "time": "2026-05-19 03:06",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_finance-32",
+          "section_id": "briefing_finance",
+          "position": 32,
+          "subsection": "market_overview",
+          "source": "Wall Street CN",
+          "title_original": "伊朗战争影响蔓延：欧美按揭贷款利率大幅飙升",
+          "title_ru": "Последствия иранского конфликта: в Европе и США резко выросли ставки по ипотечным кредитам",
+          "description_ru": "Геополитическая напряженность на Ближнем Востоке негативно отразилась на стоимости заемных средств.",
+          "url": "https://wallstreetcn.com/articles/3772577",
+          "metadata": {
+            "time": "2026-05-19 03:03",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_finance-33",
+          "section_id": "briefing_finance",
+          "position": 33,
+          "subsection": "market_overview",
+          "source": "Wall Street CN",
+          "title_original": "加速上涨后，AI股领衔的美股“动量交易”连续两日大跌",
+          "title_ru": "После периода ускоренного роста «импульсная торговля» акциями ИИ-компаний обвалилась второй день подряд",
+          "description_ru": "На фондовом рынке наблюдается коррекция акций технологических компаний после длительного ралли.",
+          "url": "https://wallstreetcn.com/charts/41959089",
+          "metadata": {
+            "time": "2026-05-19 02:59",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_finance-34",
+          "section_id": "briefing_finance",
+          "position": 34,
+          "subsection": "market_overview",
+          "source": "Wall Street CN",
+          "title_original": "原定周二对伊朗攻击！特朗普应海湾三国请求推迟，内塔尼亚胡连续两晚开会备战",
+          "title_ru": "Удар по Ирану отложен: Трамп по просьбе стран Персидского залива перенес атаку, Нетаньяху готовится к ответным действиям",
+          "description_ru": "Геополитическая ситуация вокруг Ирана остается крайне напряженной на фоне подготовки к возможным военным действиям.",
+          "url": "https://wallstreetcn.com/articles/3772569",
+          "metadata": {
+            "time": "2026-05-19 02:47",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_finance-35",
+          "section_id": "briefing_finance",
+          "position": 35,
+          "subsection": "market_overview",
+          "source": "Wall Street CN",
+          "title_original": "报道称美国SEC将推股票“代币化”交易方案，或无需上市公司同意",
+          "title_ru": "СМИ: SEC США планирует внедрить схему «токенизированной» торговли акциями без согласия эмитентов",
+          "description_ru": "Регулятор рассматривает возможность перевода акций на блокчейн-платформы для повышения эффективности торгов.",
+          "url": "https://wallstreetcn.com/articles/3772576",
+          "metadata": {
+            "time": "2026-05-19 02:31",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_finance-36",
+          "section_id": "briefing_finance",
+          "position": 36,
+          "subsection": "market_overview",
+          "source": "Wall Street CN",
+          "title_original": "AI如何影响大学生就业 美国的数据已经出来了",
+          "title_ru": "Как ИИ влияет на трудоустройство выпускников вузов: данные по США",
+          "description_ru": "Исследование показывает, как внедрение технологий искусственного интеллекта меняет рынок труда для молодых специалистов.",
+          "url": "https://wallstreetcn.com/member/articles/3772222",
+          "metadata": {
+            "time": "2026-05-19 02:30",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_finance-37",
+          "section_id": "briefing_finance",
+          "position": 37,
+          "subsection": "crypto",
+          "source": "Hacker News",
+          "title_original": "Iran starts Bitcoin-backed ship insurance for Hormuz strait",
+          "title_ru": "Иран запускает страхование судов в Ормузском проливе с обеспечением в биткоинах",
+          "description_ru": "Иран внедряет криптовалютные инструменты для обхода ограничений в сфере морского страхования.",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-18/iran-starts-bitcoin-backed-shipping-insurance-for-hormuz-strait",
+          "metadata": {
+            "time": "Today",
+            "heat": "284 points"
+          }
+        }
+      ]
+    },
+    {
+      "id": "briefing_tech",
+      "title": "Технологический утренний брифинг",
+      "type": "digest",
+      "order": 32,
+      "sidebar_group": "Дайджесты",
+      "description": "Инструменты, продукты и движения технологического рынка.",
+      "default_limit": null,
+      "allow_empty": false,
+      "returncode": 0,
+      "stderr": "[ai_frontier] Starting fetch...\n[ai_frontier] fetch_github returned 8 items\n[ai_frontier] fetch_hackernews returned 25 items\n[ai_frontier] Enriching content for 33 items...\n[dev_tools] Starting fetch...\n[dev_tools] fetch_github returned 15 items\n[dev_tools] fetch_producthunt returned 0 items\n[dev_tools] Enriching content for 15 items...\n[dev_tools] Filtered 8 items already seen in yesterday's выпуск or earlier sections\n[startups] Starting fetch...\n[startups] fetch_producthunt returned 10 items\n[startups] fetch_36kr returned 0 items\n[startups] Enriching content for 10 items...\nJSON output sent to stdout only (--no-save mode)\n",
+      "count": 50,
+      "items": [
+        {
+          "id": "briefing_tech-1",
+          "section_id": "briefing_tech",
+          "position": 1,
+          "subsection": "ai_frontier",
+          "source": "GitHub Trending",
+          "title_original": "tinyhumansai/openhuman - Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+          "title_ru": "tinyhumansai/openhuman — проект представляет собой инструмент для создания личного интеллектуального помощника с защитой данных",
+          "description_ru": "Проект представляет собой инструмент для создания личного интеллектуального помощника с защитой данных.",
+          "url": "https://github.com/tinyhumansai/openhuman",
+          "metadata": {
+            "time": "Today",
+            "heat": "17,914 stars"
+          }
+        },
+        {
+          "id": "briefing_tech-2",
+          "section_id": "briefing_tech",
+          "position": 2,
+          "subsection": "ai_frontier",
+          "source": "GitHub Trending",
+          "title_original": "K-Dense-AI/scientific-agent-skills - A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+          "title_ru": "K-Dense-AI/scientific-agent-skills — набор инструментов предназначен для автоматизации исследовательских и инженерных задач с помощью ИИ",
+          "description_ru": "Набор инструментов предназначен для автоматизации исследовательских и инженерных задач с помощью ИИ.",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+          "metadata": {
+            "time": "Today",
+            "heat": "24,499 stars"
+          }
+        },
+        {
+          "id": "briefing_tech-3",
+          "section_id": "briefing_tech",
+          "position": 3,
+          "subsection": "ai_frontier",
+          "source": "GitHub Trending",
+          "title_original": "ggml-org/llama.cpp - LLM inference in C/C++",
+          "title_ru": "ggml-org/llama.cpp — проект обеспечивает эффективный запуск LLM на различных аппаратных платформах",
+          "description_ru": "Проект обеспечивает эффективный запуск LLM на различных аппаратных платформах.",
+          "url": "https://github.com/ggml-org/llama.cpp",
+          "metadata": {
+            "time": "Today",
+            "heat": "111,134 stars"
+          }
+        },
+        {
+          "id": "briefing_tech-4",
+          "section_id": "briefing_tech",
+          "position": 4,
+          "subsection": "ai_frontier",
+          "source": "GitHub Trending",
+          "title_original": "tech-leads-club/agent-skills - The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
+          "title_ru": "tech-leads-club/agent-skills — платформа позволяет расширять функциональность популярных ИИ-инструментов для разработки с повышенной надежностью",
+          "description_ru": "Платформа позволяет расширять функциональность популярных ИИ-инструментов для разработки с повышенной надежностью.",
+          "url": "https://github.com/tech-leads-club/agent-skills",
+          "metadata": {
+            "time": "Today",
+            "heat": "4,118 stars"
+          }
+        },
+        {
+          "id": "briefing_tech-5",
+          "section_id": "briefing_tech",
+          "position": 5,
+          "subsection": "ai_frontier",
+          "source": "GitHub Trending",
+          "title_original": "BigBodyCobain/Shadowbroker - Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface. Hook an AI agent up to have it parse through data and find previously unseen correlations. The knowledge is available to all but rarely aggregated in the open, until now.",
+          "title_ru": "BigBodyCobain/Shadowbroker — инструмент объединяет данные о перемещении частных самолетов, спутников и сейсмических событиях для анализа через ИИ",
+          "description_ru": "Инструмент объединяет данные о перемещении частных самолетов, спутников и сейсмических событиях для анализа через ИИ.",
+          "url": "https://github.com/BigBodyCobain/Shadowbroker",
+          "metadata": {
+            "time": "Today",
+            "heat": "7,824 stars"
+          }
+        },
+        {
+          "id": "briefing_tech-6",
+          "section_id": "briefing_tech",
+          "position": 6,
+          "subsection": "ai_frontier",
+          "source": "GitHub Trending",
+          "title_original": "humanlayer/12-factor-agents - What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?",
+          "title_ru": "humanlayer/12-factor-agents — руководство описывает методологию создания надежных приложений, работающих на основе больших языковых моделей",
+          "description_ru": "Руководство описывает методологию создания надежных приложений, работающих на основе больших языковых моделей.",
+          "url": "https://github.com/humanlayer/12-factor-agents",
+          "metadata": {
+            "time": "Today",
+            "heat": "20,727 stars"
+          }
+        },
+        {
+          "id": "briefing_tech-7",
+          "section_id": "briefing_tech",
+          "position": 7,
+          "subsection": "ai_frontier",
+          "source": "GitHub Trending",
+          "title_original": "microsoft/ai-agents-for-beginners - 12 Lessons to Get Started Building AI Agents",
+          "title_ru": "microsoft/ai-agents-for-beginners — учебный материал от Microsoft помогает новичкам освоить основы разработки автономных интеллектуальных систем",
+          "description_ru": "Учебный материал от Microsoft помогает новичкам освоить основы разработки автономных интеллектуальных систем.",
+          "url": "https://github.com/microsoft/ai-agents-for-beginners",
+          "metadata": {
+            "time": "Today",
+            "heat": "63,590 stars"
+          }
+        },
+        {
+          "id": "briefing_tech-8",
+          "section_id": "briefing_tech",
+          "position": 8,
+          "subsection": "ai_frontier",
+          "source": "GitHub Trending",
+          "title_original": "ZhuLinsen/daily_stock_analysis - LLM驱动的 A/H/美股智能分析：多数据源行情 + 实时新闻 + LLM决策仪表盘 + 多渠道推送，零成本定时运行，纯白嫖. LLM-powered stock analysis system for A/H/US markets.",
+          "title_ru": "ZhuLinsen/daily_stock_analysis — инструмент автоматизирует сбор рыночных данных и новостей для принятия инвестиционных решений с помощью ИИ",
+          "description_ru": "Инструмент автоматизирует сбор рыночных данных и новостей для принятия инвестиционных решений с помощью ИИ.",
+          "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
+          "metadata": {
+            "time": "Today",
+            "heat": "37,321 stars"
+          }
+        },
+        {
+          "id": "briefing_tech-9",
+          "section_id": "briefing_tech",
+          "position": 9,
+          "subsection": "ai_frontier",
+          "source": "Hacker News",
+          "title_original": "Frontier models at open source cost – hot new AI Model Router",
+          "title_ru": "OrcaRouter — сервис оптимизирует выбор моделей для выполнения задач, обеспечивая высокую производительность при низких затратах",
+          "description_ru": "Сервис оптимизирует выбор моделей для выполнения задач, обеспечивая высокую производительность при низких затратах.",
+          "url": "https://www.orcarouter.ai/",
+          "metadata": {
+            "time": "Today",
+            "heat": "1 points"
+          }
+        },
+        {
+          "id": "briefing_tech-10",
+          "section_id": "briefing_tech",
+          "position": 10,
+          "subsection": "ai_frontier",
+          "source": "Hacker News",
+          "title_original": "Google, Blackstone to Create AI Cloud Firm with In-House Chips",
+          "title_ru": "Google и Blackstone создают облачную компанию для ИИ с собственными чипами",
+          "description_ru": "Компании объединяют усилия для развития инфраструктуры облачных вычислений с использованием специализированного оборудования.",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-19/google-to-create-ai-cloud-business-with-blackstone-wsj-says",
+          "metadata": {
+            "time": "Today",
+            "heat": "1 points"
+          }
+        },
+        {
+          "id": "briefing_tech-11",
+          "section_id": "briefing_tech",
+          "position": 11,
+          "subsection": "ai_frontier",
+          "source": "Hacker News",
+          "title_original": "TuriX AI launched the latest version",
+          "title_ru": "TuriX AI — обновление расширяет возможности ИИ-агента по взаимодействию с интерфейсами операционных систем",
+          "description_ru": "Обновление расширяет возможности ИИ-агента по взаимодействию с интерфейсами операционных систем.",
+          "url": "https://github.com/TurixAI/TuriX-CUA",
+          "metadata": {
+            "time": "Today",
+            "heat": "1 points"
+          }
+        },
+        {
+          "id": "briefing_tech-12",
+          "section_id": "briefing_tech",
+          "position": 12,
+          "subsection": "ai_frontier",
+          "source": "Hacker News",
+          "title_original": "We built a runtime activation layer for autonomous AI agents",
+          "title_ru": "Разработка слоя активации времени выполнения для автономных ИИ-агентов",
+          "description_ru": "Техническое решение направлено на улучшение управления процессами в автономных интеллектуальных системах.",
+          "url": "https://www.santaclawz.ai/",
+          "metadata": {
+            "time": "Today",
+            "heat": "1 points"
+          }
+        },
+        {
+          "id": "briefing_tech-13",
+          "section_id": "briefing_tech",
+          "position": 13,
+          "subsection": "ai_frontier",
+          "source": "Hacker News",
+          "title_original": "AI Grant Writing Assistant",
+          "title_ru": "Grantbot.pl — сервис автоматизирует процесс подготовки документации для получения финансирования от различных фондов",
+          "description_ru": "Сервис автоматизирует процесс подготовки документации для получения финансирования от различных фондов.",
+          "url": "https://grantbot.pl",
+          "metadata": {
+            "time": "Today",
+            "heat": "1 points"
+          }
+        },
+        {
+          "id": "briefing_tech-14",
+          "section_id": "briefing_tech",
+          "position": 14,
+          "subsection": "ai_frontier",
+          "source": "Hacker News",
+          "title_original": "Research shows a clear and communicated AI stance acts as a powerful amplifier",
+          "title_ru": "Исследования показывают, что четкая позиция компании в отношении ИИ усиливает ее потенциал",
+          "description_ru": "Открытая коммуникация стратегии использования ИИ значительно повышает эффективность разработки программного обеспечения.",
+          "url": "https://dora.dev/capabilities/clear-and-communicated-ai-stance/",
+          "metadata": {
+            "time": "Today",
+            "heat": "1 points"
+          }
+        },
+        {
+          "id": "briefing_tech-15",
+          "section_id": "briefing_tech",
+          "position": 15,
+          "subsection": "ai_frontier",
+          "source": "Hacker News",
+          "title_original": "Vault Pro – AI Scaffolder for Obsidian Project Notes (Node/Claude)",
+          "title_ru": "Vault Pro — это решение помогает автоматизировать организацию проектных заметок с использованием технологий Node.js и Claude",
+          "description_ru": "Это решение помогает автоматизировать организацию проектных заметок с использованием технологий Node.js и Claude.",
+          "url": "https://checkout.stripe.com/c/pay/cs_live_a1T5cP4xxXFYhY045VE1ui9fm1NJj0ACL1umdUosCWtXUSR8CKrdNPsqn6#fidnandhYHdWcXxpYCc%2FJ2FgY2RwaXEnKSdicGRmZGhqaWBTZHdsZGtxJz8nZmprcXdqaScpJ2R1bE5gfCc%2FJ3VuWmlsc2BaMDRRSVF3TEJ8bnFIYn18XE49QDxqcV12bnFhNXI9U19HRjBucWBPVTNoRHxnVkxpMUxPZFc8Sm4yNm9vMFZQaFJ%2FPGtTQHQ0MD00fXV1cUEzdkBDNVdKf3I1NTZVZGFJaGo2JyknY3dqaFZgd3Ngdyc%2FcXdwYCknZ2RmbmJ3anBrYUZqaWp3Jz8nJjxnNGc2NScpJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl",
+          "metadata": {
+            "time": "Today",
+            "heat": "1 points"
+          }
+        },
+        {
+          "id": "briefing_tech-16",
+          "section_id": "briefing_tech",
+          "position": 16,
+          "subsection": "ai_frontier",
+          "source": "Hacker News",
+          "title_original": "People who use ChatGPT for writing are accurate detectors of AI text (2025)",
+          "title_ru": "Пользователи ChatGPT лучше распознают тексты, написанные нейросетями",
+          "description_ru": "Исследование 2025 года подтверждает, что частое использование ИИ для письма развивает навыки его идентификации.",
+          "url": "https://arxiv.org/abs/2501.15654",
+          "metadata": {
+            "time": "Today",
+            "heat": "3 points"
+          }
+        },
+        {
+          "id": "briefing_tech-17",
+          "section_id": "briefing_tech",
+          "position": 17,
+          "subsection": "ai_frontier",
+          "source": "Hacker News",
+          "title_original": "Can AI just replace me already? – A comparative AI-writing ID experiment",
+          "title_ru": "Сможет ли ИИ полностью заменить меня? — Эксперимент по написанию текстов",
+          "description_ru": "Автор проводит сравнительный анализ качества текстов, созданных человеком и искусственным интеллектом.",
+          "url": "https://www.richardhanania.com/p/can-ai-replace-me-already",
+          "metadata": {
+            "time": "Today",
+            "heat": "1 points"
+          }
+        },
+        {
+          "id": "briefing_tech-18",
+          "section_id": "briefing_tech",
+          "position": 18,
+          "subsection": "ai_frontier",
+          "source": "Hacker News",
+          "title_original": "Google's Own AI Researchers Jockey for Access to Its Computing",
+          "title_ru": "Исследователи ИИ в Google борются за доступ к вычислительным мощностям",
+          "description_ru": "Внутри компании наблюдается высокая конкуренция среди специалистов за ресурсы, необходимые для обучения моделей.",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-18/google-s-own-ai-researchers-jockey-for-access-to-its-computing",
+          "metadata": {
+            "time": "Today",
+            "heat": "2 points"
+          }
+        },
+        {
+          "id": "briefing_tech-19",
+          "section_id": "briefing_tech",
+          "position": 19,
+          "subsection": "ai_frontier",
+          "source": "Hacker News",
+          "title_original": "The American Rebellion Against AI Is Gaining Steam",
+          "title_ru": "Американское сопротивление внедрению ИИ набирает обороты",
+          "description_ru": "В обществе растет обеспокоенность по поводу влияния искусственного интеллекта на различные сферы жизни.",
+          "url": "https://www.wsj.com/tech/ai/the-american-rebellion-against-ai-is-gaining-steam-94b72529",
+          "metadata": {
+            "time": "Today",
+            "heat": "63 points"
+          }
+        },
+        {
+          "id": "briefing_tech-20",
+          "section_id": "briefing_tech",
+          "position": 20,
+          "subsection": "ai_frontier",
+          "source": "Hacker News",
+          "title_original": "Reverse Lookup and AI-Powered Osint",
+          "title_ru": "Sherlockeye — сервис предоставляет инструменты для глубокого поиска и анализа данных в режиме реального времени",
+          "description_ru": "Сервис предоставляет инструменты для глубокого поиска и анализа данных в режиме реального времени.",
+          "url": "https://sherlockeye.io/",
+          "metadata": {
+            "time": "Today",
+            "heat": "2 points"
+          }
+        },
+        {
+          "id": "briefing_tech-21",
+          "section_id": "briefing_tech",
+          "position": 21,
+          "subsection": "ai_frontier",
+          "source": "Hacker News",
+          "title_original": "SuperInfer: SLO-Aware Rotary Scheduling and Memory Management for LLM Inference",
+          "title_ru": "SuperInfer — новый метод позволяет повысить эффективность работы больших языковых моделей на специализированных чипах",
+          "description_ru": "Новый метод позволяет повысить эффективность работы больших языковых моделей на специализированных чипах.",
+          "url": "https://supercomputing-system-ai-lab.github.io/projects/superinfer/",
+          "metadata": {
+            "time": "Today",
+            "heat": "2 points"
+          }
+        },
+        {
+          "id": "briefing_tech-22",
+          "section_id": "briefing_tech",
+          "position": 22,
+          "subsection": "ai_frontier",
+          "source": "Hacker News",
+          "title_original": "Video GTP",
+          "title_ru": "Video GTP — инструмент позволяет пользователям задавать вопросы по содержанию загруженных видео- и аудиофайлов",
+          "description_ru": "Инструмент позволяет пользователям задавать вопросы по содержанию загруженных видео- и аудиофайлов.",
+          "url": "https://www.neotube.ai/",
+          "metadata": {
+            "time": "Today",
+            "heat": "3 points"
+          }
+        },
+        {
+          "id": "briefing_tech-23",
+          "section_id": "briefing_tech",
+          "position": 23,
+          "subsection": "ai_frontier",
+          "source": "Hacker News",
+          "title_original": "BudgetBites – AI meal planning app that helps you save money on groceries",
+          "title_ru": "BudgetBites — сервис помогает пользователям составлять бюджетное меню и оптимизировать расходы на покупку еды",
+          "description_ru": "Сервис помогает пользователям составлять бюджетное меню и оптимизировать расходы на покупку еды.",
+          "url": "https://budgetbites.website/login",
+          "metadata": {
+            "time": "Today",
+            "heat": "3 points"
+          }
+        },
+        {
+          "id": "briefing_tech-24",
+          "section_id": "briefing_tech",
+          "position": 24,
+          "subsection": "ai_frontier",
+          "source": "Hacker News",
+          "title_original": "Make products AI agents want",
+          "title_ru": "Создавайте продукты, ориентированные на ИИ-агентов",
+          "description_ru": "Разработчикам предлагается пересмотреть подход к созданию интерфейсов, где основными пользователями становятся автономные агенты.",
+          "url": "https://anitakirkovska.com/blog/make-products-ai-agents-want/",
+          "metadata": {
+            "time": "Today",
+            "heat": "2 points"
+          }
+        },
+        {
+          "id": "briefing_tech-25",
+          "section_id": "briefing_tech",
+          "position": 25,
+          "subsection": "ai_frontier",
+          "source": "Hacker News",
+          "title_original": "Google, Blackstone plan AI cloud venture with $5B backing, WSJ reports",
+          "title_ru": "Google и Blackstone инвестируют 5 миллиардов долларов в облачный ИИ-проект",
+          "description_ru": "Компании планируют объединить усилия для создания новой инфраструктуры для облачных вычислений.",
+          "url": "https://www.reuters.com/business/google-blackstone-create-new-ai-cloud-company-wsj-reports-2026-05-19/",
+          "metadata": {
+            "time": "Today",
+            "heat": "2 points"
+          }
+        },
+        {
+          "id": "briefing_tech-26",
+          "section_id": "briefing_tech",
+          "position": 26,
+          "subsection": "ai_frontier",
+          "source": "Hacker News",
+          "title_original": "Google and Blackstone to Create New AI Cloud Company",
+          "title_ru": "Google и Blackstone создают новую компанию в сфере облачного ИИ",
+          "description_ru": "Партнерство направлено на развитие облачных технологий с использованием мощностей искусственного интеллекта.",
+          "url": "https://www.wsj.com/tech/ai/google-and-blackstone-to-create-new-ai-cloud-company-0e35b91f",
+          "metadata": {
+            "time": "Today",
+            "heat": "6 points"
+          }
+        },
+        {
+          "id": "briefing_tech-27",
+          "section_id": "briefing_tech",
+          "position": 27,
+          "subsection": "ai_frontier",
+          "source": "Hacker News",
+          "title_original": "Melbourne psychiatrist refuses new patients who don't consent to AI note-taking",
+          "title_ru": "Мельбурнский психиатр отказывает пациентам, не согласным на ИИ-протоколирование",
+          "description_ru": "Использование ИИ для ведения записей на приеме вызывает вопросы о безопасности данных и конфиденциальности пациентов.",
+          "url": "https://www.theguardian.com/australia-news/2026/may/19/melbourne-psychiatrist-ai-note-taking-new-patients",
+          "metadata": {
+            "time": "Today",
+            "heat": "5 points"
+          }
+        },
+        {
+          "id": "briefing_tech-28",
+          "section_id": "briefing_tech",
+          "position": 28,
+          "subsection": "ai_frontier",
+          "source": "Hacker News",
+          "title_original": "how coding harnesses are used, an introspection",
+          "title_ru": "Анализ использования инструментов для автоматизации программирования",
+          "description_ru": "Статья рассматривает текущие подходы к внедрению ИИ-помощников в процесс разработки программного обеспечения.",
+          "url": "https://research.tamarillo.ai/coding-harness-inspection/",
+          "metadata": {
+            "time": "Today",
+            "heat": "7 points"
+          }
+        },
+        {
+          "id": "briefing_tech-29",
+          "section_id": "briefing_tech",
+          "position": 29,
+          "subsection": "ai_frontier",
+          "source": "Hacker News",
+          "title_original": "Meta Reassigns 7k Employees to Focus on A.I",
+          "title_ru": "Meta перераспределяет 7 тысяч сотрудников для работы над ИИ",
+          "description_ru": "Компания усиливает фокус на развитии технологий искусственного интеллекта за счет внутренних кадровых перестановок.",
+          "url": "https://www.nytimes.com/2026/05/18/technology/meta-reassigns-7000-employees-ai.html",
+          "metadata": {
+            "time": "Today",
+            "heat": "23 points"
+          }
+        },
+        {
+          "id": "briefing_tech-30",
+          "section_id": "briefing_tech",
+          "position": 30,
+          "subsection": "ai_frontier",
+          "source": "Hacker News",
+          "title_original": "Super-Adaptable Mayhem 10 Swarming Drone Evolved from the Switchblade",
+          "title_ru": "Mayhem 10 — новая разработка представляет собой эволюцию технологий беспилотных летательных аппаратов военного назначения",
+          "description_ru": "Новая разработка представляет собой эволюцию технологий беспилотных летательных аппаратов военного назначения.",
+          "url": "https://www.twz.com/air/super-adaptable-mayhem-10-swarming-drone-evolved-from-the-switchblade",
+          "metadata": {
+            "time": "Today",
+            "heat": "2 points"
+          }
+        },
+        {
+          "id": "briefing_tech-31",
+          "section_id": "briefing_tech",
+          "position": 31,
+          "subsection": "ai_frontier",
+          "source": "Hacker News",
+          "title_original": "If AI can translate instantly, why learn another language?",
+          "title_ru": "Если ИИ переводит мгновенно, стоит ли учить иностранные языки?",
+          "description_ru": "Автор рассуждает о ценности изучения языков в эпоху доступного машинного перевода.",
+          "url": "https://theconversation.com/if-ai-can-translate-instantly-why-learn-another-language-280310",
+          "metadata": {
+            "time": "Today",
+            "heat": "2 points"
+          }
+        },
+        {
+          "id": "briefing_tech-32",
+          "section_id": "briefing_tech",
+          "position": 32,
+          "subsection": "ai_frontier",
+          "source": "Hacker News",
+          "title_original": "Tech bros say AI can be your best friend. Experts explain why it can't",
+          "title_ru": "Почему ИИ не может стать вашим лучшим другом",
+          "description_ru": "Эксперты объясняют ограничения эмоциональной привязанности к алгоритмам, несмотря на заявления энтузиастов.",
+          "url": "https://www.rnz.co.nz/life/wellbeing/tech-bros-say-ai-can-be-your-best-friend-experts-explain-why-it-can-t",
+          "metadata": {
+            "time": "Today",
+            "heat": "8 points"
+          }
+        },
+        {
+          "id": "briefing_tech-33",
+          "section_id": "briefing_tech",
+          "position": 33,
+          "subsection": "ai_frontier",
+          "source": "Hacker News",
+          "title_original": "AI-Governed EV Charging Could Extend Battery Life Nearly 23%",
+          "title_ru": "ИИ-управление зарядкой электромобилей может продлить срок службы батареи на 23%",
+          "description_ru": "Интеллектуальные алгоритмы позволяют оптимизировать процесс зарядки, снижая износ аккумулятора.",
+          "url": "https://www.thedrive.com/news/ai-governed-ev-charging-could-extend-battery-life-nearly-23",
+          "metadata": {
+            "time": "Today",
+            "heat": "4 points"
+          }
+        },
+        {
+          "id": "briefing_tech-34",
+          "section_id": "briefing_tech",
+          "position": 34,
+          "subsection": "dev_tools",
+          "source": "GitHub Trending",
+          "title_original": "Imbad0202/academic-research-skills - Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+          "title_ru": "academic-research-skills — репозиторий содержит рекомендации по использованию ИИ для поиска, написания и рецензирования научных работ",
+          "description_ru": "Репозиторий содержит рекомендации по использованию ИИ для поиска, написания и рецензирования научных работ.",
+          "url": "https://github.com/Imbad0202/academic-research-skills",
+          "metadata": {
+            "time": "Today",
+            "heat": "12,273 stars"
+          }
+        },
+        {
+          "id": "briefing_tech-35",
+          "section_id": "briefing_tech",
+          "position": 35,
+          "subsection": "dev_tools",
+          "source": "GitHub Trending",
+          "title_original": "HKUDS/CLI-Anything - \"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
+          "title_ru": "CLI-Anything — проект направлен на интеграцию интерфейсов командной строки с современными автономными агентами",
+          "description_ru": "Проект направлен на интеграцию интерфейсов командной строки с современными автономными агентами.",
+          "url": "https://github.com/HKUDS/CLI-Anything",
+          "metadata": {
+            "time": "Today",
+            "heat": "36,836 stars"
+          }
+        },
+        {
+          "id": "briefing_tech-36",
+          "section_id": "briefing_tech",
+          "position": 36,
+          "subsection": "dev_tools",
+          "source": "GitHub Trending",
+          "title_original": "supertone-inc/supertonic - Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
+          "title_ru": "supertonic — библиотека обеспечивает многоязычный синтез речи на устройстве с использованием формата ONNX",
+          "description_ru": "Библиотека обеспечивает многоязычный синтез речи на устройстве с использованием формата ONNX.",
+          "url": "https://github.com/supertone-inc/supertonic",
+          "metadata": {
+            "time": "Today",
+            "heat": "8,434 stars"
+          }
+        },
+        {
+          "id": "briefing_tech-37",
+          "section_id": "briefing_tech",
+          "position": 37,
+          "subsection": "dev_tools",
+          "source": "GitHub Trending",
+          "title_original": "ruvnet/RuView - π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+          "title_ru": "RuView — технология позволяет отслеживать жизненные показатели и присутствие людей без использования камер",
+          "description_ru": "Технология позволяет отслеживать жизненные показатели и присутствие людей без использования камер.",
+          "url": "https://github.com/ruvnet/RuView",
+          "metadata": {
+            "time": "Today",
+            "heat": "60,025 stars"
+          }
+        },
+        {
+          "id": "briefing_tech-38",
+          "section_id": "briefing_tech",
+          "position": 38,
+          "subsection": "dev_tools",
+          "source": "GitHub Trending",
+          "title_original": "CloakHQ/CloakBrowser - Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+          "title_ru": "CloakBrowser — инструмент на базе Chromium имитирует поведение реального пользователя и проходит проверки на автоматизацию",
+          "description_ru": "Инструмент на базе Chromium имитирует поведение реального пользователя и проходит проверки на автоматизацию.",
+          "url": "https://github.com/CloakHQ/CloakBrowser",
+          "metadata": {
+            "time": "Today",
+            "heat": "15,450 stars"
+          }
+        },
+        {
+          "id": "briefing_tech-39",
+          "section_id": "briefing_tech",
+          "position": 39,
+          "subsection": "dev_tools",
+          "source": "GitHub Trending",
+          "title_original": "NVlabs/Sana - SANA: Efficient High-Resolution Image Synthesis with Linear Diffusion Transformer",
+          "title_ru": "NVlabs/Sana — представлена модель Sana, оптимизирующая процесс генерации изображений с использованием архитектуры линейных диффузионны",
+          "description_ru": "Представлена модель Sana, оптимизирующая процесс генерации изображений с использованием архитектуры линейных диффузионных трансформеров.",
+          "url": "https://github.com/NVlabs/Sana",
+          "metadata": {
+            "time": "Today",
+            "heat": "6,607 stars"
+          }
+        },
+        {
+          "id": "briefing_tech-40",
+          "section_id": "briefing_tech",
+          "position": 40,
+          "subsection": "dev_tools",
+          "source": "GitHub Trending",
+          "title_original": "plausible/analytics - Open source, privacy-first web analytics. Lightweight, cookie-free Google Analytics alternative. Self-hosted or cloud.",
+          "title_ru": "plausible/analytics — это легкая альтернатива Google Analytics, которая не использует файлы cookie и поддерживает как облачное, так и локально",
+          "description_ru": "Это легкая альтернатива Google Analytics, которая не использует файлы cookie и поддерживает как облачное, так и локальное размещение.",
+          "url": "https://github.com/plausible/analytics",
+          "metadata": {
+            "time": "Today",
+            "heat": "26,033 stars"
+          }
+        },
+        {
+          "id": "briefing_tech-41",
+          "section_id": "briefing_tech",
+          "position": 41,
+          "subsection": "startups",
+          "source": "Product Hunt",
+          "title_original": "Triggered Agents by Adaptive",
+          "title_ru": "Triggered Agents by Adaptive — материал посвящен концепции и принципам работы адаптивных агентов с триггерным управлением",
+          "description_ru": "Материал посвящен концепции и принципам работы адаптивных агентов с триггерным управлением.",
+          "url": "https://www.producthunt.com/products/triggered-agents-by-adaptive",
+          "metadata": {
+            "time": "2026-04-04T02:50:38-07:00",
+            "heat": "Top Product"
+          }
+        },
+        {
+          "id": "briefing_tech-42",
+          "section_id": "briefing_tech",
+          "position": 42,
+          "subsection": "startups",
+          "source": "Product Hunt",
+          "title_original": "Draft",
+          "title_ru": "Draft — обзор инструмента или концепции под названием Draft",
+          "description_ru": "Обзор инструмента или концепции под названием Draft.",
+          "url": "https://www.producthunt.com/products/draft-12",
+          "metadata": {
+            "time": "2026-04-29T20:22:16-07:00",
+            "heat": "Top Product"
+          }
+        },
+        {
+          "id": "briefing_tech-43",
+          "section_id": "briefing_tech",
+          "position": 43,
+          "subsection": "startups",
+          "source": "Product Hunt",
+          "title_original": "AnyFrame",
+          "title_ru": "AnyFrame — материал посвящен изучению возможностей фреймворка AnyFrame",
+          "description_ru": "Материал посвящен изучению возможностей фреймворка AnyFrame.",
+          "url": "https://www.producthunt.com/products/anyframe-2",
+          "metadata": {
+            "time": "2026-05-17T23:49:44-07:00",
+            "heat": "Top Product"
+          }
+        },
+        {
+          "id": "briefing_tech-44",
+          "section_id": "briefing_tech",
+          "position": 44,
+          "subsection": "startups",
+          "source": "Product Hunt",
+          "title_original": "Agentspan",
+          "title_ru": "Agentspan — статья о технологическом решении или платформе Agentspan",
+          "description_ru": "Статья о технологическом решении или платформе Agentspan.",
+          "url": "https://www.producthunt.com/products/agentspan",
+          "metadata": {
+            "time": "2026-05-14T19:09:00-07:00",
+            "heat": "Top Product"
+          }
+        },
+        {
+          "id": "briefing_tech-45",
+          "section_id": "briefing_tech",
+          "position": 45,
+          "subsection": "startups",
+          "source": "Product Hunt",
+          "title_original": "SizzleAir",
+          "title_ru": "SizzleAir — обзор продукта или сервиса SizzleAir",
+          "description_ru": "Обзор продукта или сервиса SizzleAir.",
+          "url": "https://www.producthunt.com/products/sizzleair",
+          "metadata": {
+            "time": "2026-05-17T06:10:10-07:00",
+            "heat": "Top Product"
+          }
+        },
+        {
+          "id": "briefing_tech-46",
+          "section_id": "briefing_tech",
+          "position": 46,
+          "subsection": "startups",
+          "source": "Product Hunt",
+          "title_original": "ReactVision Studio",
+          "title_ru": "ReactVision Studio — материал посвящен инструментарию для разработки визуальных интерфейсов на базе React",
+          "description_ru": "Материал посвящен инструментарию для разработки визуальных интерфейсов на базе React.",
+          "url": "https://www.producthunt.com/products/reactvision-studio",
+          "metadata": {
+            "time": "2026-05-17T05:40:43-07:00",
+            "heat": "Top Product"
+          }
+        },
+        {
+          "id": "briefing_tech-47",
+          "section_id": "briefing_tech",
+          "position": 47,
+          "subsection": "startups",
+          "source": "Product Hunt",
+          "title_original": "Searchad.ai",
+          "title_ru": "Searchad.ai — обзор платформы Searchad.ai, использующей ИИ для оптимизации рекламных кампаний",
+          "description_ru": "Обзор платформы Searchad.ai, использующей ИИ для оптимизации рекламных кампаний.",
+          "url": "https://www.producthunt.com/products/searchad-ai",
+          "metadata": {
+            "time": "2026-05-16T23:59:00-07:00",
+            "heat": "Top Product"
+          }
+        },
+        {
+          "id": "briefing_tech-48",
+          "section_id": "briefing_tech",
+          "position": 48,
+          "subsection": "startups",
+          "source": "Product Hunt",
+          "title_original": "Moody",
+          "title_ru": "Moody — материал посвящен приложению или сервису Moody",
+          "description_ru": "Материал посвящен приложению или сервису Moody.",
+          "url": "https://www.producthunt.com/products/moody-music-synced-album-wallpaper",
+          "metadata": {
+            "time": "2026-05-17T07:31:31-07:00",
+            "heat": "Top Product"
+          }
+        },
+        {
+          "id": "briefing_tech-49",
+          "section_id": "briefing_tech",
+          "position": 49,
+          "subsection": "startups",
+          "source": "Product Hunt",
+          "title_original": "LandingHero AI",
+          "title_ru": "LandingHero AI — обзор сервиса LandingHero AI для автоматизированного создания лендингов с помощью искусственного интеллекта",
+          "description_ru": "Обзор сервиса LandingHero AI для автоматизированного создания лендингов с помощью искусственного интеллекта.",
+          "url": "https://www.producthunt.com/products/landinghero-ai-2",
+          "metadata": {
+            "time": "2026-04-12T08:46:55-07:00",
+            "heat": "Top Product"
+          }
+        },
+        {
+          "id": "briefing_tech-50",
+          "section_id": "briefing_tech",
+          "position": 50,
+          "subsection": "startups",
+          "source": "Product Hunt",
+          "title_original": "Origio",
+          "title_ru": "Origio — материал посвящен изучению функционала платформы Origio",
+          "description_ru": "Материал посвящен изучению функционала платформы Origio.",
+          "url": "https://www.producthunt.com/products/origio",
+          "metadata": {
+            "time": "2026-05-03T10:25:18-07:00",
+            "heat": "Top Product"
+          }
+        }
+      ]
+    },
+    {
+      "id": "briefing_social",
+      "title": "Социальный утренний брифинг",
+      "type": "digest",
+      "order": 33,
+      "sidebar_group": "Дайджесты",
+      "description": "Повестка из социальных и пользовательских сообществ.",
+      "default_limit": null,
+      "allow_empty": false,
+      "returncode": 0,
+      "stderr": "[v2ex_hot] Starting fetch...\n[v2ex_hot] fetch_v2ex returned 9 items\n[v2ex_hot] Enriching content for 9 items...\nJSON output sent to stdout only (--no-save mode)\n",
+      "count": 9,
+      "items": [
+        {
+          "id": "briefing_social-1",
+          "section_id": "briefing_social",
+          "position": 1,
+          "subsection": "v2ex_hot",
+          "source": "V2EX",
+          "title_original": "做了一个免费的 AI 公益站，今天重新开放注册，送 50 刀额度兑换码",
+          "title_ru": "Запуск бесплатного ИИ-сервиса: регистрация открыта, бонусы для пользователей",
+          "description_ru": "Автор анонсирует открытие регистрации на своем некоммерческом ИИ-ресурсе и предлагает подарочные кредиты.",
+          "url": "https://www.v2ex.com/t/1213663",
+          "metadata": {
+            "time": "Hot",
+            "heat": "230 replies"
+          }
+        },
+        {
+          "id": "briefing_social-2",
+          "section_id": "briefing_social",
+          "position": 2,
+          "subsection": "v2ex_hot",
+          "source": "V2EX",
+          "title_original": "今天正式迈入 40 岁啦！",
+          "title_ru": "Размышления о жизни в 40 лет",
+          "description_ru": "Пользователь делится личным опытом и переосмыслением жизненных приоритетов после достижения сорокалетнего возраста.",
+          "url": "https://www.v2ex.com/t/1213548",
+          "metadata": {
+            "time": "Hot",
+            "heat": "169 replies"
+          }
+        },
+        {
+          "id": "briefing_social-3",
+          "section_id": "briefing_social",
+          "position": 3,
+          "subsection": "v2ex_hot",
+          "source": "V2EX",
+          "title_original": "建议觉得原生家庭不行的看看这个帖子",
+          "title_ru": "Совет тем, кто страдает от проблем в отношениях с семьей",
+          "description_ru": "Автор призывает не зацикливаться на токсичных семейных отношениях и сосредоточиться на собственном благополучии.",
+          "url": "https://www.v2ex.com/t/1213491",
+          "metadata": {
+            "time": "Hot",
+            "heat": "144 replies"
+          }
+        },
+        {
+          "id": "briefing_social-4",
+          "section_id": "briefing_social",
+          "position": 4,
+          "subsection": "v2ex_hot",
+          "source": "V2EX",
+          "title_original": "为什么有钱人大多都迷信？",
+          "title_ru": "Почему многие богатые люди суеверны?",
+          "description_ru": "Обсуждение причин, по которым состоятельные люди часто прибегают к услугам предсказателей и верят в приметы.",
+          "url": "https://www.v2ex.com/t/1213481",
+          "metadata": {
+            "time": "Hot",
+            "heat": "111 replies"
+          }
+        },
+        {
+          "id": "briefing_social-5",
+          "section_id": "briefing_social",
+          "position": 5,
+          "subsection": "v2ex_hot",
+          "source": "V2EX",
+          "title_original": "感冒还没有好， 4、500 元 已经没了。",
+          "title_ru": "Высокая стоимость лечения простуды",
+          "description_ru": "Пользователь жалуется на значительные финансовые расходы, связанные с покупкой лекарств при обычном заболевании.",
+          "url": "https://www.v2ex.com/t/1213688",
+          "metadata": {
+            "time": "Hot",
+            "heat": "104 replies"
+          }
+        },
+        {
+          "id": "briefing_social-6",
+          "section_id": "briefing_social",
+          "position": 6,
+          "subsection": "v2ex_hot",
+          "source": "V2EX",
+          "title_original": "煎熬，被公司逼迫离职了。",
+          "title_ru": "Трудности при принудительном увольнении",
+          "description_ru": "Автор описывает конфликтную ситуацию с работодателем, который пытается вынудить сотрудника уволиться.",
+          "url": "https://www.v2ex.com/t/1213501",
+          "metadata": {
+            "time": "Hot",
+            "heat": "98 replies"
+          }
+        },
+        {
+          "id": "briefing_social-7",
+          "section_id": "briefing_social",
+          "position": 7,
+          "subsection": "v2ex_hot",
+          "source": "V2EX",
+          "title_original": "兜兜转转最终还是回到了 chrome",
+          "title_ru": "Возвращение к использованию браузера Chrome",
+          "description_ru": "Пользователь делится опытом тестирования различных браузеров на базе Chromium и объясняет причины возврата к Google Chrome.",
+          "url": "https://www.v2ex.com/t/1213531",
+          "metadata": {
+            "time": "Hot",
+            "heat": "86 replies"
+          }
+        },
+        {
+          "id": "briefing_social-8",
+          "section_id": "briefing_social",
+          "position": 8,
+          "subsection": "v2ex_hot",
+          "source": "V2EX",
+          "title_original": "[开放注册] 一个真正一目了然的自建 Codex 中转站",
+          "title_ru": "Открыт доступ к удобному прокси-сервису для Codex",
+          "description_ru": "Анонс запуска собственного удобного шлюза для работы с API Codex.",
+          "url": "https://www.v2ex.com/t/1213699",
+          "metadata": {
+            "time": "Hot",
+            "heat": "76 replies"
+          }
+        },
+        {
+          "id": "briefing_social-9",
+          "section_id": "briefing_social",
+          "position": 9,
+          "subsection": "v2ex_hot",
+          "source": "V2EX",
+          "title_original": "给经常口腔溃疡的朋友们一个参考",
+          "title_ru": "Советы по борьбе с хроническими стоматитами",
+          "description_ru": "Пользователь делится личным опытом лечения частых язв во рту через профессиональную гигиену полости рта.",
+          "url": "https://www.v2ex.com/t/1213560",
+          "metadata": {
+            "time": "Hot",
+            "heat": "73 replies"
+          }
+        }
+      ]
+    },
+    {
+      "id": "briefing_ai_daily",
+      "title": "AI Daily / глубокий AI-брифинг",
+      "type": "digest",
+      "order": 34,
+      "sidebar_group": "Дайджесты",
+      "description": "Глубокий обзор AI-рассылок и отраслевых AI-сигналов.",
+      "default_limit": null,
+      "allow_empty": false,
+      "returncode": 0,
+      "stderr": "[newsletter_picks] Starting fetch...\n[newsletter_picks] fetch_ai_newsletters returned 15 items\n[newsletter_picks] Enriching content for 15 items...\nJSON output sent to stdout only (--no-save mode)\n",
+      "count": 15,
+      "items": [
+        {
+          "id": "briefing_ai_daily-1",
+          "section_id": "briefing_ai_daily",
+          "position": 1,
+          "subsection": "newsletter_picks",
+          "source": "One Useful Thing",
+          "title_original": "Sign of the future: GPT-5.5",
+          "title_ru": "Признаки будущего: GPT-5.5",
+          "description_ru": "Автор делится впечатлениями от раннего доступа к новой версии языковой модели GPT-5.5.",
+          "url": "https://www.oneusefulthing.org/p/sign-of-the-future-gpt-55",
+          "metadata": {
+            "time": "Thu, 23 Apr 2026 20:00:38 GMT",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_ai_daily-2",
+          "section_id": "briefing_ai_daily",
+          "position": 2,
+          "subsection": "newsletter_picks",
+          "source": "One Useful Thing",
+          "title_original": "Claude Dispatch and the Power of Interfaces",
+          "title_ru": "Claude Dispatch и сила интерфейсов",
+          "description_ru": "Статья о том, как новые интерфейсы взаимодействия с ИИ расширяют возможности современных моделей.",
+          "url": "https://www.oneusefulthing.org/p/claude-dispatch-and-the-power-of",
+          "metadata": {
+            "time": "Tue, 31 Mar 2026 22:34:37 GMT",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_ai_daily-3",
+          "section_id": "briefing_ai_daily",
+          "position": 3,
+          "subsection": "newsletter_picks",
+          "source": "One Useful Thing",
+          "title_original": "The Shape of the Thing",
+          "title_ru": "Форма вещей",
+          "description_ru": "Размышления о том, во что может превратиться искусственный интеллект в ближайшие годы.",
+          "url": "https://www.oneusefulthing.org/p/the-shape-of-the-thing",
+          "metadata": {
+            "time": "Thu, 12 Mar 2026 14:10:07 GMT",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_ai_daily-4",
+          "section_id": "briefing_ai_daily",
+          "position": 4,
+          "subsection": "newsletter_picks",
+          "source": "Interconnects",
+          "title_original": "Latest open artifacts (#21): Open model bonanza! Gemma 4, DeepSeek V4, Kimi K2.6, MiMo 2.5, GLM-5.1 & others. On CAISI's V4 assessment.",
+          "title_ru": "Обзор новых открытых моделей: Gemma 4, DeepSeek V4 и другие",
+          "description_ru": "Краткий обзор последних релизов открытых нейросетевых моделей от ведущих исследовательских лабораторий.",
+          "url": "https://www.interconnects.ai/p/latest-open-artifacts-21-open-model",
+          "metadata": {
+            "time": "Sat, 16 May 2026 17:00:11 GMT",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_ai_daily-5",
+          "section_id": "briefing_ai_daily",
+          "position": 5,
+          "subsection": "newsletter_picks",
+          "source": "Interconnects",
+          "title_original": "How open model ecosystems compound",
+          "title_ru": "Как развиваются экосистемы открытых моделей",
+          "description_ru": "В статье рассматриваются механизмы роста и взаимодействия открытых моделей искусственного интеллекта.",
+          "url": "https://www.interconnects.ai/p/how-open-model-ecosystems-compound",
+          "metadata": {
+            "time": "Tue, 12 May 2026 15:54:47 GMT",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_ai_daily-6",
+          "section_id": "briefing_ai_daily",
+          "position": 6,
+          "subsection": "newsletter_picks",
+          "source": "Interconnects",
+          "title_original": "Notes from inside China's AI labs",
+          "title_ru": "Заметки из китайских лабораторий ИИ",
+          "description_ru": "Автор делится личными впечатлениями от посещения исследовательских центров искусственного интеллекта в Китае.",
+          "url": "https://www.interconnects.ai/p/notes-from-inside-chinas-ai-labs",
+          "metadata": {
+            "time": "Thu, 07 May 2026 15:42:43 GMT",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_ai_daily-7",
+          "section_id": "briefing_ai_daily",
+          "position": 7,
+          "subsection": "newsletter_picks",
+          "source": "Ben's Bites",
+          "title_original": "Agents feedback tip",
+          "title_ru": "Советы по взаимодействию с ИИ-агентами",
+          "description_ru": "Представлены рекомендации по улучшению процесса обратной связи при работе с интеллектуальными агентами.",
+          "url": "https://www.bensbites.com/p/agents-feedback-tip",
+          "metadata": {
+            "time": "Thu, 14 May 2026 13:31:03 GMT",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_ai_daily-8",
+          "section_id": "briefing_ai_daily",
+          "position": 8,
+          "subsection": "newsletter_picks",
+          "source": "Ben's Bites",
+          "title_original": "Learn the system",
+          "title_ru": "Изучение системы",
+          "description_ru": "Обсуждаются риски и особенности использования агентного программирования в современной разработке.",
+          "url": "https://www.bensbites.com/p/learn-the-system",
+          "metadata": {
+            "time": "Tue, 12 May 2026 13:07:50 GMT",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_ai_daily-9",
+          "section_id": "briefing_ai_daily",
+          "position": 9,
+          "subsection": "newsletter_picks",
+          "source": "Ben's Bites",
+          "title_original": "Ben's Builds #3 - an email app",
+          "title_ru": "Ben's Builds #3 — автор подробно описывает процесс создания собственного приложения для работы с электронной почтой",
+          "description_ru": "Автор подробно описывает процесс создания собственного приложения для работы с электронной почтой.",
+          "url": "https://www.bensbites.com/p/bens-builds-3-an-email-app",
+          "metadata": {
+            "time": "Sat, 09 May 2026 09:25:10 GMT",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_ai_daily-10",
+          "section_id": "briefing_ai_daily",
+          "position": 10,
+          "subsection": "newsletter_picks",
+          "source": "AI to ROI",
+          "title_original": "AI to ROI News & Analysis: May 15, 2026",
+          "title_ru": "Новости и аналитика AI to ROI: 15 мая 2026 г.",
+          "description_ru": "Обзор ключевых событий недели в сфере бизнеса и искусственного интеллекта.",
+          "url": "https://ai2roi.substack.com/p/ai-to-roi-news-and-analysis-may-15",
+          "metadata": {
+            "time": "Fri, 15 May 2026 15:31:50 GMT",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_ai_daily-11",
+          "section_id": "briefing_ai_daily",
+          "position": 11,
+          "subsection": "newsletter_picks",
+          "source": "AI to ROI",
+          "title_original": "AI to ROI Big Story: Work as a Service - The Holy Grail of AI Business Models",
+          "title_ru": "AI to ROI: «Работа как услуга» — святой грааль бизнес-моделей ИИ",
+          "description_ru": "Анализируется концепция трансформации программного обеспечения в полноценную рабочую силу.",
+          "url": "https://ai2roi.substack.com/p/ai-to-roi-big-story-work-as-a-service",
+          "metadata": {
+            "time": "Tue, 12 May 2026 15:31:52 GMT",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_ai_daily-12",
+          "section_id": "briefing_ai_daily",
+          "position": 12,
+          "subsection": "newsletter_picks",
+          "source": "AI to ROI",
+          "title_original": "AI to ROI News & Analysis: May 8, 2026",
+          "title_ru": "Новости и аналитика AI to ROI: 8 мая 2026 г.",
+          "description_ru": "Еженедельный дайджест новостей о внедрении и окупаемости технологий искусственного интеллекта.",
+          "url": "https://ai2roi.substack.com/p/ai-to-roi-news-and-analysis-may-8",
+          "metadata": {
+            "time": "Fri, 08 May 2026 12:32:19 GMT",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_ai_daily-13",
+          "section_id": "briefing_ai_daily",
+          "position": 13,
+          "subsection": "newsletter_picks",
+          "source": "ChinAI",
+          "title_original": "ChinAI #359: DeepSeek's \"Huawei-like\" Mission in AI",
+          "title_ru": "ChinAI #359: «Хуавэевская» миссия DeepSeek в области ИИ",
+          "description_ru": "Рассматривается стратегия развития компании DeepSeek в контексте китайского технологического сектора.",
+          "url": "https://chinai.substack.com/p/chinai-359-deepseeks-huawei-like",
+          "metadata": {
+            "time": "Mon, 18 May 2026 11:51:51 GMT",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_ai_daily-14",
+          "section_id": "briefing_ai_daily",
+          "position": 14,
+          "subsection": "newsletter_picks",
+          "source": "ChinAI",
+          "title_original": "ChinAI #358: Around the Horn (25th episode)",
+          "title_ru": "ChinAI #358: Обзор событий (25-й эпизод)",
+          "description_ru": "Юбилейный выпуск дайджеста с кратким обзором актуальных тем в китайской индустрии ИИ.",
+          "url": "https://chinai.substack.com/p/chinai-358-around-the-horn-25th-episode",
+          "metadata": {
+            "time": "Mon, 11 May 2026 12:40:37 GMT",
+            "heat": ""
+          }
+        },
+        {
+          "id": "briefing_ai_daily-15",
+          "section_id": "briefing_ai_daily",
+          "position": 15,
+          "subsection": "newsletter_picks",
+          "source": "ChinAI",
+          "title_original": "ChinAI #357: AI Surveillance in Chinese Universities",
+          "title_ru": "ChinAI #357: ИИ-наблюдение в китайских университетах",
+          "description_ru": "Исследуется практика внедрения систем слежения на базе искусственного интеллекта в образовательных учреждениях Китая.",
+          "url": "https://chinai.substack.com/p/chinai-357-ai-surveillance-in-chinese",
+          "metadata": {
+            "time": "Mon, 04 May 2026 11:40:14 GMT",
+            "heat": ""
+          }
+        }
+      ]
+    }
+  ],
+  "enrichment": {
+    "used_llm": true,
+    "provider": "openclaw-agent",
+    "mode": "compact-ai-input",
+    "missing_ai_items": []
+  }
+}
