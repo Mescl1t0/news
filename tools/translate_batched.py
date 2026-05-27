@@ -20,7 +20,7 @@ from common import has_cyrillic, read_json, report_dir, safe_text, today_str, wr
 BATCH_SIZE = int(os.environ.get("NEWS_TRANSLATE_BATCH_SIZE", "25"))
 BATCH_PAUSE_SECONDS = int(os.environ.get("NEWS_TRANSLATE_BATCH_PAUSE_SECONDS", "20"))
 MAX_ATTEMPTS = int(os.environ.get("NEWS_TRANSLATE_MAX_ATTEMPTS", "5"))
-MODEL = "gemini-3.1-flash-lite"
+MODEL = os.environ.get("NEWS_TRANSLATE_MODEL", "gemini-flash-lite-latest")
 GOOGLE_API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
 
 
