@@ -1,0 +1,1456 @@
+{
+  "date": "2026-05-29",
+  "task": "For every item keep title_original unchanged, add a natural Russian translation into title_ru, and write exactly one short neutral Russian sentence into description_ru. Translate from English, Chinese, or any other non-Russian source language. Do not leave non-Russian or placeholder text in title_ru/description_ru. Return ai_output schema only.",
+  "output_schema": {
+    "items": [
+      {
+        "id": "same id from input",
+        "title_original": "same original title from input",
+        "title_ru": "natural Russian headline",
+        "description_ru": "exactly one neutral Russian sentence"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hackernews",
+      "title": "Hacker News",
+      "items": [
+        {
+          "id": "hackernews-1",
+          "section_id": "hackernews",
+          "title_original": "Cars are trying to spy on you, and it's only just the beginning",
+          "snippet": "Материал посвящён теме «Cars are trying to spy on you, and it's only just the beginning»."
+        },
+        {
+          "id": "hackernews-2",
+          "section_id": "hackernews",
+          "title_original": "Claude Opus 4.8",
+          "snippet": "Материал посвящён теме «Claude Opus 4.8»."
+        },
+        {
+          "id": "hackernews-3",
+          "section_id": "hackernews",
+          "title_original": "Bricks and Minifigs Stole a Man's $200k Lego Collection",
+          "snippet": "Материал посвящён теме «Bricks and Minifigs Stole a Man's $200k Lego Collection»."
+        },
+        {
+          "id": "hackernews-4",
+          "section_id": "hackernews",
+          "title_original": "The most spectacular rocket explosion since N1 just happened in Florida",
+          "snippet": "Материал посвящён теме «The most spectacular rocket explosion since N1 just happened in Florida»."
+        },
+        {
+          "id": "hackernews-5",
+          "section_id": "hackernews",
+          "title_original": "I made a million dollar product from my dorm room (2025)",
+          "snippet": "Материал посвящён теме «I made a million dollar product from my dorm room (2025)»."
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "title": "GitHub Trending",
+      "items": [
+        {
+          "id": "github-1",
+          "section_id": "github",
+          "title_original": "harry0703/MoneyPrinterTurbo - 利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+          "snippet": "Материал посвящён теме «harry0703/MoneyPrinterTurbo - 利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.»."
+        },
+        {
+          "id": "github-2",
+          "section_id": "github",
+          "title_original": "affaan-m/ECC - The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+          "snippet": "Материал посвящён теме «affaan-m/ECC - The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.»."
+        },
+        {
+          "id": "github-3",
+          "section_id": "github",
+          "title_original": "Leonxlnx/taste-skill - Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+          "snippet": "Материал посвящён теме «Leonxlnx/taste-skill - Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop»."
+        },
+        {
+          "id": "github-4",
+          "section_id": "github",
+          "title_original": "hardikpandya/stop-slop - A skill file for removing AI tells from prose",
+          "snippet": "Материал посвящён теме «hardikpandya/stop-slop - A skill file for removing AI tells from prose»."
+        },
+        {
+          "id": "github-5",
+          "section_id": "github",
+          "title_original": "twentyhq/twenty - The open alternative to Salesforce, designed for AI.",
+          "snippet": "Материал посвящён теме «twentyhq/twenty - The open alternative to Salesforce, designed for AI.»."
+        }
+      ]
+    },
+    {
+      "id": "producthunt",
+      "title": "Product Hunt",
+      "items": [
+        {
+          "id": "producthunt-1",
+          "section_id": "producthunt",
+          "title_original": "Sublern",
+          "snippet": "Материал посвящён теме «Sublern»."
+        },
+        {
+          "id": "producthunt-2",
+          "section_id": "producthunt",
+          "title_original": "LaunchOS",
+          "snippet": "Материал посвящён теме «LaunchOS»."
+        },
+        {
+          "id": "producthunt-3",
+          "section_id": "producthunt",
+          "title_original": "Robinhood Agentic Trading",
+          "snippet": "Материал посвящён теме «Robinhood Agentic Trading»."
+        },
+        {
+          "id": "producthunt-4",
+          "section_id": "producthunt",
+          "title_original": "NeuralAgent 2.5",
+          "snippet": "Материал посвящён теме «NeuralAgent 2.5»."
+        },
+        {
+          "id": "producthunt-5",
+          "section_id": "producthunt",
+          "title_original": "KugelAudio",
+          "snippet": "Материал посвящён теме «KugelAudio»."
+        }
+      ]
+    },
+    {
+      "id": "latentspace_ainews",
+      "title": "Latent Space AINews",
+      "items": [
+        {
+          "id": "latentspace_ainews-1",
+          "section_id": "latentspace_ainews",
+          "title_original": "[AINews] Anthropic raises $965B Series H, releases Opus 4.8 and Dynamic Workflows/ultracode",
+          "snippet": "Total Anthropic victory!"
+        },
+        {
+          "id": "latentspace_ainews-2",
+          "section_id": "latentspace_ainews",
+          "title_original": "[AINews] Cognition raises $1B in $26B Series D",
+          "snippet": "coding is an uncapped TAM market."
+        },
+        {
+          "id": "latentspace_ainews-3",
+          "section_id": "latentspace_ainews",
+          "title_original": "[AINews] New AI Infra decacorns: Fireworks, Baseten (with OpenRouter on the way)",
+          "snippet": "it's funding news, but it's good news."
+        },
+        {
+          "id": "latentspace_ainews-4",
+          "section_id": "latentspace_ainews",
+          "title_original": "[AINews] All Model Labs are now Agent Labs",
+          "snippet": "a quiet day lets us tie together a few quotes as all model labs become agent labs."
+        },
+        {
+          "id": "latentspace_ainews-5",
+          "section_id": "latentspace_ainews",
+          "title_original": "[AINews] New AI Infra unicorns: Exa, Modal, TurboPuffer",
+          "snippet": "a quiet day lets us feature fundraises!"
+        }
+      ]
+    },
+    {
+      "id": "oneusefulthing",
+      "title": "One Useful Thing",
+      "items": [
+        {
+          "id": "oneusefulthing-1",
+          "section_id": "oneusefulthing",
+          "title_original": "Choosing to Stay Human",
+          "snippet": "If you go to your favorite social media site, you will find it full of posts that start to look suspiciously similar to each other: Many of the comments to these posts are also generated by AI."
+        },
+        {
+          "id": "oneusefulthing-2",
+          "section_id": "oneusefulthing",
+          "title_original": "Sign of the future: GPT-5.5",
+          "snippet": "I had early access to GPT-5.5 1 , and I think it is a big deal."
+        },
+        {
+          "id": "oneusefulthing-3",
+          "section_id": "oneusefulthing",
+          "title_original": "Claude Dispatch and the Power of Interfaces",
+          "snippet": "AIs are already far more capable than most people realize."
+        },
+        {
+          "id": "oneusefulthing-4",
+          "section_id": "oneusefulthing",
+          "title_original": "The Shape of the Thing",
+          "snippet": "In October of 2023, I wrote about the “Shape of the Shadow of the Thing,” speculating on the Thing that AI might turn into in the coming years."
+        },
+        {
+          "id": "oneusefulthing-5",
+          "section_id": "oneusefulthing",
+          "title_original": "A Guide to Which AI to Use in the Agentic Era",
+          "snippet": "I have written eight of these guides since ChatGPT came out, but this version represents a very large break with the past, because what it means to “use AI” has changed dramatically."
+        }
+      ]
+    },
+    {
+      "id": "interconnects",
+      "title": "Interconnects",
+      "items": [
+        {
+          "id": "interconnects-1",
+          "section_id": "interconnects",
+          "title_original": "Some ideas for what comes next, May 2026",
+          "snippet": "As the years of AI progress go by, it’s been accompanied by a slowly rising tide of consequence."
+        },
+        {
+          "id": "interconnects-2",
+          "section_id": "interconnects",
+          "title_original": "Latest open artifacts (#21): Open model bonanza! Gemma 4, DeepSeek V4, Kimi K2.6, MiMo 2.5, GLM-5.1 & others. On CAISI's V4 assessment.",
+          "snippet": "This month was packed, with all open frontier labs, including DeepSeek, releasing new models."
+        },
+        {
+          "id": "interconnects-3",
+          "section_id": "interconnects",
+          "title_original": "How open model ecosystems compound",
+          "snippet": "Note: Voice-overs for paywalled posts are available for paid subscribes in podcast apps if you click on settings on Interconnects, then manage your description."
+        },
+        {
+          "id": "interconnects-4",
+          "section_id": "interconnects",
+          "title_original": "Notes from inside China's AI labs",
+          "snippet": "Staring out the window on a new, high-speed train from Hangzhou to Shanghai I’m gifted with views of dramatic ridgelines speckled with wind turbines that are silhouetted against the setting sun."
+        },
+        {
+          "id": "interconnects-5",
+          "section_id": "interconnects",
+          "title_original": "The distillation panic",
+          "snippet": "‘Distillation attacks’ is a horrible term for what is happening right now."
+        }
+      ]
+    },
+    {
+      "id": "latentspace",
+      "title": "Latent Space Podcast",
+      "items": [
+        {
+          "id": "latentspace-1",
+          "section_id": "latentspace",
+          "title_original": "[AINews] Anthropic raises $965B Series H, releases Opus 4.8 and Dynamic Workflows/ultracode",
+          "snippet": "Anthropic’s path as the fastest growing company of all time has put overtaking OpenAI in its sights for a while, but there were numerous asterisks for the past few months that put the timing (though perhaps not the fact) of the flippening in question."
+        },
+        {
+          "id": "latentspace-2",
+          "section_id": "latentspace",
+          "title_original": "The Age of Async Agents — Cognition's Walden Yan & OpenInspect's Cole Murray",
+          "snippet": "The new AIEWF website is live!"
+        },
+        {
+          "id": "latentspace-3",
+          "section_id": "latentspace",
+          "title_original": "[AINews] Cognition raises $1B in $26B Series D",
+          "snippet": "We last wrote about Cognition in September’s $10B Series C when Smol.ai also joined Cognition and AINews was eventually moved here to Latent Space ."
+        },
+        {
+          "id": "latentspace-4",
+          "section_id": "latentspace",
+          "title_original": "🔬ESM: The Bitter Lesson is Coming for Proteins - Alex Rives, BioHub",
+          "snippet": "Editor’s note: In our first BioHub pod with Priscilla and Mark they discussed their acquisition of EvoScale , led by Alex Rives , who is now Head of Science at BioHub."
+        },
+        {
+          "id": "latentspace-5",
+          "section_id": "latentspace",
+          "title_original": "[AINews] New AI Infra decacorns: Fireworks, Baseten (with OpenRouter on the way)",
+          "snippet": "Take the 2026 AI Engineering Survey and get >$2k in credits and AIE WF tickets !"
+        }
+      ]
+    },
+    {
+      "id": "briefing_general",
+      "title": "Общий утренний брифинг",
+      "items": [
+        {
+          "id": "briefing_general-1",
+          "section_id": "briefing_general",
+          "title_original": "Sublern",
+          "snippet": "Материал посвящён теме «Sublern»."
+        },
+        {
+          "id": "briefing_general-2",
+          "section_id": "briefing_general",
+          "title_original": "LaunchOS",
+          "snippet": "Материал посвящён теме «LaunchOS»."
+        },
+        {
+          "id": "briefing_general-3",
+          "section_id": "briefing_general",
+          "title_original": "Robinhood Agentic Trading",
+          "snippet": "Материал посвящён теме «Robinhood Agentic Trading»."
+        },
+        {
+          "id": "briefing_general-4",
+          "section_id": "briefing_general",
+          "title_original": "NeuralAgent 2.5",
+          "snippet": "Материал посвящён теме «NeuralAgent 2.5»."
+        },
+        {
+          "id": "briefing_general-5",
+          "section_id": "briefing_general",
+          "title_original": "KugelAudio",
+          "snippet": "Материал посвящён теме «KugelAudio»."
+        },
+        {
+          "id": "briefing_general-6",
+          "section_id": "briefing_general",
+          "title_original": "harry0703/MoneyPrinterTurbo - 利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+          "snippet": "GitHub - harry0703/MoneyPrinterTurbo: 利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM."
+        },
+        {
+          "id": "briefing_general-7",
+          "section_id": "briefing_general",
+          "title_original": "affaan-m/ECC - The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+          "snippet": "GitHub - affaan-m/ECC: The agent harness performance optimization system."
+        },
+        {
+          "id": "briefing_general-8",
+          "section_id": "briefing_general",
+          "title_original": "Leonxlnx/taste-skill - Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+          "snippet": "GitHub - Leonxlnx/taste-skill: Taste-Skill - gives your AI good taste."
+        },
+        {
+          "id": "briefing_general-9",
+          "section_id": "briefing_general",
+          "title_original": "hardikpandya/stop-slop - A skill file for removing AI tells from prose",
+          "snippet": "GitHub - hardikpandya/stop-slop: A skill file for removing AI tells from prose · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_general-10",
+          "section_id": "briefing_general",
+          "title_original": "twentyhq/twenty - The open alternative to Salesforce, designed for AI.",
+          "snippet": "GitHub - twentyhq/twenty: The open alternative to Salesforce, designed for AI."
+        },
+        {
+          "id": "briefing_general-11",
+          "section_id": "briefing_general",
+          "title_original": "Cars are trying to spy on you, and it's only just the beginning",
+          "snippet": "Trillions of miles of data: Your car is spying on you, and it's only just the beginning Skip to content Home News US & Canada UK UK Politics England N."
+        },
+        {
+          "id": "briefing_general-12",
+          "section_id": "briefing_general",
+          "title_original": "Claude Opus 4.8",
+          "snippet": "Product Announcements Introducing Claude Opus 4.8 May 28, 2026 We’re upgrading Claude Opus to a new version: Claude Opus 4.8."
+        },
+        {
+          "id": "briefing_general-13",
+          "section_id": "briefing_general",
+          "title_original": "Bricks and Minifigs Stole a Man's $200k Lego Collection",
+          "snippet": "MyBrickLog – Free LEGO® Collection Tracker & Price Guide MyBrickLog – Free LEGO® Collection Tracker & Price Guide MyBrickLog is a free website for LEGO® collectors to track their sets, check prices, and manage wishlists."
+        },
+        {
+          "id": "briefing_general-14",
+          "section_id": "briefing_general",
+          "title_original": "The most spectacular rocket explosion since N1 just happened in Florida",
+          "snippet": "The most spectacular rocket explosion since N1 just happened in Florida - Ars Technica Skip to content Text settings Story text Size Small Standard Large Width * Standard Wide Links Standard Orange * Subscribers only Learn more Minimize to nav On Thursday e…"
+        },
+        {
+          "id": "briefing_general-15",
+          "section_id": "briefing_general",
+          "title_original": "I made a million dollar product from my dorm room (2025)",
+          "snippet": "I Made a Million Dollar Product from My Dorm Room - Nick Winans I Made a Million Dollar Product from My Dorm Room 2025-03-23 This post shares the story of the nice!nano ; a wireless, Pro Micro-compatible microcontroller board I made in my freshman year of c…"
+        },
+        {
+          "id": "briefing_general-16",
+          "section_id": "briefing_general",
+          "title_original": "[月末活动] 一个真正一目了然的自建 Codex 中转站",
+          "snippet": "[月末活动] 一个真正一目了然的自建 Codex 中转站 - V2EX Home Sign Up Sign In 如果想在 V2EX 获得更好的推广效果，欢迎了解 PRO 会员机制： https://www.v2ex.com/pro/about 如果你经常使用铜币置顶主题，持有 V2EX Solana Token 会在每日签到时获得额外铜币： https://www.v2ex.com/solana V2EX › 推广 [月末活动] 一个真正一目了然的自建 Codex 中转站 JarvisLee · 21h 4…"
+        },
+        {
+          "id": "briefing_general-17",
+          "section_id": "briefing_general",
+          "title_original": "各位现在的主力手机是哪款？",
+          "snippet": "各位现在的主力手机是哪款？ - V2EX Home Sign Up Sign In V2EX › iPhone 各位现在的主力手机是哪款？ oushirencai · 14h 4m ago via iPhone · 3390 views 参考一下。 手机 主力 款 120 replies • 2026-05-29 11:55:25 +08:00 1 2 ❮ ❯ 1 di11wei 13h 58m ago 1 电池健康 73 的 iPhone 13 Pro Max 。 2 oushirencai OP 13h…"
+        },
+        {
+          "id": "briefing_general-18",
+          "section_id": "briefing_general",
+          "title_original": "被领导警告了",
+          "snippet": "被领导警告了 - V2EX Home Sign Up Sign In V2EX › 职场话题 被领导警告了 nenseso · 22h 11m ago · 12961 views 早上在那里趁着 AI 干活的间隙（用的 codex ，最近跑任务好慢），在哪里回微信消息，组长看到了，直接警告我说再抓到我上班玩手机就试用期转正不了，并跟带我老哥说我的任务是不是严重不饱和，叫他盯我紧点 警告 手机 工作 115 replies • 2026-05-29 11:56:30 +08:00 1 2 ❮ ❯ 1 kfpen…"
+        },
+        {
+          "id": "briefing_general-19",
+          "section_id": "briefing_general",
+          "title_original": "牛逼，比亚迪昨晚智驾发布会，宣布自家天神之眼 AB 免费城市领航兜底 1 年，就等大唐上市了",
+          "snippet": "牛逼，比亚迪昨晚智驾发布会，宣布自家天神之眼 AB 免费城市领航兜底 1 年，就等大唐上市了 - V2EX Home Sign Up Sign In V2EX › 汽车 牛逼，比亚迪昨晚智驾发布会，宣布自家天神之眼 AB 免费城市领航兜底 1 年，就等大唐上市了 CziL · 3h 15m ago · 4254 views 当时二代刀片电池出来，本来想着定钛 7 ，大唐预售出来后发现更香，已经交了订金，等 6 月上市就大定了。 这个城市领航兜底，说白了就是如果城区（城区路况比高速复杂多了）开智驾期间出事故，所…"
+        },
+        {
+          "id": "briefing_general-20",
+          "section_id": "briefing_general",
+          "title_original": "Krill 福利加倍送，持续送，回贴就送，反正就是送～纯 pro 号池低至 0.13, image-2 免费用 , dp-v4-flash 官方 4 折！",
+          "snippet": "Krill 福利加倍送，持续送，回贴就送，反正就是送～纯 pro 号池低至 0.13, image-2 免费用 , dp-v4-flash 官方 4 折！ - V2EX Home Sign Up Sign In 如果想在 V2EX 获得更好的推广效果，欢迎了解 PRO 会员机制： https://www.v2ex.com/pro/about 如果你经常使用铜币置顶主题，持有 V2EX Solana Token 会在每日签到时获得额外铜币： https://www.v2ex.com/solana V2EX ›…"
+        },
+        {
+          "id": "briefing_general-21",
+          "section_id": "briefing_general",
+          "title_original": "国务院印发《城市更新“十五五”规划》",
+          "snippet": "国务院印发《城市更新“十五五”规划》_腾讯新闻 国务院印发《城市更新“十五五”规划》 新华社新闻 2026-05-28 19:01 发布于 广东 新华社新闻官方账号 新华社北京5月28日电 国务院日前印发《城市更新“十五五”规划》（以下简称《规划》），明确了“十五五”时期城市更新工作的目标指标、重点任务、重大工程和政策举措。 《规划》强调，坚持以习近平新时代中国特色社会主义思想为指导，完整准确全面贯彻新发展理念，坚持稳中求进工作总基调，坚持以人民为中心，坚持系统观念，坚持规划引领，坚持统筹发展和安全，坚持保护…"
+        },
+        {
+          "id": "briefing_general-22",
+          "section_id": "briefing_general",
+          "title_original": "美防长赫格塞思将访华？国防部回应",
+          "snippet": "美防长赫格塞思将访华？国防部回应_腾讯新闻 美防长赫格塞思将访华？国防部回应 北京日报客户端 2026-05-28 18:19 发布于 北京 北京日报客户端官方账号 5月28日下午，国防部举行例行记者会，国防部新闻发言人蒋斌大校答记者问。 有记者问，据报道，近期美防长赫格塞思随特朗普总统访华期间，有媒体拍到其与中国国防部长董军交流的画面。请问发言人能否透露双方谈话的内容？此外，有消息称，美国防部负责政策制定的副部长将访华，这也是为下步赫格塞思访华做准备。请问发言人能否证实？ 蒋斌说，美国特朗普总统访华期间，中…"
+        },
+        {
+          "id": "briefing_general-23",
+          "section_id": "briefing_general",
+          "title_original": "美媒：美伊谈判代表就谅解备忘录达成一致，需特朗普最终批准",
+          "snippet": "美媒：美伊谈判代表已就谅解备忘录达成一致_腾讯新闻 美媒：美伊谈判代表已就谅解备忘录达成一致 新华社新闻 2026-05-28 22:25 发布于 广东 新华社新闻官方账号 问AI · 特朗普的批准为何是备忘录生效的关键？ 新华社华盛顿5月28日电 据美国媒体28日援引美国官员的话报道说，美伊谈判代表已就谅解备忘录达成一致，但仍需要美国总统特朗普最终批准。（完）."
+        },
+        {
+          "id": "briefing_general-24",
+          "section_id": "briefing_general",
+          "title_original": "哈马斯：以色列加大军事行动令停火协议“面临崩溃”",
+          "snippet": "哈马斯：以色列加大军事行动令停火协议“面临崩溃”_腾讯新闻 哈马斯：以色列加大军事行动令停火协议“面临崩溃” 新华社新闻 2026-05-28 19:00 发布于 广东 新华社新闻官方账号 新华社加沙5月28日电（记者赵伟宏 黄泽民）巴勒斯坦伊斯兰抵抗运动（哈马斯）28日发表声明说，由于以方不断加大在加沙地带的军事行动，加沙地带第一阶段停火协议正“面临崩溃”。 声明说， 以色列 27日晚对加沙市中心一栋居民楼发动猛烈空袭，造成包括两名儿童和两名妇女在内的10人死亡，另有数十人受伤。由于以方不断升级对加沙地带的…"
+        },
+        {
+          "id": "briefing_general-25",
+          "section_id": "briefing_general",
+          "title_original": "河南致13人遇难3人受伤追尾事故，车主被公安机关控制",
+          "snippet": "河南致13人遇难3人受伤追尾事故 车主被公安机关控制_腾讯新闻 河南致13人遇难3人受伤追尾事故 车主被公安机关控制 中国新闻网 2026-05-28 21:43 发布于 北京 中国新闻网官方账号 问AI · 此次追尾事故的当前进展如何？ 中新社郑州5月28日电 (王宇)河南官方28日晚间通报称，G40沪陕高速河南省南阳市桐柏县毛集段追尾事故已致13人遇难、3人受伤，车主李某某被公安机关控制。 经初步调查，客车鄂F8A7L8为非营运车辆。5月27日18时40分许，该车从浙江杭州市上高速；5月28日2时40分左…"
+        },
+        {
+          "id": "briefing_general-26",
+          "section_id": "briefing_general",
+          "title_original": "从“惩罚花钱”到“奖励成长”——A股如何重估Capex？",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_general-27",
+          "section_id": "briefing_general",
+          "title_original": "传奇对冲基金经理Dan Loeb：拒绝进化的“死硬价值派”都死了，不学AI注定灭绝",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_general-28",
+          "section_id": "briefing_general",
+          "title_original": "4月逆变器出口全景透视：逆势大涨背后，全球需求关注哪四大变量？",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_general-29",
+          "section_id": "briefing_general",
+          "title_original": "玉渊谭天：欧盟若执意推动“产能过剩工具”，中方必将反制",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_general-30",
+          "section_id": "briefing_general",
+          "title_original": "调研ASML后，高盛总结了五大要点：产能扩张、CPU崛起、存储订单、新技术场景和中国需求",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_general-31",
+          "section_id": "briefing_general",
+          "title_original": "OpenAI：正在调查影响用户登录和使用ChatGPT的故障",
+          "snippet": "OpenAI：正在调查影响用户登录和使用ChatGPT的故障-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机…"
+        },
+        {
+          "id": "briefing_general-32",
+          "section_id": "briefing_general",
+          "title_original": "半日主力资金加仓公用事业股，抛售电子股",
+          "snippet": "半日主力资金加仓公用事业股，抛售电子股-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证…"
+        },
+        {
+          "id": "briefing_general-33",
+          "section_id": "briefing_general",
+          "title_original": "闻泰科技董事长杨沐：安世中国独立运营体系已基本完成搭建",
+          "snippet": "闻泰科技董事长杨沐：安世中国独立运营体系已基本完成搭建-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位…"
+        },
+        {
+          "id": "briefing_general-34",
+          "section_id": "briefing_general",
+          "title_original": "A股三大指数午间休盘集体下跌，半导体板块领跌",
+          "snippet": "A股三大指数午间休盘集体下跌，半导体板块领跌-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资…"
+        },
+        {
+          "id": "briefing_general-35",
+          "section_id": "briefing_general",
+          "title_original": "沪深两市成交额突破2万亿元",
+          "snippet": "沪深两市成交额突破2万亿元-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投资人服务…"
+        },
+        {
+          "id": "briefing_general-36",
+          "section_id": "briefing_general",
+          "title_original": "We Saw What AI Data Centers Don't Want You to See [video]",
+          "snippet": "We Saw What AI Data Centers Don't Want You to See - YouTube Про розділ Для преси Авторські права Зв'язатися з нами Для авторів Для рекламодавців Для розробників Умови Конфіденційність Правила й безпека Як працює YouTube Спробувати нові функції © 2026 Google…"
+        },
+        {
+          "id": "briefing_general-37",
+          "section_id": "briefing_general",
+          "title_original": "Ruby inventor Matz working on native compiler with AI help",
+          "snippet": "Ruby inventor Matz working on native compiler with AI help Jump to main content REG AD DevOps Ruby inventor Matz working on native compiler with AI help Matz gets together with Anthropic's Claude to create an experimental ahead-of-time compiler for Ruby – t…"
+        },
+        {
+          "id": "briefing_general-38",
+          "section_id": "briefing_general",
+          "title_original": "Ask HN: How are you handling upfront AI token costs when building products?",
+          "snippet": "Ask HN: How are you handling upfront AI token costs when building products?"
+        },
+        {
+          "id": "briefing_general-39",
+          "section_id": "briefing_general",
+          "title_original": "Disposable Software – How to Stop Worrying and Love the AI Code",
+          "snippet": "Disposable Software - How to Stop Worrying and Love the AI Code | Matt Rogish Disposable Software - How to Stop Worrying and Love the AI Code April 3, 2026 · 20 min read On this page Top It’s pretty clear we’re in the “disposable software era”."
+        },
+        {
+          "id": "briefing_general-40",
+          "section_id": "briefing_general",
+          "title_original": "How to optimize your AI token usage",
+          "snippet": "Release repo-brain v1.0.0 · KrishivPiduri/repo-brain · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_general-41",
+          "section_id": "briefing_general",
+          "title_original": "ReadyToTalk – AI receptionist for small businesses, built solo with AI agents",
+          "snippet": "ReadyToTalk — AI Receptionist for Small Business Never Miss a Call Again ."
+        },
+        {
+          "id": "briefing_general-42",
+          "section_id": "briefing_general",
+          "title_original": "Is This Sustainable?",
+          "snippet": "Jamie Hurst's Blog - Is this sustainable?"
+        },
+        {
+          "id": "briefing_general-43",
+          "section_id": "briefing_general",
+          "title_original": "StudySong – paste anything you need to memorize, get a full AI-generated song",
+          "snippet": "StudySong — Turn Anything Into a Song Study notes 0 / 10,000 Upload a PDF or drag it here Extracted locally — never uploaded Genre ✨ Pop 🎤 Hip-Hop ☕ Lo-Fi 🤠 Country 🎸 Rock Generate Study Song."
+        },
+        {
+          "id": "briefing_general-44",
+          "section_id": "briefing_general",
+          "title_original": "Show HN: htop for the airwaves — a live 802.11 RF dashboard in your terminal",
+          "snippet": "GitHub - yeet-src/airtop: htop for the airwaves — a live 802.11 (Wi-Fi) RF dashboard in your terminal · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_general-45",
+          "section_id": "briefing_general",
+          "title_original": "How Sam Altman fooled Sundar Pichai and pushed Google into cannibalizing itself",
+          "snippet": "How Sam Altman fooled Sundar Pichai — and pushed Google into cannibalizing itself | Fortune Home Latest Fortune 500 Finance Tech Leadership Lifestyle Rankings Multimedia Trending now 1 Jeff Bezos wants the bottom half of earners to pay zero income tax—he sa…"
+        },
+        {
+          "id": "briefing_general-46",
+          "section_id": "briefing_general",
+          "title_original": "Starbucks retired AI agent that miscounted inventories, slowed down baristas",
+          "snippet": "Starbucks quietly retires its AI inventory tool after barista complaints of inaccuracies | Fortune Home Latest Fortune 500 Finance Tech Leadership Lifestyle Rankings Multimedia Trending now 1 Jeff Bezos wants the bottom half of earners to pay zero income ta…"
+        },
+        {
+          "id": "briefing_general-47",
+          "section_id": "briefing_general",
+          "title_original": "Bixonimania – the fake illness that AI fell for",
+          "snippet": "Bixonimania’—the fake illness that AI fell for | Scientific American May 22, 2026 Add Us On Google Add SciAm This researcher made up a disease to test AI."
+        },
+        {
+          "id": "briefing_general-48",
+          "section_id": "briefing_general",
+          "title_original": "Dis Dat – Loom for AI coding agents",
+          "snippet": "Dis Dat — show your agent anything."
+        },
+        {
+          "id": "briefing_general-49",
+          "section_id": "briefing_general",
+          "title_original": "Are AI PowerPoint Tools Worth Using?",
+          "snippet": "Top 6 Genspark Alternatives for 2026 Top 6 Genspark Alternatives for 2026 Lianne Aurora 3 min read 2026-03-19 Generate Slides Table of Contents ● Why Look for Genspark Alternatives?"
+        },
+        {
+          "id": "briefing_general-50",
+          "section_id": "briefing_general",
+          "title_original": "I Tried to Sell My House with a Chatbot",
+          "snippet": "Материал посвящён теме «I Tried to Sell My House with a Chatbot»."
+        },
+        {
+          "id": "briefing_general-51",
+          "section_id": "briefing_general",
+          "title_original": "Show HN: theta-spec - a humble harness agnostic configuration spec",
+          "snippet": "GitHub - tamarillo-ai/theta-spec: harness agnostic configuration standard · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_general-52",
+          "section_id": "briefing_general",
+          "title_original": "Thunderbolt-ibverbs: We have InfiniBand at home",
+          "snippet": "thunderbolt-ibverbs: We have InfiniBand at home I spent the past few weeks working on this project, I thought it might be interesting to write up a technical report on it, the motivation, the process, learnings, etc."
+        },
+        {
+          "id": "briefing_general-53",
+          "section_id": "briefing_general",
+          "title_original": "Musk abandoned his own solar electric economy to burn gas for an unused AI chat",
+          "snippet": "Musk abandoned his own 'solar electric economy' to burn gas for an AI chatbot no one uses | Electrek Skip to main content Tesla Musk abandoned his own ‘solar electric economy’ to burn gas for an AI chatbot no one uses Fred Lambert | May 25 2026 - 7:54 am PT…"
+        },
+        {
+          "id": "briefing_general-54",
+          "section_id": "briefing_general",
+          "title_original": "Microsoft data suggests using AI is more expensive than hiring people",
+          "snippet": "Microsoft data suggests using AI is more expensive than hiring people Oops, something went wrong Skip to navigation Skip to main content Skip to right column U.S."
+        },
+        {
+          "id": "briefing_general-55",
+          "section_id": "briefing_general",
+          "title_original": "CosAI Releases \"AI Shared Responsibility Framework\"",
+          "snippet": "Who's Responsible When AI Goes Wrong?"
+        },
+        {
+          "id": "briefing_general-56",
+          "section_id": "briefing_general",
+          "title_original": "DigitalPlatDev/FreeDomain - DigitalPlat FreeDomain: Free Domain For Everyone",
+          "snippet": "GitHub - DigitalPlatDev/FreeDomain: DigitalPlat FreeDomain: Free Domain For Everyone · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_general-57",
+          "section_id": "briefing_general",
+          "title_original": "byoungd/English-level-up-tips - An advanced guide to learn English which might benefit you a lot 🎉 . 离谱的英语学习指南/英语学习教程/英语学习/学英语",
+          "snippet": "GitHub - byoungd/English-level-up-tips: An advanced guide to learn English which might benefit you a lot 🎉 ."
+        },
+        {
+          "id": "briefing_general-58",
+          "section_id": "briefing_general",
+          "title_original": "microsoft/markitdown - Python tool for converting files and office documents to Markdown.",
+          "snippet": "GitHub - microsoft/markitdown: Python tool for converting files and office documents to Markdown."
+        },
+        {
+          "id": "briefing_general-59",
+          "section_id": "briefing_general",
+          "title_original": "obra/superpowers - An agentic skills framework & software development methodology that works.",
+          "snippet": "GitHub - obra/superpowers: An agentic skills framework & software development methodology that works."
+        },
+        {
+          "id": "briefing_general-60",
+          "section_id": "briefing_general",
+          "title_original": "revfactory/harness - A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+          "snippet": "GitHub - revfactory/harness: A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use."
+        },
+        {
+          "id": "briefing_general-61",
+          "section_id": "briefing_general",
+          "title_original": "codecrafters-io/build-your-own-x - Master programming by recreating your favorite technologies from scratch.",
+          "snippet": "GitHub - codecrafters-io/build-your-own-x: Master programming by recreating your favorite technologies from scratch."
+        },
+        {
+          "id": "briefing_general-62",
+          "section_id": "briefing_general",
+          "title_original": "Lum1104/Understand-Anything - Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+          "snippet": "GitHub - Lum1104/Understand-Anything: Graphs that teach > graphs that impress."
+        },
+        {
+          "id": "briefing_general-63",
+          "section_id": "briefing_general",
+          "title_original": "unclecode/crawl4ai - 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here:https://discord.gg/jP8KfhDhyN",
+          "snippet": "GitHub - unclecode/crawl4ai: 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper."
+        },
+        {
+          "id": "briefing_general-64",
+          "section_id": "briefing_general",
+          "title_original": "OpenMOSS/MOSS-TTS - MOSS‑TTS Family is an open‑source speech and sound generation model family from MOSI.AI and the OpenMOSS team. It is designed for high‑fidelity, high‑expressiveness, and complex real‑world scenarios, covering stable long‑form speech, multi‑speaker dialogue, voice/character design, environmental sound effects, and real‑time streaming TTS.",
+          "snippet": "GitHub - OpenMOSS/MOSS-TTS: MOSS‑TTS Family is an open‑source speech and sound generation model family from MOSI.AI and the OpenMOSS team."
+        },
+        {
+          "id": "briefing_general-65",
+          "section_id": "briefing_general",
+          "title_original": "EveryInc/compound-engineering-plugin - Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
+          "snippet": "GitHub - EveryInc/compound-engineering-plugin: Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more · GitHub Skip to content You signed in with another tab or window."
+        }
+      ]
+    },
+    {
+      "id": "briefing_finance",
+      "title": "Финансовый утренний брифинг",
+      "items": [
+        {
+          "id": "briefing_finance-1",
+          "section_id": "briefing_finance",
+          "title_original": "Musk abandoned his own solar electric economy to burn gas for an unused AI chat",
+          "snippet": "Musk abandoned his own 'solar electric economy' to burn gas for an AI chatbot no one uses | Electrek Skip to main content Tesla Musk abandoned his own ‘solar electric economy’ to burn gas for an AI chatbot no one uses Fred Lambert | May 25 2026 - 7:54 am PT…"
+        },
+        {
+          "id": "briefing_finance-2",
+          "section_id": "briefing_finance",
+          "title_original": "Where are the economies of scale in homebuilding?",
+          "snippet": "Where Are the Economies of Scale in Homebuilding?"
+        },
+        {
+          "id": "briefing_finance-3",
+          "section_id": "briefing_finance",
+          "title_original": "How the EU's plan to turbocharge Italy's economy fell flat",
+          "snippet": "Материал посвящён теме «How the EU's plan to turbocharge Italy's economy fell flat»."
+        },
+        {
+          "id": "briefing_finance-4",
+          "section_id": "briefing_finance",
+          "title_original": "What happens to a gift economy when the gift gets cheap?",
+          "snippet": "What happens to a gift economy when the gift gets cheap?"
+        },
+        {
+          "id": "briefing_finance-5",
+          "section_id": "briefing_finance",
+          "title_original": "Phoenix Built an Empire of Cubicle Jobs. AI Is Coming to Tear It Down",
+          "snippet": "Материал посвящён теме «Phoenix Built an Empire of Cubicle Jobs. AI Is Coming to Tear It Down»."
+        },
+        {
+          "id": "briefing_finance-6",
+          "section_id": "briefing_finance",
+          "title_original": "Too much time with colleagues can sour social interaction",
+          "snippet": "Материал посвящён теме «Too much time with colleagues can sour social interaction»."
+        },
+        {
+          "id": "briefing_finance-7",
+          "section_id": "briefing_finance",
+          "title_original": "Where expat escapees from Dubai end up? Will they ever return?",
+          "snippet": "Материал посвящён теме «Where expat escapees from Dubai end up? Will they ever return?»."
+        },
+        {
+          "id": "briefing_finance-8",
+          "section_id": "briefing_finance",
+          "title_original": "Ferrari's electric car: divisiveness is the point",
+          "snippet": "Материал посвящён теме «Ferrari's electric car: divisiveness is the point»."
+        },
+        {
+          "id": "briefing_finance-9",
+          "section_id": "briefing_finance",
+          "title_original": "Japan, South Korea and Taiwan are suffering industrial rot",
+          "snippet": "Материал посвящён теме «Japan, South Korea and Taiwan are suffering industrial rot»."
+        },
+        {
+          "id": "briefing_finance-10",
+          "section_id": "briefing_finance",
+          "title_original": "从“惩罚花钱”到“奖励成长”——A股如何重估Capex？",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-11",
+          "section_id": "briefing_finance",
+          "title_original": "传奇对冲基金经理Dan Loeb：拒绝进化的“死硬价值派”都死了，不学AI注定灭绝",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-12",
+          "section_id": "briefing_finance",
+          "title_original": "4月逆变器出口全景透视：逆势大涨背后，全球需求关注哪四大变量？",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-13",
+          "section_id": "briefing_finance",
+          "title_original": "玉渊谭天：欧盟若执意推动“产能过剩工具”，中方必将反制",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-14",
+          "section_id": "briefing_finance",
+          "title_original": "调研ASML后，高盛总结了五大要点：产能扩张、CPU崛起、存储订单、新技术场景和中国需求",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-15",
+          "section_id": "briefing_finance",
+          "title_original": "从英特尔、美光、到戴尔--“白宫股神”名不虚传，“先买再吹”屡试不爽",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-16",
+          "section_id": "briefing_finance",
+          "title_original": "不到20万起杀入MPV红海，极狐需要向上跳板",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-17",
+          "section_id": "briefing_finance",
+          "title_original": "A股三大股指集体走低，电力爆发，地产活跃，芯片半导体集体下挫，恒科指转跌，联想集团再涨20%",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-18",
+          "section_id": "briefing_finance",
+          "title_original": "一群赌徒，比华尔街更早知道世界会发生什么",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-19",
+          "section_id": "briefing_finance",
+          "title_original": "联想集团盘中最高涨逾30%，五个交易日股价接近翻倍",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-20",
+          "section_id": "briefing_finance",
+          "title_original": "“我们在赢”！戴尔电话会：业绩炸裂，但炸的不只是AI服务器，四大业务全赢麻了",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-21",
+          "section_id": "briefing_finance",
+          "title_original": "私募FOF等于稳健理财？起底券商资管“营销术”",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-22",
+          "section_id": "briefing_finance",
+          "title_original": "iOS 27爆料：苹果“彻底重做”Siri，系统级整合AI",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-23",
+          "section_id": "briefing_finance",
+          "title_original": "美伊协议进展：媒体称框架已定待双方元首批准，万斯称“核问题还要谈”，伊朗称“还没同意”",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-24",
+          "section_id": "briefing_finance",
+          "title_original": "三星电子开始交付业内首批HBM4E样品，性能较上代产品提升逾20%",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-25",
+          "section_id": "briefing_finance",
+          "title_original": "“两倍海力士”已成全球老大，全球杠杆/反向“单票ETF”规模1个半月翻倍",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-26",
+          "section_id": "briefing_finance",
+          "title_original": "在算力时代，高质量的Capex不是毒药，而是最强的解药",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-27",
+          "section_id": "briefing_finance",
+          "title_original": "18倍PS？Anthropic最新估值达9650亿美元，首超OpenAI！",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-28",
+          "section_id": "briefing_finance",
+          "title_original": "华尔街见闻早餐FM-Radio | 2026年5月29日",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-29",
+          "section_id": "briefing_finance",
+          "title_original": "美伊停火传言搅动市场，美股三大指数收创新高，黄金深V反转，原油震荡走平",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-30",
+          "section_id": "briefing_finance",
+          "title_original": "1万亿的Anthropic反超OpenAI 市场在押什么？",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-31",
+          "section_id": "briefing_finance",
+          "title_original": "戴尔绩后暴涨！Q1营收增长88%，AI收入暴增757%，全年指引大幅上调｜财报见闻",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-32",
+          "section_id": "briefing_finance",
+          "title_original": "戴尔美股盘后狂飙将近40%，高管直呼“AI机遇未见放缓迹象”",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-33",
+          "section_id": "briefing_finance",
+          "title_original": "伊媒：伊朗向试图通过霍尔木兹海峡的“违规船只”警告射击",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-34",
+          "section_id": "briefing_finance",
+          "title_original": "360亿美元！史上最大私募信贷及芯片融资交易，Anthropic加速购买谷歌TPU",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-35",
+          "section_id": "briefing_finance",
+          "title_original": "美国GDP\"空心增长\"：软着陆的最后一程还是滞胀已经开启？",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-36",
+          "section_id": "briefing_finance",
+          "title_original": "与主席沃什看法相左！美联储官员穆萨莱姆称不能指望AI降低通胀",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-37",
+          "section_id": "briefing_finance",
+          "title_original": "伊朗军方称在伊南部拦截一架美国无人机，伊媒称向“特定目标”发射导弹",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-38",
+          "section_id": "briefing_finance",
+          "title_original": "Anonymous plaintiffs have asked a NYC court to declare them owners of 3.8M BTC",
+          "snippet": "Who Is Noah Doe?"
+        },
+        {
+          "id": "briefing_finance-39",
+          "section_id": "briefing_finance",
+          "title_original": "Kinetik – Hear the Bitcoin Market",
+          "snippet": "Kinetik — Hear the Crypto Market."
+        }
+      ]
+    },
+    {
+      "id": "briefing_tech",
+      "title": "Технологический утренний брифинг",
+      "items": [
+        {
+          "id": "briefing_tech-1",
+          "section_id": "briefing_tech",
+          "title_original": "We Saw What AI Data Centers Don't Want You to See [video]",
+          "snippet": "We Saw What AI Data Centers Don't Want You to See - YouTube Про розділ Для преси Авторські права Зв'язатися з нами Для авторів Для рекламодавців Для розробників Умови Конфіденційність Правила й безпека Як працює YouTube Спробувати нові функції © 2026 Google…"
+        },
+        {
+          "id": "briefing_tech-2",
+          "section_id": "briefing_tech",
+          "title_original": "Ruby inventor Matz working on native compiler with AI help",
+          "snippet": "Ruby inventor Matz working on native compiler with AI help Jump to main content REG AD DevOps Ruby inventor Matz working on native compiler with AI help Matz gets together with Anthropic's Claude to create an experimental ahead-of-time compiler for Ruby – t…"
+        },
+        {
+          "id": "briefing_tech-3",
+          "section_id": "briefing_tech",
+          "title_original": "Ask HN: How are you handling upfront AI token costs when building products?",
+          "snippet": "Ask HN: How are you handling upfront AI token costs when building products?"
+        },
+        {
+          "id": "briefing_tech-4",
+          "section_id": "briefing_tech",
+          "title_original": "Disposable Software – How to Stop Worrying and Love the AI Code",
+          "snippet": "Disposable Software - How to Stop Worrying and Love the AI Code | Matt Rogish Disposable Software - How to Stop Worrying and Love the AI Code April 3, 2026 · 20 min read On this page Top It’s pretty clear we’re in the “disposable software era”."
+        },
+        {
+          "id": "briefing_tech-5",
+          "section_id": "briefing_tech",
+          "title_original": "How to optimize your AI token usage",
+          "snippet": "Release repo-brain v1.0.0 · KrishivPiduri/repo-brain · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_tech-6",
+          "section_id": "briefing_tech",
+          "title_original": "ReadyToTalk – AI receptionist for small businesses, built solo with AI agents",
+          "snippet": "ReadyToTalk — AI Receptionist for Small Business Never Miss a Call Again ."
+        },
+        {
+          "id": "briefing_tech-7",
+          "section_id": "briefing_tech",
+          "title_original": "Is This Sustainable?",
+          "snippet": "Jamie Hurst's Blog - Is this sustainable?"
+        },
+        {
+          "id": "briefing_tech-8",
+          "section_id": "briefing_tech",
+          "title_original": "StudySong – paste anything you need to memorize, get a full AI-generated song",
+          "snippet": "StudySong — Turn Anything Into a Song Study notes 0 / 10,000 Upload a PDF or drag it here Extracted locally — never uploaded Genre ✨ Pop 🎤 Hip-Hop ☕ Lo-Fi 🤠 Country 🎸 Rock Generate Study Song."
+        },
+        {
+          "id": "briefing_tech-9",
+          "section_id": "briefing_tech",
+          "title_original": "Show HN: htop for the airwaves — a live 802.11 RF dashboard in your terminal",
+          "snippet": "GitHub - yeet-src/airtop: htop for the airwaves — a live 802.11 (Wi-Fi) RF dashboard in your terminal · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_tech-10",
+          "section_id": "briefing_tech",
+          "title_original": "How Sam Altman fooled Sundar Pichai and pushed Google into cannibalizing itself",
+          "snippet": "How Sam Altman fooled Sundar Pichai — and pushed Google into cannibalizing itself | Fortune Home Latest Fortune 500 Finance Tech Leadership Lifestyle Rankings Multimedia Trending now 1 Jeff Bezos wants the bottom half of earners to pay zero income tax—he sa…"
+        },
+        {
+          "id": "briefing_tech-11",
+          "section_id": "briefing_tech",
+          "title_original": "Starbucks retired AI agent that miscounted inventories, slowed down baristas",
+          "snippet": "Starbucks quietly retires its AI inventory tool after barista complaints of inaccuracies | Fortune Home Latest Fortune 500 Finance Tech Leadership Lifestyle Rankings Multimedia Trending now 1 Jeff Bezos wants the bottom half of earners to pay zero income ta…"
+        },
+        {
+          "id": "briefing_tech-12",
+          "section_id": "briefing_tech",
+          "title_original": "Bixonimania – the fake illness that AI fell for",
+          "snippet": "Bixonimania’—the fake illness that AI fell for | Scientific American May 22, 2026 Add Us On Google Add SciAm This researcher made up a disease to test AI."
+        },
+        {
+          "id": "briefing_tech-13",
+          "section_id": "briefing_tech",
+          "title_original": "Dis Dat – Loom for AI coding agents",
+          "snippet": "Dis Dat — show your agent anything."
+        },
+        {
+          "id": "briefing_tech-14",
+          "section_id": "briefing_tech",
+          "title_original": "Are AI PowerPoint Tools Worth Using?",
+          "snippet": "Top 6 Genspark Alternatives for 2026 Top 6 Genspark Alternatives for 2026 Lianne Aurora 3 min read 2026-03-19 Generate Slides Table of Contents ● Why Look for Genspark Alternatives?"
+        },
+        {
+          "id": "briefing_tech-15",
+          "section_id": "briefing_tech",
+          "title_original": "I Tried to Sell My House with a Chatbot",
+          "snippet": "Материал посвящён теме «I Tried to Sell My House with a Chatbot»."
+        },
+        {
+          "id": "briefing_tech-16",
+          "section_id": "briefing_tech",
+          "title_original": "Show HN: theta-spec - a humble harness agnostic configuration spec",
+          "snippet": "GitHub - tamarillo-ai/theta-spec: harness agnostic configuration standard · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_tech-17",
+          "section_id": "briefing_tech",
+          "title_original": "Thunderbolt-ibverbs: We have InfiniBand at home",
+          "snippet": "thunderbolt-ibverbs: We have InfiniBand at home I spent the past few weeks working on this project, I thought it might be interesting to write up a technical report on it, the motivation, the process, learnings, etc."
+        },
+        {
+          "id": "briefing_tech-18",
+          "section_id": "briefing_tech",
+          "title_original": "Musk abandoned his own solar electric economy to burn gas for an unused AI chat",
+          "snippet": "Musk abandoned his own 'solar electric economy' to burn gas for an AI chatbot no one uses | Electrek Skip to main content Tesla Musk abandoned his own ‘solar electric economy’ to burn gas for an AI chatbot no one uses Fred Lambert | May 25 2026 - 7:54 am PT…"
+        },
+        {
+          "id": "briefing_tech-19",
+          "section_id": "briefing_tech",
+          "title_original": "Microsoft data suggests using AI is more expensive than hiring people",
+          "snippet": "Microsoft data suggests using AI is more expensive than hiring people Oops, something went wrong Skip to navigation Skip to main content Skip to right column U.S."
+        },
+        {
+          "id": "briefing_tech-20",
+          "section_id": "briefing_tech",
+          "title_original": "CosAI Releases \"AI Shared Responsibility Framework\"",
+          "snippet": "Who's Responsible When AI Goes Wrong?"
+        },
+        {
+          "id": "briefing_tech-21",
+          "section_id": "briefing_tech",
+          "title_original": "Kirkland Investing $500M in Proprietary AI System",
+          "snippet": "Kirkland Investing $500M in Proprietary AI System to Support Client Work, 'Start to Finish' | Law.com Skip to content Search Input This button clears the current text from the Search Input field."
+        },
+        {
+          "id": "briefing_tech-22",
+          "section_id": "briefing_tech",
+          "title_original": "Evaluating \"Co-Scientist\", a New AI Science System",
+          "snippet": "Материал посвящён теме «Evaluating \"Co-Scientist\", a New AI Science System»."
+        },
+        {
+          "id": "briefing_tech-23",
+          "section_id": "briefing_tech",
+          "title_original": "AI and the End of Recessions as We Know Them",
+          "snippet": "How AI Can End Recessions As We Know Them Money Daily Cover AI And The End Of Recessions As We Know Them Stagflation sounded impossible until it happened."
+        },
+        {
+          "id": "briefing_tech-24",
+          "section_id": "briefing_tech",
+          "title_original": "NBA to use AI for automatic out-of-bounds calls, Silver says",
+          "snippet": "Материал посвящён теме «NBA to use AI for automatic out-of-bounds calls, Silver says»."
+        },
+        {
+          "id": "briefing_tech-25",
+          "section_id": "briefing_tech",
+          "title_original": "Show HN: Trelk – Read, Think, Connect",
+          "snippet": "Trelk — Read, Think, Connect Buy once."
+        },
+        {
+          "id": "briefing_tech-26",
+          "section_id": "briefing_tech",
+          "title_original": "openclaw -",
+          "snippet": "openclaw · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_tech-27",
+          "section_id": "briefing_tech",
+          "title_original": "n8n-io -",
+          "snippet": "n8n - Workflow Automation · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_tech-28",
+          "section_id": "briefing_tech",
+          "title_original": "Significant-Gravitas -",
+          "snippet": "AutoGPT · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_tech-29",
+          "section_id": "briefing_tech",
+          "title_original": "NousResearch -",
+          "snippet": "Nous Research · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_tech-30",
+          "section_id": "briefing_tech",
+          "title_original": "AUTOMATIC1111 -",
+          "snippet": "AUTOMATIC1111 · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_tech-31",
+          "section_id": "briefing_tech",
+          "title_original": "f -",
+          "snippet": "f (Fatih Kadir Akın) · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_tech-32",
+          "section_id": "briefing_tech",
+          "title_original": "Snailclimb -",
+          "snippet": "Snailclimb (Guide) · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_tech-33",
+          "section_id": "briefing_tech",
+          "title_original": "langgenius -",
+          "snippet": "LangGenius · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_tech-34",
+          "section_id": "briefing_tech",
+          "title_original": "open-webui -",
+          "snippet": "Open WebUI · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_tech-35",
+          "section_id": "briefing_tech",
+          "title_original": "x1xhlol -",
+          "snippet": "x1xhlol (Lucas Valbuena) · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_tech-36",
+          "section_id": "briefing_tech",
+          "title_original": "Buffer API",
+          "snippet": "Материал посвящён теме «Buffer API»."
+        },
+        {
+          "id": "briefing_tech-37",
+          "section_id": "briefing_tech",
+          "title_original": "harry0703/MoneyPrinterTurbo - 利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+          "snippet": "GitHub - harry0703/MoneyPrinterTurbo: 利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM."
+        },
+        {
+          "id": "briefing_tech-38",
+          "section_id": "briefing_tech",
+          "title_original": "affaan-m/ECC - The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+          "snippet": "GitHub - affaan-m/ECC: The agent harness performance optimization system."
+        },
+        {
+          "id": "briefing_tech-39",
+          "section_id": "briefing_tech",
+          "title_original": "Leonxlnx/taste-skill - Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+          "snippet": "GitHub - Leonxlnx/taste-skill: Taste-Skill - gives your AI good taste."
+        },
+        {
+          "id": "briefing_tech-40",
+          "section_id": "briefing_tech",
+          "title_original": "hardikpandya/stop-slop - A skill file for removing AI tells from prose",
+          "snippet": "GitHub - hardikpandya/stop-slop: A skill file for removing AI tells from prose · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_tech-41",
+          "section_id": "briefing_tech",
+          "title_original": "twentyhq/twenty - The open alternative to Salesforce, designed for AI.",
+          "snippet": "GitHub - twentyhq/twenty: The open alternative to Salesforce, designed for AI."
+        },
+        {
+          "id": "briefing_tech-42",
+          "section_id": "briefing_tech",
+          "title_original": "DigitalPlatDev/FreeDomain - DigitalPlat FreeDomain: Free Domain For Everyone",
+          "snippet": "GitHub - DigitalPlatDev/FreeDomain: DigitalPlat FreeDomain: Free Domain For Everyone · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_tech-43",
+          "section_id": "briefing_tech",
+          "title_original": "byoungd/English-level-up-tips - An advanced guide to learn English which might benefit you a lot 🎉 . 离谱的英语学习指南/英语学习教程/英语学习/学英语",
+          "snippet": "GitHub - byoungd/English-level-up-tips: An advanced guide to learn English which might benefit you a lot 🎉 ."
+        },
+        {
+          "id": "briefing_tech-44",
+          "section_id": "briefing_tech",
+          "title_original": "microsoft/markitdown - Python tool for converting files and office documents to Markdown.",
+          "snippet": "GitHub - microsoft/markitdown: Python tool for converting files and office documents to Markdown."
+        },
+        {
+          "id": "briefing_tech-45",
+          "section_id": "briefing_tech",
+          "title_original": "obra/superpowers - An agentic skills framework & software development methodology that works.",
+          "snippet": "GitHub - obra/superpowers: An agentic skills framework & software development methodology that works."
+        },
+        {
+          "id": "briefing_tech-46",
+          "section_id": "briefing_tech",
+          "title_original": "revfactory/harness - A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+          "snippet": "GitHub - revfactory/harness: A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use."
+        },
+        {
+          "id": "briefing_tech-47",
+          "section_id": "briefing_tech",
+          "title_original": "codecrafters-io/build-your-own-x - Master programming by recreating your favorite technologies from scratch.",
+          "snippet": "GitHub - codecrafters-io/build-your-own-x: Master programming by recreating your favorite technologies from scratch."
+        },
+        {
+          "id": "briefing_tech-48",
+          "section_id": "briefing_tech",
+          "title_original": "Lum1104/Understand-Anything - Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+          "snippet": "GitHub - Lum1104/Understand-Anything: Graphs that teach > graphs that impress."
+        },
+        {
+          "id": "briefing_tech-49",
+          "section_id": "briefing_tech",
+          "title_original": "unclecode/crawl4ai - 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here:https://discord.gg/jP8KfhDhyN",
+          "snippet": "GitHub - unclecode/crawl4ai: 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper."
+        },
+        {
+          "id": "briefing_tech-50",
+          "section_id": "briefing_tech",
+          "title_original": "OpenMOSS/MOSS-TTS - MOSS‑TTS Family is an open‑source speech and sound generation model family from MOSI.AI and the OpenMOSS team. It is designed for high‑fidelity, high‑expressiveness, and complex real‑world scenarios, covering stable long‑form speech, multi‑speaker dialogue, voice/character design, environmental sound effects, and real‑time streaming TTS.",
+          "snippet": "GitHub - OpenMOSS/MOSS-TTS: MOSS‑TTS Family is an open‑source speech and sound generation model family from MOSI.AI and the OpenMOSS team."
+        },
+        {
+          "id": "briefing_tech-51",
+          "section_id": "briefing_tech",
+          "title_original": "EveryInc/compound-engineering-plugin - Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
+          "snippet": "GitHub - EveryInc/compound-engineering-plugin: Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_tech-52",
+          "section_id": "briefing_tech",
+          "title_original": "Sublern",
+          "snippet": "Материал посвящён теме «Sublern»."
+        },
+        {
+          "id": "briefing_tech-53",
+          "section_id": "briefing_tech",
+          "title_original": "LaunchOS",
+          "snippet": "Материал посвящён теме «LaunchOS»."
+        },
+        {
+          "id": "briefing_tech-54",
+          "section_id": "briefing_tech",
+          "title_original": "Robinhood Agentic Trading",
+          "snippet": "Материал посвящён теме «Robinhood Agentic Trading»."
+        },
+        {
+          "id": "briefing_tech-55",
+          "section_id": "briefing_tech",
+          "title_original": "NeuralAgent 2.5",
+          "snippet": "Материал посвящён теме «NeuralAgent 2.5»."
+        },
+        {
+          "id": "briefing_tech-56",
+          "section_id": "briefing_tech",
+          "title_original": "KugelAudio",
+          "snippet": "Материал посвящён теме «KugelAudio»."
+        },
+        {
+          "id": "briefing_tech-57",
+          "section_id": "briefing_tech",
+          "title_original": "Pancake",
+          "snippet": "Материал посвящён теме «Pancake»."
+        },
+        {
+          "id": "briefing_tech-58",
+          "section_id": "briefing_tech",
+          "title_original": "AccountyCat",
+          "snippet": "Материал посвящён теме «AccountyCat»."
+        },
+        {
+          "id": "briefing_tech-59",
+          "section_id": "briefing_tech",
+          "title_original": "Compartment",
+          "snippet": "Материал посвящён теме «Compartment»."
+        },
+        {
+          "id": "briefing_tech-60",
+          "section_id": "briefing_tech",
+          "title_original": "Memori",
+          "snippet": "Материал посвящён теме «Memori»."
+        },
+        {
+          "id": "briefing_tech-61",
+          "section_id": "briefing_tech",
+          "title_original": "SoMerch",
+          "snippet": "Материал посвящён теме «SoMerch»."
+        }
+      ]
+    },
+    {
+      "id": "briefing_social",
+      "title": "Социальный утренний брифинг",
+      "items": [
+        {
+          "id": "briefing_social-1",
+          "section_id": "briefing_social",
+          "title_original": "[月末活动] 一个真正一目了然的自建 Codex 中转站",
+          "snippet": "[月末活动] 一个真正一目了然的自建 Codex 中转站 - V2EX Home Sign Up Sign In 如果想在 V2EX 获得更好的推广效果，欢迎了解 PRO 会员机制： https://www.v2ex.com/pro/about 如果你经常使用铜币置顶主题，持有 V2EX Solana Token 会在每日签到时获得额外铜币： https://www.v2ex.com/solana V2EX › 推广 [月末活动] 一个真正一目了然的自建 Codex 中转站 JarvisLee · 21h 4…"
+        },
+        {
+          "id": "briefing_social-2",
+          "section_id": "briefing_social",
+          "title_original": "各位现在的主力手机是哪款？",
+          "snippet": "各位现在的主力手机是哪款？ - V2EX Home Sign Up Sign In V2EX › iPhone 各位现在的主力手机是哪款？ oushirencai · 14h 4m ago via iPhone · 3390 views 参考一下。 手机 主力 款 120 replies • 2026-05-29 11:55:25 +08:00 1 2 ❮ ❯ 1 di11wei 13h 58m ago 1 电池健康 73 的 iPhone 13 Pro Max 。 2 oushirencai OP 13h…"
+        },
+        {
+          "id": "briefing_social-3",
+          "section_id": "briefing_social",
+          "title_original": "被领导警告了",
+          "snippet": "被领导警告了 - V2EX Home Sign Up Sign In V2EX › 职场话题 被领导警告了 nenseso · 22h 11m ago · 12961 views 早上在那里趁着 AI 干活的间隙（用的 codex ，最近跑任务好慢），在哪里回微信消息，组长看到了，直接警告我说再抓到我上班玩手机就试用期转正不了，并跟带我老哥说我的任务是不是严重不饱和，叫他盯我紧点 警告 手机 工作 115 replies • 2026-05-29 11:56:30 +08:00 1 2 ❮ ❯ 1 kfpen…"
+        },
+        {
+          "id": "briefing_social-4",
+          "section_id": "briefing_social",
+          "title_original": "牛逼，比亚迪昨晚智驾发布会，宣布自家天神之眼 AB 免费城市领航兜底 1 年，就等大唐上市了",
+          "snippet": "牛逼，比亚迪昨晚智驾发布会，宣布自家天神之眼 AB 免费城市领航兜底 1 年，就等大唐上市了 - V2EX Home Sign Up Sign In V2EX › 汽车 牛逼，比亚迪昨晚智驾发布会，宣布自家天神之眼 AB 免费城市领航兜底 1 年，就等大唐上市了 CziL · 3h 15m ago · 4254 views 当时二代刀片电池出来，本来想着定钛 7 ，大唐预售出来后发现更香，已经交了订金，等 6 月上市就大定了。 这个城市领航兜底，说白了就是如果城区（城区路况比高速复杂多了）开智驾期间出事故，所…"
+        },
+        {
+          "id": "briefing_social-5",
+          "section_id": "briefing_social",
+          "title_original": "Krill 福利加倍送，持续送，回贴就送，反正就是送～纯 pro 号池低至 0.13, image-2 免费用 , dp-v4-flash 官方 4 折！",
+          "snippet": "Krill 福利加倍送，持续送，回贴就送，反正就是送～纯 pro 号池低至 0.13, image-2 免费用 , dp-v4-flash 官方 4 折！ - V2EX Home Sign Up Sign In 如果想在 V2EX 获得更好的推广效果，欢迎了解 PRO 会员机制： https://www.v2ex.com/pro/about 如果你经常使用铜币置顶主题，持有 V2EX Solana Token 会在每日签到时获得额外铜币： https://www.v2ex.com/solana V2EX ›…"
+        },
+        {
+          "id": "briefing_social-6",
+          "section_id": "briefing_social",
+          "title_original": "有没有一种工作能每天稳定收入 10-50 元",
+          "snippet": "有没有一种工作能每天稳定收入 10-50 元 - V2EX Home Sign Up Sign In V2EX › 职场话题 有没有一种工作能每天稳定收入 10-50 元 cwwx2022 · 22h 57m ago · 8172 views 只要把基础处理好，后面就是能躺赚的小网赚，钱不多但是长久的那种 网赚 稳定 收入 80 replies • 2026-05-29 11:30:59 +08:00 1 beimenjun PRO 22h 56m ago 7 存 200W 到银行 2 Dora112233…"
+        },
+        {
+          "id": "briefing_social-7",
+          "section_id": "briefing_social",
+          "title_original": "午休求救，要崩溃了",
+          "snippet": "午休求救，要崩溃了 - V2EX Home Sign Up Sign In V2EX › 健康 午休求救，要崩溃了 w292614191 · 19h 42m ago · 5634 views 程序员，33 岁。情况是 12.40 点放倒椅子，能驾脚的椅子。 13 点扔掉手机，准备睡觉，开始出现睡意，迷迷糊糊，突然深呼吸，一下子人就醒了。或者就是迷迷糊糊脑子一激灵开始想事情，然后又醒了。总是在入睡一瞬间，把自己拉扯醒了，反反复复躺在椅子上挣扎，然后一下午半死不活。 一个月 22 天班，有两三天能深睡一下大概十来…"
+        },
+        {
+          "id": "briefing_social-8",
+          "section_id": "briefing_social",
+          "title_original": "今年 618 是凉了吗",
+          "snippet": "今年 618 是凉了吗 - V2EX Home Sign Up Sign In V2EX › 生活 今年 618 是凉了吗 abcfreedom · 23h 44m ago via iPhone · 8096 views 怎么感觉电商平台没一点氛围 电商 氛围 凉 64 replies • 2026-05-29 11:54:19 +08:00 1 Maboroshii 23h 43m ago 今年电子产品应该是卖不动了吧 2 zls3201 23h 41m ago 参看 520 3 zls3201 23h 4…"
+        },
+        {
+          "id": "briefing_social-9",
+          "section_id": "briefing_social",
+          "title_original": "看到现在人力资源比较廉价",
+          "snippet": "看到现在人力资源比较廉价 - V2EX Home Sign Up Sign In V2EX › 职场话题 看到现在人力资源比较廉价 yifangtongxing28 · 13h 14m ago · 3136 views 各位后悔自己出生 or 生孩子吗？ 聊聊真心话 人力 后悔 生孩子 62 replies • 2026-05-29 11:45:16 +08:00 1 catyun88 13h 9m ago 还好自己属于比较年轻 还有机会 看到很多人的现状 感觉压力会很大 男的 20-30 是拼搏 能力最强的…"
+        },
+        {
+          "id": "briefing_social-10",
+          "section_id": "briefing_social",
+          "title_original": "对于各种投资群里骂 A 村，骂各种监管的，我想提醒一句",
+          "snippet": "对于各种投资群里骂 A 村，骂各种监管的，我想提醒一句 - V2EX Home Sign Up Sign In V2EX › 投资 对于各种投资群里骂 A 村，骂各种监管的，我想提醒一句 xvm03 · 1h 38m ago · 1651 views 虽然各种群里批评 A 村和 A 村出的各种政策，监管占主流，但是我觉得身为 A 村的成员之一，大多数人的钱应该也都是从 A 村赚的吧，美股的确长牛，投资相对简单，但是不能吃干抹净后就开始骂娘，A 村过去几十年的稳定，给了大家机会去创造财富，哪怕没有大富大贵，但是…"
+        }
+      ]
+    },
+    {
+      "id": "briefing_ai_daily",
+      "title": "AI Daily / глубокий AI-брифинг",
+      "items": [
+        {
+          "id": "briefing_ai_daily-1",
+          "section_id": "briefing_ai_daily",
+          "title_original": "Some ideas for what comes next, May 2026",
+          "snippet": "As the years of AI progress go by, it’s been accompanied by a slowly rising tide of consequence."
+        },
+        {
+          "id": "briefing_ai_daily-2",
+          "section_id": "briefing_ai_daily",
+          "title_original": "Latest open artifacts (#21): Open model bonanza! Gemma 4, DeepSeek V4, Kimi K2.6, MiMo 2.5, GLM-5.1 & others. On CAISI's V4 assessment.",
+          "snippet": "This month was packed, with all open frontier labs, including DeepSeek, releasing new models."
+        },
+        {
+          "id": "briefing_ai_daily-3",
+          "section_id": "briefing_ai_daily",
+          "title_original": "How open model ecosystems compound",
+          "snippet": "Note: Voice-overs for paywalled posts are available for paid subscribes in podcast apps if you click on settings on Interconnects, then manage your description."
+        },
+        {
+          "id": "briefing_ai_daily-4",
+          "section_id": "briefing_ai_daily",
+          "title_original": "Choosing to Stay Human",
+          "snippet": "If you go to your favorite social media site, you will find it full of posts that start to look suspiciously similar to each other: Many of the comments to these posts are also generated by AI."
+        },
+        {
+          "id": "briefing_ai_daily-5",
+          "section_id": "briefing_ai_daily",
+          "title_original": "Sign of the future: GPT-5.5",
+          "snippet": "I had early access to GPT-5.5 1 , and I think it is a big deal."
+        },
+        {
+          "id": "briefing_ai_daily-6",
+          "section_id": "briefing_ai_daily",
+          "title_original": "Claude Dispatch and the Power of Interfaces",
+          "snippet": "AIs are already far more capable than most people realize."
+        },
+        {
+          "id": "briefing_ai_daily-7",
+          "section_id": "briefing_ai_daily",
+          "title_original": "ChinAI #360: Anthropic’s Dogma on US-China AI Competition",
+          "snippet": "Greetings from a world where… church is in session …As always, the searchable archive of all past issues is here ."
+        },
+        {
+          "id": "briefing_ai_daily-8",
+          "section_id": "briefing_ai_daily",
+          "title_original": "ChinAI #359: DeepSeek's \"Huawei-like\" Mission in AI",
+          "snippet": "Greetings from a world where… it’s time to watch Kung Fu Hustle for the first time …As always, the searchable archive of all past issues is here ."
+        },
+        {
+          "id": "briefing_ai_daily-9",
+          "section_id": "briefing_ai_daily",
+          "title_original": "ChinAI #358: Around the Horn (25th episode)",
+          "snippet": "Greetings from a world where… summer beckons …As always, the searchable archive of all past issues is here ."
+        },
+        {
+          "id": "briefing_ai_daily-10",
+          "section_id": "briefing_ai_daily",
+          "title_original": "I signed up for another SaaS",
+          "snippet": "Hey folks, “SaaS may be dead” - me, on tuesday Just signed up for another SaaS tool - me, yesterday I’m trying really hard to make interactive components for this course/reference manual I’m making."
+        },
+        {
+          "id": "briefing_ai_daily-11",
+          "section_id": "briefing_ai_daily",
+          "title_original": "Is SaaS dead?",
+          "snippet": "Hey folks, It’s a heatwave in the UK, and I can’t think straight."
+        },
+        {
+          "id": "briefing_ai_daily-12",
+          "section_id": "briefing_ai_daily",
+          "title_original": "Google's take on openclaw",
+          "snippet": "Hey folks, My first fund is now at 5x!"
+        },
+        {
+          "id": "briefing_ai_daily-13",
+          "section_id": "briefing_ai_daily",
+          "title_original": "Tweaking Local Language Model Settings with Ollama",
+          "snippet": "Tweaking Local Language Model Settings with Ollama - KDnuggets Blog Top Posts About Topics AI Career Advice Computer Vision Data Engineering Data Science Language Models Machine Learning MLOps NLP Programming Python SQL Datasets Events Resources Cheat Sheet…"
+        },
+        {
+          "id": "briefing_ai_daily-14",
+          "section_id": "briefing_ai_daily",
+          "title_original": "7 Real World AI Projects to Build in 2026 (with Guides)",
+          "snippet": "7 Real World AI Projects to Build in 2026 (with Guides) - KDnuggets Blog Top Posts About Topics AI Career Advice Computer Vision Data Engineering Data Science Language Models Machine Learning MLOps NLP Programming Python SQL Datasets Events Resources Cheat…"
+        },
+        {
+          "id": "briefing_ai_daily-15",
+          "section_id": "briefing_ai_daily",
+          "title_original": "Pandas GroupBy Explained With Examples",
+          "snippet": "Pandas GroupBy Explained With Examples - KDnuggets Blog Top Posts About Topics AI Career Advice Computer Vision Data Engineering Data Science Language Models Machine Learning MLOps NLP Programming Python SQL Datasets Events Resources Cheat Sheets Recommenda…"
+        },
+        {
+          "id": "briefing_ai_daily-16",
+          "section_id": "briefing_ai_daily",
+          "title_original": "AI to ROI Big Story: The New Storytelling Rules In the Age of AI",
+          "snippet": "Tell Your Story, Not the Story of AI From our guest columnist and superstar storyteller, Michael Conniff , here is some very useful advice on storytelling in the age of AI."
+        },
+        {
+          "id": "briefing_ai_daily-17",
+          "section_id": "briefing_ai_daily",
+          "title_original": "AI to ROI News & Analysis: May 22, 2026",
+          "snippet": "The Biggest AI News This Week 🚀 SpaceX's S-1 Arrives with More Than a Few Reasons for Investor Caution 🤖 Google’s New Products Demonstrate a Compelling Agentic Path 💎 NVIDIA Knocks the Earnings Ball Out of the Park - AGAIN 📋 OpenAI Targets a $1 Trillion Val…"
+        },
+        {
+          "id": "briefing_ai_daily-18",
+          "section_id": "briefing_ai_daily",
+          "title_original": "AI to ROI Big Story: AI-Native Professional Services Will Become the New Normal",
+          "snippet": "The Earthquake That Is Upending Traditional Professional Services Professional services firms have been selling time for 200 years."
+        }
+      ]
+    }
+  ]
+}
