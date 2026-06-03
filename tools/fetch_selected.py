@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 from pathlib import Path
+import time
 
 from common import (
     BRIEFING_SCRIPT,
@@ -17,6 +18,33 @@ from common import (
     today_str,
     write_json,
 )
+
+RETRY_ATTEMPTS = 3
+RETRY_DELAY_SECONDS = 2
+
+
+def raw_item_count(section: dict, raw: object) -> int:
+    if section["type"] == "digest":
+        if not isinstance(raw, dict):
+            return 0
+        return sum(len(items or []) for items in raw.values())
+    if not isinstance(raw, list):
+        return 0
+    return len(raw)
+
+
+def should_retry(section: dict, result: dict) -> bool:
+    if section.get("allow_empty", False):
+        return False
+    if result.get("returncode") != 0:
+        return True
+    return raw_item_count(section, result.get("raw")) == 0
+
+
+def annotate_retry(result: dict, attempt: int) -> None:
+    note = f"[retry {attempt}/{RETRY_ATTEMPTS}] transient empty or failed fetch"
+    stderr = (result.get("stderr") or "").strip()
+    result["stderr"] = f"{stderr}\n{note}".strip()
 
 
 def fetch_section(section: dict, limit_override: int | None = None) -> dict:
@@ -50,6 +78,17 @@ def fetch_section(section: dict, limit_override: int | None = None) -> dict:
     }
 
 
+def fetch_section_with_retry(section: dict, limit_override: int | None = None) -> dict:
+    result = fetch_section(section, limit_override)
+    for attempt in range(2, RETRY_ATTEMPTS + 1):
+        if not should_retry(section, result):
+            break
+        annotate_retry(result, attempt - 1)
+        time.sleep(RETRY_DELAY_SECONDS)
+        result = fetch_section(section, limit_override)
+    return result
+
+
 
 def main() -> None:
     parser = argparse.ArgumentParser()
@@ -64,7 +103,7 @@ def main() -> None:
     ensure_dir(day_dir)
     out_path = Path(args.out) if args.out else day_dir / "raw.json"
 
-    results = [fetch_section(section, args.limit_override) for section in sections]
+    results = [fetch_section_with_retry(section, args.limit_override) for section in sections]
     payload = {
         "date": args.date,
         "generated_at": now_iso(),

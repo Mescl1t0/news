@@ -165,6 +165,8 @@ def derive_description(item: dict[str, Any]) -> str:
     for candidate in candidates:
         text = safe_text(candidate)
         if text:
+            if is_placeholder_description(text):
+                continue
             text = re.sub(r"\s+", " ", text)
             text = text.replace("Коротко:", "").strip(" -–—")
             sentences = re.split(r"(?<=[.!?])\s+", text)
@@ -175,7 +177,7 @@ def derive_description(item: dict[str, Any]) -> str:
     title = safe_text(item.get("title_ru") or item.get("title_original") or item.get("title"))
     if not title:
         return ""
-    return f"Материал посвящён теме «{title}»."
+    return f"В подборке упоминается проект или материал «{title}»."
 
 
 
