@@ -1,0 +1,1348 @@
+{
+  "date": "2026-06-13",
+  "task": "For every item keep title_original unchanged, add a natural Russian translation into title_ru, and write exactly one short neutral Russian sentence into description_ru. Translate from English, Chinese, or any other non-Russian source language. Do not leave non-Russian or placeholder text in title_ru/description_ru. Return ai_output schema only.",
+  "output_schema": {
+    "items": [
+      {
+        "id": "same id from input",
+        "title_original": "same original title from input",
+        "title_ru": "natural Russian headline",
+        "description_ru": "exactly one neutral Russian sentence"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "id": "hackernews",
+      "title": "Hacker News",
+      "items": [
+        {
+          "id": "hackernews-1",
+          "section_id": "hackernews",
+          "title_original": "Statement on US government directive to suspend access to Fable 5 and Mythos 5",
+          "snippet": "В подборке упоминается проект или материал «Statement on US government directive to suspend access to Fable 5 and Mythos 5»."
+        },
+        {
+          "id": "hackernews-2",
+          "section_id": "hackernews",
+          "title_original": "Open source AI must win",
+          "snippet": "В подборке упоминается проект или материал «Open source AI must win»."
+        },
+        {
+          "id": "hackernews-3",
+          "section_id": "hackernews",
+          "title_original": "We've suspended access to Claude Mythos 5 and Claude Fable 5",
+          "snippet": "В подборке упоминается проект или материал «We've suspended access to Claude Mythos 5 and Claude Fable 5»."
+        },
+        {
+          "id": "hackernews-4",
+          "section_id": "hackernews",
+          "title_original": "Renault: Electric motors with no rare earths",
+          "snippet": "В подборке упоминается проект или материал «Renault: Electric motors with no rare earths»."
+        },
+        {
+          "id": "hackernews-5",
+          "section_id": "hackernews",
+          "title_original": "CRISPR tech selectively shreds cancer cells, including \"undruggable\" cancers",
+          "snippet": "В подборке упоминается проект или материал «CRISPR tech selectively shreds cancer cells, including \"undruggable\" cancers»."
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "title": "GitHub Trending",
+      "items": [
+        {
+          "id": "github-1",
+          "section_id": "github",
+          "title_original": "addyosmani/agent-skills - Production-grade engineering skills for AI coding agents.",
+          "snippet": "В подборке упоминается проект или материал «addyosmani/agent-skills - Production-grade engineering skills for AI coding agents.»."
+        },
+        {
+          "id": "github-2",
+          "section_id": "github",
+          "title_original": "music-assistant/server - Music Assistant is a free, opensource Media library manager that connects to your streaming services and a wide range of connected speakers. The server is the beating heart, the core of Music Assistant and must run on an always-on device like a Raspberry Pi, a NAS or an Intel NUC or alike.",
+          "snippet": "В подборке упоминается проект или материал «music-assistant/server - Music Assistant is a free, opensource Media library manager that connects to your streaming services and a wide range of connected speakers. The server is the beating heart, the core of Mu…"
+        },
+        {
+          "id": "github-3",
+          "section_id": "github",
+          "title_original": "mattermost/mattermost - Mattermost is an open source platform for secure collaboration across the entire software development lifecycle..",
+          "snippet": "В подборке упоминается проект или материал «mattermost/mattermost - Mattermost is an open source platform for secure collaboration across the entire software development lifecycle..»."
+        },
+        {
+          "id": "github-4",
+          "section_id": "github",
+          "title_original": "apple/container - A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+          "snippet": "В подборке упоминается проект или материал «apple/container - A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.»."
+        },
+        {
+          "id": "github-5",
+          "section_id": "github",
+          "title_original": "iptv-org/iptv - Collection of publicly available IPTV channels from all over the world",
+          "snippet": "В подборке упоминается проект или материал «iptv-org/iptv - Collection of publicly available IPTV channels from all over the world»."
+        }
+      ]
+    },
+    {
+      "id": "producthunt",
+      "title": "Product Hunt",
+      "items": [
+        {
+          "id": "producthunt-1",
+          "section_id": "producthunt",
+          "title_original": "Bob's CLI",
+          "snippet": "В подборке упоминается проект или материал «Bob's CLI»."
+        },
+        {
+          "id": "producthunt-2",
+          "section_id": "producthunt",
+          "title_original": "Tide",
+          "snippet": "В подборке упоминается проект или материал «Tide»."
+        },
+        {
+          "id": "producthunt-3",
+          "section_id": "producthunt",
+          "title_original": "Pond",
+          "snippet": "В подборке упоминается проект или материал «Pond»."
+        },
+        {
+          "id": "producthunt-4",
+          "section_id": "producthunt",
+          "title_original": "KOSH Money",
+          "snippet": "В подборке упоминается проект или материал «KOSH Money»."
+        },
+        {
+          "id": "producthunt-5",
+          "section_id": "producthunt",
+          "title_original": "Slack Data Agent",
+          "snippet": "В подборке упоминается проект или материал «Slack Data Agent»."
+        }
+      ]
+    },
+    {
+      "id": "latentspace_ainews",
+      "title": "Latent Space AINews",
+      "items": [
+        {
+          "id": "latentspace_ainews-1",
+          "section_id": "latentspace_ainews",
+          "title_original": "[AINews] Loopcraft: The Art of Stacking Loops",
+          "snippet": "a quiet day lets us highlight a great concept from Peter Steinberger, Boris Cherny, and Andrej Karpathy."
+        },
+        {
+          "id": "latentspace_ainews-2",
+          "section_id": "latentspace_ainews",
+          "title_original": "[AINews] Open Models, Model Labs vs Agent Labs, and What's Untrainable — Sarah Guo",
+          "snippet": "a quiet day lets us reflect on a great essay."
+        },
+        {
+          "id": "latentspace_ainews-3",
+          "section_id": "latentspace_ainews",
+          "title_original": "[AINews] Anthropic Claude Fable 5 — Mythos but Safe, with Controversial Terms",
+          "snippet": "The much anticipated launch of the Mythos-class model was marred by some controversial usage policies."
+        },
+        {
+          "id": "latentspace_ainews-4",
+          "section_id": "latentspace_ainews",
+          "title_original": "[AINews] FrontierCode: Benchmarking for Code Quality over Slop",
+          "snippet": "We made a thing!"
+        },
+        {
+          "id": "latentspace_ainews-5",
+          "section_id": "latentspace_ainews",
+          "title_original": "[AINews] not much happened today",
+          "snippet": "a quiet day of RSI."
+        }
+      ]
+    },
+    {
+      "id": "oneusefulthing",
+      "title": "One Useful Thing",
+      "items": [
+        {
+          "id": "oneusefulthing-1",
+          "section_id": "oneusefulthing",
+          "title_original": "What it feels like to work with Mythos",
+          "snippet": "I had early access to the first Mythos-class AI model being released to the public, Claude 5 Fable."
+        },
+        {
+          "id": "oneusefulthing-2",
+          "section_id": "oneusefulthing",
+          "title_original": "Co-Existence and the End of Co-Intelligence",
+          "snippet": "It has been two years since Co-Intelligence , my book about AI, was published, and it was successful beyond what I could have hoped (it was a New York Times bestseller and has been translated into 25+ languages, with the biggest markets being the Netherland…"
+        },
+        {
+          "id": "oneusefulthing-3",
+          "section_id": "oneusefulthing",
+          "title_original": "Choosing to Stay Human",
+          "snippet": "If you go to your favorite social media site, you will find it full of posts that start to look suspiciously similar to each other: Many of the comments to these posts are also generated by AI."
+        },
+        {
+          "id": "oneusefulthing-4",
+          "section_id": "oneusefulthing",
+          "title_original": "Sign of the future: GPT-5.5",
+          "snippet": "I had early access to GPT-5.5 1 , and I think it is a big deal."
+        },
+        {
+          "id": "oneusefulthing-5",
+          "section_id": "oneusefulthing",
+          "title_original": "Claude Dispatch and the Power of Interfaces",
+          "snippet": "AIs are already far more capable than most people realize."
+        }
+      ]
+    },
+    {
+      "id": "interconnects",
+      "title": "Interconnects",
+      "items": [
+        {
+          "id": "interconnects-1",
+          "section_id": "interconnects",
+          "title_original": "Claude Fable 5 and new AI safety fables",
+          "snippet": "Edit Jun."
+        },
+        {
+          "id": "interconnects-2",
+          "section_id": "interconnects",
+          "title_original": "Farewell Ai2",
+          "snippet": "I’m departing the Allen Institute for AI (Ai2), where I got the great privilege to work on the Olmo models, to grow, to learn, and to have broad lasting impacts."
+        },
+        {
+          "id": "interconnects-3",
+          "section_id": "interconnects",
+          "title_original": "Open and closed models are on different exponentials",
+          "snippet": "The largest debate that’ll define the future balance of power between the open and closed AI model ecosystems is primarily economic — it’s if users of AI will continue to pay dramatically more, i.e."
+        },
+        {
+          "id": "interconnects-4",
+          "section_id": "interconnects",
+          "title_original": "Some ideas for what comes next, May 2026",
+          "snippet": "As the years of AI progress go by, it’s been accompanied by a slowly rising tide of consequence."
+        },
+        {
+          "id": "interconnects-5",
+          "section_id": "interconnects",
+          "title_original": "Latest open artifacts (#21): Open model bonanza! Gemma 4, DeepSeek V4, Kimi K2.6, MiMo 2.5, GLM-5.1 & others. On CAISI's V4 assessment.",
+          "snippet": "This month was packed, with all open frontier labs, including DeepSeek, releasing new models."
+        }
+      ]
+    },
+    {
+      "id": "latentspace",
+      "title": "Latent Space Podcast",
+      "items": [
+        {
+          "id": "latentspace-1",
+          "section_id": "latentspace",
+          "title_original": "[AINews] Loopcraft: The Art of Stacking Loops",
+          "snippet": "There’s a lot of “loop discourse” in the air: Steipete : “Here’s your monthly reminder that you shouldn’t be prompting coding agents anymore."
+        },
+        {
+          "id": "latentspace-2",
+          "section_id": "latentspace",
+          "title_original": "[AINews] Open Models, Model Labs vs Agent Labs, and What's Untrainable — Sarah Guo",
+          "snippet": "Sarah Guo is a friend of the pod and Queen of AI , and after our Satya crossover pod (great recap here from Gokul Rajaram ) wrote an excellent article on her Substack ."
+        },
+        {
+          "id": "latentspace-3",
+          "section_id": "latentspace",
+          "title_original": "[AINews] Anthropic Claude Fable 5 — Mythos but Safe, with Controversial Terms",
+          "snippet": "By some measures, Opus 4.8, barely two weeks old , was already the leading model in the world."
+        },
+        {
+          "id": "latentspace-4",
+          "section_id": "latentspace",
+          "title_original": "[AINews] FrontierCode: Benchmarking for Code Quality over Slop",
+          "snippet": "Second batch of AI Leadership and Engineering+Workshops tickets for AI Engineer World’s Fair sold out last night!"
+        },
+        {
+          "id": "latentspace-5",
+          "section_id": "latentspace",
+          "title_original": "[AINews] not much happened today",
+          "snippet": "Do check out the excellent RL Env guide we posted today!"
+        }
+      ]
+    },
+    {
+      "id": "briefing_general",
+      "title": "Общий утренний брифинг",
+      "items": [
+        {
+          "id": "briefing_general-1",
+          "section_id": "briefing_general",
+          "title_original": "Bob's CLI",
+          "snippet": "В подборке упоминается проект или материал «Bob's CLI»."
+        },
+        {
+          "id": "briefing_general-2",
+          "section_id": "briefing_general",
+          "title_original": "Tide",
+          "snippet": "В подборке упоминается проект или материал «Tide»."
+        },
+        {
+          "id": "briefing_general-3",
+          "section_id": "briefing_general",
+          "title_original": "Pond",
+          "snippet": "В подборке упоминается проект или материал «Pond»."
+        },
+        {
+          "id": "briefing_general-4",
+          "section_id": "briefing_general",
+          "title_original": "KOSH Money",
+          "snippet": "В подборке упоминается проект или материал «KOSH Money»."
+        },
+        {
+          "id": "briefing_general-5",
+          "section_id": "briefing_general",
+          "title_original": "Slack Data Agent",
+          "snippet": "В подборке упоминается проект или материал «Slack Data Agent»."
+        },
+        {
+          "id": "briefing_general-6",
+          "section_id": "briefing_general",
+          "title_original": "addyosmani/agent-skills - Production-grade engineering skills for AI coding agents.",
+          "snippet": "GitHub - addyosmani/agent-skills: Production-grade engineering skills for AI coding agents."
+        },
+        {
+          "id": "briefing_general-7",
+          "section_id": "briefing_general",
+          "title_original": "music-assistant/server - Music Assistant is a free, opensource Media library manager that connects to your streaming services and a wide range of connected speakers. The server is the beating heart, the core of Music Assistant and must run on an always-on device like a Raspberry Pi, a NAS or an Intel NUC or alike.",
+          "snippet": "GitHub - music-assistant/server: Music Assistant is a free, opensource Media library manager that connects to your streaming services and a wide range of connected speakers."
+        },
+        {
+          "id": "briefing_general-8",
+          "section_id": "briefing_general",
+          "title_original": "mattermost/mattermost - Mattermost is an open source platform for secure collaboration across the entire software development lifecycle..",
+          "snippet": "GitHub - mattermost/mattermost: Mattermost is an open source platform for secure collaboration across the entire software development lifecycle.."
+        },
+        {
+          "id": "briefing_general-9",
+          "section_id": "briefing_general",
+          "title_original": "apple/container - A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+          "snippet": "GitHub - apple/container: A tool for creating and running Linux containers using lightweight virtual machines on a Mac."
+        },
+        {
+          "id": "briefing_general-10",
+          "section_id": "briefing_general",
+          "title_original": "iptv-org/iptv - Collection of publicly available IPTV channels from all over the world",
+          "snippet": "GitHub - iptv-org/iptv: Collection of publicly available IPTV channels from all over the world · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_general-11",
+          "section_id": "briefing_general",
+          "title_original": "花几百万甚至上千万买小区房是不是大怨种？",
+          "snippet": "花几百万甚至上千万买小区房是不是大怨种？ - V2EX Home Sign Up Sign In V2EX › 生活 花几百万甚至上千万买小区房是不是大怨种？ Void000 · 20h 20m ago · 4827 views 记得小区房刚出来的时候，那时候还不懂，觉得看着挺气派的，幻想着住进去 24 小时有安保肯定很安全、环境也很卫生。等自己真正住过后才知道： 因为噪音、装修、公共区域非法被占用等问题和邻居发生口角； 楼栋密集、楼间距近，说话声、电视声音都容易相互干扰； 高层出行不便，经常电梯排队等半天，…"
+        },
+        {
+          "id": "briefing_general-12",
+          "section_id": "briefing_general",
+          "title_original": "仅需一美元获得一个实体美国手机号",
+          "snippet": "仅需一美元获得一个实体美国手机号 - V2EX Home Sign Up Sign In 如果想在 V2EX 获得更好的推广效果，欢迎了解 PRO 会员机制： https://www.v2ex.com/pro/about 如果你经常使用铜币置顶主题，持有 V2EX Solana Token 会在每日签到时获得额外铜币： https://www.v2ex.com/solana V2EX › 推广 仅需一美元获得一个实体美国手机号 conky · 20h 41m ago · 8245 views Nord VPN…"
+        },
+        {
+          "id": "briefing_general-13",
+          "section_id": "briefing_general",
+          "title_original": "怎么看最近很火的西方伪史论和洪清说？",
+          "snippet": "怎么看最近很火的西方伪史论和洪清说？ - V2EX Home Sign Up Sign In V2EX › 知乎 怎么看最近很火的西方伪史论和洪清说？ kingzeno · 20h 15m ago · 2315 views 至今记得李敖曾经说过的一句话，真正的历史是很难求真的。当时他举的例子是钱穆对孙子兵法和孙武兵法的判断是同一本书，斩钉截铁，直到考古挖掘同时出现了孙子兵法和孙武兵法才有了历史的真相。 最近看知乎，洪清说盛极一时，满清被洪清夺舍，模糊的历史脉络被这个逻辑彻底打通，为什么初清的四个藩王全是汉人，…"
+        },
+        {
+          "id": "briefing_general-14",
+          "section_id": "briefing_general",
+          "title_original": "Anthropic 因美国政府要求，关闭了所有外国公民的 Fable 5/ Mythos 5 的访问权限",
+          "snippet": "Anthropic 因美国政府要求，关闭了所有外国公民的 Fable 5/ Mythos 5 的访问权限 - V2EX Home Sign Up Sign In V2EX › Claude Anthropic 因美国政府要求，关闭了所有外国公民的 Fable 5/ Mythos 5 的访问权限 lvye · 2h 19m ago · 2489 views https://www.anthropic.com/news/fable-mythos-access 在美国境内的外国人也不行，不知道他们要怎么识别。 Su…"
+        },
+        {
+          "id": "briefing_general-15",
+          "section_id": "briefing_general",
+          "title_original": "Antigravity 最新版，也来抄作业了",
+          "snippet": "Antigravity 最新版，也来抄作业了 - V2EX Home Sign Up Sign In • 请不要在回答技术问题时复制粘贴 AI 生成的内容 V2EX › 程序员 Antigravity 最新版，也来抄作业了 Jensond · 23h 55m ago · 5067 views codex 5x 两天蹬没了，打开 Google 的 Gemini 系，发现 Antigravity desktop 改版了，也在抄作业了，不过以 Google 的体量做成这样，属实不应该啊！这是 Apple 给的勇气吗…"
+        },
+        {
+          "id": "briefing_general-16",
+          "section_id": "briefing_general",
+          "title_original": "Statement on US government directive to suspend access to Fable 5 and Mythos 5",
+          "snippet": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5 \\ Anthropic Announcements Statement on the US government directive to suspend access to Fable 5 and Mythos 5 Jun 12, 2026 The US government, citing national security authorit…"
+        },
+        {
+          "id": "briefing_general-17",
+          "section_id": "briefing_general",
+          "title_original": "Open source AI must win",
+          "snippet": "Opensource AI Must Win Opensource AI Must Win If intelligence becomes something people can only rent from a few closed institutions, the public does not just lose software freedom."
+        },
+        {
+          "id": "briefing_general-18",
+          "section_id": "briefing_general",
+          "title_original": "We've suspended access to Claude Mythos 5 and Claude Fable 5",
+          "snippet": "Claude Status - We’ve suspended access to Claude Mythos 5 and Claude Fable 5 We’ve suspended access to Claude Mythos 5 and Claude Fable 5 Incident Report for Claude Subscribe to Updates Monitoring Learn more here: https://anthropic.com/news/fable-mythos-acc…"
+        },
+        {
+          "id": "briefing_general-19",
+          "section_id": "briefing_general",
+          "title_original": "Renault: Electric motors with no rare earths",
+          "snippet": "An electric motor with no rare earths: cutting-edge technology - Renault Group All about electric motors with no rare earths Energy and Powertrains 4 min Published on 16.10.2025 A historical pioneer in the complex technology of electric motors without magne…"
+        },
+        {
+          "id": "briefing_general-20",
+          "section_id": "briefing_general",
+          "title_original": "CRISPR tech selectively shreds cancer cells, including \"undruggable\" cancers",
+          "snippet": "В подборке упоминается проект или материал «CRISPR tech selectively shreds cancer cells, including \"undruggable\" cancers»."
+        },
+        {
+          "id": "briefing_general-21",
+          "section_id": "briefing_general",
+          "title_original": "伊美就协议文本达成一致 谅解备忘录有望数日内签署",
+          "snippet": "伊美就协议文本达成一致 谅解备忘录有望数日内签署_腾讯新闻 伊美就协议文本达成一致 谅解备忘录有望数日内签署 央视新闻 2026-06-13 06:03 发布于 北京 中央广播电视总台央视新闻官方账号 问AI · 美伊协议对霍尔木兹海峡有何影响？ 当地时间12日， 巴基斯坦总理夏巴兹说，伊朗与美国已就和平协议最终文本达成一致。 随后， 伊朗外长阿拉格齐表示，相关谅解备忘录可能在几天内签署。 美方高级官员则表示，对短期内签署备忘录有约八成把握，协议涉及重新开放霍尔木兹海峡、解除海上封锁及放松对伊经济制裁等内容。…"
+        },
+        {
+          "id": "briefing_general-22",
+          "section_id": "briefing_general",
+          "title_original": "SpaceX首秀收涨19%，超3500亿美元疯抢史上最大IPO",
+          "snippet": "SpaceX首秀收涨19%，超3500亿美元疯抢史上最大IPO_腾讯新闻 SpaceX首秀收涨19%，超3500亿美元疯抢史上最大IPO 全天候科技 2026-06-13 05:02 发布于 日本 全天候科技官方账号 问AI · SpaceX上市如何加速火星计划实现？ 全球资本市场迎来历史性时刻， 太空探索 公司SpaceX受热捧，首秀股价两位数大涨，斩获超2万亿美元市值。 美东时间12日周五美股早盘尾声时，马斯克旗下SpaceX以SPCX为股票代码正式登陆纳斯达克，开盘价报150美元，较发行价涨11%，午盘…"
+        },
+        {
+          "id": "briefing_general-23",
+          "section_id": "briefing_general",
+          "title_original": "在过会16天后，长鑫科技IPO注册获证监会同意！市值有望冲击3万亿元",
+          "snippet": "在过会16天后，长鑫科技IPO注册获证监会同意！市值有望冲击3万亿元_腾讯新闻 在过会16天后，长鑫科技IPO注册获证监会同意！市值有望冲击3万亿元 金融界 2026-06-12 19:33 发布于 北京 问AI · 员工持股计划如何助推存储巨头崛起？ 长鑫科技科创板IPO加速推进，在过会16天后，长鑫科技IPO注册获证监会同意！ 6月12日晚间，证监会官网显示， 证监会同意长鑫科技首次公开发行股票并在科创板上市的注册申请。 长鑫科技拟募集资金总额为295亿元，这也是科创板史上第二大IPO，仅次于 中芯国际…"
+        },
+        {
+          "id": "briefing_general-24",
+          "section_id": "briefing_general",
+          "title_original": "中国软件跌停后公告，被禁止参加政府采购活动一年",
+          "snippet": "中国软件跌停后公告，被禁止参加政府采购活动一年_腾讯新闻 中国软件跌停后公告，被禁止参加政府采购活动一年 每日经济新闻 2026-06-12 20:48 发布于 四川 每日经济新闻官方账号 问AI · 母子公司处罚待遇差异基于何种考量？ 6月12日晚间， 中国软件 发布公告称，公司收到财政部《行政处罚决定书》，因在政府采购活动中与其他供应商投标文件异常一致，构成 恶意串通 ，被罚款4.05万元，列入 不良行为记录名单 ，一年内禁止参加政府采购活动。 所涉及的项目已经完成验收，不影响前期收入确认。目前公司整体生…"
+        },
+        {
+          "id": "briefing_general-25",
+          "section_id": "briefing_general",
+          "title_original": "武汉通报“昌盛泡花碱厂环境问题”调查处理结果",
+          "snippet": "武汉通报“昌盛泡花碱厂环境问题”调查处理结果_腾讯新闻 武汉通报“昌盛泡花碱厂环境问题”调查处理结果 央视新闻 2026-06-12 17:27 发布于 北京 中央广播电视总台央视新闻官方账号 6月12日，武汉发布关于新洲区昌盛泡花碱厂有关问题调查处理情况的通报。通报原文如下： 2026年5月18日，媒体报道反映武汉市新洲区昌盛泡花碱厂（以下简称泡花碱厂）相关问题，武汉市委、市政府高度重视，5月19日成立由市委、市政府有关负责同志任组长，市纪委监委、市生态环境局、市卫健委、市自然资源和城建局、市农业农村局、市…"
+        },
+        {
+          "id": "briefing_general-26",
+          "section_id": "briefing_general",
+          "title_original": "又一家万亿美元级别IPO！SK海力士计划8月在纳斯达克上市，募资高达140亿美元",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_general-27",
+          "section_id": "briefing_general",
+          "title_original": "5月挖机销售全面超预期，工程机械行业仍处于景气上行周期",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_general-28",
+          "section_id": "briefing_general",
+          "title_original": "SpaceX上市首日超越特斯拉，SpaceX总裁暗示“合并”，特斯拉股东热盼",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_general-29",
+          "section_id": "briefing_general",
+          "title_original": "投行圈的“奥运金牌”：SpaceX IPO承销费5亿美元，高盛和大摩各分1亿，高盛还能赚更多",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_general-30",
+          "section_id": "briefing_general",
+          "title_original": "近3月收益54%，平安基金要文强：看好7、8月AI行情，不要担心，每一波超额收益都来自宏观波动，看好五个细分方向",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_general-31",
+          "section_id": "briefing_general",
+          "title_original": "中基协发布公募基金主题投资风格管理指引，严重偏离投资方向将被纳入负面考核指标",
+          "snippet": "中基协发布公募基金主题投资风格管理指引，严重偏离投资方向将被纳入负面考核指标-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投…"
+        },
+        {
+          "id": "briefing_general-32",
+          "section_id": "briefing_general",
+          "title_original": "A股本周缩量震荡，能源金属板块指数涨逾7%",
+          "snippet": "A股本周缩量震荡，能源金属板块指数涨逾7%-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人…"
+        },
+        {
+          "id": "briefing_general-33",
+          "section_id": "briefing_general",
+          "title_original": "专家：日本央行或上调利率以抑制通胀",
+          "snippet": "专家：日本央行或上调利率以抑制通胀-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投…"
+        },
+        {
+          "id": "briefing_general-34",
+          "section_id": "briefing_general",
+          "title_original": "硫磺价格年内增两倍，扰动化工产业链",
+          "snippet": "硫磺价格年内增两倍，扰动化工产业链-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证 投…"
+        },
+        {
+          "id": "briefing_general-35",
+          "section_id": "briefing_general",
+          "title_original": "魔法原子上交会首秀VLA K02大模型",
+          "snippet": "魔法原子上交会首秀VLA K02大模型-36氪 账号设置 我的关注 我的收藏 申请的报道 退出登录 登录 搜索 36氪Auto 数字时氪 未来消费 智能涌现 未来城市 启动Power on 36氪出海 36氪研究院 潮生TIDE 36氪企服点评 36氪财经 职场bonus 36碳 后浪研究所 暗涌Waves 硬氪 氪睿研究院 媒体品牌 企业号 企服点评 36Kr研究院 36Kr创新咨询 企业服务 核心服务 城市之窗 政府服务 创投发布 LP源计划 VClub VClub投资机构库 投资机构职位推介 投资人认证…"
+        },
+        {
+          "id": "briefing_general-36",
+          "section_id": "briefing_general",
+          "title_original": "Let's call 'em \"aigents\"",
+          "snippet": "Let’s call ‘em “aigents” — The Autodidacts Every one’s talking about their agents."
+        },
+        {
+          "id": "briefing_general-37",
+          "section_id": "briefing_general",
+          "title_original": "CipherNode – An offline, self-correcting AI swarm compiled to a single .exe",
+          "snippet": "CipherNode – An offline, self-correcting AI swarm compiled to a single .exe | Hacker News Hacker News new | past | comments | ask | show | jobs | submit login CipherNode – An offline, self-correcting AI swarm compiled to a single .exe 1 point by CipherNode…"
+        },
+        {
+          "id": "briefing_general-38",
+          "section_id": "briefing_general",
+          "title_original": "China cracks down on Western AI models while US companies flock to DeepSeek",
+          "snippet": "The great AI Irony: China cracks down on Western models while US companies flock to DeepSeek | TechRadar Skip to main content Become a TechRadar Insider - Join our community JOIN NOW 5 Exclusive perks 24/7 Insider insights 44K+ Active Members Weekly newslet…"
+        },
+        {
+          "id": "briefing_general-39",
+          "section_id": "briefing_general",
+          "title_original": "Show HN: Lead Qualifier – Get leads qualified in minutes",
+          "snippet": "Lead Qualifier — research any lead, draft the outreach Research → Dossier → Outreach Know your lead before you say hello."
+        },
+        {
+          "id": "briefing_general-40",
+          "section_id": "briefing_general",
+          "title_original": "Show HN: Babel realtime calls with strangers in any language",
+          "snippet": "Babel Chat."
+        },
+        {
+          "id": "briefing_general-41",
+          "section_id": "briefing_general",
+          "title_original": "Hasta Pronto – An AI Farewell Letter and Interactive Memorial – Claude",
+          "snippet": "Content is user-generated and unverified."
+        },
+        {
+          "id": "briefing_general-42",
+          "section_id": "briefing_general",
+          "title_original": "Tell HN: I'm making 1K USD per hour with AI",
+          "snippet": "Tell HN: I'm making 1K USD per hour with AI | Hacker News Hacker News new | past | comments | ask | show | jobs | submit login Tell HN: I'm making 1K USD per hour with AI 5 points by anongoogleuser 1 hour ago | hide | past | favorite | 14 comments Former fr…"
+        },
+        {
+          "id": "briefing_general-43",
+          "section_id": "briefing_general",
+          "title_original": "Samsung may make the next Google AI chip",
+          "snippet": "Samsung reportedly in talks to help make Google's next AI chip - The Korea Herald Samsung reportedly in talks to help make Google's next AI chip Published : June 12, 2026 - 11:42:00 Link copied!"
+        },
+        {
+          "id": "briefing_general-44",
+          "section_id": "briefing_general",
+          "title_original": "Meta's months-old AI unit is a soul-crushing gulag",
+          "snippet": "Meta's months-old AI unit is a soul-crushing gulag, say the engineers stuck inside it | TechCrunch Image Credits: Hollie Adams/Bloomberg / Getty Images AI Meta’s months-old AI unit is a soul-crushing gulag, say the engineers stuck inside it Connie Loizos 4:…"
+        },
+        {
+          "id": "briefing_general-45",
+          "section_id": "briefing_general",
+          "title_original": "SentinelMCP – An open-source firewall for AI agents that use MCP",
+          "snippet": "GitHub - technosiveuk-ui/SentinelMCP: The Open-Source MCP Firewall & Security Gateway for AI Agents."
+        },
+        {
+          "id": "briefing_general-46",
+          "section_id": "briefing_general",
+          "title_original": "Show HN: AccInt – a Work Model for AI coding agents",
+          "snippet": "Accreted Intelligence — a World Model for human work LIVE AccInt is running while you read this."
+        },
+        {
+          "id": "briefing_general-47",
+          "section_id": "briefing_general",
+          "title_original": "Has AI Killed How-To Nonfiction?",
+          "snippet": "В подборке упоминается проект или материал «Has AI Killed How-To Nonfiction?»."
+        },
+        {
+          "id": "briefing_general-48",
+          "section_id": "briefing_general",
+          "title_original": "How to prepare for interview in the new AI era",
+          "snippet": "В подборке упоминается проект или материал «How to prepare for interview in the new AI era»."
+        },
+        {
+          "id": "briefing_general-49",
+          "section_id": "briefing_general",
+          "title_original": "The social consequences of AI delegation",
+          "snippet": "[2606.11058] The social consequences of AI delegation Physics > Physics and Society arXiv:2606.11058 (physics) [Submitted on 9 Jun 2026] Title: The social consequences of AI delegation Authors: Henrique Ferraz de Arruda , Yamir Moreno View a PDF of the pape…"
+        },
+        {
+          "id": "briefing_general-50",
+          "section_id": "briefing_general",
+          "title_original": "Oracle and the AI Boom's Hidden Debt Bomb",
+          "snippet": "В подборке упоминается проект или материал «Oracle and the AI Boom's Hidden Debt Bomb»."
+        },
+        {
+          "id": "briefing_general-51",
+          "section_id": "briefing_general",
+          "title_original": "Trump admin blocks foreign access to Anthropic's most powerful AI models",
+          "snippet": "В подборке упоминается проект или материал «Trump admin blocks foreign access to Anthropic's most powerful AI models»."
+        },
+        {
+          "id": "briefing_general-52",
+          "section_id": "briefing_general",
+          "title_original": "Ask HN: What will be the next big memory management system for AI Agents?",
+          "snippet": "Ask HN: What will be the next big memory management system for AI Agents?"
+        },
+        {
+          "id": "briefing_general-53",
+          "section_id": "briefing_general",
+          "title_original": "Erdős Problems and Speculations about the Power of AI Models",
+          "snippet": "Prof."
+        },
+        {
+          "id": "briefing_general-54",
+          "section_id": "briefing_general",
+          "title_original": "I created a facet search over music composition (no AI)",
+          "snippet": "Monic Theory: Find Your MIDI."
+        },
+        {
+          "id": "briefing_general-55",
+          "section_id": "briefing_general",
+          "title_original": "obra/superpowers - An agentic skills framework & software development methodology that works.",
+          "snippet": "GitHub - obra/superpowers: An agentic skills framework & software development methodology that works."
+        },
+        {
+          "id": "briefing_general-56",
+          "section_id": "briefing_general",
+          "title_original": "refactoringhq/tolaria - Desktop app to manage markdown knowledge bases",
+          "snippet": "GitHub - refactoringhq/tolaria: Desktop app to manage markdown knowledge bases · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_general-57",
+          "section_id": "briefing_general",
+          "title_original": "maziyarpanahi/openmed - open-source healthcare ai",
+          "snippet": "GitHub - maziyarpanahi/openmed: open-source healthcare ai · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_general-58",
+          "section_id": "briefing_general",
+          "title_original": "LMCache/LMCache - LMCache: Supercharge Your LLM with the Fastest KV Cache Layer",
+          "snippet": "GitHub - LMCache/LMCache: LMCache: Supercharge Your LLM with the Fastest KV Cache Layer · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_general-59",
+          "section_id": "briefing_general",
+          "title_original": "phuryn/pm-skills - PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+          "snippet": "GitHub - phuryn/pm-skills: PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth."
+        },
+        {
+          "id": "briefing_general-60",
+          "section_id": "briefing_general",
+          "title_original": "masterking32/MasterDnsVPN - Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
+          "snippet": "GitHub - masterking32/MasterDnsVPN: Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed."
+        },
+        {
+          "id": "briefing_general-61",
+          "section_id": "briefing_general",
+          "title_original": "msitarzewski/agency-agents - A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+          "snippet": "GitHub - msitarzewski/agency-agents: A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers."
+        },
+        {
+          "id": "briefing_general-62",
+          "section_id": "briefing_general",
+          "title_original": "microsoft/PowerToys - Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
+          "snippet": "GitHub - microsoft/PowerToys: Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows · GitHub Skip to content You signed in with another tab or window."
+        }
+      ]
+    },
+    {
+      "id": "briefing_finance",
+      "title": "Финансовый утренний брифинг",
+      "items": [
+        {
+          "id": "briefing_finance-1",
+          "section_id": "briefing_finance",
+          "title_original": "Techno-libertarians are flocking to the Caribbean",
+          "snippet": "В подборке упоминается проект или материал «Techno-libertarians are flocking to the Caribbean»."
+        },
+        {
+          "id": "briefing_finance-2",
+          "section_id": "briefing_finance",
+          "title_original": "The Swiss would be foolish to cap their population at 10M",
+          "snippet": "В подборке упоминается проект или материал «The Swiss would be foolish to cap their population at 10M»."
+        },
+        {
+          "id": "briefing_finance-3",
+          "section_id": "briefing_finance",
+          "title_original": "The value of SpaceX rockets on its stock-market debut",
+          "snippet": "В подборке упоминается проект или материал «The value of SpaceX rockets on its stock-market debut»."
+        },
+        {
+          "id": "briefing_finance-4",
+          "section_id": "briefing_finance",
+          "title_original": "Ask HN: What happens when AI-voice becomes good enough?",
+          "snippet": "Ask HN: What happens when AI-voice becomes good enough?"
+        },
+        {
+          "id": "briefing_finance-5",
+          "section_id": "briefing_finance",
+          "title_original": "Treating pancreatic tumours may have revealed cancer's master switch",
+          "snippet": "В подборке упоминается проект или материал «Treating pancreatic tumours may have revealed cancer's master switch»."
+        },
+        {
+          "id": "briefing_finance-6",
+          "section_id": "briefing_finance",
+          "title_original": "Fear of the SaaSpocalypse is tormenting techland",
+          "snippet": "В подборке упоминается проект или материал «Fear of the SaaSpocalypse is tormenting techland»."
+        },
+        {
+          "id": "briefing_finance-7",
+          "section_id": "briefing_finance",
+          "title_original": "The Future of Work and AI",
+          "snippet": "В подборке упоминается проект или материал «The Future of Work and AI»."
+        },
+        {
+          "id": "briefing_finance-8",
+          "section_id": "briefing_finance",
+          "title_original": "AI Economics for Dummies",
+          "snippet": "AI Economics for Dummies - McSweeney’s Internet Tendency Skip to main content McSWEENEY'S INTERNET TENDENCY'S PATREON Join our Patreon for as little as $5 a month and get access to author interviews, content calls, discounts at our store, and more."
+        },
+        {
+          "id": "briefing_finance-9",
+          "section_id": "briefing_finance",
+          "title_original": "3code, the Economical Coding Agent",
+          "snippet": "3code, the economical coding agent The economical coding agent."
+        },
+        {
+          "id": "briefing_finance-10",
+          "section_id": "briefing_finance",
+          "title_original": "We economists have done the maths: 'growth' is a doomed strategy",
+          "snippet": "We economists have done the maths: ‘growth’ is a doomed strategy – there is a better way | Olivier De Schutter, Joseph Stiglitz, Jayati Ghosh, Thomas Piketty, Kate Raworth and Jason Hickel | The Guardian Skip to main content Skip to navigation Illustration:…"
+        },
+        {
+          "id": "briefing_finance-11",
+          "section_id": "briefing_finance",
+          "title_original": "又一家万亿美元级别IPO！SK海力士计划8月在纳斯达克上市，募资高达140亿美元",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-12",
+          "section_id": "briefing_finance",
+          "title_original": "5月挖机销售全面超预期，工程机械行业仍处于景气上行周期",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-13",
+          "section_id": "briefing_finance",
+          "title_original": "SpaceX上市首日超越特斯拉，SpaceX总裁暗示“合并”，特斯拉股东热盼",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-14",
+          "section_id": "briefing_finance",
+          "title_original": "投行圈的“奥运金牌”：SpaceX IPO承销费5亿美元，高盛和大摩各分1亿，高盛还能赚更多",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-15",
+          "section_id": "briefing_finance",
+          "title_original": "近3月收益54%，平安基金要文强：看好7、8月AI行情，不要担心，每一波超额收益都来自宏观波动，看好五个细分方向",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-16",
+          "section_id": "briefing_finance",
+          "title_original": "SpaceX敲钟！马斯克：带人类奔赴星辰大海",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-17",
+          "section_id": "briefing_finance",
+          "title_original": "美国资管巨头申报多个中国股票杠杆ETF，包括中际旭创、新易盛、天孚通信等",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-18",
+          "section_id": "briefing_finance",
+          "title_original": "联手打造太空算力？SpaceX刚上市，马斯克就喊话黄仁勋：合作升级！",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-19",
+          "section_id": "briefing_finance",
+          "title_original": "商务部新闻发言人就美国防部将部分中国企业列入“中国军事企业清单”事答记者问",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-20",
+          "section_id": "briefing_finance",
+          "title_original": "海力士“狂热”",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-21",
+          "section_id": "briefing_finance",
+          "title_original": "“初步协议”渐近：巴方称伊美就文本达成一致，美伊就条款各执一词，最难的问题“往后推了60天”",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-22",
+          "section_id": "briefing_finance",
+          "title_original": "上线仅四日就遭下架，Fable 5和Mythos 5被美政府列出口管制，Anthropic服从但不认同",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-23",
+          "section_id": "briefing_finance",
+          "title_original": "法官同意暂停废除“特朗普10万美元H-1B签证费”的裁决",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-24",
+          "section_id": "briefing_finance",
+          "title_original": "华尔街对历史性SpaceX IPO极端两极分化！目标价60-190美元",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-25",
+          "section_id": "briefing_finance",
+          "title_original": "华尔街见闻早餐FM-Radio | 2026年6月13日",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-26",
+          "section_id": "briefing_finance",
+          "title_original": "美伊协议曙光重燃，原油两连跌，美股指全线收涨、债汇承压，SpaceX首日大涨19%",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-27",
+          "section_id": "briefing_finance",
+          "title_original": "美国软件股二十年来最长连跌，AI扰动之忧再度来袭",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-28",
+          "section_id": "briefing_finance",
+          "title_original": "SpaceX“吸血”，美股太空板块暴跌",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-29",
+          "section_id": "briefing_finance",
+          "title_original": "很难赌马斯克会输！散户一边骂贵一边疯抢SpaceX，但绝大多数不打算长期持股",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-30",
+          "section_id": "briefing_finance",
+          "title_original": "市场拥挤交易快速退潮！对冲基金净杠杆骤降至一年第8百分位",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-31",
+          "section_id": "briefing_finance",
+          "title_original": "交易员对美元的看涨情绪升至逾一年来最高水平",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-32",
+          "section_id": "briefing_finance",
+          "title_original": "2万亿巨头来了！SpaceX首秀收涨19%，超3500亿美元疯抢史上最大IPO",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-33",
+          "section_id": "briefing_finance",
+          "title_original": "美国战略石油储备出口创历史新高，九成流向欧洲",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-34",
+          "section_id": "briefing_finance",
+          "title_original": "香港楼市热度回升！5月内地买家在港购房金额破200亿港元，创两年来新高",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-35",
+          "section_id": "briefing_finance",
+          "title_original": "海湾局势重大转折？阿联酋被曝将对伊朗解冻百亿美元，换取停止袭击承诺",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-36",
+          "section_id": "briefing_finance",
+          "title_original": "伊朗外长：美国在谅解备忘录中承诺不发动战争，霍尔木兹海峡相关服务将收费",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-37",
+          "section_id": "briefing_finance",
+          "title_original": "全球首位万亿美元级别富豪，马斯克=7个巴菲特！美民主党呼吁征收富人税",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-38",
+          "section_id": "briefing_finance",
+          "title_original": "微软不敢给员工用的AI，转头卖给你！法务卡住最强Claude",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-39",
+          "section_id": "briefing_finance",
+          "title_original": "报道：阿联酋已同意向伊朗释放总计100亿美元的资金",
+          "snippet": "华尔街见闻."
+        },
+        {
+          "id": "briefing_finance-40",
+          "section_id": "briefing_finance",
+          "title_original": "全球交易员屏息等待SpaceX登场：顾不上吃饭，陪女友看剧也不忘盯盘",
+          "snippet": "华尔街见闻."
+        }
+      ]
+    },
+    {
+      "id": "briefing_tech",
+      "title": "Технологический утренний брифинг",
+      "items": [
+        {
+          "id": "briefing_tech-1",
+          "section_id": "briefing_tech",
+          "title_original": "addyosmani/agent-skills - Production-grade engineering skills for AI coding agents.",
+          "snippet": "GitHub - addyosmani/agent-skills: Production-grade engineering skills for AI coding agents."
+        },
+        {
+          "id": "briefing_tech-2",
+          "section_id": "briefing_tech",
+          "title_original": "maziyarpanahi/openmed - open-source healthcare ai",
+          "snippet": "GitHub - maziyarpanahi/openmed: open-source healthcare ai · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_tech-3",
+          "section_id": "briefing_tech",
+          "title_original": "LMCache/LMCache - LMCache: Supercharge Your LLM with the Fastest KV Cache Layer",
+          "snippet": "GitHub - LMCache/LMCache: LMCache: Supercharge Your LLM with the Fastest KV Cache Layer · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_tech-4",
+          "section_id": "briefing_tech",
+          "title_original": "msitarzewski/agency-agents - A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+          "snippet": "GitHub - msitarzewski/agency-agents: A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers."
+        },
+        {
+          "id": "briefing_tech-5",
+          "section_id": "briefing_tech",
+          "title_original": "Let's call 'em \"aigents\"",
+          "snippet": "Let’s call ‘em “aigents” — The Autodidacts Every one’s talking about their agents."
+        },
+        {
+          "id": "briefing_tech-6",
+          "section_id": "briefing_tech",
+          "title_original": "CipherNode – An offline, self-correcting AI swarm compiled to a single .exe",
+          "snippet": "CipherNode – An offline, self-correcting AI swarm compiled to a single .exe | Hacker News Hacker News new | past | comments | ask | show | jobs | submit login CipherNode – An offline, self-correcting AI swarm compiled to a single .exe 1 point by CipherNode…"
+        },
+        {
+          "id": "briefing_tech-7",
+          "section_id": "briefing_tech",
+          "title_original": "China cracks down on Western AI models while US companies flock to DeepSeek",
+          "snippet": "The great AI Irony: China cracks down on Western models while US companies flock to DeepSeek | TechRadar Skip to main content Become a TechRadar Insider - Join our community JOIN NOW 5 Exclusive perks 24/7 Insider insights 44K+ Active Members Weekly newslet…"
+        },
+        {
+          "id": "briefing_tech-8",
+          "section_id": "briefing_tech",
+          "title_original": "Show HN: Lead Qualifier – Get leads qualified in minutes",
+          "snippet": "Lead Qualifier — research any lead, draft the outreach Research → Dossier → Outreach Know your lead before you say hello."
+        },
+        {
+          "id": "briefing_tech-9",
+          "section_id": "briefing_tech",
+          "title_original": "Show HN: Babel realtime calls with strangers in any language",
+          "snippet": "Babel Chat."
+        },
+        {
+          "id": "briefing_tech-10",
+          "section_id": "briefing_tech",
+          "title_original": "Open source AI must win",
+          "snippet": "Opensource AI Must Win Opensource AI Must Win If intelligence becomes something people can only rent from a few closed institutions, the public does not just lose software freedom."
+        },
+        {
+          "id": "briefing_tech-11",
+          "section_id": "briefing_tech",
+          "title_original": "Hasta Pronto – An AI Farewell Letter and Interactive Memorial – Claude",
+          "snippet": "Content is user-generated and unverified."
+        },
+        {
+          "id": "briefing_tech-12",
+          "section_id": "briefing_tech",
+          "title_original": "Tell HN: I'm making 1K USD per hour with AI",
+          "snippet": "Tell HN: I'm making 1K USD per hour with AI | Hacker News Hacker News new | past | comments | ask | show | jobs | submit login Tell HN: I'm making 1K USD per hour with AI 5 points by anongoogleuser 1 hour ago | hide | past | favorite | 14 comments Former fr…"
+        },
+        {
+          "id": "briefing_tech-13",
+          "section_id": "briefing_tech",
+          "title_original": "Samsung may make the next Google AI chip",
+          "snippet": "Samsung reportedly in talks to help make Google's next AI chip - The Korea Herald Samsung reportedly in talks to help make Google's next AI chip Published : June 12, 2026 - 11:42:00 Link copied!"
+        },
+        {
+          "id": "briefing_tech-14",
+          "section_id": "briefing_tech",
+          "title_original": "Meta's months-old AI unit is a soul-crushing gulag",
+          "snippet": "Meta's months-old AI unit is a soul-crushing gulag, say the engineers stuck inside it | TechCrunch Image Credits: Hollie Adams/Bloomberg / Getty Images AI Meta’s months-old AI unit is a soul-crushing gulag, say the engineers stuck inside it Connie Loizos 4:…"
+        },
+        {
+          "id": "briefing_tech-15",
+          "section_id": "briefing_tech",
+          "title_original": "SentinelMCP – An open-source firewall for AI agents that use MCP",
+          "snippet": "GitHub - technosiveuk-ui/SentinelMCP: The Open-Source MCP Firewall & Security Gateway for AI Agents."
+        },
+        {
+          "id": "briefing_tech-16",
+          "section_id": "briefing_tech",
+          "title_original": "Show HN: AccInt – a Work Model for AI coding agents",
+          "snippet": "Accreted Intelligence — a World Model for human work LIVE AccInt is running while you read this."
+        },
+        {
+          "id": "briefing_tech-17",
+          "section_id": "briefing_tech",
+          "title_original": "Has AI Killed How-To Nonfiction?",
+          "snippet": "Has AI Already Killed How-To Nonfiction?"
+        },
+        {
+          "id": "briefing_tech-18",
+          "section_id": "briefing_tech",
+          "title_original": "How to prepare for interview in the new AI era",
+          "snippet": "В подборке упоминается проект или материал «How to prepare for interview in the new AI era»."
+        },
+        {
+          "id": "briefing_tech-19",
+          "section_id": "briefing_tech",
+          "title_original": "The social consequences of AI delegation",
+          "snippet": "[2606.11058] The social consequences of AI delegation Physics > Physics and Society arXiv:2606.11058 (physics) [Submitted on 9 Jun 2026] Title: The social consequences of AI delegation Authors: Henrique Ferraz de Arruda , Yamir Moreno View a PDF of the pape…"
+        },
+        {
+          "id": "briefing_tech-20",
+          "section_id": "briefing_tech",
+          "title_original": "Oracle and the AI Boom's Hidden Debt Bomb",
+          "snippet": "В подборке упоминается проект или материал «Oracle and the AI Boom's Hidden Debt Bomb»."
+        },
+        {
+          "id": "briefing_tech-21",
+          "section_id": "briefing_tech",
+          "title_original": "Trump admin blocks foreign access to Anthropic's most powerful AI models",
+          "snippet": "В подборке упоминается проект или материал «Trump admin blocks foreign access to Anthropic's most powerful AI models»."
+        },
+        {
+          "id": "briefing_tech-22",
+          "section_id": "briefing_tech",
+          "title_original": "Ask HN: What will be the next big memory management system for AI Agents?",
+          "snippet": "Ask HN: What will be the next big memory management system for AI Agents?"
+        },
+        {
+          "id": "briefing_tech-23",
+          "section_id": "briefing_tech",
+          "title_original": "Erdős Problems and Speculations about the Power of AI Models",
+          "snippet": "Prof."
+        },
+        {
+          "id": "briefing_tech-24",
+          "section_id": "briefing_tech",
+          "title_original": "I created a facet search over music composition (no AI)",
+          "snippet": "Monic Theory: Find Your MIDI."
+        },
+        {
+          "id": "briefing_tech-25",
+          "section_id": "briefing_tech",
+          "title_original": "Ask HN: How are you designing human review for production AI agents?",
+          "snippet": "Ask HN: How are you designing human review for production AI agents?"
+        },
+        {
+          "id": "briefing_tech-26",
+          "section_id": "briefing_tech",
+          "title_original": "AI Doesn't Just Save Time. It Removes the Pauses",
+          "snippet": "В подборке упоминается проект или материал «AI Doesn't Just Save Time. It Removes the Pauses»."
+        },
+        {
+          "id": "briefing_tech-27",
+          "section_id": "briefing_tech",
+          "title_original": "Why Does AI Love Writing About Lighthouse Keepers?",
+          "snippet": "Why Does AI Love Writing About Lighthouse Keepers?"
+        },
+        {
+          "id": "briefing_tech-28",
+          "section_id": "briefing_tech",
+          "title_original": "AI Will Save Prediction Markets",
+          "snippet": "Alex Janiak on X: \"https://t.co/yAo6ZRnXoU\" / X Post Log in Sign up Post Alex Janiak @0xjaniak Article How AI Will Save Prediction Markets The first fully-developed formulation of general-purpose prediction markets originated with Robin Hanson's Idea Future…"
+        },
+        {
+          "id": "briefing_tech-29",
+          "section_id": "briefing_tech",
+          "title_original": "Anthropic Fable just deleted a .git folder of mine, what's next?",
+          "snippet": "Anthropic Fable just deleted a .git folder of mine, what's next?"
+        },
+        {
+          "id": "briefing_tech-30",
+          "section_id": "briefing_tech",
+          "title_original": "music-assistant/server - Music Assistant is a free, opensource Media library manager that connects to your streaming services and a wide range of connected speakers. The server is the beating heart, the core of Music Assistant and must run on an always-on device like a Raspberry Pi, a NAS or an Intel NUC or alike.",
+          "snippet": "GitHub - music-assistant/server: Music Assistant is a free, opensource Media library manager that connects to your streaming services and a wide range of connected speakers."
+        },
+        {
+          "id": "briefing_tech-31",
+          "section_id": "briefing_tech",
+          "title_original": "mattermost/mattermost - Mattermost is an open source platform for secure collaboration across the entire software development lifecycle..",
+          "snippet": "GitHub - mattermost/mattermost: Mattermost is an open source platform for secure collaboration across the entire software development lifecycle.."
+        },
+        {
+          "id": "briefing_tech-32",
+          "section_id": "briefing_tech",
+          "title_original": "apple/container - A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+          "snippet": "GitHub - apple/container: A tool for creating and running Linux containers using lightweight virtual machines on a Mac."
+        },
+        {
+          "id": "briefing_tech-33",
+          "section_id": "briefing_tech",
+          "title_original": "iptv-org/iptv - Collection of publicly available IPTV channels from all over the world",
+          "snippet": "GitHub - iptv-org/iptv: Collection of publicly available IPTV channels from all over the world · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_tech-34",
+          "section_id": "briefing_tech",
+          "title_original": "obra/superpowers - An agentic skills framework & software development methodology that works.",
+          "snippet": "GitHub - obra/superpowers: An agentic skills framework & software development methodology that works."
+        },
+        {
+          "id": "briefing_tech-35",
+          "section_id": "briefing_tech",
+          "title_original": "refactoringhq/tolaria - Desktop app to manage markdown knowledge bases",
+          "snippet": "GitHub - refactoringhq/tolaria: Desktop app to manage markdown knowledge bases · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_tech-36",
+          "section_id": "briefing_tech",
+          "title_original": "phuryn/pm-skills - PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+          "snippet": "GitHub - phuryn/pm-skills: PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth."
+        },
+        {
+          "id": "briefing_tech-37",
+          "section_id": "briefing_tech",
+          "title_original": "masterking32/MasterDnsVPN - Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
+          "snippet": "GitHub - masterking32/MasterDnsVPN: Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed."
+        },
+        {
+          "id": "briefing_tech-38",
+          "section_id": "briefing_tech",
+          "title_original": "microsoft/PowerToys - Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
+          "snippet": "GitHub - microsoft/PowerToys: Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows · GitHub Skip to content You signed in with another tab or window."
+        },
+        {
+          "id": "briefing_tech-39",
+          "section_id": "briefing_tech",
+          "title_original": "Qursor",
+          "snippet": "В подборке упоминается проект или материал «Qursor»."
+        },
+        {
+          "id": "briefing_tech-40",
+          "section_id": "briefing_tech",
+          "title_original": "Medicyn",
+          "snippet": "В подборке упоминается проект или материал «Medicyn»."
+        },
+        {
+          "id": "briefing_tech-41",
+          "section_id": "briefing_tech",
+          "title_original": "CueBuddy",
+          "snippet": "В подборке упоминается проект или материал «CueBuddy»."
+        },
+        {
+          "id": "briefing_tech-42",
+          "section_id": "briefing_tech",
+          "title_original": "Tide",
+          "snippet": "В подборке упоминается проект или материал «Tide»."
+        },
+        {
+          "id": "briefing_tech-43",
+          "section_id": "briefing_tech",
+          "title_original": "Firma.dev",
+          "snippet": "В подборке упоминается проект или материал «Firma.dev»."
+        },
+        {
+          "id": "briefing_tech-44",
+          "section_id": "briefing_tech",
+          "title_original": "Slack Data Agent",
+          "snippet": "В подборке упоминается проект или материал «Slack Data Agent»."
+        },
+        {
+          "id": "briefing_tech-45",
+          "section_id": "briefing_tech",
+          "title_original": "HyperSleep",
+          "snippet": "В подборке упоминается проект или материал «HyperSleep»."
+        },
+        {
+          "id": "briefing_tech-46",
+          "section_id": "briefing_tech",
+          "title_original": "Insta360 Luna Ultra",
+          "snippet": "В подборке упоминается проект или материал «Insta360 Luna Ultra»."
+        },
+        {
+          "id": "briefing_tech-47",
+          "section_id": "briefing_tech",
+          "title_original": "Meet Warren 3.0",
+          "snippet": "В подборке упоминается проект или материал «Meet Warren 3.0»."
+        },
+        {
+          "id": "briefing_tech-48",
+          "section_id": "briefing_tech",
+          "title_original": "Bob's CLI",
+          "snippet": "В подборке упоминается проект или материал «Bob's CLI»."
+        }
+      ]
+    },
+    {
+      "id": "briefing_social",
+      "title": "Социальный утренний брифинг",
+      "items": [
+        {
+          "id": "briefing_social-1",
+          "section_id": "briefing_social",
+          "title_original": "花几百万甚至上千万买小区房是不是大怨种？",
+          "snippet": "花几百万甚至上千万买小区房是不是大怨种？ - V2EX Home Sign Up Sign In V2EX › 生活 花几百万甚至上千万买小区房是不是大怨种？ Void000 · 20h 20m ago · 4827 views 记得小区房刚出来的时候，那时候还不懂，觉得看着挺气派的，幻想着住进去 24 小时有安保肯定很安全、环境也很卫生。等自己真正住过后才知道： 因为噪音、装修、公共区域非法被占用等问题和邻居发生口角； 楼栋密集、楼间距近，说话声、电视声音都容易相互干扰； 高层出行不便，经常电梯排队等半天，…"
+        },
+        {
+          "id": "briefing_social-2",
+          "section_id": "briefing_social",
+          "title_original": "仅需一美元获得一个实体美国手机号",
+          "snippet": "仅需一美元获得一个实体美国手机号 - V2EX Home Sign Up Sign In 如果想在 V2EX 获得更好的推广效果，欢迎了解 PRO 会员机制： https://www.v2ex.com/pro/about 如果你经常使用铜币置顶主题，持有 V2EX Solana Token 会在每日签到时获得额外铜币： https://www.v2ex.com/solana V2EX › 推广 仅需一美元获得一个实体美国手机号 conky · 20h 41m ago · 8245 views Nord VPN…"
+        },
+        {
+          "id": "briefing_social-3",
+          "section_id": "briefing_social",
+          "title_original": "怎么看最近很火的西方伪史论和洪清说？",
+          "snippet": "怎么看最近很火的西方伪史论和洪清说？ - V2EX Home Sign Up Sign In V2EX › 知乎 怎么看最近很火的西方伪史论和洪清说？ kingzeno · 20h 15m ago · 2315 views 至今记得李敖曾经说过的一句话，真正的历史是很难求真的。当时他举的例子是钱穆对孙子兵法和孙武兵法的判断是同一本书，斩钉截铁，直到考古挖掘同时出现了孙子兵法和孙武兵法才有了历史的真相。 最近看知乎，洪清说盛极一时，满清被洪清夺舍，模糊的历史脉络被这个逻辑彻底打通，为什么初清的四个藩王全是汉人，…"
+        },
+        {
+          "id": "briefing_social-4",
+          "section_id": "briefing_social",
+          "title_original": "Anthropic 因美国政府要求，关闭了所有外国公民的 Fable 5/ Mythos 5 的访问权限",
+          "snippet": "Anthropic 因美国政府要求，关闭了所有外国公民的 Fable 5/ Mythos 5 的访问权限 - V2EX Home Sign Up Sign In V2EX › Claude Anthropic 因美国政府要求，关闭了所有外国公民的 Fable 5/ Mythos 5 的访问权限 lvye · 2h 24m ago · 2564 views https://www.anthropic.com/news/fable-mythos-access 在美国境内的外国人也不行，不知道他们要怎么识别。 Su…"
+        },
+        {
+          "id": "briefing_social-5",
+          "section_id": "briefing_social",
+          "title_original": "Antigravity 最新版，也来抄作业了",
+          "snippet": "Antigravity 最新版，也来抄作业了 - V2EX Home Sign Up Sign In • 请不要在回答技术问题时复制粘贴 AI 生成的内容 V2EX › 程序员 Antigravity 最新版，也来抄作业了 Jensond · 23h 55m ago · 5067 views codex 5x 两天蹬没了，打开 Google 的 Gemini 系，发现 Antigravity desktop 改版了，也在抄作业了，不过以 Google 的体量做成这样，属实不应该啊！这是 Apple 给的勇气吗…"
+        },
+        {
+          "id": "briefing_social-6",
+          "section_id": "briefing_social",
+          "title_original": "关于大学舍友，我想带他走出泥潭",
+          "snippet": "关于大学舍友，我想带他走出泥潭 - V2EX Home Sign Up Sign In V2EX › 生活 关于大学舍友，我想带他走出泥潭 bianYuX · 20h 3m ago · 3116 views 我的大学舍友 Ming 我的大学舍友，我就叫他 Ming 吧，这是他的游戏 ID 。 大学时期，他给我的第一印象很简单：喜欢打游戏，身体不太好。宿舍里经常能看到他床下堆着不少用过的纸巾。那时候我和他的关系算不上特别亲近，属于普通室友。作为舍长，我平时会多照顾一下宿舍里的每个人，也包括他。 真正熟起来是在大…"
+        },
+        {
+          "id": "briefing_social-7",
+          "section_id": "briefing_social",
+          "title_original": "突然想学算命了",
+          "snippet": "突然想学算命了 - V2EX Home Sign Up Sign In V2EX › 问与答 突然想学算命了 GuluMashimaro · 22h 7m ago · 1773 views 不知道是魔法还是魔术。 有大佬之后如何学习算命吗，好像分很多不同的分支 算命 学习 分支 33 replies • 2026-06-13 10:27:11 +08:00 1 L5411 21h 52m ago 我也想学，op 有经验吗 2 loading 21h 49m ago via Android 有算命的网站代码，可…"
+        }
+      ]
+    },
+    {
+      "id": "briefing_ai_daily",
+      "title": "AI Daily / глубокий AI-брифинг",
+      "items": [
+        {
+          "id": "briefing_ai_daily-1",
+          "section_id": "briefing_ai_daily",
+          "title_original": "What it feels like to work with Mythos",
+          "snippet": "I had early access to the first Mythos-class AI model being released to the public, Claude 5 Fable."
+        },
+        {
+          "id": "briefing_ai_daily-2",
+          "section_id": "briefing_ai_daily",
+          "title_original": "Co-Existence and the End of Co-Intelligence",
+          "snippet": "It has been two years since Co-Intelligence , my book about AI, was published, and it was successful beyond what I could have hoped (it was a New York Times bestseller and has been translated into 25+ languages, with the biggest markets being the Netherland…"
+        },
+        {
+          "id": "briefing_ai_daily-3",
+          "section_id": "briefing_ai_daily",
+          "title_original": "Choosing to Stay Human",
+          "snippet": "If you go to your favorite social media site, you will find it full of posts that start to look suspiciously similar to each other: Many of the comments to these posts are also generated by AI."
+        },
+        {
+          "id": "briefing_ai_daily-4",
+          "section_id": "briefing_ai_daily",
+          "title_original": "Claude Fable 5 and new AI safety fables",
+          "snippet": "Edit Jun."
+        },
+        {
+          "id": "briefing_ai_daily-5",
+          "section_id": "briefing_ai_daily",
+          "title_original": "Farewell Ai2",
+          "snippet": "I’m departing the Allen Institute for AI (Ai2), where I got the great privilege to work on the Olmo models, to grow, to learn, and to have broad lasting impacts."
+        },
+        {
+          "id": "briefing_ai_daily-6",
+          "section_id": "briefing_ai_daily",
+          "title_original": "Open and closed models are on different exponentials",
+          "snippet": "The largest debate that’ll define the future balance of power between the open and closed AI model ecosystems is primarily economic — it’s if users of AI will continue to pay dramatically more, i.e."
+        },
+        {
+          "id": "briefing_ai_daily-7",
+          "section_id": "briefing_ai_daily",
+          "title_original": "Pairing Claude Code with Local Models",
+          "snippet": "Pairing Claude Code with Local Models - KDnuggets Blog Top Posts About Topics AI Career Advice Computer Vision Data Engineering Data Science Language Models Machine Learning MLOps NLP Programming Python SQL Datasets Events Resources Cheat Sheets Recommendat…"
+        },
+        {
+          "id": "briefing_ai_daily-8",
+          "section_id": "briefing_ai_daily",
+          "title_original": "3 NumPy Tricks for Numerical Performance",
+          "snippet": "3 NumPy Tricks for Numerical Performance - KDnuggets Blog Top Posts About Topics AI Career Advice Computer Vision Data Engineering Data Science Language Models Machine Learning MLOps NLP Programming Python SQL Datasets Events Resources Cheat Sheets Recommen…"
+        },
+        {
+          "id": "briefing_ai_daily-9",
+          "section_id": "briefing_ai_daily",
+          "title_original": "Feature Stores from Scratch: A Minimal Working Implementation",
+          "snippet": "Feature Stores from Scratch: A Minimal Working Implementation - KDnuggets Blog Top Posts About Topics AI Career Advice Computer Vision Data Engineering Data Science Language Models Machine Learning MLOps NLP Programming Python SQL Datasets Events Resources…"
+        },
+        {
+          "id": "briefing_ai_daily-10",
+          "section_id": "briefing_ai_daily",
+          "title_original": "ChinAI #362: Chinese Encounters with \"Artificial Challenged Intelligence\" [人工智障]",
+          "snippet": "Greetings from a world where… it’s okay to sing a different tune [唱唱反调] …As always, the searchable archive of all past issues is here ."
+        },
+        {
+          "id": "briefing_ai_daily-11",
+          "section_id": "briefing_ai_daily",
+          "title_original": "ChinAI #361: What can CANN do for China's independent compute capacity?",
+          "snippet": "Greetings from a world where… welcome new readers: most issues are note-taking exercises on Chinese-language articles that interest me (not lengthy missives) …As always, the searchable archive of all past issues is here ."
+        },
+        {
+          "id": "briefing_ai_daily-12",
+          "section_id": "briefing_ai_daily",
+          "title_original": "ChinAI #360: Anthropic’s Dogma on US-China AI Competition",
+          "snippet": "Greetings from a world where… church is in session …As always, the searchable archive of all past issues is here ."
+        },
+        {
+          "id": "briefing_ai_daily-13",
+          "section_id": "briefing_ai_daily",
+          "title_original": "New Claude model - Fable",
+          "snippet": "Hey folks, Like a lot of others, I’m trying Fable."
+        },
+        {
+          "id": "briefing_ai_daily-14",
+          "section_id": "briefing_ai_daily",
+          "title_original": "Hey Siri, meet AI",
+          "snippet": "Hey folks, A lot of chatter about loops on X recently."
+        },
+        {
+          "id": "briefing_ai_daily-15",
+          "section_id": "briefing_ai_daily",
+          "title_original": "Build tools, to build more",
+          "snippet": "Hey folks, I’m making progress on my agents manual!"
+        },
+        {
+          "id": "briefing_ai_daily-16",
+          "section_id": "briefing_ai_daily",
+          "title_original": "AI to ROI News & Analysis: June 12, 2026",
+          "snippet": "The Biggest AI News This Week 🧬 Anthropic Releases Fable 5, a Version of Mythos for General Use with Guardrails 🍎 Apple Announces Its New Siri AI Platform Powered by Google’s Gemini 📋 OpenAI Files Its Confidential S-1 to Go Public ⚖️ German Court Rules That…"
+        },
+        {
+          "id": "briefing_ai_daily-17",
+          "section_id": "briefing_ai_daily",
+          "title_original": "AI to ROI Big Story: The AI Budget Dance Is Underway",
+          "snippet": "AI Budgets are laboring - Is the answer in the labor?"
+        },
+        {
+          "id": "briefing_ai_daily-18",
+          "section_id": "briefing_ai_daily",
+          "title_original": "AI to ROI News & Analysis: June 5, 2026",
+          "snippet": "The Biggest AI News This Week 💰 Anthropic’s Week Included Raising $65B at a $965B Valuation, Releasing Opus 4.8, and Filing its S-1 for an IPO 🏗️ Microsoft Comes Out Swinging at Build 2026 with New Models and Scout, an OpenClaw-Powered Personal Agent ⚡ NVID…"
+        }
+      ]
+    }
+  ]
+}
